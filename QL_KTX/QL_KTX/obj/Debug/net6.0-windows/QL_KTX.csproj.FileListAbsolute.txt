@@ -1,0 +1,17 @@
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\bin\Debug\net6.0-windows\QL_KTX.exe
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\bin\Debug\net6.0-windows\QL_KTX.deps.json
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\bin\Debug\net6.0-windows\QL_KTX.runtimeconfig.json
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\bin\Debug\net6.0-windows\QL_KTX.dll
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\bin\Debug\net6.0-windows\QL_KTX.pdb
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.csproj.AssemblyReference.cache
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.Form1.resources
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.csproj.GenerateResource.cache
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.GeneratedMSBuildEditorConfig.editorconfig
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.AssemblyInfoInputs.cache
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.AssemblyInfo.cs
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.csproj.CoreCompileInputs.cache
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.dll
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\refint\QL_KTX.dll
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.pdb
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.genruntimeconfig.cache
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\ref\QL_KTX.dll

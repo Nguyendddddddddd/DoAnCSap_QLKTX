@@ -28,30 +28,61 @@
         /// </summary>
         private void InitializeComponent()
         {
-            textBox1 = new TextBox();
+            panel1 = new Panel();
+            panel2 = new Panel();
+            label1 = new Label();
+            panel1.SuspendLayout();
             SuspendLayout();
             // 
-            // textBox1
+            // panel1
             // 
-            textBox1.Location = new Point(617, 149);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
-            textBox1.TabIndex = 0;
+            panel1.BackColor = Color.White;
+            panel1.Controls.Add(label1);
+            panel1.Dock = DockStyle.Left;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(240, 995);
+            panel1.TabIndex = 0;
+            // 
+            // panel2
+            // 
+            panel2.BackColor = Color.White;
+            panel2.Dock = DockStyle.Top;
+            panel2.Location = new Point(240, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(1278, 100);
+            panel2.TabIndex = 1;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.Location = new Point(25, 23);
+            label1.Name = "label1";
+            label1.Size = new Size(138, 23);
+            label1.TabIndex = 0;
+            label1.Text = "KÝ TÚC XÁ AGU";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(5F, 12F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1447, 579);
-            Controls.Add(textBox1);
+            ClientSize = new Size(1518, 995);
+            Controls.Add(panel2);
+            Controls.Add(panel1);
+            Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Pixel);
+            Margin = new Padding(2);
             Name = "Form1";
             Text = "Form1";
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
 
-        private TextBox textBox1;
+        private Panel panel1;
+        private Panel panel2;
+        private Label label1;
     }
 }

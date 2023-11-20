@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Tai_Lieu_Sinh_Vien\\Hoc_Ky5\\LAPTRINH_NET\\DOAN_QLKTX\\DoAnCSap_QLKTX\\QLKTX_AGU\\QLKTX_AGU\\QLKTX_AGU.csproj": {}
+    "D:\\DoAnC#\\FormDoAn\\DoAnCSap_QLKTX\\QLKTX_AGU\\QLKTX_AGU\\QLKTX_AGU.csproj": {}
   },
   "projects": {
-    "F:\\Tai_Lieu_Sinh_Vien\\Hoc_Ky5\\LAPTRINH_NET\\DOAN_QLKTX\\DoAnCSap_QLKTX\\QLKTX_AGU\\QLKTX_AGU\\QLKTX_AGU.csproj": {
+    "D:\\DoAnC#\\FormDoAn\\DoAnCSap_QLKTX\\QLKTX_AGU\\QLKTX_AGU\\QLKTX_AGU.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Tai_Lieu_Sinh_Vien\\Hoc_Ky5\\LAPTRINH_NET\\DOAN_QLKTX\\DoAnCSap_QLKTX\\QLKTX_AGU\\QLKTX_AGU\\QLKTX_AGU.csproj",
+        "projectUniqueName": "D:\\DoAnC#\\FormDoAn\\DoAnCSap_QLKTX\\QLKTX_AGU\\QLKTX_AGU\\QLKTX_AGU.csproj",
         "projectName": "QLKTX_AGU",
-        "projectPath": "F:\\Tai_Lieu_Sinh_Vien\\Hoc_Ky5\\LAPTRINH_NET\\DOAN_QLKTX\\DoAnCSap_QLKTX\\QLKTX_AGU\\QLKTX_AGU\\QLKTX_AGU.csproj",
-        "packagesPath": "C:\\Users\\ASUS ZENBOOK\\.nuget\\packages\\",
-        "outputPath": "F:\\Tai_Lieu_Sinh_Vien\\Hoc_Ky5\\LAPTRINH_NET\\DOAN_QLKTX\\DoAnCSap_QLKTX\\QLKTX_AGU\\QLKTX_AGU\\obj\\",
+        "projectPath": "D:\\DoAnC#\\FormDoAn\\DoAnCSap_QLKTX\\QLKTX_AGU\\QLKTX_AGU\\QLKTX_AGU.csproj",
+        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
+        "outputPath": "D:\\DoAnC#\\FormDoAn\\DoAnCSap_QLKTX\\QLKTX_AGU\\QLKTX_AGU\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ASUS ZENBOOK\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,7 +58,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

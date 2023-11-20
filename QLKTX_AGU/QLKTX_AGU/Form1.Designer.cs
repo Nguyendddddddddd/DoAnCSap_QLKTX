@@ -28,14 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            groupBox1 = new GroupBox();
             SuspendLayout();
+            // 
+            // groupBox1
+            // 
+            groupBox1.Location = new Point(276, 185);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Size = new Size(300, 150);
+            groupBox1.TabIndex = 0;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "groupBox1";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(11F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(910, 995);
-            Margin = new Padding(2, 2, 2, 2);
+            ClientSize = new Size(1251, 1050);
+            Controls.Add(groupBox1);
+            Margin = new Padding(3, 2, 3, 2);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
@@ -43,5 +54,7 @@
         }
 
         #endregion
+
+        private GroupBox groupBox1;
     }
 }

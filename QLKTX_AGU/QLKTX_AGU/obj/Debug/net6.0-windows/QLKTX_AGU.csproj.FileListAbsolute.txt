@@ -1,0 +1,16 @@
+F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QLKTX_AGU\QLKTX_AGU\bin\Debug\net6.0-windows\QLKTX_AGU.exe
+F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QLKTX_AGU\QLKTX_AGU\bin\Debug\net6.0-windows\QLKTX_AGU.deps.json
+F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QLKTX_AGU\QLKTX_AGU\bin\Debug\net6.0-windows\QLKTX_AGU.runtimeconfig.json
+F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QLKTX_AGU\QLKTX_AGU\bin\Debug\net6.0-windows\QLKTX_AGU.dll
+F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QLKTX_AGU\QLKTX_AGU\bin\Debug\net6.0-windows\QLKTX_AGU.pdb
+F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QLKTX_AGU\QLKTX_AGU\obj\Debug\net6.0-windows\QLKTX_AGU.Form1.resources
+F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QLKTX_AGU\QLKTX_AGU\obj\Debug\net6.0-windows\QLKTX_AGU.csproj.GenerateResource.cache
+F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QLKTX_AGU\QLKTX_AGU\obj\Debug\net6.0-windows\QLKTX_AGU.GeneratedMSBuildEditorConfig.editorconfig
+F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QLKTX_AGU\QLKTX_AGU\obj\Debug\net6.0-windows\QLKTX_AGU.AssemblyInfoInputs.cache
+F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QLKTX_AGU\QLKTX_AGU\obj\Debug\net6.0-windows\QLKTX_AGU.AssemblyInfo.cs
+F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QLKTX_AGU\QLKTX_AGU\obj\Debug\net6.0-windows\QLKTX_AGU.csproj.CoreCompileInputs.cache
+F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QLKTX_AGU\QLKTX_AGU\obj\Debug\net6.0-windows\QLKTX_AGU.dll
+F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QLKTX_AGU\QLKTX_AGU\obj\Debug\net6.0-windows\refint\QLKTX_AGU.dll
+F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QLKTX_AGU\QLKTX_AGU\obj\Debug\net6.0-windows\QLKTX_AGU.pdb
+F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QLKTX_AGU\QLKTX_AGU\obj\Debug\net6.0-windows\QLKTX_AGU.genruntimeconfig.cache
+F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QLKTX_AGU\QLKTX_AGU\obj\Debug\net6.0-windows\ref\QLKTX_AGU.dll

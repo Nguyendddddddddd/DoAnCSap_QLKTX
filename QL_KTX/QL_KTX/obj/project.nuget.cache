@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "B4/WMPd7N7SqByQFUlROMK5xEdN8/jv3z2E8DSQDwlD0u5JJaHcSLm6B0x8rDMyp0/7Q/DdYqTsy+pAuPvVFeA==",
+  "dgSpecHash": "RPdLVocD7lmLnpy3f4dlX1CQ5oQ6t8ldwLUJIII7ADCiDaSFF2P5F6kgM+u3q7GrFtq4QsqnVBOM8NPvTIo7hg==",
   "success": true,
   "projectFilePath": "D:\\DoAnC#\\FormDoAn\\DoAnCSap_QLKTX\\QL_KTX\\QL_KTX\\QL_KTX.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ADMIN\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.5\\guna.ui2.winforms.2.0.4.5.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\ADMIN\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

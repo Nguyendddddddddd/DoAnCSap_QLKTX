@@ -6,7 +6,5 @@ namespace QL_KTX
         {
             InitializeComponent();
         }
-
-
     }
 }

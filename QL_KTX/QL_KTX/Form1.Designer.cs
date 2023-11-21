@@ -76,7 +76,7 @@
             label2.Font = new Font("Segoe UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point);
             label2.Location = new Point(89, 187);
             label2.Name = "label2";
-            label2.Size = new Size(73, 17);
+            label2.Size = new Size(91, 21);
             label2.TabIndex = 7;
             label2.Text = "User name";
             // 
@@ -163,6 +163,7 @@
             // guna2Button1
             // 
             guna2Button1.BorderRadius = 10;
+            guna2Button1.CustomBorderThickness = new Padding(3);
             guna2Button1.CustomizableEdges = customizableEdges9;
             guna2Button1.DisabledState.BorderColor = Color.DarkGray;
             guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
@@ -172,6 +173,7 @@
             guna2Button1.FocusedColor = Color.White;
             guna2Button1.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
             guna2Button1.ForeColor = Color.FromArgb(15, 2, 73);
+            guna2Button1.HoverState.BorderColor = Color.Black;
             guna2Button1.HoverState.FillColor = Color.FromArgb(185, 229, 236);
             guna2Button1.Location = new Point(28, 236);
             guna2Button1.Name = "guna2Button1";
@@ -199,7 +201,7 @@
             label1.ForeColor = Color.FromArgb(15, 2, 73);
             label1.Location = new Point(26, 23);
             label1.Name = "label1";
-            label1.Size = new Size(204, 35);
+            label1.Size = new Size(196, 32);
             label1.TabIndex = 0;
             label1.Text = "KÝ TÚC XÁ AGU";
             // 

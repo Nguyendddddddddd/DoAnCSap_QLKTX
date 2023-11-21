@@ -141,19 +141,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ADMIN\\.nuget\\packages\\": {}
+    "C:\\Users\\ASUS ZENBOOK\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\DoAnC#\\FormDoAn\\DoAnCSap_QLKTX\\QL_KTX\\QL_KTX\\QL_KTX.csproj",
+      "projectUniqueName": "F:\\Tai_Lieu_Sinh_Vien\\Hoc_Ky5\\LAPTRINH_NET\\DOAN_QLKTX\\DoAnCSap_QLKTX\\QL_KTX\\QL_KTX\\QL_KTX.csproj",
       "projectName": "QL_KTX",
-      "projectPath": "D:\\DoAnC#\\FormDoAn\\DoAnCSap_QLKTX\\QL_KTX\\QL_KTX\\QL_KTX.csproj",
-      "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-      "outputPath": "D:\\DoAnC#\\FormDoAn\\DoAnCSap_QLKTX\\QL_KTX\\QL_KTX\\obj\\",
+      "projectPath": "F:\\Tai_Lieu_Sinh_Vien\\Hoc_Ky5\\LAPTRINH_NET\\DOAN_QLKTX\\DoAnCSap_QLKTX\\QL_KTX\\QL_KTX\\QL_KTX.csproj",
+      "packagesPath": "C:\\Users\\ASUS ZENBOOK\\.nuget\\packages\\",
+      "outputPath": "F:\\Tai_Lieu_Sinh_Vien\\Hoc_Ky5\\LAPTRINH_NET\\DOAN_QLKTX\\DoAnCSap_QLKTX\\QL_KTX\\QL_KTX\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ASUS ZENBOOK\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -203,7 +203,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -42,3 +42,4 @@ F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QL_KTX\QL_K
 F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.pdb
 F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.genruntimeconfig.cache
 F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\ref\QL_KTX.dll
+F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.sourcelink.json

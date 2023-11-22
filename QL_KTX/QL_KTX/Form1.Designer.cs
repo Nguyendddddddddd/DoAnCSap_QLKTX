@@ -28,8 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -39,38 +37,39 @@
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel1 = new Panel();
+            btnDangXuat = new Guna.UI2.WinForms.Guna2Button();
             label2 = new Label();
-            guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            btnThoat = new Guna.UI2.WinForms.Guna2Button();
+            btnNhanVien = new Guna.UI2.WinForms.Guna2Button();
+            btnPhong = new Guna.UI2.WinForms.Guna2Button();
+            btnSinhVien = new Guna.UI2.WinForms.Guna2Button();
+            btnTrangChu = new Guna.UI2.WinForms.Guna2Button();
             guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             label1 = new Label();
             panel2 = new Panel();
-            panel3 = new Panel();
-            tabControl1 = new TabControl();
-            tabPage1 = new TabPage();
-            tabPage2 = new TabPage();
-            tabPage3 = new TabPage();
-            tabPage4 = new TabPage();
-            tabPage5 = new TabPage();
+            lbTitle = new Label();
+            pnlMain = new Panel();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).BeginInit();
-            panel3.SuspendLayout();
-            tabControl1.SuspendLayout();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // panel1
             // 
             panel1.BackColor = Color.White;
+            panel1.BorderStyle = BorderStyle.FixedSingle;
+            panel1.Controls.Add(btnDangXuat);
             panel1.Controls.Add(label2);
-            panel1.Controls.Add(guna2Button5);
-            panel1.Controls.Add(guna2Button4);
-            panel1.Controls.Add(guna2Button3);
-            panel1.Controls.Add(guna2Button2);
-            panel1.Controls.Add(guna2Button1);
+            panel1.Controls.Add(btnThoat);
+            panel1.Controls.Add(btnNhanVien);
+            panel1.Controls.Add(btnPhong);
+            panel1.Controls.Add(btnSinhVien);
+            panel1.Controls.Add(btnTrangChu);
             panel1.Controls.Add(guna2CirclePictureBox1);
             panel1.Controls.Add(label1);
             panel1.Dock = DockStyle.Left;
@@ -78,6 +77,27 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(256, 995);
             panel1.TabIndex = 0;
+            // 
+            // btnDangXuat
+            // 
+            btnDangXuat.BorderRadius = 10;
+            btnDangXuat.CustomizableEdges = customizableEdges14;
+            btnDangXuat.DisabledState.BorderColor = Color.DarkGray;
+            btnDangXuat.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnDangXuat.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnDangXuat.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnDangXuat.FillColor = Color.White;
+            btnDangXuat.FocusedColor = Color.White;
+            btnDangXuat.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            btnDangXuat.ForeColor = Color.FromArgb(15, 2, 73);
+            btnDangXuat.HoverState.FillColor = Color.FromArgb(185, 229, 236);
+            btnDangXuat.Image = Properties.Resources.enter;
+            btnDangXuat.Location = new Point(28, 548);
+            btnDangXuat.Name = "btnDangXuat";
+            btnDangXuat.ShadowDecoration.CustomizableEdges = customizableEdges15;
+            btnDangXuat.Size = new Size(200, 58);
+            btnDangXuat.TabIndex = 8;
+            btnDangXuat.Text = "Đăng xuất";
             // 
             // label2
             // 
@@ -89,107 +109,115 @@
             label2.TabIndex = 7;
             label2.Text = "User name";
             // 
-            // guna2Button5
+            // btnThoat
             // 
-            guna2Button5.BorderRadius = 10;
-            guna2Button5.CustomizableEdges = customizableEdges12;
-            guna2Button5.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button5.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button5.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button5.FillColor = Color.White;
-            guna2Button5.FocusedColor = Color.White;
-            guna2Button5.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            guna2Button5.ForeColor = Color.FromArgb(15, 2, 73);
-            guna2Button5.HoverState.FillColor = Color.FromArgb(185, 229, 236);
-            guna2Button5.Location = new Point(30, 544);
-            guna2Button5.Name = "guna2Button5";
-            guna2Button5.ShadowDecoration.CustomizableEdges = customizableEdges13;
-            guna2Button5.Size = new Size(200, 58);
-            guna2Button5.TabIndex = 6;
-            guna2Button5.Text = "Đăng xuất";
+            btnThoat.BorderRadius = 10;
+            btnThoat.CustomizableEdges = customizableEdges16;
+            btnThoat.DisabledState.BorderColor = Color.DarkGray;
+            btnThoat.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnThoat.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnThoat.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnThoat.FillColor = Color.White;
+            btnThoat.FocusedColor = Color.White;
+            btnThoat.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            btnThoat.ForeColor = Color.FromArgb(15, 2, 73);
+            btnThoat.HoverState.FillColor = Color.FromArgb(185, 229, 236);
+            btnThoat.Location = new Point(30, 902);
+            btnThoat.Name = "btnThoat";
+            btnThoat.ShadowDecoration.CustomizableEdges = customizableEdges17;
+            btnThoat.Size = new Size(200, 58);
+            btnThoat.TabIndex = 6;
+            btnThoat.Text = "Thoát";
             // 
-            // guna2Button4
+            // btnNhanVien
             // 
-            guna2Button4.BorderRadius = 10;
-            guna2Button4.CustomizableEdges = customizableEdges14;
-            guna2Button4.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button4.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button4.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button4.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button4.FillColor = Color.White;
-            guna2Button4.FocusedColor = Color.White;
-            guna2Button4.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            guna2Button4.ForeColor = Color.FromArgb(15, 2, 73);
-            guna2Button4.HoverState.FillColor = Color.FromArgb(185, 229, 236);
-            guna2Button4.Location = new Point(28, 467);
-            guna2Button4.Name = "guna2Button4";
-            guna2Button4.ShadowDecoration.CustomizableEdges = customizableEdges15;
-            guna2Button4.Size = new Size(200, 58);
-            guna2Button4.TabIndex = 5;
-            guna2Button4.Text = "Nhân viên";
+            btnNhanVien.BorderRadius = 10;
+            btnNhanVien.CustomizableEdges = customizableEdges18;
+            btnNhanVien.DisabledState.BorderColor = Color.DarkGray;
+            btnNhanVien.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnNhanVien.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnNhanVien.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnNhanVien.FillColor = Color.White;
+            btnNhanVien.FocusedColor = Color.White;
+            btnNhanVien.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            btnNhanVien.ForeColor = Color.FromArgb(15, 2, 73);
+            btnNhanVien.HoverState.FillColor = Color.FromArgb(185, 229, 236);
+            btnNhanVien.Image = Properties.Resources.user;
+            btnNhanVien.Location = new Point(28, 470);
+            btnNhanVien.Name = "btnNhanVien";
+            btnNhanVien.ShadowDecoration.CustomizableEdges = customizableEdges19;
+            btnNhanVien.Size = new Size(200, 58);
+            btnNhanVien.TabIndex = 5;
+            btnNhanVien.Text = "Nhân viên";
+            btnNhanVien.Click += btnNhanVien_Click;
             // 
-            // guna2Button3
+            // btnPhong
             // 
-            guna2Button3.BorderRadius = 10;
-            guna2Button3.CustomizableEdges = customizableEdges16;
-            guna2Button3.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button3.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button3.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button3.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button3.FillColor = Color.White;
-            guna2Button3.FocusedColor = Color.White;
-            guna2Button3.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            guna2Button3.ForeColor = Color.FromArgb(15, 2, 73);
-            guna2Button3.HoverState.FillColor = Color.FromArgb(185, 229, 236);
-            guna2Button3.Location = new Point(30, 390);
-            guna2Button3.Name = "guna2Button3";
-            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges17;
-            guna2Button3.Size = new Size(200, 58);
-            guna2Button3.TabIndex = 4;
-            guna2Button3.Text = "Phòng";
+            btnPhong.BorderRadius = 10;
+            btnPhong.CustomizableEdges = customizableEdges20;
+            btnPhong.DisabledState.BorderColor = Color.DarkGray;
+            btnPhong.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnPhong.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnPhong.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnPhong.FillColor = Color.White;
+            btnPhong.FocusedColor = Color.White;
+            btnPhong.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            btnPhong.ForeColor = Color.FromArgb(15, 2, 73);
+            btnPhong.HoverState.FillColor = Color.FromArgb(185, 229, 236);
+            btnPhong.Image = Properties.Resources.opened_door_aperture;
+            btnPhong.Location = new Point(30, 392);
+            btnPhong.Name = "btnPhong";
+            btnPhong.ShadowDecoration.CustomizableEdges = customizableEdges21;
+            btnPhong.Size = new Size(200, 58);
+            btnPhong.TabIndex = 4;
+            btnPhong.Text = "Phòng";
+            btnPhong.Click += btnPhong_Click;
             // 
-            // guna2Button2
+            // btnSinhVien
             // 
-            guna2Button2.BorderRadius = 10;
-            guna2Button2.CustomizableEdges = customizableEdges18;
-            guna2Button2.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button2.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button2.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button2.FillColor = Color.White;
-            guna2Button2.FocusedColor = Color.White;
-            guna2Button2.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            guna2Button2.ForeColor = Color.FromArgb(15, 2, 73);
-            guna2Button2.HoverState.FillColor = Color.FromArgb(185, 229, 236);
-            guna2Button2.Location = new Point(28, 313);
-            guna2Button2.Name = "guna2Button2";
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges19;
-            guna2Button2.Size = new Size(200, 58);
-            guna2Button2.TabIndex = 3;
-            guna2Button2.Text = "Sinh viên";
+            btnSinhVien.BorderRadius = 10;
+            btnSinhVien.CustomizableEdges = customizableEdges22;
+            btnSinhVien.DisabledState.BorderColor = Color.DarkGray;
+            btnSinhVien.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnSinhVien.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnSinhVien.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnSinhVien.FillColor = Color.White;
+            btnSinhVien.FocusedColor = Color.White;
+            btnSinhVien.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            btnSinhVien.ForeColor = Color.FromArgb(15, 2, 73);
+            btnSinhVien.HoverState.FillColor = Color.FromArgb(185, 229, 236);
+            btnSinhVien.Image = Properties.Resources.user;
+            btnSinhVien.Location = new Point(28, 314);
+            btnSinhVien.Name = "btnSinhVien";
+            btnSinhVien.ShadowDecoration.CustomizableEdges = customizableEdges23;
+            btnSinhVien.Size = new Size(200, 58);
+            btnSinhVien.TabIndex = 3;
+            btnSinhVien.Text = "Sinh viên";
+            btnSinhVien.Click += btnSinhVien_Click;
             // 
-            // guna2Button1
+            // btnTrangChu
             // 
-            guna2Button1.BorderRadius = 10;
-            guna2Button1.CustomBorderThickness = new Padding(3);
-            guna2Button1.CustomizableEdges = customizableEdges20;
-            guna2Button1.DisabledState.BorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.CustomBorderColor = Color.DarkGray;
-            guna2Button1.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
-            guna2Button1.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button1.FillColor = Color.White;
-            guna2Button1.FocusedColor = Color.White;
-            guna2Button1.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
-            guna2Button1.ForeColor = Color.FromArgb(15, 2, 73);
-            guna2Button1.HoverState.BorderColor = Color.Black;
-            guna2Button1.HoverState.FillColor = Color.FromArgb(185, 229, 236);
-            guna2Button1.Location = new Point(28, 236);
-            guna2Button1.Name = "guna2Button1";
-            guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges21;
-            guna2Button1.Size = new Size(200, 58);
-            guna2Button1.TabIndex = 2;
-            guna2Button1.Text = "Trang chủ";
+            btnTrangChu.BorderRadius = 10;
+            btnTrangChu.CustomBorderThickness = new Padding(3);
+            btnTrangChu.CustomizableEdges = customizableEdges24;
+            btnTrangChu.DisabledState.BorderColor = Color.DarkGray;
+            btnTrangChu.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnTrangChu.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnTrangChu.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnTrangChu.FillColor = Color.White;
+            btnTrangChu.FocusedColor = Color.White;
+            btnTrangChu.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point);
+            btnTrangChu.ForeColor = Color.FromArgb(15, 2, 73);
+            btnTrangChu.HoverState.BorderColor = Color.Black;
+            btnTrangChu.HoverState.FillColor = Color.FromArgb(185, 229, 236);
+            btnTrangChu.Image = Properties.Resources.home;
+            btnTrangChu.Location = new Point(28, 236);
+            btnTrangChu.Name = "btnTrangChu";
+            btnTrangChu.ShadowDecoration.CustomizableEdges = customizableEdges25;
+            btnTrangChu.Size = new Size(200, 58);
+            btnTrangChu.TabIndex = 2;
+            btnTrangChu.Text = "Trang chủ";
+            btnTrangChu.Click += btnTrangChu_Click;
             // 
             // guna2CirclePictureBox1
             // 
@@ -197,7 +225,7 @@
             guna2CirclePictureBox1.ImageRotate = 0F;
             guna2CirclePictureBox1.Location = new Point(78, 74);
             guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            guna2CirclePictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            guna2CirclePictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges26;
             guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             guna2CirclePictureBox1.Size = new Size(100, 100);
             guna2CirclePictureBox1.TabIndex = 1;
@@ -217,91 +245,39 @@
             // panel2
             // 
             panel2.BackColor = Color.White;
+            panel2.BorderStyle = BorderStyle.FixedSingle;
+            panel2.Controls.Add(lbTitle);
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(256, 0);
             panel2.Name = "panel2";
             panel2.Size = new Size(1262, 100);
             panel2.TabIndex = 1;
             // 
-            // panel3
+            // lbTitle
             // 
-            panel3.Controls.Add(tabControl1);
-            panel3.Dock = DockStyle.Bottom;
-            panel3.Location = new Point(256, 100);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(1262, 895);
-            panel3.TabIndex = 2;
+            lbTitle.AutoSize = true;
+            lbTitle.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Pixel);
+            lbTitle.ForeColor = Color.FromArgb(15, 2, 73);
+            lbTitle.Location = new Point(54, 23);
+            lbTitle.Name = "lbTitle";
+            lbTitle.Size = new Size(0, 35);
+            lbTitle.TabIndex = 9;
             // 
-            // tabControl1
+            // pnlMain
             // 
-            tabControl1.Controls.Add(tabPage1);
-            tabControl1.Controls.Add(tabPage2);
-            tabControl1.Controls.Add(tabPage3);
-            tabControl1.Controls.Add(tabPage4);
-            tabControl1.Controls.Add(tabPage5);
-            tabControl1.Dock = DockStyle.Fill;
-            tabControl1.Font = new Font("Segoe UI", 16F, FontStyle.Regular, GraphicsUnit.Pixel);
-            tabControl1.ItemSize = new Size(117, 40);
-            tabControl1.Location = new Point(0, 0);
-            tabControl1.Name = "tabControl1";
-            tabControl1.SelectedIndex = 0;
-            tabControl1.Size = new Size(1262, 895);
-            tabControl1.TabIndex = 0;
-            // 
-            // tabPage1
-            // 
-            tabPage1.BackColor = Color.Transparent;
-            tabPage1.BorderStyle = BorderStyle.FixedSingle;
-            tabPage1.Location = new Point(4, 44);
-            tabPage1.Name = "tabPage1";
-            tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(1254, 847);
-            tabPage1.TabIndex = 0;
-            tabPage1.Text = "Thêm sinh viên";
-            // 
-            // tabPage2
-            // 
-            tabPage2.Location = new Point(4, 44);
-            tabPage2.Name = "tabPage2";
-            tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(1254, 847);
-            tabPage2.TabIndex = 1;
-            tabPage2.Text = "Sửa thông tin sinh viên";
-            tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // tabPage3
-            // 
-            tabPage3.Location = new Point(4, 44);
-            tabPage3.Name = "tabPage3";
-            tabPage3.Size = new Size(1254, 847);
-            tabPage3.TabIndex = 2;
-            tabPage3.Text = "Xóa sinh viên";
-            tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // tabPage4
-            // 
-            tabPage4.Location = new Point(4, 44);
-            tabPage4.Name = "tabPage4";
-            tabPage4.Size = new Size(1254, 847);
-            tabPage4.TabIndex = 3;
-            tabPage4.Text = "Xem danh sách sinh viên";
-            tabPage4.UseVisualStyleBackColor = true;
-            // 
-            // tabPage5
-            // 
-            tabPage5.Location = new Point(4, 44);
-            tabPage5.Name = "tabPage5";
-            tabPage5.Size = new Size(1254, 847);
-            tabPage5.TabIndex = 4;
-            tabPage5.Text = "Thanh toán tiền trọ";
-            tabPage5.UseVisualStyleBackColor = true;
+            pnlMain.BackColor = Color.White;
+            pnlMain.Dock = DockStyle.Bottom;
+            pnlMain.Location = new Point(256, 100);
+            pnlMain.Name = "pnlMain";
+            pnlMain.Size = new Size(1262, 895);
+            pnlMain.TabIndex = 2;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(5F, 12F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1518, 995);
-            Controls.Add(panel3);
+            Controls.Add(pnlMain);
             Controls.Add(panel2);
             Controls.Add(panel1);
             Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Pixel);
@@ -311,8 +287,8 @@
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)guna2CirclePictureBox1).EndInit();
-            panel3.ResumeLayout(false);
-            tabControl1.ResumeLayout(false);
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -321,19 +297,15 @@
         private Panel panel1;
         private Panel panel2;
         private Label label1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button btnTrangChu;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button btnThoat;
+        private Guna.UI2.WinForms.Guna2Button btnNhanVien;
+        private Guna.UI2.WinForms.Guna2Button btnPhong;
+        private Guna.UI2.WinForms.Guna2Button btnSinhVien;
         private Label label2;
-        private Panel panel3;
-        private TabControl tabControl1;
-        private TabPage tabPage1;
-        private TabPage tabPage2;
-        private TabPage tabPage3;
-        private TabPage tabPage4;
-        private TabPage tabPage5;
+        private Panel pnlMain;
+        private Guna.UI2.WinForms.Guna2Button btnDangXuat;
+        private Label lbTitle;
     }
 }

@@ -47,3 +47,7 @@ D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.
 D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.FormPhong.resources
 D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.FormSinhVien.resources
 D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.FormTrangChu.resources
+F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.FormNhanVien.resources
+F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.FormPhong.resources
+F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.FormSinhVien.resources
+F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.FormTrangChu.resources

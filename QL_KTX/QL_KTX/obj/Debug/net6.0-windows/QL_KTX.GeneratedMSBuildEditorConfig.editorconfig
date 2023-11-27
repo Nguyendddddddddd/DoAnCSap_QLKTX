@@ -14,4 +14,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = QL_KTX
-build_property.ProjectDir = D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\
+build_property.ProjectDir = F:\Tai_Lieu_Sinh_Vien\Hoc_Ky5\LAPTRINH_NET\DOAN_QLKTX\DoAnCSap_QLKTX\QL_KTX\QL_KTX\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

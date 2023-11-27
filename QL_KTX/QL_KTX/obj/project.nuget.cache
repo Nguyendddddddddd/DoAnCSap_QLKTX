@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "RPdLVocD7lmLnpy3f4dlX1CQ5oQ6t8ldwLUJIII7ADCiDaSFF2P5F6kgM+u3q7GrFtq4QsqnVBOM8NPvTIo7hg==",
+  "dgSpecHash": "Uk+Gw9hEVsNYh8cgOda+lJK1m7s10xjOyh3PhcN2Nyuzl8r6J/IdxEbTJnQ6KsXo296I7/2Ci5C5Q3ymoXKSwA==",
   "success": true,
-  "projectFilePath": "D:\\DoAnC#\\FormDoAn\\DoAnCSap_QLKTX\\QL_KTX\\QL_KTX\\QL_KTX.csproj",
+  "projectFilePath": "F:\\Tai_Lieu_Sinh_Vien\\Hoc_Ky5\\LAPTRINH_NET\\DOAN_QLKTX\\DoAnCSap_QLKTX\\QL_KTX\\QL_KTX\\QL_KTX.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ADMIN\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.5\\guna.ui2.winforms.2.0.4.5.nupkg.sha512",
-    "C:\\Users\\ADMIN\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
-    "C:\\Users\\ADMIN\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
+    "C:\\Users\\ASUS ZENBOOK\\.nuget\\packages\\guna.ui2.winforms\\2.0.4.5\\guna.ui2.winforms.2.0.4.5.nupkg.sha512",
+    "C:\\Users\\ASUS ZENBOOK\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
+    "C:\\Users\\ASUS ZENBOOK\\.nuget\\packages\\system.management\\6.0.0\\system.management.6.0.0.nupkg.sha512"
   ],
   "logs": []
 }

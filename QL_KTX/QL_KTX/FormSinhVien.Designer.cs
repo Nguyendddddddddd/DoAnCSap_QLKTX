@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            components = new System.ComponentModel.Container();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -237,6 +238,7 @@
             tabXoaSV = new TabPage();
             tabDanhSachSV = new TabPage();
             tabHoaDonTienPhong = new TabPage();
+            guna2AnimateWindow1 = new Guna.UI2.WinForms.Guna2AnimateWindow(components);
             tabControl1.SuspendLayout();
             tabThemSV.SuspendLayout();
             guna2CustomGradientPanel2.SuspendLayout();
@@ -2078,5 +2080,6 @@
         private Label label45;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox16;
         private Label label46;
+        private Guna.UI2.WinForms.Guna2AnimateWindow guna2AnimateWindow1;
     }
 }

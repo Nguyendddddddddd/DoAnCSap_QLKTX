@@ -21,5 +21,8 @@ namespace QL_KTX
         {
 
         }
+        private void loadDanhSachPhong(){
+            
+        }
     }
 }

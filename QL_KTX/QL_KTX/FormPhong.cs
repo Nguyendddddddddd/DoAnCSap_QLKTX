@@ -21,8 +21,33 @@ namespace QL_KTX
         {
 
         }
-        private void loadDanhSachPhong(){
-            
+        private void loadDanhSachPhong()
+        {
+
+        }
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CapNhatPhong_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label19_Click(object sender, EventArgs e)
+        {
+
+        }
+        private void guna2TextBo1x1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

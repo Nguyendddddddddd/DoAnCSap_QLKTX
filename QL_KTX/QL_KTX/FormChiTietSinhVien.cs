@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace QL_KTX
 {
-    public partial class FormSinhVien : Form
+    public partial class FormChiTietSinhVien : Form
     {
-        public FormSinhVien()
+        public FormChiTietSinhVien()
         {
             InitializeComponent();
         }

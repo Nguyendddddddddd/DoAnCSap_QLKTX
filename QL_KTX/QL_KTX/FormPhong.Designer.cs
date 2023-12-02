@@ -1002,7 +1002,6 @@
             guna2Button2.FillColor = Color.FromArgb(185, 229, 236);
             guna2Button2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             guna2Button2.ForeColor = Color.White;
-            guna2Button2.Image = Properties.Resources.magnifying_glass1;
             guna2Button2.Location = new Point(602, 57);
             guna2Button2.Name = "guna2Button2";
             guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges56;
@@ -1074,7 +1073,6 @@
             guna2Button1.FillColor = Color.FromArgb(30, 183, 248);
             guna2Button1.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point);
             guna2Button1.ForeColor = Color.White;
-            guna2Button1.Image = Properties.Resources.add1;
             guna2Button1.Location = new Point(94, 310);
             guna2Button1.Name = "guna2Button1";
             guna2Button1.ShadowDecoration.CustomizableEdges = customizableEdges62;

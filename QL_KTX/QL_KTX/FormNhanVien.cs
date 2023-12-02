@@ -17,6 +17,18 @@ namespace QL_KTX
             InitializeComponent();
         }
 
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
 
+        }
+
+        private void label21_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2TextBox5_TextChanged(object sender, EventArgs e)
+        {
+        }
     }
 }

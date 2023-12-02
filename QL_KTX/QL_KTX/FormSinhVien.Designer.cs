@@ -1177,7 +1177,7 @@
             guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges48;
             guna2Button3.Size = new Size(146, 53);
             guna2Button3.TabIndex = 5;
-            guna2Button3.Text = "Sửa sinh viên";
+            guna2Button3.Text = "Lưu";
             // 
             // guna2Button4
             // 
@@ -2047,7 +2047,7 @@
             guna2Button6.ShadowDecoration.CustomizableEdges = customizableEdges106;
             guna2Button6.Size = new Size(225, 42);
             guna2Button6.TabIndex = 9;
-            guna2Button6.Tag = "FF0111";
+            guna2Button6.Tag = "";
             guna2Button6.Text = "Hủy";
             // 
             // guna2Button5
@@ -2058,7 +2058,7 @@
             guna2Button5.DisabledState.CustomBorderColor = Color.DarkGray;
             guna2Button5.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
             guna2Button5.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
-            guna2Button5.FillColor = Color.FromArgb(30, 183, 248);
+            guna2Button5.FillColor = Color.FromArgb(23, 212, 76);
             guna2Button5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             guna2Button5.ForeColor = Color.White;
             guna2Button5.Location = new Point(462, 671);
@@ -2066,7 +2066,7 @@
             guna2Button5.ShadowDecoration.CustomizableEdges = customizableEdges108;
             guna2Button5.Size = new Size(225, 42);
             guna2Button5.TabIndex = 8;
-            guna2Button5.Tag = "FF0111";
+            guna2Button5.Tag = "";
             guna2Button5.Text = "Lưu";
             // 
             // guna2Button2
@@ -2085,7 +2085,7 @@
             guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges110;
             guna2Button2.Size = new Size(225, 42);
             guna2Button2.TabIndex = 7;
-            guna2Button2.Tag = "FF0111";
+            guna2Button2.Tag = "";
             guna2Button2.Text = "Xóa";
             // 
             // dataGridView1

@@ -3,9 +3,20 @@
     public partial class Form1 : Form
     {
         Form formhienTai;
+        FormTrangChu formTrangChu;
+        FormSinhVien formSinhVien;
+        FormPhong formPhong;
+        FormNhanVien formNhanVien;
+
+
         public Form1()
         {
             InitializeComponent();
+            formTrangChu = new FormTrangChu();
+            formSinhVien = new FormSinhVien();
+            formPhong = new FormPhong();
+            formNhanVien = new FormNhanVien();
+
         }
 
 
@@ -13,8 +24,9 @@
         {
             if (formhienTai != null)
             {
-                formhienTai.Close();
+                formhienTai.Hide();
             }
+
             formhienTai = chillForm;
             chillForm.TopLevel = false;
             chillForm.FormBorderStyle = FormBorderStyle.None;
@@ -27,7 +39,7 @@
         private void btnTrangChu_Click(object sender, EventArgs e)
         {
             lbTitle.Text = "TRANG CHỦ ";
-            FormTrangChu formTrangChu = new FormTrangChu();
+          
             openChillForm (formTrangChu);
             
         }
@@ -35,7 +47,7 @@
         private void btnSinhVien_Click(object sender, EventArgs e)
         {
             lbTitle.Text = "SINH VIÊN";
-            FormSinhVien formSinhVien = new FormSinhVien();
+           
             openChillForm(formSinhVien);
 
         }
@@ -43,7 +55,7 @@
         private void btnPhong_Click(object sender, EventArgs e)
         {
             lbTitle.Text = "PHÒNG";
-            FormPhong formPhong= new FormPhong();
+            
             openChillForm(formPhong);
 
         }
@@ -51,7 +63,6 @@
         private void btnNhanVien_Click(object sender, EventArgs e)
         {
             lbTitle.Text = "NHÂN VIÊN";
-            FormNhanVien formNhanVien= new FormNhanVien();
             openChillForm(formNhanVien);
 
         }

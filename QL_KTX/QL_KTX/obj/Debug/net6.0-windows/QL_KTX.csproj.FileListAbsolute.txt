@@ -55,3 +55,9 @@ D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.
 D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.FormDangNhap.resources
 D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.DanhSachPhongDay.resources
 D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.FormChiTietPhong.resources
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

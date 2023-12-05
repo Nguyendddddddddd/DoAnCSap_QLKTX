@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace QL_KTX
 {
-    internal class LoadDataControl
+    public class LoadDataControl
     {
-        public void Load_DataComBoBox(ComboBox cbo, string SQL, string DisplayMember, string ValueMember)
+         public static void Load_DataComBoBox(ComboBox cbo, string SQL, string DisplayMember, string ValueMember)
         {
             ConnectData connectData = new ConnectData();
             connectData.openConnect();
@@ -19,5 +19,6 @@ namespace QL_KTX
             cbo.ValueMember = ValueMember;
             connectData.closeConnect();
         }
+        
     }
 }

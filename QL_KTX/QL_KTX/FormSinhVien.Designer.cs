@@ -192,14 +192,15 @@
             tabThemSV = new TabPage();
             btnSinhVien_Them = new Guna.UI2.WinForms.Guna2Button();
             guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
-            guna2ComboBox3 = new Guna.UI2.WinForms.Guna2ComboBox();
+            cboSVThem_Phong = new Guna.UI2.WinForms.Guna2ComboBox();
             label23 = new Label();
-            guna2ComboBox2 = new Guna.UI2.WinForms.Guna2ComboBox();
+            cboSVThem_LoaiPhong = new Guna.UI2.WinForms.Guna2ComboBox();
             label22 = new Label();
             cboThemSV_Day = new Guna.UI2.WinForms.Guna2ComboBox();
             label21 = new Label();
             label20 = new Label();
             guna2CustomGradientPanel1 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            dtpSVThem_NgayCap = new Guna.UI2.WinForms.Guna2DateTimePicker();
             cboSVThem_Lop = new Guna.UI2.WinForms.Guna2ComboBox();
             cboSVThem_Nganh = new Guna.UI2.WinForms.Guna2ComboBox();
             txtSVThem_MSSV = new Guna.UI2.WinForms.Guna2TextBox();
@@ -227,11 +228,10 @@
             dtpSVThem_NgaySinh = new Guna.UI2.WinForms.Guna2DateTimePicker();
             label8 = new Label();
             label7 = new Label();
-            txtSVThem_NoiCap = new Guna.UI2.WinForms.Guna2TextBox();
             cboSVThem_GioiTinh = new Guna.UI2.WinForms.Guna2ComboBox();
             label6 = new Label();
             label5 = new Label();
-            txtSVThem_NgayCap = new Guna.UI2.WinForms.Guna2TextBox();
+            txtSVThem_NoiCap = new Guna.UI2.WinForms.Guna2TextBox();
             label4 = new Label();
             label3 = new Label();
             label2 = new Label();
@@ -297,7 +297,7 @@
             guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
             guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            dataGridView1 = new DataGridView();
+            dtGWXoaSV = new DataGridView();
             btnSVX = new Guna.UI2.WinForms.Guna2Button();
             txtSVXoa_timKiem = new Guna.UI2.WinForms.Guna2TextBox();
             tabDanhSachSV = new TabPage();
@@ -346,7 +346,7 @@
             guna2CustomGradientPanel3.SuspendLayout();
             tabXoaSV.SuspendLayout();
             guna2Panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dtGWXoaSV).BeginInit();
             tabDanhSachSV.SuspendLayout();
             guna2Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
@@ -410,9 +410,9 @@
             guna2CustomGradientPanel2.BorderColor = Color.DimGray;
             guna2CustomGradientPanel2.BorderRadius = 20;
             guna2CustomGradientPanel2.BorderThickness = 1;
-            guna2CustomGradientPanel2.Controls.Add(guna2ComboBox3);
+            guna2CustomGradientPanel2.Controls.Add(cboSVThem_Phong);
             guna2CustomGradientPanel2.Controls.Add(label23);
-            guna2CustomGradientPanel2.Controls.Add(guna2ComboBox2);
+            guna2CustomGradientPanel2.Controls.Add(cboSVThem_LoaiPhong);
             guna2CustomGradientPanel2.Controls.Add(label22);
             guna2CustomGradientPanel2.Controls.Add(cboThemSV_Day);
             guna2CustomGradientPanel2.Controls.Add(label21);
@@ -424,23 +424,23 @@
             guna2CustomGradientPanel2.Size = new Size(434, 277);
             guna2CustomGradientPanel2.TabIndex = 1;
             // 
-            // guna2ComboBox3
+            // cboSVThem_Phong
             // 
-            guna2ComboBox3.BackColor = Color.Transparent;
-            guna2ComboBox3.BorderRadius = 10;
-            guna2ComboBox3.CustomizableEdges = customizableEdges3;
-            guna2ComboBox3.DrawMode = DrawMode.OwnerDrawFixed;
-            guna2ComboBox3.DropDownStyle = ComboBoxStyle.DropDownList;
-            guna2ComboBox3.FocusedColor = Color.FromArgb(94, 148, 255);
-            guna2ComboBox3.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2ComboBox3.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2ComboBox3.ForeColor = Color.FromArgb(68, 88, 112);
-            guna2ComboBox3.ItemHeight = 30;
-            guna2ComboBox3.Location = new Point(26, 176);
-            guna2ComboBox3.Name = "guna2ComboBox3";
-            guna2ComboBox3.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            guna2ComboBox3.Size = new Size(383, 36);
-            guna2ComboBox3.TabIndex = 44;
+            cboSVThem_Phong.BackColor = Color.Transparent;
+            cboSVThem_Phong.BorderRadius = 10;
+            cboSVThem_Phong.CustomizableEdges = customizableEdges3;
+            cboSVThem_Phong.DrawMode = DrawMode.OwnerDrawFixed;
+            cboSVThem_Phong.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboSVThem_Phong.FocusedColor = Color.FromArgb(94, 148, 255);
+            cboSVThem_Phong.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            cboSVThem_Phong.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            cboSVThem_Phong.ForeColor = Color.FromArgb(68, 88, 112);
+            cboSVThem_Phong.ItemHeight = 30;
+            cboSVThem_Phong.Location = new Point(26, 176);
+            cboSVThem_Phong.Name = "cboSVThem_Phong";
+            cboSVThem_Phong.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            cboSVThem_Phong.Size = new Size(383, 36);
+            cboSVThem_Phong.TabIndex = 44;
             // 
             // label23
             // 
@@ -452,23 +452,23 @@
             label23.TabIndex = 45;
             label23.Text = "Phòng";
             // 
-            // guna2ComboBox2
+            // cboSVThem_LoaiPhong
             // 
-            guna2ComboBox2.BackColor = Color.Transparent;
-            guna2ComboBox2.BorderRadius = 10;
-            guna2ComboBox2.CustomizableEdges = customizableEdges5;
-            guna2ComboBox2.DrawMode = DrawMode.OwnerDrawFixed;
-            guna2ComboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
-            guna2ComboBox2.FocusedColor = Color.FromArgb(94, 148, 255);
-            guna2ComboBox2.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            guna2ComboBox2.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
-            guna2ComboBox2.ForeColor = Color.FromArgb(68, 88, 112);
-            guna2ComboBox2.ItemHeight = 30;
-            guna2ComboBox2.Location = new Point(226, 106);
-            guna2ComboBox2.Name = "guna2ComboBox2";
-            guna2ComboBox2.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            guna2ComboBox2.Size = new Size(183, 36);
-            guna2ComboBox2.TabIndex = 42;
+            cboSVThem_LoaiPhong.BackColor = Color.Transparent;
+            cboSVThem_LoaiPhong.BorderRadius = 10;
+            cboSVThem_LoaiPhong.CustomizableEdges = customizableEdges5;
+            cboSVThem_LoaiPhong.DrawMode = DrawMode.OwnerDrawFixed;
+            cboSVThem_LoaiPhong.DropDownStyle = ComboBoxStyle.DropDownList;
+            cboSVThem_LoaiPhong.FocusedColor = Color.FromArgb(94, 148, 255);
+            cboSVThem_LoaiPhong.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            cboSVThem_LoaiPhong.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            cboSVThem_LoaiPhong.ForeColor = Color.FromArgb(68, 88, 112);
+            cboSVThem_LoaiPhong.ItemHeight = 30;
+            cboSVThem_LoaiPhong.Location = new Point(226, 106);
+            cboSVThem_LoaiPhong.Name = "cboSVThem_LoaiPhong";
+            cboSVThem_LoaiPhong.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            cboSVThem_LoaiPhong.Size = new Size(183, 36);
+            cboSVThem_LoaiPhong.TabIndex = 42;
             // 
             // label22
             // 
@@ -525,6 +525,7 @@
             guna2CustomGradientPanel1.BorderColor = Color.DimGray;
             guna2CustomGradientPanel1.BorderRadius = 20;
             guna2CustomGradientPanel1.BorderThickness = 1;
+            guna2CustomGradientPanel1.Controls.Add(dtpSVThem_NgayCap);
             guna2CustomGradientPanel1.Controls.Add(cboSVThem_Lop);
             guna2CustomGradientPanel1.Controls.Add(cboSVThem_Nganh);
             guna2CustomGradientPanel1.Controls.Add(txtSVThem_MSSV);
@@ -552,11 +553,10 @@
             guna2CustomGradientPanel1.Controls.Add(dtpSVThem_NgaySinh);
             guna2CustomGradientPanel1.Controls.Add(label8);
             guna2CustomGradientPanel1.Controls.Add(label7);
-            guna2CustomGradientPanel1.Controls.Add(txtSVThem_NoiCap);
             guna2CustomGradientPanel1.Controls.Add(cboSVThem_GioiTinh);
             guna2CustomGradientPanel1.Controls.Add(label6);
             guna2CustomGradientPanel1.Controls.Add(label5);
-            guna2CustomGradientPanel1.Controls.Add(txtSVThem_NgayCap);
+            guna2CustomGradientPanel1.Controls.Add(txtSVThem_NoiCap);
             guna2CustomGradientPanel1.Controls.Add(label4);
             guna2CustomGradientPanel1.Controls.Add(label3);
             guna2CustomGradientPanel1.Controls.Add(label2);
@@ -571,11 +571,32 @@
             guna2CustomGradientPanel1.Size = new Size(670, 749);
             guna2CustomGradientPanel1.TabIndex = 0;
             // 
+            // dtpSVThem_NgayCap
+            // 
+            dtpSVThem_NgayCap.BackColor = Color.Transparent;
+            dtpSVThem_NgayCap.BorderRadius = 10;
+            dtpSVThem_NgayCap.BorderThickness = 1;
+            dtpSVThem_NgayCap.Checked = true;
+            dtpSVThem_NgayCap.CustomFormat = "yyyy-MM-dd";
+            dtpSVThem_NgayCap.CustomizableEdges = customizableEdges11;
+            dtpSVThem_NgayCap.FillColor = Color.White;
+            dtpSVThem_NgayCap.FocusedColor = Color.White;
+            dtpSVThem_NgayCap.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dtpSVThem_NgayCap.Format = DateTimePickerFormat.Custom;
+            dtpSVThem_NgayCap.Location = new Point(363, 153);
+            dtpSVThem_NgayCap.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
+            dtpSVThem_NgayCap.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
+            dtpSVThem_NgayCap.Name = "dtpSVThem_NgayCap";
+            dtpSVThem_NgayCap.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            dtpSVThem_NgayCap.Size = new Size(285, 28);
+            dtpSVThem_NgayCap.TabIndex = 46;
+            dtpSVThem_NgayCap.Value = new DateTime(2023, 11, 25, 10, 20, 9, 389);
+            // 
             // cboSVThem_Lop
             // 
             cboSVThem_Lop.BackColor = Color.Transparent;
             cboSVThem_Lop.BorderRadius = 10;
-            cboSVThem_Lop.CustomizableEdges = customizableEdges11;
+            cboSVThem_Lop.CustomizableEdges = customizableEdges13;
             cboSVThem_Lop.DrawMode = DrawMode.OwnerDrawFixed;
             cboSVThem_Lop.DropDownStyle = ComboBoxStyle.DropDownList;
             cboSVThem_Lop.FocusedColor = Color.FromArgb(94, 148, 255);
@@ -585,7 +606,7 @@
             cboSVThem_Lop.ItemHeight = 30;
             cboSVThem_Lop.Location = new Point(363, 452);
             cboSVThem_Lop.Name = "cboSVThem_Lop";
-            cboSVThem_Lop.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            cboSVThem_Lop.ShadowDecoration.CustomizableEdges = customizableEdges14;
             cboSVThem_Lop.Size = new Size(285, 36);
             cboSVThem_Lop.TabIndex = 45;
             // 
@@ -593,7 +614,7 @@
             // 
             cboSVThem_Nganh.BackColor = Color.Transparent;
             cboSVThem_Nganh.BorderRadius = 10;
-            cboSVThem_Nganh.CustomizableEdges = customizableEdges13;
+            cboSVThem_Nganh.CustomizableEdges = customizableEdges15;
             cboSVThem_Nganh.DrawMode = DrawMode.OwnerDrawFixed;
             cboSVThem_Nganh.DropDownStyle = ComboBoxStyle.DropDownList;
             cboSVThem_Nganh.FocusedColor = Color.FromArgb(94, 148, 255);
@@ -603,15 +624,16 @@
             cboSVThem_Nganh.ItemHeight = 30;
             cboSVThem_Nganh.Location = new Point(363, 395);
             cboSVThem_Nganh.Name = "cboSVThem_Nganh";
-            cboSVThem_Nganh.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            cboSVThem_Nganh.ShadowDecoration.CustomizableEdges = customizableEdges16;
             cboSVThem_Nganh.Size = new Size(285, 36);
             cboSVThem_Nganh.TabIndex = 44;
+            cboSVThem_Nganh.SelectedIndexChanged += cboSVThem_Nganh_SelectedIndexChanged;
             // 
             // txtSVThem_MSSV
             // 
             txtSVThem_MSSV.BorderColor = Color.Silver;
             txtSVThem_MSSV.BorderRadius = 10;
-            txtSVThem_MSSV.CustomizableEdges = customizableEdges15;
+            txtSVThem_MSSV.CustomizableEdges = customizableEdges17;
             txtSVThem_MSSV.DefaultText = "";
             txtSVThem_MSSV.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtSVThem_MSSV.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -626,7 +648,7 @@
             txtSVThem_MSSV.PasswordChar = '\0';
             txtSVThem_MSSV.PlaceholderText = "";
             txtSVThem_MSSV.SelectedText = "";
-            txtSVThem_MSSV.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            txtSVThem_MSSV.ShadowDecoration.CustomizableEdges = customizableEdges18;
             txtSVThem_MSSV.Size = new Size(285, 28);
             txtSVThem_MSSV.TabIndex = 42;
             // 
@@ -654,7 +676,7 @@
             // 
             txtSVThem_HoKhau.BorderColor = Color.Silver;
             txtSVThem_HoKhau.BorderRadius = 10;
-            txtSVThem_HoKhau.CustomizableEdges = customizableEdges17;
+            txtSVThem_HoKhau.CustomizableEdges = customizableEdges19;
             txtSVThem_HoKhau.DefaultText = "";
             txtSVThem_HoKhau.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtSVThem_HoKhau.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -669,7 +691,7 @@
             txtSVThem_HoKhau.PasswordChar = '\0';
             txtSVThem_HoKhau.PlaceholderText = "";
             txtSVThem_HoKhau.SelectedText = "";
-            txtSVThem_HoKhau.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            txtSVThem_HoKhau.ShadowDecoration.CustomizableEdges = customizableEdges20;
             txtSVThem_HoKhau.Size = new Size(586, 32);
             txtSVThem_HoKhau.TabIndex = 39;
             // 
@@ -697,7 +719,7 @@
             // 
             txtSVThem_Phuong.BorderColor = Color.Silver;
             txtSVThem_Phuong.BorderRadius = 10;
-            txtSVThem_Phuong.CustomizableEdges = customizableEdges19;
+            txtSVThem_Phuong.CustomizableEdges = customizableEdges21;
             txtSVThem_Phuong.DefaultText = "";
             txtSVThem_Phuong.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtSVThem_Phuong.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -712,7 +734,7 @@
             txtSVThem_Phuong.PasswordChar = '\0';
             txtSVThem_Phuong.PlaceholderText = "";
             txtSVThem_Phuong.SelectedText = "";
-            txtSVThem_Phuong.ShadowDecoration.CustomizableEdges = customizableEdges20;
+            txtSVThem_Phuong.ShadowDecoration.CustomizableEdges = customizableEdges22;
             txtSVThem_Phuong.Size = new Size(173, 28);
             txtSVThem_Phuong.TabIndex = 37;
             // 
@@ -730,7 +752,7 @@
             // 
             txtSVThem_Huyen.BorderColor = Color.Silver;
             txtSVThem_Huyen.BorderRadius = 10;
-            txtSVThem_Huyen.CustomizableEdges = customizableEdges21;
+            txtSVThem_Huyen.CustomizableEdges = customizableEdges23;
             txtSVThem_Huyen.DefaultText = "";
             txtSVThem_Huyen.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtSVThem_Huyen.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -745,7 +767,7 @@
             txtSVThem_Huyen.PasswordChar = '\0';
             txtSVThem_Huyen.PlaceholderText = "";
             txtSVThem_Huyen.SelectedText = "";
-            txtSVThem_Huyen.ShadowDecoration.CustomizableEdges = customizableEdges22;
+            txtSVThem_Huyen.ShadowDecoration.CustomizableEdges = customizableEdges24;
             txtSVThem_Huyen.Size = new Size(173, 28);
             txtSVThem_Huyen.TabIndex = 35;
             // 
@@ -763,7 +785,7 @@
             // 
             txtSVThem_Tinh.BorderColor = Color.Silver;
             txtSVThem_Tinh.BorderRadius = 10;
-            txtSVThem_Tinh.CustomizableEdges = customizableEdges23;
+            txtSVThem_Tinh.CustomizableEdges = customizableEdges25;
             txtSVThem_Tinh.DefaultText = "";
             txtSVThem_Tinh.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtSVThem_Tinh.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -778,7 +800,7 @@
             txtSVThem_Tinh.PasswordChar = '\0';
             txtSVThem_Tinh.PlaceholderText = "";
             txtSVThem_Tinh.SelectedText = "";
-            txtSVThem_Tinh.ShadowDecoration.CustomizableEdges = customizableEdges24;
+            txtSVThem_Tinh.ShadowDecoration.CustomizableEdges = customizableEdges26;
             txtSVThem_Tinh.Size = new Size(173, 28);
             txtSVThem_Tinh.TabIndex = 33;
             // 
@@ -814,7 +836,7 @@
             // 
             cboSVThem_Khoa.BackColor = Color.Transparent;
             cboSVThem_Khoa.BorderRadius = 10;
-            cboSVThem_Khoa.CustomizableEdges = customizableEdges25;
+            cboSVThem_Khoa.CustomizableEdges = customizableEdges27;
             cboSVThem_Khoa.DrawMode = DrawMode.OwnerDrawFixed;
             cboSVThem_Khoa.DropDownStyle = ComboBoxStyle.DropDownList;
             cboSVThem_Khoa.FocusedColor = Color.FromArgb(94, 148, 255);
@@ -824,7 +846,7 @@
             cboSVThem_Khoa.ItemHeight = 30;
             cboSVThem_Khoa.Location = new Point(363, 330);
             cboSVThem_Khoa.Name = "cboSVThem_Khoa";
-            cboSVThem_Khoa.ShadowDecoration.CustomizableEdges = customizableEdges26;
+            cboSVThem_Khoa.ShadowDecoration.CustomizableEdges = customizableEdges28;
             cboSVThem_Khoa.Size = new Size(285, 36);
             cboSVThem_Khoa.TabIndex = 29;
             cboSVThem_Khoa.SelectedIndexChanged += cboSVThem_Khoa_SelectedIndexChanged;
@@ -843,7 +865,7 @@
             // 
             txtSVThem_Email.BorderColor = Color.Silver;
             txtSVThem_Email.BorderRadius = 10;
-            txtSVThem_Email.CustomizableEdges = customizableEdges27;
+            txtSVThem_Email.CustomizableEdges = customizableEdges29;
             txtSVThem_Email.DefaultText = "";
             txtSVThem_Email.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtSVThem_Email.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -858,7 +880,7 @@
             txtSVThem_Email.PasswordChar = '\0';
             txtSVThem_Email.PlaceholderText = "";
             txtSVThem_Email.SelectedText = "";
-            txtSVThem_Email.ShadowDecoration.CustomizableEdges = customizableEdges28;
+            txtSVThem_Email.ShadowDecoration.CustomizableEdges = customizableEdges30;
             txtSVThem_Email.Size = new Size(285, 28);
             txtSVThem_Email.TabIndex = 22;
             // 
@@ -876,7 +898,7 @@
             // 
             txtSVThem_SDT.BorderColor = Color.Silver;
             txtSVThem_SDT.BorderRadius = 10;
-            txtSVThem_SDT.CustomizableEdges = customizableEdges29;
+            txtSVThem_SDT.CustomizableEdges = customizableEdges31;
             txtSVThem_SDT.DefaultText = "";
             txtSVThem_SDT.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtSVThem_SDT.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -891,7 +913,7 @@
             txtSVThem_SDT.PasswordChar = '\0';
             txtSVThem_SDT.PlaceholderText = "";
             txtSVThem_SDT.SelectedText = "";
-            txtSVThem_SDT.ShadowDecoration.CustomizableEdges = customizableEdges30;
+            txtSVThem_SDT.ShadowDecoration.CustomizableEdges = customizableEdges32;
             txtSVThem_SDT.Size = new Size(285, 28);
             txtSVThem_SDT.TabIndex = 20;
             // 
@@ -909,7 +931,7 @@
             // 
             txtSVThem_NoiSinh.BorderColor = Color.Silver;
             txtSVThem_NoiSinh.BorderRadius = 10;
-            txtSVThem_NoiSinh.CustomizableEdges = customizableEdges31;
+            txtSVThem_NoiSinh.CustomizableEdges = customizableEdges33;
             txtSVThem_NoiSinh.DefaultText = "";
             txtSVThem_NoiSinh.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtSVThem_NoiSinh.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -924,7 +946,7 @@
             txtSVThem_NoiSinh.PasswordChar = '\0';
             txtSVThem_NoiSinh.PlaceholderText = "";
             txtSVThem_NoiSinh.SelectedText = "";
-            txtSVThem_NoiSinh.ShadowDecoration.CustomizableEdges = customizableEdges32;
+            txtSVThem_NoiSinh.ShadowDecoration.CustomizableEdges = customizableEdges34;
             txtSVThem_NoiSinh.Size = new Size(285, 28);
             txtSVThem_NoiSinh.TabIndex = 18;
             // 
@@ -944,16 +966,17 @@
             dtpSVThem_NgaySinh.BorderRadius = 10;
             dtpSVThem_NgaySinh.BorderThickness = 1;
             dtpSVThem_NgaySinh.Checked = true;
-            dtpSVThem_NgaySinh.CustomizableEdges = customizableEdges33;
+            dtpSVThem_NgaySinh.CustomFormat = "yyyy-MM-dd";
+            dtpSVThem_NgaySinh.CustomizableEdges = customizableEdges35;
             dtpSVThem_NgaySinh.FillColor = Color.White;
             dtpSVThem_NgaySinh.FocusedColor = Color.White;
             dtpSVThem_NgaySinh.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            dtpSVThem_NgaySinh.Format = DateTimePickerFormat.Long;
+            dtpSVThem_NgaySinh.Format = DateTimePickerFormat.Custom;
             dtpSVThem_NgaySinh.Location = new Point(22, 280);
             dtpSVThem_NgaySinh.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
             dtpSVThem_NgaySinh.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
             dtpSVThem_NgaySinh.Name = "dtpSVThem_NgaySinh";
-            dtpSVThem_NgaySinh.ShadowDecoration.CustomizableEdges = customizableEdges34;
+            dtpSVThem_NgaySinh.ShadowDecoration.CustomizableEdges = customizableEdges36;
             dtpSVThem_NgaySinh.Size = new Size(285, 28);
             dtpSVThem_NgaySinh.TabIndex = 16;
             dtpSVThem_NgaySinh.Value = new DateTime(2023, 11, 25, 10, 20, 9, 389);
@@ -977,29 +1000,6 @@
             label7.Size = new Size(62, 20);
             label7.TabIndex = 13;
             label7.Text = "Nơi cấp";
-            // 
-            // txtSVThem_NoiCap
-            // 
-            txtSVThem_NoiCap.BorderColor = Color.Silver;
-            txtSVThem_NoiCap.BorderRadius = 10;
-            txtSVThem_NoiCap.CustomizableEdges = customizableEdges35;
-            txtSVThem_NoiCap.DefaultText = "";
-            txtSVThem_NoiCap.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            txtSVThem_NoiCap.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            txtSVThem_NoiCap.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            txtSVThem_NoiCap.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            txtSVThem_NoiCap.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtSVThem_NoiCap.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            txtSVThem_NoiCap.ForeColor = Color.Black;
-            txtSVThem_NoiCap.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtSVThem_NoiCap.Location = new Point(363, 210);
-            txtSVThem_NoiCap.Name = "txtSVThem_NoiCap";
-            txtSVThem_NoiCap.PasswordChar = '\0';
-            txtSVThem_NoiCap.PlaceholderText = "";
-            txtSVThem_NoiCap.SelectedText = "";
-            txtSVThem_NoiCap.ShadowDecoration.CustomizableEdges = customizableEdges36;
-            txtSVThem_NoiCap.Size = new Size(285, 28);
-            txtSVThem_NoiCap.TabIndex = 12;
             // 
             // cboSVThem_GioiTinh
             // 
@@ -1040,28 +1040,28 @@
             label5.TabIndex = 8;
             label5.Text = "Ngày cấp";
             // 
-            // txtSVThem_NgayCap
+            // txtSVThem_NoiCap
             // 
-            txtSVThem_NgayCap.BorderColor = Color.Silver;
-            txtSVThem_NgayCap.BorderRadius = 10;
-            txtSVThem_NgayCap.CustomizableEdges = customizableEdges39;
-            txtSVThem_NgayCap.DefaultText = "";
-            txtSVThem_NgayCap.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            txtSVThem_NgayCap.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            txtSVThem_NgayCap.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            txtSVThem_NgayCap.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            txtSVThem_NgayCap.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtSVThem_NgayCap.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            txtSVThem_NgayCap.ForeColor = Color.Black;
-            txtSVThem_NgayCap.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtSVThem_NgayCap.Location = new Point(363, 150);
-            txtSVThem_NgayCap.Name = "txtSVThem_NgayCap";
-            txtSVThem_NgayCap.PasswordChar = '\0';
-            txtSVThem_NgayCap.PlaceholderText = "";
-            txtSVThem_NgayCap.SelectedText = "";
-            txtSVThem_NgayCap.ShadowDecoration.CustomizableEdges = customizableEdges40;
-            txtSVThem_NgayCap.Size = new Size(285, 28);
-            txtSVThem_NgayCap.TabIndex = 7;
+            txtSVThem_NoiCap.BorderColor = Color.Silver;
+            txtSVThem_NoiCap.BorderRadius = 10;
+            txtSVThem_NoiCap.CustomizableEdges = customizableEdges39;
+            txtSVThem_NoiCap.DefaultText = "";
+            txtSVThem_NoiCap.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
+            txtSVThem_NoiCap.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
+            txtSVThem_NoiCap.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
+            txtSVThem_NoiCap.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
+            txtSVThem_NoiCap.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtSVThem_NoiCap.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            txtSVThem_NoiCap.ForeColor = Color.Black;
+            txtSVThem_NoiCap.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
+            txtSVThem_NoiCap.Location = new Point(363, 213);
+            txtSVThem_NoiCap.Name = "txtSVThem_NoiCap";
+            txtSVThem_NoiCap.PasswordChar = '\0';
+            txtSVThem_NoiCap.PlaceholderText = "";
+            txtSVThem_NoiCap.SelectedText = "";
+            txtSVThem_NoiCap.ShadowDecoration.CustomizableEdges = customizableEdges40;
+            txtSVThem_NoiCap.Size = new Size(285, 28);
+            txtSVThem_NoiCap.TabIndex = 7;
             // 
             // label4
             // 
@@ -2054,7 +2054,7 @@
             guna2Panel1.Controls.Add(guna2Button6);
             guna2Panel1.Controls.Add(guna2Button5);
             guna2Panel1.Controls.Add(guna2Button2);
-            guna2Panel1.Controls.Add(dataGridView1);
+            guna2Panel1.Controls.Add(dtGWXoaSV);
             guna2Panel1.Controls.Add(btnSVX);
             guna2Panel1.Controls.Add(txtSVXoa_timKiem);
             guna2Panel1.CustomizableEdges = customizableEdges117;
@@ -2121,15 +2121,15 @@
             guna2Button2.Tag = "";
             guna2Button2.Text = "Xóa";
             // 
-            // dataGridView1
+            // dtGWXoaSV
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(36, 82);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.RowTemplate.Height = 29;
-            dataGridView1.Size = new Size(1086, 557);
-            dataGridView1.TabIndex = 6;
+            dtGWXoaSV.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dtGWXoaSV.Location = new Point(36, 82);
+            dtGWXoaSV.Name = "dtGWXoaSV";
+            dtGWXoaSV.RowHeadersWidth = 51;
+            dtGWXoaSV.RowTemplate.Height = 29;
+            dtGWXoaSV.Size = new Size(1086, 557);
+            dtGWXoaSV.TabIndex = 6;
             // 
             // btnSVX
             // 
@@ -2815,7 +2815,7 @@
             guna2CustomGradientPanel3.PerformLayout();
             tabXoaSV.ResumeLayout(false);
             guna2Panel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dtGWXoaSV).EndInit();
             tabDanhSachSV.ResumeLayout(false);
             guna2Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
@@ -2845,11 +2845,10 @@
         private Guna.UI2.WinForms.Guna2ComboBox cboSVThem_GioiTinh;
         private Label label6;
         private Label label5;
-        private Guna.UI2.WinForms.Guna2TextBox txtSVThem_NgayCap;
+        private Guna.UI2.WinForms.Guna2TextBox txtSVThem_NoiCap;
         private Guna.UI2.WinForms.Guna2DateTimePicker dtpSVThem_NgaySinh;
         private Label label8;
         private Label label7;
-        private Guna.UI2.WinForms.Guna2TextBox txtSVThem_NoiCap;
         private Label label9;
         private Guna.UI2.WinForms.Guna2TextBox txtSVThem_Email;
         private Label label11;
@@ -2872,9 +2871,9 @@
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
         private Label label21;
         private Label label20;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
+        private Guna.UI2.WinForms.Guna2ComboBox cboSVThem_Phong;
         private Label label23;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
+        private Guna.UI2.WinForms.Guna2ComboBox cboSVThem_LoaiPhong;
         private Label label22;
         private Guna.UI2.WinForms.Guna2ComboBox cboThemSV_Day;
         private Guna.UI2.WinForms.Guna2Button btnSinhVien_Them;
@@ -2931,7 +2930,7 @@
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox7;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private DataGridView dataGridView1;
+        private DataGridView dtGWXoaSV;
         private Guna.UI2.WinForms.Guna2Button btnSVX;
         private Guna.UI2.WinForms.Guna2TextBox txtSVXoa_timKiem;
         private Guna.UI2.WinForms.Guna2Button guna2Button6;
@@ -2976,5 +2975,6 @@
         private Guna.UI2.WinForms.Guna2ComboBox cboSVThem_Nganh;
         private Guna.UI2.WinForms.Guna2TextBox txtSVThem_MSSV;
         private Label label12;
+        private Guna.UI2.WinForms.Guna2DateTimePicker dtpSVThem_NgayCap;
     }
 }

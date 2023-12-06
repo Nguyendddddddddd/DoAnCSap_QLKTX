@@ -13,8 +13,7 @@ namespace QL_KTX
 {
     public partial class FormNhanVien : Form
     {
-        string strcon = "Data Source=HOAINAMPC\\SQLSERVER;Initial Catalog=QLKTX;Integrated Security=True";
-        SqlConnection sqlCon = null;
+        
         public FormNhanVien()
         {
             InitializeComponent();
@@ -29,15 +28,8 @@ namespace QL_KTX
 
         public void themNhanVien()
         {
-            
-                if(sqlCon == null)
-                {
-                  sqlCon = new SqlConnection(strcon);
-                }
-                if(sqlCon.State == ConnectionState.Closed)
-                {
-                  sqlCon.Open();
-                }
+                ConnectData connectData = new ConnectData();
+                connectData.openConnect();
 
                 string hoten = txtNVThem_HoTenLot.Text;
                 string ten = txtNVThem_Ten.Text;
@@ -53,37 +45,14 @@ namespace QL_KTX
                 int luongChinh = int.Parse(txtNVThem_LuongChinh.Text);
                 DataRowView macv = (DataRowView) cboNVThem_ChucVu.SelectedItem;
                 string chucvu = macv["MaCV"].ToString();
-
                 string thanhpho = txtNVThem_ThanhPho.Text;
                 string quan = txtNVThem_Huyen.Text;
                 string xa = txtNVThem_Phuong.Text;
                 string soNha = txtNVThem_HoKhau.Text;
-
-            // string hoKhau = $"{thanhpho} /{quan} /{xa} /{soNha}";
-            //string duLieu = $"'{maNhanVien}',N'{hoten}', N'{ten}', N'{gioiTinh}', {ngaySinh} ,{cccd} ,{ngayCap}, {noiCap} ,{noiSinh} ,{hoKhau}, {sdt}, {email} ,{luongChinh} ,{1} ,{chucVu}";
-
-
-            //  sqlCMD.Connection = con.Connection;
-            //int kq = sqlCMD.ExecuteNonQuery();
-            //con.insertData($"insert into NhanVien values ({duLieu})");
-            //con.closeConnect();
-
-            SqlCommand sqlCMD = new SqlCommand();
-            sqlCMD.CommandType = CommandType.Text;
-            sqlCMD.CommandText = "insert into NhanVien values('"+maNhanVien+"', N'"+hoten+"', N'"+ten+"', N'"+gioiTinh+"', N'"+ngaySinh+"', '"+cccd+"', N'"+ngayCap+"', N'"+noiCap+"', N'"+noiSinh+"', N'"+thanhpho+"', "+sdt+", '"+email+"', "+luongChinh+", "+1+", '"+ chucvu + "')";
-            sqlCMD.Connection = sqlCon;
-            int kq = sqlCMD.ExecuteNonQuery();
-
-            if (kq>0)
-            {
-                MessageBox.Show("Thêm thành công");
-
-            }
-            else
-            {
-                MessageBox.Show("Thêm không thành công");
-            }
-
+ 
+                string sql= "insert into NhanVien values('"+maNhanVien+"', N'"+hoten+"', N'"+ten+"', N'"+gioiTinh+"', N'"+ngaySinh+"', '"+cccd+"', N'"+ngayCap+"', N'"+noiCap+"', N'"+noiSinh+"', N'"+thanhpho+"', "+sdt+", '"+email+"', "+luongChinh+", "+1+", '"+ chucvu + "')";
+                connectData.insertData(sql);
+                connectData.closeConnect();
 
 
 

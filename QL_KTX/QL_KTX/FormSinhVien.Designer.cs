@@ -303,7 +303,7 @@
             tabDanhSachSV = new TabPage();
             guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             guna2Button8 = new Guna.UI2.WinForms.Guna2Button();
-            dataGridView2 = new DataGridView();
+            dtgSV_XemDanhSach = new DataGridView();
             guna2Button10 = new Guna.UI2.WinForms.Guna2Button();
             guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             tabHoaDonTienPhong = new TabPage();
@@ -349,7 +349,7 @@
             ((System.ComponentModel.ISupportInitialize)dtGWXoaSV).BeginInit();
             tabDanhSachSV.SuspendLayout();
             guna2Panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dtgSV_XemDanhSach).BeginInit();
             tabHoaDonTienPhong.SuspendLayout();
             guna2Panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dataGridView3).BeginInit();
@@ -2190,7 +2190,7 @@
             guna2Panel2.BorderRadius = 20;
             guna2Panel2.BorderThickness = 1;
             guna2Panel2.Controls.Add(guna2Button8);
-            guna2Panel2.Controls.Add(dataGridView2);
+            guna2Panel2.Controls.Add(dtgSV_XemDanhSach);
             guna2Panel2.Controls.Add(guna2Button10);
             guna2Panel2.Controls.Add(guna2TextBox1);
             guna2Panel2.CustomizableEdges = customizableEdges125;
@@ -2219,15 +2219,15 @@
             guna2Button8.Tag = "FF0111";
             guna2Button8.Text = "Xem chi tiết";
             // 
-            // dataGridView2
+            // dtgSV_XemDanhSach
             // 
-            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView2.Location = new Point(36, 82);
-            dataGridView2.Name = "dataGridView2";
-            dataGridView2.RowHeadersWidth = 51;
-            dataGridView2.RowTemplate.Height = 29;
-            dataGridView2.Size = new Size(1086, 557);
-            dataGridView2.TabIndex = 6;
+            dtgSV_XemDanhSach.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dtgSV_XemDanhSach.Location = new Point(36, 82);
+            dtgSV_XemDanhSach.Name = "dtgSV_XemDanhSach";
+            dtgSV_XemDanhSach.RowHeadersWidth = 51;
+            dtgSV_XemDanhSach.RowTemplate.Height = 29;
+            dtgSV_XemDanhSach.Size = new Size(1086, 557);
+            dtgSV_XemDanhSach.TabIndex = 6;
             // 
             // guna2Button10
             // 
@@ -2818,7 +2818,7 @@
             ((System.ComponentModel.ISupportInitialize)dtGWXoaSV).EndInit();
             tabDanhSachSV.ResumeLayout(false);
             guna2Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dtgSV_XemDanhSach).EndInit();
             tabHoaDonTienPhong.ResumeLayout(false);
             guna2Panel3.ResumeLayout(false);
             guna2Panel3.PerformLayout();
@@ -2938,7 +2938,7 @@
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2Button guna2Button8;
-        private DataGridView dataGridView2;
+        private DataGridView dtgSV_XemDanhSach;
         private Guna.UI2.WinForms.Guna2Button guna2Button10;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;

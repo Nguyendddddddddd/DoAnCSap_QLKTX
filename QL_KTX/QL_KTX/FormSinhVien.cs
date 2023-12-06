@@ -23,6 +23,13 @@ namespace QL_KTX
             LoadDataControl.Load_DataComBoBox(cboSVThem_LoaiPhong, "SELECT TenLoai,MaLoai From LoaiPhong", "TenLoai", "MaLoai");
             LoadDataControl.Load_DataComBoBox(cboSVThem_Phong, "SELECT TenPhong,MaPhong From Phong ", "TenPhong", "MaPhong");
 
+            ConnectData connect = new ConnectData();
+            connect.openConnect();
+            DataSet dataSet = connect.ReadData("Select MSSV,HovaTenLot,Ten,GioiTinh From SinhVien");
+            dtgSV_XemDanhSach.DataSource = dataSet.Tables[0];
+            connect.closeConnect();
+
+
         }
         private void FormSinhVien_Load(object sender, EventArgs e)
         {
@@ -59,21 +66,21 @@ namespace QL_KTX
             string HovaTenLot = txtSVThem_HoTenLot.Text;
             string Ten = txtSVThem_Ten.Text;
             string GioiTinh = cboSVThem_GioiTinh.SelectedItem.ToString();
-           
+
             string NgaySinh = dtpSVThem_NgaySinh.Value.ToString();
             string CCCD = txtSinhVien_CCCD.Text;
             string NoiSinh = txtSVThem_NoiSinh.Text;
             string HKTT = txtSVThem_HoKhau.Text;
             string NgayCap = dtpSVThem_NgayCap.Value.ToString();
             string NoiCap = txtSVThem_NoiCap.Text;
-            DataRowView Lop =(DataRowView)cboSVThem_Lop.SelectedItem;
+            DataRowView Lop = (DataRowView)cboSVThem_Lop.SelectedItem;
             string MaLop = Lop["MaLop"].ToString();
-            
+
             string SDT = txtSVThem_SDT.Text;
             string Email = txtSVThem_Email.Text;
             DataRowView Phong = (DataRowView)cboSVThem_Phong.SelectedItem;
             string MaPhong = Phong["MaPhong"].ToString();
-            
+
             // Cau lenh sql insert sinh vien
             string TruongDuLieu = "(MSSV,HovaTenLot,Ten,GioiTinh,NgaySinh,CCCD,NoiSinh,HKTT,ngayCapCCCD,NoiCapCCCD,MaLop,STD,Email,MaPhong)";
             string cacBien = $"('{MSSV}','{HovaTenLot}','{Ten}','{GioiTinh}','{NgaySinh}',{CCCD},'{NoiSinh}','{HKTT}','{NgayCap}','{NoiCap}','{MaLop}',{SDT},'{Email}','{MaPhong}')";

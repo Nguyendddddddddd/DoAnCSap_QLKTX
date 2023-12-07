@@ -13,7 +13,7 @@ namespace QL_KTX
 {
     public partial class FormNhanVien : Form
     {
-        string strCon = @"Data Source=LAPTOP-OUMK55PL\SQLEXPRESS;Initial Catalog=QLKTX;Integrated Security=True";
+        string strCon = @"Data Source=HOAINAMPC\SQLSERVER;Initial Catalog=QLKTX;Integrated Security=True";
         SqlConnection sqlCon = null;
         SqlDataAdapter adapter = null;
         DataSet dataset = null;
@@ -47,7 +47,7 @@ namespace QL_KTX
             string email = txtNVThem_Email.Text;
             string cccd = txtNVThem_CCCD.Text;
             string ngayCap = dtpNVSua_NgayCap.Value.ToShortDateString();
-            string noiCap = txtNVThem_NoiCap.Text;
+            string noiCap = cboNVThem_NoiCap.SelectedItem.ToString();
             string maNhanVien = txtNVThem_MaNhanVien.Text;
             int luongChinh = int.Parse(txtNVThem_LuongChinh.Text);
             DataRowView macv = (DataRowView)cboNVThem_ChucVu.SelectedItem;
@@ -57,7 +57,7 @@ namespace QL_KTX
             string xa = txtNVThem_Phuong.Text;
             string soNha = txtNVThem_HoKhau.Text;
 
-            string HKTT = $"{thanhpho}, {huyen}, {xa}, {soNha}";
+            string HKTT = $"{soNha}, {xa}, {huyen}, {thanhpho}";
 
 
             string sql = "insert into NhanVien values('" + maNhanVien + "', N'" + hoten + "', N'" + ten + "', N'" + gioiTinh + "', N'" + ngaySinh + "', '" + cccd + "', N'" + ngayCap + "', N'" + noiCap + "', N'" + noiSinh + "', N'" + HKTT + "', " + sdt + ", '" + email + "', " + luongChinh + ", " + 1 + ", '" + chucvu + "')";
@@ -92,6 +92,7 @@ namespace QL_KTX
                 MessageBox.Show("Bạn chưa chọn sinh viên cần sửa", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             DataRow Row = dataset.Tables["tblNhanVien"].Rows[viTri];
 
+            Row.BeginEdit();
             Row["MaNV"] = txtNVSua_MaNV.Text;
             Row["HovaTenLot"] = txtNVSua_hoTenLot.Text;
             Row["Ten"] = txtNVSua_ten.Text;
@@ -103,7 +104,7 @@ namespace QL_KTX
 
             // date chu y
             Row["NgayCap"] = dtpNVSua_NgayCap.Text;
-            Row["NoiCap"] = txtNVSua_NoiCap.Text;
+            Row["NoiCap"] = cboNVSua_NoiCap.SelectedItem.ToString();
             Row["NoiSinh"] = txtNVSua_NoiSinh.Text;
 
             // hoKhauThuongTru
@@ -115,11 +116,35 @@ namespace QL_KTX
             Row["LuongChinh"] = txtNVSua_LuongChinh.Text;
             DataRowView macv = (DataRowView)cboNVSua_ChucVu.SelectedItem;
             Row["MaCV"] = macv["MaCV"].ToString();
+
+            Row.EndEdit();
+
         }
 
 
         private void dgvNVSua_DanhSach_CellClick(object sender, DataGridViewCellEventArgs e)
         {
+            // bat enable
+            txtNVSua_hoTenLot.Enabled = true;
+            txtNVSua_ten.Enabled = true;
+            cboNVSua_GioiTinh.Enabled = true;
+            dtpNVSua_NgaySinh.Enabled = true;
+            txtNVSua_hoTenLot.Enabled = true;
+            txtNVSua_NoiSinh.Enabled = true;
+            txtNVSua_SDT.Enabled = true;
+            txtNVSua_email.Enabled = true;
+            txtNVSua_CCCD.Enabled = true;
+            dtpNVSua_NgayCap.Enabled = true;
+            cboNVSua_NoiCap.Enabled = true;
+            txtNVSua_MaNV.Enabled = true;
+            cboNVSua_ChucVu.Enabled = true;
+            txtNVSua_LuongChinh.Enabled = true;
+            txtNVSua_ThanhPho.Enabled = true;
+            txtNVSua_Quan.Enabled = true;
+            txtNVSua_Phuong.Enabled = true;
+            txtNVSua_HoKhau.Enabled = true;
+
+
             viTri = e.RowIndex;
             if (viTri == -1) return;
             DataRow Row = dataset.Tables["tblNhanVien"].Rows[viTri];
@@ -136,26 +161,24 @@ namespace QL_KTX
 
             // date chu y
             dtpNVSua_NgayCap.Text = Row["NgayCap"].ToString();
-            txtNVSua_NoiCap.Text = Row["NoiCap"].ToString();
+            cboNVSua_NoiCap.SelectedItem = Row["NoiCap"].ToString();
             txtNVSua_NoiSinh.Text = Row["NoiSinh"].ToString();
 
             // hoKhauThuongTru
             string hktt = Row["HKTT"].ToString();
             string[] manghokhauthuongtru = hktt.Split(',');
-            txtNVSua_ThanhPho.Text = manghokhauthuongtru[0];
-            txtNVSua_Quan.Text = manghokhauthuongtru[1];
-            txtNVSua_Phuong.Text = manghokhauthuongtru[2];
-            txtNVSua_HoKhau.Text = manghokhauthuongtru[3];
+            txtNVSua_ThanhPho.Text = manghokhauthuongtru[3];
+            txtNVSua_Quan.Text = manghokhauthuongtru[2];
+            txtNVSua_Phuong.Text = manghokhauthuongtru[1];
+            txtNVSua_HoKhau.Text = manghokhauthuongtru[0];
 
             txtNVSua_SDT.Text = Row["SDT"].ToString();
             txtNVSua_email.Text = Row["EMAIL"].ToString();
             txtNVSua_LuongChinh.Text = Row["LuongChinh"].ToString();
-
             cboNVSua_ChucVu.SelectedItem = Row["MaCV"].ToString();
 
-            Row.EndEdit();
+            
         }
-
         private void btnNVSua_Luu_Click(object sender, EventArgs e)
         {
             int kq = adapter.Update(dataset.Tables["tblNhanVien"]);
@@ -163,6 +186,21 @@ namespace QL_KTX
                 MessageBox.Show("Lưu thành công", "Thông báo");
             else
                 MessageBox.Show("Lưu thất bại", "Thông báo");
+        }
+
+        private void btnNVSua_Huy_Click(object sender, EventArgs e)
+        {
+            if (sqlCon == null)
+            {
+                sqlCon = new SqlConnection(strCon);
+            }
+
+            string query = "select * from NhanVien";
+            adapter = new SqlDataAdapter(query, sqlCon);
+            SqlCommandBuilder commandBuilder = new SqlCommandBuilder(adapter);
+            dataset = new DataSet();
+            adapter.Fill(dataset, "tblNhanVien");
+            dgvNVSua_DanhSach.DataSource = dataset.Tables["tblNhanVien"];
         }
     }
 }

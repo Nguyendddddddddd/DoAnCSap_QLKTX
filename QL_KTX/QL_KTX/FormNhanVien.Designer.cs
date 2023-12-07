@@ -181,6 +181,7 @@
             tabControl1 = new TabControl();
             tabPage1 = new TabPage();
             guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
+            dtpNVThem_NgayCap = new Guna.UI2.WinForms.Guna2DateTimePicker();
             cboNVThem_ChucVu = new Guna.UI2.WinForms.Guna2ComboBox();
             txtNVThem_Them = new Guna.UI2.WinForms.Guna2Button();
             guna2Separator1 = new Guna.UI2.WinForms.Guna2Separator();
@@ -201,7 +202,6 @@
             label7 = new Label();
             txtNVThem_NoiCap = new Guna.UI2.WinForms.Guna2TextBox();
             label5 = new Label();
-            txtNVThem_NgayCap = new Guna.UI2.WinForms.Guna2TextBox();
             label3 = new Label();
             txtNVThem_CCCD = new Guna.UI2.WinForms.Guna2TextBox();
             txtNVThem_Email = new Guna.UI2.WinForms.Guna2TextBox();
@@ -358,10 +358,10 @@
             // 
             tabPage1.BackColor = Color.White;
             tabPage1.Controls.Add(guna2Panel1);
-            tabPage1.Location = new Point(4, 41);
+            tabPage1.Location = new Point(4, 37);
             tabPage1.Name = "tabPage1";
             tabPage1.Padding = new Padding(3);
-            tabPage1.Size = new Size(1236, 803);
+            tabPage1.Size = new Size(1236, 807);
             tabPage1.TabIndex = 0;
             tabPage1.Text = "Thêm Nhân Viên";
             // 
@@ -370,6 +370,7 @@
             guna2Panel1.BorderColor = Color.Gray;
             guna2Panel1.BorderRadius = 20;
             guna2Panel1.BorderThickness = 1;
+            guna2Panel1.Controls.Add(dtpNVThem_NgayCap);
             guna2Panel1.Controls.Add(cboNVThem_ChucVu);
             guna2Panel1.Controls.Add(txtNVThem_Them);
             guna2Panel1.Controls.Add(guna2Separator1);
@@ -390,7 +391,6 @@
             guna2Panel1.Controls.Add(label7);
             guna2Panel1.Controls.Add(txtNVThem_NoiCap);
             guna2Panel1.Controls.Add(label5);
-            guna2Panel1.Controls.Add(txtNVThem_NgayCap);
             guna2Panel1.Controls.Add(label3);
             guna2Panel1.Controls.Add(txtNVThem_CCCD);
             guna2Panel1.Controls.Add(txtNVThem_Email);
@@ -415,11 +415,31 @@
             guna2Panel1.Size = new Size(1142, 780);
             guna2Panel1.TabIndex = 3;
             // 
+            // dtpNVThem_NgayCap
+            // 
+            dtpNVThem_NgayCap.BorderRadius = 10;
+            dtpNVThem_NgayCap.BorderThickness = 1;
+            dtpNVThem_NgayCap.Checked = true;
+            dtpNVThem_NgayCap.CustomFormat = "yyyy-MM-dd";
+            dtpNVThem_NgayCap.CustomizableEdges = customizableEdges1;
+            dtpNVThem_NgayCap.FillColor = Color.White;
+            dtpNVThem_NgayCap.FocusedColor = Color.White;
+            dtpNVThem_NgayCap.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dtpNVThem_NgayCap.Format = DateTimePickerFormat.Custom;
+            dtpNVThem_NgayCap.Location = new Point(674, 141);
+            dtpNVThem_NgayCap.MaxDate = new DateTime(9998, 12, 31, 0, 0, 0, 0);
+            dtpNVThem_NgayCap.MinDate = new DateTime(1753, 1, 1, 0, 0, 0, 0);
+            dtpNVThem_NgayCap.Name = "dtpNVThem_NgayCap";
+            dtpNVThem_NgayCap.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            dtpNVThem_NgayCap.Size = new Size(319, 28);
+            dtpNVThem_NgayCap.TabIndex = 61;
+            dtpNVThem_NgayCap.Value = new DateTime(2023, 11, 25, 10, 20, 9, 389);
+            // 
             // cboNVThem_ChucVu
             // 
             cboNVThem_ChucVu.BackColor = Color.Transparent;
             cboNVThem_ChucVu.BorderRadius = 10;
-            cboNVThem_ChucVu.CustomizableEdges = customizableEdges1;
+            cboNVThem_ChucVu.CustomizableEdges = customizableEdges3;
             cboNVThem_ChucVu.DrawMode = DrawMode.OwnerDrawFixed;
             cboNVThem_ChucVu.DropDownStyle = ComboBoxStyle.DropDownList;
             cboNVThem_ChucVu.FocusedColor = Color.FromArgb(94, 148, 255);
@@ -430,14 +450,14 @@
             cboNVThem_ChucVu.Items.AddRange(new object[] { "Nam", "Nữ" });
             cboNVThem_ChucVu.Location = new Point(674, 302);
             cboNVThem_ChucVu.Name = "cboNVThem_ChucVu";
-            cboNVThem_ChucVu.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            cboNVThem_ChucVu.ShadowDecoration.CustomizableEdges = customizableEdges4;
             cboNVThem_ChucVu.Size = new Size(319, 36);
             cboNVThem_ChucVu.TabIndex = 60;
             // 
             // txtNVThem_Them
             // 
             txtNVThem_Them.BorderRadius = 20;
-            txtNVThem_Them.CustomizableEdges = customizableEdges3;
+            txtNVThem_Them.CustomizableEdges = customizableEdges5;
             txtNVThem_Them.DisabledState.BorderColor = Color.DarkGray;
             txtNVThem_Them.DisabledState.CustomBorderColor = Color.DarkGray;
             txtNVThem_Them.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -448,7 +468,7 @@
             txtNVThem_Them.Image = Properties.Resources.add;
             txtNVThem_Them.Location = new Point(414, 689);
             txtNVThem_Them.Name = "txtNVThem_Them";
-            txtNVThem_Them.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            txtNVThem_Them.ShadowDecoration.CustomizableEdges = customizableEdges6;
             txtNVThem_Them.Size = new Size(315, 57);
             txtNVThem_Them.TabIndex = 59;
             txtNVThem_Them.Text = "THÊM";
@@ -465,7 +485,7 @@
             // 
             txtNVThem_HoKhau.BorderColor = Color.Silver;
             txtNVThem_HoKhau.BorderRadius = 10;
-            txtNVThem_HoKhau.CustomizableEdges = customizableEdges5;
+            txtNVThem_HoKhau.CustomizableEdges = customizableEdges7;
             txtNVThem_HoKhau.DefaultText = "";
             txtNVThem_HoKhau.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtNVThem_HoKhau.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -480,7 +500,7 @@
             txtNVThem_HoKhau.PasswordChar = '\0';
             txtNVThem_HoKhau.PlaceholderText = "";
             txtNVThem_HoKhau.SelectedText = "";
-            txtNVThem_HoKhau.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            txtNVThem_HoKhau.ShadowDecoration.CustomizableEdges = customizableEdges8;
             txtNVThem_HoKhau.Size = new Size(586, 32);
             txtNVThem_HoKhau.TabIndex = 57;
             // 
@@ -490,7 +510,7 @@
             label19.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label19.Location = new Point(278, 602);
             label19.Name = "label19";
-            label19.Size = new Size(426, 25);
+            label19.Size = new Size(349, 20);
             label19.TabIndex = 56;
             label19.Text = "Hộ khẩu thường trú (Số nhà, đường, Khóm - Ấp)";
             // 
@@ -498,7 +518,7 @@
             // 
             txtNVThem_Phuong.BorderColor = Color.Silver;
             txtNVThem_Phuong.BorderRadius = 10;
-            txtNVThem_Phuong.CustomizableEdges = customizableEdges7;
+            txtNVThem_Phuong.CustomizableEdges = customizableEdges9;
             txtNVThem_Phuong.DefaultText = "";
             txtNVThem_Phuong.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtNVThem_Phuong.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -513,7 +533,7 @@
             txtNVThem_Phuong.PasswordChar = '\0';
             txtNVThem_Phuong.PlaceholderText = "";
             txtNVThem_Phuong.SelectedText = "";
-            txtNVThem_Phuong.ShadowDecoration.CustomizableEdges = customizableEdges8;
+            txtNVThem_Phuong.ShadowDecoration.CustomizableEdges = customizableEdges10;
             txtNVThem_Phuong.Size = new Size(173, 28);
             txtNVThem_Phuong.TabIndex = 55;
             // 
@@ -523,7 +543,7 @@
             label18.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label18.Location = new Point(691, 529);
             label18.Name = "label18";
-            label18.Size = new Size(109, 25);
+            label18.Size = new Size(89, 20);
             label18.TabIndex = 54;
             label18.Text = "Phường/Xã";
             // 
@@ -531,7 +551,7 @@
             // 
             txtNVThem_Huyen.BorderColor = Color.Silver;
             txtNVThem_Huyen.BorderRadius = 10;
-            txtNVThem_Huyen.CustomizableEdges = customizableEdges9;
+            txtNVThem_Huyen.CustomizableEdges = customizableEdges11;
             txtNVThem_Huyen.DefaultText = "";
             txtNVThem_Huyen.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtNVThem_Huyen.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -546,7 +566,7 @@
             txtNVThem_Huyen.PasswordChar = '\0';
             txtNVThem_Huyen.PlaceholderText = "";
             txtNVThem_Huyen.SelectedText = "";
-            txtNVThem_Huyen.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            txtNVThem_Huyen.ShadowDecoration.CustomizableEdges = customizableEdges12;
             txtNVThem_Huyen.Size = new Size(173, 28);
             txtNVThem_Huyen.TabIndex = 53;
             // 
@@ -556,7 +576,7 @@
             label17.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label17.Location = new Point(485, 529);
             label17.Name = "label17";
-            label17.Size = new Size(122, 25);
+            label17.Size = new Size(98, 20);
             label17.TabIndex = 52;
             label17.Text = "Huyện/Quận";
             // 
@@ -564,7 +584,7 @@
             // 
             txtNVThem_ThanhPho.BorderColor = Color.Silver;
             txtNVThem_ThanhPho.BorderRadius = 10;
-            txtNVThem_ThanhPho.CustomizableEdges = customizableEdges11;
+            txtNVThem_ThanhPho.CustomizableEdges = customizableEdges13;
             txtNVThem_ThanhPho.DefaultText = "";
             txtNVThem_ThanhPho.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtNVThem_ThanhPho.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -579,7 +599,7 @@
             txtNVThem_ThanhPho.PasswordChar = '\0';
             txtNVThem_ThanhPho.PlaceholderText = "";
             txtNVThem_ThanhPho.SelectedText = "";
-            txtNVThem_ThanhPho.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            txtNVThem_ThanhPho.ShadowDecoration.CustomizableEdges = customizableEdges14;
             txtNVThem_ThanhPho.Size = new Size(173, 28);
             txtNVThem_ThanhPho.TabIndex = 51;
             // 
@@ -589,7 +609,7 @@
             label16.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label16.Location = new Point(279, 529);
             label16.Name = "label16";
-            label16.Size = new Size(150, 25);
+            label16.Size = new Size(122, 20);
             label16.TabIndex = 50;
             label16.Text = "Tỉnh/Thành Phố";
             // 
@@ -600,7 +620,7 @@
             label15.ForeColor = Color.FromArgb(15, 2, 73);
             label15.Location = new Point(394, 483);
             label15.Name = "label15";
-            label15.Size = new Size(418, 36);
+            label15.Size = new Size(355, 30);
             label15.TabIndex = 49;
             label15.Text = "ĐỊA CHỈ HỘ KHẨU THƯỜNG TRÚ";
             // 
@@ -610,7 +630,7 @@
             label12.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label12.Location = new Point(674, 338);
             label12.Name = "label12";
-            label12.Size = new Size(120, 25);
+            label12.Size = new Size(98, 20);
             label12.TabIndex = 48;
             label12.Text = "Lương Chính";
             // 
@@ -618,7 +638,7 @@
             // 
             txtNVThem_LuongChinh.BorderColor = Color.Silver;
             txtNVThem_LuongChinh.BorderRadius = 10;
-            txtNVThem_LuongChinh.CustomizableEdges = customizableEdges13;
+            txtNVThem_LuongChinh.CustomizableEdges = customizableEdges15;
             txtNVThem_LuongChinh.DefaultText = "";
             txtNVThem_LuongChinh.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtNVThem_LuongChinh.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -633,7 +653,7 @@
             txtNVThem_LuongChinh.PasswordChar = '\0';
             txtNVThem_LuongChinh.PlaceholderText = "";
             txtNVThem_LuongChinh.SelectedText = "";
-            txtNVThem_LuongChinh.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            txtNVThem_LuongChinh.ShadowDecoration.CustomizableEdges = customizableEdges16;
             txtNVThem_LuongChinh.Size = new Size(319, 28);
             txtNVThem_LuongChinh.TabIndex = 47;
             // 
@@ -643,7 +663,7 @@
             label13.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label13.Location = new Point(674, 277);
             label13.Name = "label13";
-            label13.Size = new Size(83, 25);
+            label13.Size = new Size(67, 20);
             label13.TabIndex = 46;
             label13.Text = "Chức Vụ";
             // 
@@ -653,7 +673,7 @@
             label14.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label14.Location = new Point(674, 224);
             label14.Name = "label14";
-            label14.Size = new Size(133, 25);
+            label14.Size = new Size(108, 20);
             label14.TabIndex = 44;
             label14.Text = "Mã Nhân Viên";
             // 
@@ -661,7 +681,7 @@
             // 
             txtNVThem_MaNhanVien.BorderColor = Color.Silver;
             txtNVThem_MaNhanVien.BorderRadius = 10;
-            txtNVThem_MaNhanVien.CustomizableEdges = customizableEdges15;
+            txtNVThem_MaNhanVien.CustomizableEdges = customizableEdges17;
             txtNVThem_MaNhanVien.DefaultText = "";
             txtNVThem_MaNhanVien.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtNVThem_MaNhanVien.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -676,7 +696,7 @@
             txtNVThem_MaNhanVien.PasswordChar = '\0';
             txtNVThem_MaNhanVien.PlaceholderText = "";
             txtNVThem_MaNhanVien.SelectedText = "";
-            txtNVThem_MaNhanVien.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            txtNVThem_MaNhanVien.ShadowDecoration.CustomizableEdges = customizableEdges18;
             txtNVThem_MaNhanVien.Size = new Size(319, 28);
             txtNVThem_MaNhanVien.TabIndex = 43;
             // 
@@ -686,7 +706,7 @@
             label7.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label7.Location = new Point(674, 171);
             label7.Name = "label7";
-            label7.Size = new Size(77, 25);
+            label7.Size = new Size(62, 20);
             label7.TabIndex = 42;
             label7.Text = "Nơi cấp";
             // 
@@ -694,7 +714,7 @@
             // 
             txtNVThem_NoiCap.BorderColor = Color.Silver;
             txtNVThem_NoiCap.BorderRadius = 10;
-            txtNVThem_NoiCap.CustomizableEdges = customizableEdges17;
+            txtNVThem_NoiCap.CustomizableEdges = customizableEdges19;
             txtNVThem_NoiCap.DefaultText = "";
             txtNVThem_NoiCap.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtNVThem_NoiCap.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -709,7 +729,7 @@
             txtNVThem_NoiCap.PasswordChar = '\0';
             txtNVThem_NoiCap.PlaceholderText = "";
             txtNVThem_NoiCap.SelectedText = "";
-            txtNVThem_NoiCap.ShadowDecoration.CustomizableEdges = customizableEdges18;
+            txtNVThem_NoiCap.ShadowDecoration.CustomizableEdges = customizableEdges20;
             txtNVThem_NoiCap.Size = new Size(319, 28);
             txtNVThem_NoiCap.TabIndex = 41;
             // 
@@ -719,32 +739,9 @@
             label5.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label5.Location = new Point(674, 118);
             label5.Name = "label5";
-            label5.Size = new Size(92, 25);
+            label5.Size = new Size(74, 20);
             label5.TabIndex = 40;
             label5.Text = "Ngày cấp";
-            // 
-            // txtNVThem_NgayCap
-            // 
-            txtNVThem_NgayCap.BorderColor = Color.Silver;
-            txtNVThem_NgayCap.BorderRadius = 10;
-            txtNVThem_NgayCap.CustomizableEdges = customizableEdges19;
-            txtNVThem_NgayCap.DefaultText = "";
-            txtNVThem_NgayCap.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
-            txtNVThem_NgayCap.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
-            txtNVThem_NgayCap.DisabledState.ForeColor = Color.FromArgb(138, 138, 138);
-            txtNVThem_NgayCap.DisabledState.PlaceholderForeColor = Color.FromArgb(138, 138, 138);
-            txtNVThem_NgayCap.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtNVThem_NgayCap.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            txtNVThem_NgayCap.ForeColor = Color.Black;
-            txtNVThem_NgayCap.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtNVThem_NgayCap.Location = new Point(674, 143);
-            txtNVThem_NgayCap.Name = "txtNVThem_NgayCap";
-            txtNVThem_NgayCap.PasswordChar = '\0';
-            txtNVThem_NgayCap.PlaceholderText = "";
-            txtNVThem_NgayCap.SelectedText = "";
-            txtNVThem_NgayCap.ShadowDecoration.CustomizableEdges = customizableEdges20;
-            txtNVThem_NgayCap.Size = new Size(319, 28);
-            txtNVThem_NgayCap.TabIndex = 39;
             // 
             // label3
             // 
@@ -752,7 +749,7 @@
             label3.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label3.Location = new Point(674, 65);
             label3.Name = "label3";
-            label3.Size = new Size(56, 25);
+            label3.Size = new Size(47, 20);
             label3.TabIndex = 38;
             label3.Text = "CCCD";
             // 
@@ -808,7 +805,7 @@
             label1.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
             label1.Location = new Point(456, 18);
             label1.Name = "label1";
-            label1.Size = new Size(274, 36);
+            label1.Size = new Size(230, 30);
             label1.TabIndex = 0;
             label1.Text = "Thông Tin Nhân Viên";
             // 
@@ -818,7 +815,7 @@
             label11.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label11.Location = new Point(150, 388);
             label11.Name = "label11";
-            label11.Size = new Size(58, 25);
+            label11.Size = new Size(47, 20);
             label11.TabIndex = 35;
             label11.Text = "Email";
             // 
@@ -828,7 +825,7 @@
             label2.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label2.Location = new Point(150, 62);
             label2.Name = "label2";
-            label2.Size = new Size(123, 25);
+            label2.Size = new Size(99, 20);
             label2.TabIndex = 24;
             label2.Text = "Họ và tên lót";
             // 
@@ -884,7 +881,7 @@
             label10.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label10.Location = new Point(150, 335);
             label10.Name = "label10";
-            label10.Size = new Size(46, 25);
+            label10.Size = new Size(37, 20);
             label10.TabIndex = 33;
             label10.Text = "SĐT";
             // 
@@ -940,7 +937,7 @@
             label4.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label4.Location = new Point(150, 115);
             label4.Name = "label4";
-            label4.Size = new Size(42, 25);
+            label4.Size = new Size(34, 20);
             label4.TabIndex = 26;
             label4.Text = "Tên";
             // 
@@ -950,7 +947,7 @@
             label9.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label9.Location = new Point(150, 282);
             label9.Name = "label9";
-            label9.Size = new Size(82, 25);
+            label9.Size = new Size(67, 20);
             label9.TabIndex = 31;
             label9.Text = "Nơi sinh";
             // 
@@ -960,7 +957,7 @@
             label6.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label6.Location = new Point(150, 168);
             label6.Name = "label6";
-            label6.Size = new Size(85, 25);
+            label6.Size = new Size(69, 20);
             label6.TabIndex = 27;
             label6.Text = "Giới tính";
             // 
@@ -969,7 +966,7 @@
             dtpNVThem_NgaySinh.BorderRadius = 10;
             dtpNVThem_NgaySinh.BorderThickness = 1;
             dtpNVThem_NgaySinh.Checked = true;
-            dtpNVThem_NgaySinh.CustomFormat = "yyyy/MM/dd";
+            dtpNVThem_NgaySinh.CustomFormat = "yyyy-MM-dd";
             dtpNVThem_NgaySinh.CustomizableEdges = customizableEdges33;
             dtpNVThem_NgaySinh.FillColor = Color.White;
             dtpNVThem_NgaySinh.FocusedColor = Color.White;
@@ -1009,7 +1006,7 @@
             label8.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label8.Location = new Point(150, 229);
             label8.Name = "label8";
-            label8.Size = new Size(97, 25);
+            label8.Size = new Size(79, 20);
             label8.TabIndex = 29;
             label8.Text = "Ngày sinh";
             // 
@@ -1023,10 +1020,10 @@
             tabPage2.Controls.Add(txtSVSua_TimKiem);
             tabPage2.Controls.Add(guna2Panel3);
             tabPage2.Controls.Add(guna2Panel2);
-            tabPage2.Location = new Point(4, 41);
+            tabPage2.Location = new Point(4, 37);
             tabPage2.Name = "tabPage2";
             tabPage2.Padding = new Padding(3);
-            tabPage2.Size = new Size(1236, 803);
+            tabPage2.Size = new Size(1236, 807);
             tabPage2.TabIndex = 1;
             tabPage2.Text = "Sửa Nhân Viên";
             tabPage2.UseVisualStyleBackColor = true;
@@ -1189,7 +1186,7 @@
             label20.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label20.Location = new Point(22, 240);
             label20.Name = "label20";
-            label20.Size = new Size(426, 25);
+            label20.Size = new Size(349, 20);
             label20.TabIndex = 65;
             label20.Text = "Hộ khẩu thường trú (Số nhà, đường, Khóm - Ấp)";
             // 
@@ -1222,7 +1219,7 @@
             label21.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label21.Location = new Point(22, 181);
             label21.Name = "label21";
-            label21.Size = new Size(109, 25);
+            label21.Size = new Size(89, 20);
             label21.TabIndex = 63;
             label21.Text = "Phường/Xã";
             // 
@@ -1255,7 +1252,7 @@
             label22.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label22.Location = new Point(22, 122);
             label22.Name = "label22";
-            label22.Size = new Size(122, 25);
+            label22.Size = new Size(98, 20);
             label22.TabIndex = 61;
             label22.Text = "Huyện/Quận";
             // 
@@ -1288,7 +1285,7 @@
             label23.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label23.Location = new Point(22, 60);
             label23.Name = "label23";
-            label23.Size = new Size(150, 25);
+            label23.Size = new Size(122, 20);
             label23.TabIndex = 59;
             label23.Text = "Tỉnh/Thành Phố";
             // 
@@ -1299,7 +1296,7 @@
             label24.ForeColor = Color.FromArgb(15, 2, 73);
             label24.Location = new Point(71, 18);
             label24.Name = "label24";
-            label24.Size = new Size(418, 36);
+            label24.Size = new Size(355, 30);
             label24.TabIndex = 58;
             label24.Text = "ĐỊA CHỈ HỘ KHẨU THƯỜNG TRÚ";
             // 
@@ -1386,7 +1383,7 @@
             label25.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label25.Location = new Point(345, 334);
             label25.Name = "label25";
-            label25.Size = new Size(120, 25);
+            label25.Size = new Size(98, 20);
             label25.TabIndex = 48;
             label25.Text = "Lương Chính";
             // 
@@ -1419,7 +1416,7 @@
             label26.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label26.Location = new Point(345, 273);
             label26.Name = "label26";
-            label26.Size = new Size(83, 25);
+            label26.Size = new Size(67, 20);
             label26.TabIndex = 46;
             label26.Text = "Chức Vụ";
             // 
@@ -1429,7 +1426,7 @@
             label27.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label27.Location = new Point(345, 220);
             label27.Name = "label27";
-            label27.Size = new Size(133, 25);
+            label27.Size = new Size(108, 20);
             label27.TabIndex = 44;
             label27.Text = "Mã Nhân Viên";
             // 
@@ -1462,7 +1459,7 @@
             label28.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label28.Location = new Point(345, 167);
             label28.Name = "label28";
-            label28.Size = new Size(77, 25);
+            label28.Size = new Size(62, 20);
             label28.TabIndex = 42;
             label28.Text = "Nơi cấp";
             // 
@@ -1495,7 +1492,7 @@
             label29.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label29.Location = new Point(345, 114);
             label29.Name = "label29";
-            label29.Size = new Size(92, 25);
+            label29.Size = new Size(74, 20);
             label29.TabIndex = 40;
             label29.Text = "Ngày cấp";
             // 
@@ -1505,7 +1502,7 @@
             label30.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label30.Location = new Point(345, 61);
             label30.Name = "label30";
-            label30.Size = new Size(56, 25);
+            label30.Size = new Size(47, 20);
             label30.TabIndex = 38;
             label30.Text = "CCCD";
             // 
@@ -1561,7 +1558,7 @@
             label31.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
             label31.Location = new Point(213, 18);
             label31.Name = "label31";
-            label31.Size = new Size(274, 36);
+            label31.Size = new Size(230, 30);
             label31.TabIndex = 0;
             label31.Text = "Thông Tin Nhân Viên";
             // 
@@ -1571,7 +1568,7 @@
             label32.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label32.Location = new Point(36, 393);
             label32.Name = "label32";
-            label32.Size = new Size(58, 25);
+            label32.Size = new Size(47, 20);
             label32.TabIndex = 35;
             label32.Text = "Email";
             // 
@@ -1581,7 +1578,7 @@
             label33.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label33.Location = new Point(36, 55);
             label33.Name = "label33";
-            label33.Size = new Size(123, 25);
+            label33.Size = new Size(99, 20);
             label33.TabIndex = 24;
             label33.Text = "Họ và tên lót";
             // 
@@ -1637,7 +1634,7 @@
             label34.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label34.Location = new Point(36, 338);
             label34.Name = "label34";
-            label34.Size = new Size(46, 25);
+            label34.Size = new Size(37, 20);
             label34.TabIndex = 33;
             label34.Text = "SĐT";
             // 
@@ -1693,7 +1690,7 @@
             label35.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label35.Location = new Point(36, 110);
             label35.Name = "label35";
-            label35.Size = new Size(42, 25);
+            label35.Size = new Size(34, 20);
             label35.TabIndex = 26;
             label35.Text = "Tên";
             // 
@@ -1703,7 +1700,7 @@
             label36.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label36.Location = new Point(36, 283);
             label36.Name = "label36";
-            label36.Size = new Size(82, 25);
+            label36.Size = new Size(67, 20);
             label36.TabIndex = 31;
             label36.Text = "Nơi sinh";
             // 
@@ -1713,7 +1710,7 @@
             label37.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label37.Location = new Point(36, 165);
             label37.Name = "label37";
-            label37.Size = new Size(85, 25);
+            label37.Size = new Size(69, 20);
             label37.TabIndex = 27;
             label37.Text = "Giới tính";
             // 
@@ -1761,17 +1758,17 @@
             label38.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label38.Location = new Point(36, 228);
             label38.Name = "label38";
-            label38.Size = new Size(97, 25);
+            label38.Size = new Size(79, 20);
             label38.TabIndex = 29;
             label38.Text = "Ngày sinh";
             // 
             // tabPage3
             // 
             tabPage3.Controls.Add(guna2Panel4);
-            tabPage3.Location = new Point(4, 41);
+            tabPage3.Location = new Point(4, 37);
             tabPage3.Name = "tabPage3";
             tabPage3.Padding = new Padding(3);
-            tabPage3.Size = new Size(1236, 803);
+            tabPage3.Size = new Size(1236, 807);
             tabPage3.TabIndex = 2;
             tabPage3.Text = "Xoá Nhân Viên";
             tabPage3.UseVisualStyleBackColor = true;
@@ -1905,10 +1902,10 @@
             // tabPage4
             // 
             tabPage4.Controls.Add(guna2Panel5);
-            tabPage4.Location = new Point(4, 41);
+            tabPage4.Location = new Point(4, 37);
             tabPage4.Name = "tabPage4";
             tabPage4.Padding = new Padding(3);
-            tabPage4.Size = new Size(1236, 803);
+            tabPage4.Size = new Size(1236, 807);
             tabPage4.TabIndex = 3;
             tabPage4.Text = "Xem DS Nhân Viên";
             tabPage4.UseVisualStyleBackColor = true;
@@ -1982,10 +1979,10 @@
             // tabPage5
             // 
             tabPage5.Controls.Add(guna2Panel6);
-            tabPage5.Location = new Point(4, 41);
+            tabPage5.Location = new Point(4, 37);
             tabPage5.Name = "tabPage5";
             tabPage5.Padding = new Padding(3);
-            tabPage5.Size = new Size(1236, 803);
+            tabPage5.Size = new Size(1236, 807);
             tabPage5.TabIndex = 4;
             tabPage5.Text = "Xem DSNV Đã Thôi Việc";
             tabPage5.UseVisualStyleBackColor = true;
@@ -2059,10 +2056,10 @@
             // tabPage6
             // 
             tabPage6.Controls.Add(guna2Panel7);
-            tabPage6.Location = new Point(4, 41);
+            tabPage6.Location = new Point(4, 37);
             tabPage6.Name = "tabPage6";
             tabPage6.Padding = new Padding(3);
-            tabPage6.Size = new Size(1236, 803);
+            tabPage6.Size = new Size(1236, 807);
             tabPage6.TabIndex = 5;
             tabPage6.Text = "In Bảng Lương";
             tabPage6.UseVisualStyleBackColor = true;
@@ -2259,7 +2256,7 @@
             label51.Font = new Font("Segoe UI", 13F, FontStyle.Bold, GraphicsUnit.Point);
             label51.Location = new Point(441, 17);
             label51.Name = "label51";
-            label51.Size = new Size(298, 36);
+            label51.Size = new Size(252, 30);
             label51.TabIndex = 69;
             label51.Text = "Bảng Lương Nhân Viên";
             // 
@@ -2269,7 +2266,7 @@
             label47.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label47.Location = new Point(738, 229);
             label47.Name = "label47";
-            label47.Size = new Size(79, 25);
+            label47.Size = new Size(64, 20);
             label47.TabIndex = 68;
             label47.Text = "Ghi Chú";
             // 
@@ -2302,7 +2299,7 @@
             label48.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label48.Location = new Point(738, 174);
             label48.Name = "label48";
-            label48.Size = new Size(115, 25);
+            label48.Size = new Size(94, 20);
             label48.TabIndex = 66;
             label48.Text = "Tổng Lương";
             // 
@@ -2335,7 +2332,7 @@
             label49.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label49.Location = new Point(738, 119);
             label49.Name = "label49";
-            label49.Size = new Size(246, 25);
+            label49.Size = new Size(200, 20);
             label49.TabIndex = 64;
             label49.Text = "Số Ngày Công Trong Tháng";
             // 
@@ -2368,7 +2365,7 @@
             label50.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label50.Location = new Point(738, 64);
             label50.Name = "label50";
-            label50.Size = new Size(52, 25);
+            label50.Size = new Size(43, 20);
             label50.TabIndex = 62;
             label50.Text = "Năm";
             // 
@@ -2401,7 +2398,7 @@
             label43.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label43.Location = new Point(426, 229);
             label43.Name = "label43";
-            label43.Size = new Size(129, 25);
+            label43.Size = new Size(104, 20);
             label43.TabIndex = 60;
             label43.Text = "Phụ Cấp Khác";
             // 
@@ -2434,7 +2431,7 @@
             label44.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label44.Location = new Point(426, 174);
             label44.Name = "label44";
-            label44.Size = new Size(82, 25);
+            label44.Size = new Size(66, 20);
             label44.TabIndex = 58;
             label44.Text = "Phụ Cấp";
             // 
@@ -2467,7 +2464,7 @@
             label45.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label45.Location = new Point(426, 119);
             label45.Name = "label45";
-            label45.Size = new Size(129, 25);
+            label45.Size = new Size(105, 20);
             label45.TabIndex = 56;
             label45.Text = "Số Ngày Nghĩ";
             // 
@@ -2500,7 +2497,7 @@
             label46.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label46.Location = new Point(426, 64);
             label46.Name = "label46";
-            label46.Size = new Size(66, 25);
+            label46.Size = new Size(53, 20);
             label46.TabIndex = 54;
             label46.Text = "Tháng";
             // 
@@ -2533,7 +2530,7 @@
             label42.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label42.Location = new Point(126, 229);
             label42.Name = "label42";
-            label42.Size = new Size(120, 25);
+            label42.Size = new Size(98, 20);
             label42.TabIndex = 52;
             label42.Text = "Lương Chính";
             // 
@@ -2566,7 +2563,7 @@
             label41.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label41.Location = new Point(126, 174);
             label41.Name = "label41";
-            label41.Size = new Size(83, 25);
+            label41.Size = new Size(67, 20);
             label41.TabIndex = 50;
             label41.Text = "Chức Vụ";
             // 
@@ -2599,7 +2596,7 @@
             label40.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label40.Location = new Point(126, 119);
             label40.Name = "label40";
-            label40.Size = new Size(72, 25);
+            label40.Size = new Size(58, 20);
             label40.TabIndex = 48;
             label40.Text = "Họ Tên";
             // 
@@ -2632,7 +2629,7 @@
             label39.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             label39.Location = new Point(126, 64);
             label39.Name = "label39";
-            label39.Size = new Size(133, 25);
+            label39.Size = new Size(108, 20);
             label39.TabIndex = 46;
             label39.Text = "Mã Nhân Viên";
             // 
@@ -2726,7 +2723,6 @@
         private Label label7;
         private Guna.UI2.WinForms.Guna2TextBox txtNVThem_NoiCap;
         private Label label5;
-        private Guna.UI2.WinForms.Guna2TextBox txtNVThem_NgayCap;
         private Label label3;
         private Guna.UI2.WinForms.Guna2TextBox txtNVThem_CCCD;
         private Guna.UI2.WinForms.Guna2TextBox txtNVThem_Email;
@@ -2838,5 +2834,6 @@
         private DataGridView dgvNVSua_DanhSach;
         private Guna.UI2.WinForms.Guna2DateTimePicker dtpNVSua_NgayCap;
         private Guna.UI2.WinForms.Guna2ComboBox cboNVSua_ChucVu;
+        private Guna.UI2.WinForms.Guna2DateTimePicker dtpNVThem_NgayCap;
     }
 }

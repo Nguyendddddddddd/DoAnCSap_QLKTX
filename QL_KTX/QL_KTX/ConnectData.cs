@@ -39,13 +39,14 @@ namespace QL_KTX
             adapter.Dispose();
             return dataSet;
         } 
-        public void insertData(string sql)
+        public int insertData(string sql)
         {
             openConnect();
             SqlCommand sqlCommand = new SqlCommand(sql,Connection);
-            sqlCommand.ExecuteNonQuery();
+            int kq = sqlCommand.ExecuteNonQuery();
             closeConnect();
             sqlCommand.Dispose();
+            return kq;
         }
     }
 }

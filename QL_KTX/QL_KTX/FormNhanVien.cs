@@ -13,7 +13,7 @@ namespace QL_KTX
 {
     public partial class FormNhanVien : Form
     {
-        string strCon = @"Data Source=HOAINAMPC\SQLSERVER;Initial Catalog=QLKTX;Integrated Security=True";
+        string strCon = @"Data Source=LAPTOP-OUMK55PL\SQLEXPRESS;Initial Catalog=QLKTX;Integrated Security=True";
         SqlConnection sqlCon = null;
         SqlDataAdapter adapter = null;
         DataSet dataset = null;
@@ -46,18 +46,21 @@ namespace QL_KTX
             int sdt = int.Parse(txtNVThem_SDT.Text);
             string email = txtNVThem_Email.Text;
             string cccd = txtNVThem_CCCD.Text;
-            string ngayCap = txtNVThem_NgayCap.Text;
+            string ngayCap = dtpNVSua_NgayCap.Value.ToShortDateString();
             string noiCap = txtNVThem_NoiCap.Text;
             string maNhanVien = txtNVThem_MaNhanVien.Text;
             int luongChinh = int.Parse(txtNVThem_LuongChinh.Text);
             DataRowView macv = (DataRowView)cboNVThem_ChucVu.SelectedItem;
             string chucvu = macv["MaCV"].ToString();
             string thanhpho = txtNVThem_ThanhPho.Text;
-            string quan = txtNVThem_Huyen.Text;
+            string huyen = txtNVThem_Huyen.Text;
             string xa = txtNVThem_Phuong.Text;
             string soNha = txtNVThem_HoKhau.Text;
 
-            string sql = "insert into NhanVien values('" + maNhanVien + "', N'" + hoten + "', N'" + ten + "', N'" + gioiTinh + "', N'" + ngaySinh + "', '" + cccd + "', N'" + ngayCap + "', N'" + noiCap + "', N'" + noiSinh + "', N'" + thanhpho + "', " + sdt + ", '" + email + "', " + luongChinh + ", " + 1 + ", '" + chucvu + "')";
+            string HKTT = $"{thanhpho}, {huyen}, {xa}, {soNha}";
+
+
+            string sql = "insert into NhanVien values('" + maNhanVien + "', N'" + hoten + "', N'" + ten + "', N'" + gioiTinh + "', N'" + ngaySinh + "', '" + cccd + "', N'" + ngayCap + "', N'" + noiCap + "', N'" + noiSinh + "', N'" + HKTT + "', " + sdt + ", '" + email + "', " + luongChinh + ", " + 1 + ", '" + chucvu + "')";
             connectData.insertData(sql);
             connectData.closeConnect();
 
@@ -104,8 +107,8 @@ namespace QL_KTX
             Row["NoiSinh"] = txtNVSua_NoiSinh.Text;
 
             // hoKhauThuongTru
-            //string HOKHAU = $"{txtNVSua_HoKhau},{txtNVSua_Phuong},{txtNVSua_Quan},{txtNVSua_ThanhPho}";
-            //Row["HKTT"] = HOKHAU;
+            string HOKHAU = $"{txtNVSua_HoKhau.Text},{txtNVSua_Phuong.Text},{txtNVSua_Quan.Text},{txtNVSua_ThanhPho.Text}";
+            Row["HKTT"] = HOKHAU;
 
             Row["SDT"] = txtNVSua_SDT.Text;
             Row["EMAIL"] = txtNVSua_email.Text;
@@ -139,10 +142,10 @@ namespace QL_KTX
             // hoKhauThuongTru
             string hktt = Row["HKTT"].ToString();
             string[] manghokhauthuongtru = hktt.Split(',');
-            txtNVSua_ThanhPho.Text = manghokhauthuongtru[3];
-            txtNVSua_Quan.Text = manghokhauthuongtru[2];
-            txtNVSua_Phuong.Text = manghokhauthuongtru[1];
-            txtNVSua_HoKhau.Text = manghokhauthuongtru[0];
+            txtNVSua_ThanhPho.Text = manghokhauthuongtru[0];
+            txtNVSua_Quan.Text = manghokhauthuongtru[1];
+            txtNVSua_Phuong.Text = manghokhauthuongtru[2];
+            txtNVSua_HoKhau.Text = manghokhauthuongtru[3];
 
             txtNVSua_SDT.Text = Row["SDT"].ToString();
             txtNVSua_email.Text = Row["EMAIL"].ToString();
@@ -157,7 +160,7 @@ namespace QL_KTX
         {
             int kq = adapter.Update(dataset.Tables["tblNhanVien"]);
             if (kq > 0)
-                MessageBox.Show("Lưu thành công","Thông báo");
+                MessageBox.Show("Lưu thành công", "Thông báo");
             else
                 MessageBox.Show("Lưu thất bại", "Thông báo");
         }

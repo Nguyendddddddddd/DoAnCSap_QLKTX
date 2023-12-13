@@ -77,6 +77,8 @@
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
             global::System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new global::System.Windows.Forms.DataGridViewCellStyle();
+            global::System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new global::System.Windows.Forms.DataGridViewCellStyle();
+            global::System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new global::System.Windows.Forms.DataGridViewCellStyle();
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges49 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges50 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges51 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -105,8 +107,8 @@
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges72 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges73 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges74 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges103 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges104 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges105 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges106 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges77 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges78 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges79 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -133,10 +135,10 @@
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges100 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges101 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges102 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges115 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges116 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges105 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges106 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges103 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges104 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges117 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges118 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges107 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges108 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges109 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -145,18 +147,21 @@
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges112 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges113 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges114 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges123 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges124 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges117 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges118 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges119 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges120 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges121 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges122 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges157 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges158 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges115 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges116 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new global::System.Windows.Forms.DataGridViewCellStyle();
+            global::System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new global::System.Windows.Forms.DataGridViewCellStyle();
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges125 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges126 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges119 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges120 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new global::System.Windows.Forms.DataGridViewCellStyle();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges121 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges122 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges123 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges124 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges159 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges160 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges127 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges128 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges129 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
@@ -187,7 +192,9 @@
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges154 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges155 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
             global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges156 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            this.tabControl1 = (new global::System.Windows.Forms.TabControl());
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges157 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges158 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            this.tabControlChucNangSinhVien = (new global::System.Windows.Forms.TabControl());
             this.tabThemSV = (new global::System.Windows.Forms.TabPage());
             this.btnSinhVien_Them = (new global::Guna.UI2.WinForms.Guna2Button());
             this.guna2CustomGradientPanel2 = (new global::Guna.UI2.WinForms.Guna2CustomGradientPanel());
@@ -240,65 +247,67 @@
             this.txtSVThem_Ten = (new global::Guna.UI2.WinForms.Guna2TextBox());
             this.tabSuaSV = (new global::System.Windows.Forms.TabPage());
             this.dtGWSuaSinhVien = (new global::System.Windows.Forms.DataGridView());
-            this.guna2Button3 = (new global::Guna.UI2.WinForms.Guna2Button());
-            this.guna2Button4 = (new global::Guna.UI2.WinForms.Guna2Button());
-            this.guna2Button1 = (new global::Guna.UI2.WinForms.Guna2Button());
+            this.btnSVSua_Luu = (new global::Guna.UI2.WinForms.Guna2Button());
+            this.btnSVSua_Huy = (new global::Guna.UI2.WinForms.Guna2Button());
+            this.btnSVSua_Sua = (new global::Guna.UI2.WinForms.Guna2Button());
             this.btnSVSua_TimKiem = (new global::Guna.UI2.WinForms.Guna2Button());
             this.txtSVSua_TimKiem = (new global::Guna.UI2.WinForms.Guna2TextBox());
             this.guna2CustomGradientPanel5 = (new global::Guna.UI2.WinForms.Guna2CustomGradientPanel());
-            this.guna2TextBox13 = (new global::Guna.UI2.WinForms.Guna2TextBox());
+            this.txtSVSua_HoKhau = (new global::Guna.UI2.WinForms.Guna2TextBox());
             this.label43 = (new global::System.Windows.Forms.Label());
-            this.guna2TextBox14 = (new global::Guna.UI2.WinForms.Guna2TextBox());
+            this.txtSVSua_Phuong = (new global::Guna.UI2.WinForms.Guna2TextBox());
             this.label44 = (new global::System.Windows.Forms.Label());
-            this.guna2TextBox15 = (new global::Guna.UI2.WinForms.Guna2TextBox());
+            this.txtSVSua_Huyen = (new global::Guna.UI2.WinForms.Guna2TextBox());
             this.label45 = (new global::System.Windows.Forms.Label());
-            this.guna2TextBox16 = (new global::Guna.UI2.WinForms.Guna2TextBox());
+            this.txtSVSua_Tinh = (new global::Guna.UI2.WinForms.Guna2TextBox());
             this.label46 = (new global::System.Windows.Forms.Label());
             this.label42 = (new global::System.Windows.Forms.Label());
             this.guna2CustomGradientPanel4 = (new global::Guna.UI2.WinForms.Guna2CustomGradientPanel());
-            this.guna2ComboBox8 = (new global::Guna.UI2.WinForms.Guna2ComboBox());
-            this.guna2ComboBox7 = (new global::Guna.UI2.WinForms.Guna2ComboBox());
-            this.guna2ComboBox1 = (new global::Guna.UI2.WinForms.Guna2ComboBox());
+            this.cboSVSua_LoaiPhong = (new global::Guna.UI2.WinForms.Guna2ComboBox());
+            this.cboSVSua_Day = (new global::Guna.UI2.WinForms.Guna2ComboBox());
+            this.cboSVSua_Phong = (new global::Guna.UI2.WinForms.Guna2ComboBox());
             this.label41 = (new global::System.Windows.Forms.Label());
             this.label40 = (new global::System.Windows.Forms.Label());
             this.label39 = (new global::System.Windows.Forms.Label());
             this.label38 = (new global::System.Windows.Forms.Label());
             this.guna2CustomGradientPanel3 = (new global::Guna.UI2.WinForms.Guna2CustomGradientPanel());
-            this.guna2ComboBox6 = (new global::Guna.UI2.WinForms.Guna2ComboBox());
+            this.cboSVSua_Lop = (new global::Guna.UI2.WinForms.Guna2ComboBox());
+            this.txtSVSua_MSSV = (new global::Guna.UI2.WinForms.Guna2TextBox());
+            this.cboSVSua_Nganh = (new global::Guna.UI2.WinForms.Guna2ComboBox());
             this.label37 = (new global::System.Windows.Forms.Label());
-            this.guna2TextBox6 = (new global::Guna.UI2.WinForms.Guna2TextBox());
             this.label36 = (new global::System.Windows.Forms.Label());
-            this.guna2DateTimePicker2 = (new global::Guna.UI2.WinForms.Guna2DateTimePicker());
-            this.guna2DateTimePicker1 = (new global::Guna.UI2.WinForms.Guna2DateTimePicker());
-            this.guna2TextBox10 = (new global::Guna.UI2.WinForms.Guna2TextBox());
+            this.label59 = (new global::System.Windows.Forms.Label());
+            this.dtpSVSua_NgayCap = (new global::Guna.UI2.WinForms.Guna2DateTimePicker());
+            this.dtpSVSua_NgaySinh = (new global::Guna.UI2.WinForms.Guna2DateTimePicker());
+            this.txtSVSua_Email = (new global::Guna.UI2.WinForms.Guna2TextBox());
             this.label35 = (new global::System.Windows.Forms.Label());
-            this.guna2ComboBox5 = (new global::Guna.UI2.WinForms.Guna2ComboBox());
+            this.cboSVSua_Khoa = (new global::Guna.UI2.WinForms.Guna2ComboBox());
             this.label34 = (new global::System.Windows.Forms.Label());
-            this.guna2TextBox9 = (new global::Guna.UI2.WinForms.Guna2TextBox());
+            this.txtSVSua_NoiCap = (new global::Guna.UI2.WinForms.Guna2TextBox());
             this.label33 = (new global::System.Windows.Forms.Label());
             this.label32 = (new global::System.Windows.Forms.Label());
-            this.guna2TextBox7 = (new global::Guna.UI2.WinForms.Guna2TextBox());
+            this.txtSVSua_CCCD = (new global::Guna.UI2.WinForms.Guna2TextBox());
             this.label31 = (new global::System.Windows.Forms.Label());
-            this.guna2TextBox5 = (new global::Guna.UI2.WinForms.Guna2TextBox());
+            this.txtSVSua_SDT = (new global::Guna.UI2.WinForms.Guna2TextBox());
             this.label30 = (new global::System.Windows.Forms.Label());
-            this.guna2TextBox4 = (new global::Guna.UI2.WinForms.Guna2TextBox());
-            this.guna2TextBox3 = (new global::Guna.UI2.WinForms.Guna2TextBox());
+            this.txtSVSua_NoiSinh = (new global::Guna.UI2.WinForms.Guna2TextBox());
+            this.txtSVSua_Ten = (new global::Guna.UI2.WinForms.Guna2TextBox());
             this.label29 = (new global::System.Windows.Forms.Label());
             this.label28 = (new global::System.Windows.Forms.Label());
             this.label27 = (new global::System.Windows.Forms.Label());
-            this.guna2ComboBox4 = (new global::Guna.UI2.WinForms.Guna2ComboBox());
+            this.cboSVSua_GioiTinh = (new global::Guna.UI2.WinForms.Guna2ComboBox());
             this.label26 = (new global::System.Windows.Forms.Label());
-            this.guna2TextBox2 = (new global::Guna.UI2.WinForms.Guna2TextBox());
+            this.txtSVSua_HoTenLot = (new global::Guna.UI2.WinForms.Guna2TextBox());
             this.label25 = (new global::System.Windows.Forms.Label());
             this.label24 = (new global::System.Windows.Forms.Label());
             this.tabXoaSV = (new global::System.Windows.Forms.TabPage());
             this.guna2Panel1 = (new global::Guna.UI2.WinForms.Guna2Panel());
-            this.guna2Button6 = (new global::Guna.UI2.WinForms.Guna2Button());
-            this.guna2Button5 = (new global::Guna.UI2.WinForms.Guna2Button());
-            this.guna2Button2 = (new global::Guna.UI2.WinForms.Guna2Button());
-            this.dtGWXoaSV = (new global::System.Windows.Forms.DataGridView());
+            this.btnSVXoa_Huy = (new global::Guna.UI2.WinForms.Guna2Button());
+            this.btnSVXoa_Luu = (new global::Guna.UI2.WinForms.Guna2Button());
+            this.btnSVXoa_Xoa = (new global::Guna.UI2.WinForms.Guna2Button());
             this.btnSVX = (new global::Guna.UI2.WinForms.Guna2Button());
             this.txtSVXoa_timKiem = (new global::Guna.UI2.WinForms.Guna2TextBox());
+            this.dtGWXoaSV = (new global::System.Windows.Forms.DataGridView());
             this.tabDanhSachSV = (new global::System.Windows.Forms.TabPage());
             this.guna2Panel2 = (new global::Guna.UI2.WinForms.Guna2Panel());
             this.guna2Button8 = (new global::Guna.UI2.WinForms.Guna2Button());
@@ -335,8 +344,7 @@
             this.guna2TextBox8 = (new global::Guna.UI2.WinForms.Guna2TextBox());
             this.label48 = (new global::System.Windows.Forms.Label());
             this.label47 = (new global::System.Windows.Forms.Label());
-            this.txtTest = (new global::System.Windows.Forms.TextBox());
-            this.tabControl1.SuspendLayout();
+            this.tabControlChucNangSinhVien.SuspendLayout();
             this.tabThemSV.SuspendLayout();
             this.guna2CustomGradientPanel2.SuspendLayout();
             this.guna2CustomGradientPanel1.SuspendLayout();
@@ -356,25 +364,25 @@
             ((global::System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
             this.SuspendLayout();
             // 
-            // tabControl1
+            // tabControlChucNangSinhVien
             // 
-            this.tabControl1.Controls.Add(this.tabThemSV);
-            this.tabControl1.Controls.Add(this.tabSuaSV);
-            this.tabControl1.Controls.Add(this.tabXoaSV);
-            this.tabControl1.Controls.Add(this.tabDanhSachSV);
-            this.tabControl1.Controls.Add(this.tabHoaDonTienPhong);
-            this.tabControl1.Dock = (global::System.Windows.Forms.DockStyle.Fill);
-            this.tabControl1.Font = (new global::System.Drawing.Font("Segoe UI", 12F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            this.tabControl1.Location = (new global::System.Drawing.Point(0, 0));
-            this.tabControl1.Name = ("tabControl1");
-            this.tabControl1.SelectedIndex = (0);
-            this.tabControl1.Size = (new global::System.Drawing.Size(1244, 848));
-            this.tabControl1.TabIndex = (0);
+            this.tabControlChucNangSinhVien.Controls.Add(this.tabThemSV);
+            this.tabControlChucNangSinhVien.Controls.Add(this.tabSuaSV);
+            this.tabControlChucNangSinhVien.Controls.Add(this.tabXoaSV);
+            this.tabControlChucNangSinhVien.Controls.Add(this.tabDanhSachSV);
+            this.tabControlChucNangSinhVien.Controls.Add(this.tabHoaDonTienPhong);
+            this.tabControlChucNangSinhVien.Dock = (global::System.Windows.Forms.DockStyle.Fill);
+            this.tabControlChucNangSinhVien.Font = (new global::System.Drawing.Font("Segoe UI", 12F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
+            this.tabControlChucNangSinhVien.Location = (new global::System.Drawing.Point(0, 0));
+            this.tabControlChucNangSinhVien.Name = ("tabControlChucNangSinhVien");
+            this.tabControlChucNangSinhVien.SelectedIndex = (0);
+            this.tabControlChucNangSinhVien.Size = (new global::System.Drawing.Size(1244, 848));
+            this.tabControlChucNangSinhVien.TabIndex = (0);
+            this.tabControlChucNangSinhVien.SelectedIndexChanged += (this.tabControlChucNangSinhVien_SelectedIndexChanged);
             // 
             // tabThemSV
             // 
             this.tabThemSV.BackColor = (global::System.Drawing.Color.White);
-            this.tabThemSV.Controls.Add(this.txtTest);
             this.tabThemSV.Controls.Add(this.btnSinhVien_Them);
             this.tabThemSV.Controls.Add(this.guna2CustomGradientPanel2);
             this.tabThemSV.Controls.Add(this.guna2CustomGradientPanel1);
@@ -1179,9 +1187,9 @@
             // 
             this.tabSuaSV.BackColor = (global::System.Drawing.Color.White);
             this.tabSuaSV.Controls.Add(this.dtGWSuaSinhVien);
-            this.tabSuaSV.Controls.Add(this.guna2Button3);
-            this.tabSuaSV.Controls.Add(this.guna2Button4);
-            this.tabSuaSV.Controls.Add(this.guna2Button1);
+            this.tabSuaSV.Controls.Add(this.btnSVSua_Luu);
+            this.tabSuaSV.Controls.Add(this.btnSVSua_Huy);
+            this.tabSuaSV.Controls.Add(this.btnSVSua_Sua);
             this.tabSuaSV.Controls.Add(this.btnSVSua_TimKiem);
             this.tabSuaSV.Controls.Add(this.txtSVSua_TimKiem);
             this.tabSuaSV.Controls.Add(this.guna2CustomGradientPanel5);
@@ -1199,75 +1207,98 @@
             // dtGWSuaSinhVien
             // 
             this.dtGWSuaSinhVien.BackgroundColor = (global::System.Drawing.Color.White);
-            this.dtGWSuaSinhVien.ColumnHeadersHeightSizeMode = (global::System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize);
             dataGridViewCellStyle1.Alignment = (global::System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft);
-            dataGridViewCellStyle1.BackColor = (global::System.Drawing.SystemColors.Window);
-            dataGridViewCellStyle1.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            dataGridViewCellStyle1.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(15)), (global::System.Int32)((global::System.Byte)(2)), (global::System.Int32)((global::System.Byte)(73))));
+            dataGridViewCellStyle1.BackColor = (global::System.Drawing.SystemColors.Control);
+            dataGridViewCellStyle1.Font = (new global::System.Drawing.Font("Segoe UI", 8F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            dataGridViewCellStyle1.ForeColor = (global::System.Drawing.SystemColors.WindowText);
             dataGridViewCellStyle1.SelectionBackColor = (global::System.Drawing.SystemColors.Highlight);
             dataGridViewCellStyle1.SelectionForeColor = (global::System.Drawing.SystemColors.HighlightText);
-            dataGridViewCellStyle1.WrapMode = (global::System.Windows.Forms.DataGridViewTriState.False);
-            this.dtGWSuaSinhVien.DefaultCellStyle = (dataGridViewCellStyle1);
+            dataGridViewCellStyle1.WrapMode = (global::System.Windows.Forms.DataGridViewTriState.True);
+            this.dtGWSuaSinhVien.ColumnHeadersDefaultCellStyle = (dataGridViewCellStyle1);
+            this.dtGWSuaSinhVien.ColumnHeadersHeightSizeMode = (global::System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize);
+            dataGridViewCellStyle2.Alignment = (global::System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft);
+            dataGridViewCellStyle2.BackColor = (global::System.Drawing.SystemColors.Window);
+            dataGridViewCellStyle2.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            dataGridViewCellStyle2.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(15)), (global::System.Int32)((global::System.Byte)(2)), (global::System.Int32)((global::System.Byte)(73))));
+            dataGridViewCellStyle2.SelectionBackColor = (global::System.Drawing.SystemColors.Highlight);
+            dataGridViewCellStyle2.SelectionForeColor = (global::System.Drawing.SystemColors.HighlightText);
+            dataGridViewCellStyle2.WrapMode = (global::System.Windows.Forms.DataGridViewTriState.False);
+            this.dtGWSuaSinhVien.DefaultCellStyle = (dataGridViewCellStyle2);
             this.dtGWSuaSinhVien.Location = (new global::System.Drawing.Point(33, 535));
+            this.dtGWSuaSinhVien.MultiSelect = (false);
             this.dtGWSuaSinhVien.Name = ("dtGWSuaSinhVien");
+            this.dtGWSuaSinhVien.ReadOnly = (true);
+            dataGridViewCellStyle3.Alignment = (global::System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft);
+            dataGridViewCellStyle3.BackColor = (global::System.Drawing.SystemColors.Control);
+            dataGridViewCellStyle3.Font = (new global::System.Drawing.Font("Segoe UI", 8F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            dataGridViewCellStyle3.ForeColor = (global::System.Drawing.SystemColors.WindowText);
+            dataGridViewCellStyle3.SelectionBackColor = (global::System.Drawing.SystemColors.Highlight);
+            dataGridViewCellStyle3.SelectionForeColor = (global::System.Drawing.SystemColors.HighlightText);
+            dataGridViewCellStyle3.WrapMode = (global::System.Windows.Forms.DataGridViewTriState.True);
+            this.dtGWSuaSinhVien.RowHeadersDefaultCellStyle = (dataGridViewCellStyle3);
             this.dtGWSuaSinhVien.RowHeadersWidth = (51);
             this.dtGWSuaSinhVien.RowTemplate.Height = (29);
+            this.dtGWSuaSinhVien.SelectionMode = (global::System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect);
             this.dtGWSuaSinhVien.Size = (new global::System.Drawing.Size(1181, 201));
             this.dtGWSuaSinhVien.TabIndex = (6);
+            this.dtGWSuaSinhVien.CellClick += (this.dtGWSuaSinhVien_CellClick);
             // 
-            // guna2Button3
+            // btnSVSua_Luu
             // 
-            this.guna2Button3.BorderRadius = (10);
-            this.guna2Button3.CustomizableEdges = (customizableEdges49);
-            this.guna2Button3.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
-            this.guna2Button3.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
-            this.guna2Button3.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
-            this.guna2Button3.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141))));
-            this.guna2Button3.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(23)), (global::System.Int32)((global::System.Byte)(212)), (global::System.Int32)((global::System.Byte)(76))));
-            this.guna2Button3.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2Button3.ForeColor = (global::System.Drawing.Color.White);
-            this.guna2Button3.Location = (new global::System.Drawing.Point(580, 761));
-            this.guna2Button3.Name = ("guna2Button3");
-            this.guna2Button3.ShadowDecoration.CustomizableEdges = (customizableEdges50);
-            this.guna2Button3.Size = (new global::System.Drawing.Size(146, 53));
-            this.guna2Button3.TabIndex = (5);
-            this.guna2Button3.Text = ("Lưu");
+            this.btnSVSua_Luu.BorderRadius = (10);
+            this.btnSVSua_Luu.CustomizableEdges = (customizableEdges49);
+            this.btnSVSua_Luu.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
+            this.btnSVSua_Luu.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
+            this.btnSVSua_Luu.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
+            this.btnSVSua_Luu.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141))));
+            this.btnSVSua_Luu.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(23)), (global::System.Int32)((global::System.Byte)(212)), (global::System.Int32)((global::System.Byte)(76))));
+            this.btnSVSua_Luu.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
+            this.btnSVSua_Luu.ForeColor = (global::System.Drawing.Color.White);
+            this.btnSVSua_Luu.Location = (new global::System.Drawing.Point(580, 761));
+            this.btnSVSua_Luu.Name = ("btnSVSua_Luu");
+            this.btnSVSua_Luu.ShadowDecoration.CustomizableEdges = (customizableEdges50);
+            this.btnSVSua_Luu.Size = (new global::System.Drawing.Size(146, 53));
+            this.btnSVSua_Luu.TabIndex = (5);
+            this.btnSVSua_Luu.Text = ("Lưu");
+            this.btnSVSua_Luu.Click += (this.btnSVSua_Luu_Click);
             // 
-            // guna2Button4
+            // btnSVSua_Huy
             // 
-            this.guna2Button4.BorderRadius = (10);
-            this.guna2Button4.CustomizableEdges = (customizableEdges51);
-            this.guna2Button4.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
-            this.guna2Button4.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
-            this.guna2Button4.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
-            this.guna2Button4.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141))));
-            this.guna2Button4.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(30)), (global::System.Int32)((global::System.Byte)(183)), (global::System.Int32)((global::System.Byte)(248))));
-            this.guna2Button4.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2Button4.ForeColor = (global::System.Drawing.Color.White);
-            this.guna2Button4.Location = (new global::System.Drawing.Point(1014, 761));
-            this.guna2Button4.Name = ("guna2Button4");
-            this.guna2Button4.ShadowDecoration.CustomizableEdges = (customizableEdges52);
-            this.guna2Button4.Size = (new global::System.Drawing.Size(146, 53));
-            this.guna2Button4.TabIndex = (5);
-            this.guna2Button4.Text = ("Hủy");
+            this.btnSVSua_Huy.BorderRadius = (10);
+            this.btnSVSua_Huy.CustomizableEdges = (customizableEdges51);
+            this.btnSVSua_Huy.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
+            this.btnSVSua_Huy.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
+            this.btnSVSua_Huy.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
+            this.btnSVSua_Huy.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141))));
+            this.btnSVSua_Huy.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(30)), (global::System.Int32)((global::System.Byte)(183)), (global::System.Int32)((global::System.Byte)(248))));
+            this.btnSVSua_Huy.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
+            this.btnSVSua_Huy.ForeColor = (global::System.Drawing.Color.White);
+            this.btnSVSua_Huy.Location = (new global::System.Drawing.Point(1014, 761));
+            this.btnSVSua_Huy.Name = ("btnSVSua_Huy");
+            this.btnSVSua_Huy.ShadowDecoration.CustomizableEdges = (customizableEdges52);
+            this.btnSVSua_Huy.Size = (new global::System.Drawing.Size(146, 53));
+            this.btnSVSua_Huy.TabIndex = (5);
+            this.btnSVSua_Huy.Text = ("Hủy");
+            this.btnSVSua_Huy.Click += (this.btnSVSua_Huy_Click);
             // 
-            // guna2Button1
+            // btnSVSua_Sua
             // 
-            this.guna2Button1.BorderRadius = (10);
-            this.guna2Button1.CustomizableEdges = (customizableEdges53);
-            this.guna2Button1.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
-            this.guna2Button1.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
-            this.guna2Button1.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
-            this.guna2Button1.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141))));
-            this.guna2Button1.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(30)), (global::System.Int32)((global::System.Byte)(183)), (global::System.Int32)((global::System.Byte)(248))));
-            this.guna2Button1.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2Button1.ForeColor = (global::System.Drawing.Color.White);
-            this.guna2Button1.Location = (new global::System.Drawing.Point(79, 761));
-            this.guna2Button1.Name = ("guna2Button1");
-            this.guna2Button1.ShadowDecoration.CustomizableEdges = (customizableEdges54);
-            this.guna2Button1.Size = (new global::System.Drawing.Size(146, 53));
-            this.guna2Button1.TabIndex = (4);
-            this.guna2Button1.Text = ("Sửa sinh viên");
+            this.btnSVSua_Sua.BorderRadius = (10);
+            this.btnSVSua_Sua.CustomizableEdges = (customizableEdges53);
+            this.btnSVSua_Sua.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
+            this.btnSVSua_Sua.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
+            this.btnSVSua_Sua.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
+            this.btnSVSua_Sua.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141))));
+            this.btnSVSua_Sua.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(30)), (global::System.Int32)((global::System.Byte)(183)), (global::System.Int32)((global::System.Byte)(248))));
+            this.btnSVSua_Sua.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
+            this.btnSVSua_Sua.ForeColor = (global::System.Drawing.Color.White);
+            this.btnSVSua_Sua.Location = (new global::System.Drawing.Point(79, 761));
+            this.btnSVSua_Sua.Name = ("btnSVSua_Sua");
+            this.btnSVSua_Sua.ShadowDecoration.CustomizableEdges = (customizableEdges54);
+            this.btnSVSua_Sua.Size = (new global::System.Drawing.Size(146, 53));
+            this.btnSVSua_Sua.TabIndex = (4);
+            this.btnSVSua_Sua.Text = ("Sửa sinh viên");
+            this.btnSVSua_Sua.Click += (this.btnSVSua_Sua_Click);
             // 
             // btnSVSua_TimKiem
             // 
@@ -1315,13 +1346,13 @@
             this.guna2CustomGradientPanel5.BorderColor = (global::System.Drawing.Color.DimGray);
             this.guna2CustomGradientPanel5.BorderRadius = (20);
             this.guna2CustomGradientPanel5.BorderThickness = (1);
-            this.guna2CustomGradientPanel5.Controls.Add(this.guna2TextBox13);
+            this.guna2CustomGradientPanel5.Controls.Add(this.txtSVSua_HoKhau);
             this.guna2CustomGradientPanel5.Controls.Add(this.label43);
-            this.guna2CustomGradientPanel5.Controls.Add(this.guna2TextBox14);
+            this.guna2CustomGradientPanel5.Controls.Add(this.txtSVSua_Phuong);
             this.guna2CustomGradientPanel5.Controls.Add(this.label44);
-            this.guna2CustomGradientPanel5.Controls.Add(this.guna2TextBox15);
+            this.guna2CustomGradientPanel5.Controls.Add(this.txtSVSua_Huyen);
             this.guna2CustomGradientPanel5.Controls.Add(this.label45);
-            this.guna2CustomGradientPanel5.Controls.Add(this.guna2TextBox16);
+            this.guna2CustomGradientPanel5.Controls.Add(this.txtSVSua_Tinh);
             this.guna2CustomGradientPanel5.Controls.Add(this.label46);
             this.guna2CustomGradientPanel5.Controls.Add(this.label42);
             this.guna2CustomGradientPanel5.CustomizableEdges = (customizableEdges67);
@@ -1331,28 +1362,28 @@
             this.guna2CustomGradientPanel5.Size = (new global::System.Drawing.Size(508, 235));
             this.guna2CustomGradientPanel5.TabIndex = (2);
             // 
-            // guna2TextBox13
+            // txtSVSua_HoKhau
             // 
-            this.guna2TextBox13.BorderColor = (global::System.Drawing.Color.Silver);
-            this.guna2TextBox13.BorderRadius = (10);
-            this.guna2TextBox13.CustomizableEdges = (customizableEdges59);
-            this.guna2TextBox13.DefaultText = ("");
-            this.guna2TextBox13.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
-            this.guna2TextBox13.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
-            this.guna2TextBox13.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox13.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox13.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox13.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2TextBox13.ForeColor = (global::System.Drawing.Color.Black);
-            this.guna2TextBox13.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox13.Location = (new global::System.Drawing.Point(17, 162));
-            this.guna2TextBox13.Name = ("guna2TextBox13");
-            this.guna2TextBox13.PasswordChar = ('\0');
-            this.guna2TextBox13.PlaceholderText = ("");
-            this.guna2TextBox13.SelectedText = ("");
-            this.guna2TextBox13.ShadowDecoration.CustomizableEdges = (customizableEdges60);
-            this.guna2TextBox13.Size = (new global::System.Drawing.Size(474, 32));
-            this.guna2TextBox13.TabIndex = (47);
+            this.txtSVSua_HoKhau.BorderColor = (global::System.Drawing.Color.Silver);
+            this.txtSVSua_HoKhau.BorderRadius = (10);
+            this.txtSVSua_HoKhau.CustomizableEdges = (customizableEdges59);
+            this.txtSVSua_HoKhau.DefaultText = ("");
+            this.txtSVSua_HoKhau.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
+            this.txtSVSua_HoKhau.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
+            this.txtSVSua_HoKhau.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_HoKhau.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_HoKhau.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_HoKhau.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            this.txtSVSua_HoKhau.ForeColor = (global::System.Drawing.Color.Black);
+            this.txtSVSua_HoKhau.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_HoKhau.Location = (new global::System.Drawing.Point(17, 162));
+            this.txtSVSua_HoKhau.Name = ("txtSVSua_HoKhau");
+            this.txtSVSua_HoKhau.PasswordChar = ('\0');
+            this.txtSVSua_HoKhau.PlaceholderText = ("");
+            this.txtSVSua_HoKhau.SelectedText = ("");
+            this.txtSVSua_HoKhau.ShadowDecoration.CustomizableEdges = (customizableEdges60);
+            this.txtSVSua_HoKhau.Size = (new global::System.Drawing.Size(474, 32));
+            this.txtSVSua_HoKhau.TabIndex = (47);
             // 
             // label43
             // 
@@ -1364,28 +1395,28 @@
             this.label43.TabIndex = (46);
             this.label43.Text = ("Hộ khẩu thường trú (Số nhà, đường, Khóm - Ấp)");
             // 
-            // guna2TextBox14
+            // txtSVSua_Phuong
             // 
-            this.guna2TextBox14.BorderColor = (global::System.Drawing.Color.Silver);
-            this.guna2TextBox14.BorderRadius = (10);
-            this.guna2TextBox14.CustomizableEdges = (customizableEdges61);
-            this.guna2TextBox14.DefaultText = ("");
-            this.guna2TextBox14.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
-            this.guna2TextBox14.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
-            this.guna2TextBox14.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox14.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox14.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox14.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2TextBox14.ForeColor = (global::System.Drawing.Color.Black);
-            this.guna2TextBox14.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox14.Location = (new global::System.Drawing.Point(337, 111));
-            this.guna2TextBox14.Name = ("guna2TextBox14");
-            this.guna2TextBox14.PasswordChar = ('\0');
-            this.guna2TextBox14.PlaceholderText = ("");
-            this.guna2TextBox14.SelectedText = ("");
-            this.guna2TextBox14.ShadowDecoration.CustomizableEdges = (customizableEdges62);
-            this.guna2TextBox14.Size = (new global::System.Drawing.Size(154, 28));
-            this.guna2TextBox14.TabIndex = (45);
+            this.txtSVSua_Phuong.BorderColor = (global::System.Drawing.Color.Silver);
+            this.txtSVSua_Phuong.BorderRadius = (10);
+            this.txtSVSua_Phuong.CustomizableEdges = (customizableEdges61);
+            this.txtSVSua_Phuong.DefaultText = ("");
+            this.txtSVSua_Phuong.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
+            this.txtSVSua_Phuong.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
+            this.txtSVSua_Phuong.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_Phuong.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_Phuong.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_Phuong.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            this.txtSVSua_Phuong.ForeColor = (global::System.Drawing.Color.Black);
+            this.txtSVSua_Phuong.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_Phuong.Location = (new global::System.Drawing.Point(337, 111));
+            this.txtSVSua_Phuong.Name = ("txtSVSua_Phuong");
+            this.txtSVSua_Phuong.PasswordChar = ('\0');
+            this.txtSVSua_Phuong.PlaceholderText = ("");
+            this.txtSVSua_Phuong.SelectedText = ("");
+            this.txtSVSua_Phuong.ShadowDecoration.CustomizableEdges = (customizableEdges62);
+            this.txtSVSua_Phuong.Size = (new global::System.Drawing.Size(154, 28));
+            this.txtSVSua_Phuong.TabIndex = (45);
             // 
             // label44
             // 
@@ -1397,28 +1428,28 @@
             this.label44.TabIndex = (44);
             this.label44.Text = ("Phường/Xã");
             // 
-            // guna2TextBox15
+            // txtSVSua_Huyen
             // 
-            this.guna2TextBox15.BorderColor = (global::System.Drawing.Color.Silver);
-            this.guna2TextBox15.BorderRadius = (10);
-            this.guna2TextBox15.CustomizableEdges = (customizableEdges63);
-            this.guna2TextBox15.DefaultText = ("");
-            this.guna2TextBox15.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
-            this.guna2TextBox15.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
-            this.guna2TextBox15.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox15.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox15.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox15.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2TextBox15.ForeColor = (global::System.Drawing.Color.Black);
-            this.guna2TextBox15.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox15.Location = (new global::System.Drawing.Point(177, 111));
-            this.guna2TextBox15.Name = ("guna2TextBox15");
-            this.guna2TextBox15.PasswordChar = ('\0');
-            this.guna2TextBox15.PlaceholderText = ("");
-            this.guna2TextBox15.SelectedText = ("");
-            this.guna2TextBox15.ShadowDecoration.CustomizableEdges = (customizableEdges64);
-            this.guna2TextBox15.Size = (new global::System.Drawing.Size(154, 28));
-            this.guna2TextBox15.TabIndex = (43);
+            this.txtSVSua_Huyen.BorderColor = (global::System.Drawing.Color.Silver);
+            this.txtSVSua_Huyen.BorderRadius = (10);
+            this.txtSVSua_Huyen.CustomizableEdges = (customizableEdges63);
+            this.txtSVSua_Huyen.DefaultText = ("");
+            this.txtSVSua_Huyen.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
+            this.txtSVSua_Huyen.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
+            this.txtSVSua_Huyen.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_Huyen.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_Huyen.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_Huyen.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            this.txtSVSua_Huyen.ForeColor = (global::System.Drawing.Color.Black);
+            this.txtSVSua_Huyen.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_Huyen.Location = (new global::System.Drawing.Point(177, 111));
+            this.txtSVSua_Huyen.Name = ("txtSVSua_Huyen");
+            this.txtSVSua_Huyen.PasswordChar = ('\0');
+            this.txtSVSua_Huyen.PlaceholderText = ("");
+            this.txtSVSua_Huyen.SelectedText = ("");
+            this.txtSVSua_Huyen.ShadowDecoration.CustomizableEdges = (customizableEdges64);
+            this.txtSVSua_Huyen.Size = (new global::System.Drawing.Size(154, 28));
+            this.txtSVSua_Huyen.TabIndex = (43);
             // 
             // label45
             // 
@@ -1430,28 +1461,28 @@
             this.label45.TabIndex = (42);
             this.label45.Text = ("Huyện/Quận");
             // 
-            // guna2TextBox16
+            // txtSVSua_Tinh
             // 
-            this.guna2TextBox16.BorderColor = (global::System.Drawing.Color.Silver);
-            this.guna2TextBox16.BorderRadius = (10);
-            this.guna2TextBox16.CustomizableEdges = (customizableEdges65);
-            this.guna2TextBox16.DefaultText = ("");
-            this.guna2TextBox16.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
-            this.guna2TextBox16.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
-            this.guna2TextBox16.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox16.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox16.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox16.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2TextBox16.ForeColor = (global::System.Drawing.Color.Black);
-            this.guna2TextBox16.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox16.Location = (new global::System.Drawing.Point(17, 111));
-            this.guna2TextBox16.Name = ("guna2TextBox16");
-            this.guna2TextBox16.PasswordChar = ('\0');
-            this.guna2TextBox16.PlaceholderText = ("");
-            this.guna2TextBox16.SelectedText = ("");
-            this.guna2TextBox16.ShadowDecoration.CustomizableEdges = (customizableEdges66);
-            this.guna2TextBox16.Size = (new global::System.Drawing.Size(154, 28));
-            this.guna2TextBox16.TabIndex = (41);
+            this.txtSVSua_Tinh.BorderColor = (global::System.Drawing.Color.Silver);
+            this.txtSVSua_Tinh.BorderRadius = (10);
+            this.txtSVSua_Tinh.CustomizableEdges = (customizableEdges65);
+            this.txtSVSua_Tinh.DefaultText = ("");
+            this.txtSVSua_Tinh.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
+            this.txtSVSua_Tinh.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
+            this.txtSVSua_Tinh.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_Tinh.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_Tinh.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_Tinh.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            this.txtSVSua_Tinh.ForeColor = (global::System.Drawing.Color.Black);
+            this.txtSVSua_Tinh.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_Tinh.Location = (new global::System.Drawing.Point(17, 111));
+            this.txtSVSua_Tinh.Name = ("txtSVSua_Tinh");
+            this.txtSVSua_Tinh.PasswordChar = ('\0');
+            this.txtSVSua_Tinh.PlaceholderText = ("");
+            this.txtSVSua_Tinh.SelectedText = ("");
+            this.txtSVSua_Tinh.ShadowDecoration.CustomizableEdges = (customizableEdges66);
+            this.txtSVSua_Tinh.Size = (new global::System.Drawing.Size(154, 28));
+            this.txtSVSua_Tinh.TabIndex = (41);
             // 
             // label46
             // 
@@ -1478,9 +1509,9 @@
             this.guna2CustomGradientPanel4.BorderColor = (global::System.Drawing.Color.DimGray);
             this.guna2CustomGradientPanel4.BorderRadius = (20);
             this.guna2CustomGradientPanel4.BorderThickness = (1);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2ComboBox8);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2ComboBox7);
-            this.guna2CustomGradientPanel4.Controls.Add(this.guna2ComboBox1);
+            this.guna2CustomGradientPanel4.Controls.Add(this.cboSVSua_LoaiPhong);
+            this.guna2CustomGradientPanel4.Controls.Add(this.cboSVSua_Day);
+            this.guna2CustomGradientPanel4.Controls.Add(this.cboSVSua_Phong);
             this.guna2CustomGradientPanel4.Controls.Add(this.label41);
             this.guna2CustomGradientPanel4.Controls.Add(this.label40);
             this.guna2CustomGradientPanel4.Controls.Add(this.label39);
@@ -1492,59 +1523,60 @@
             this.guna2CustomGradientPanel4.Size = (new global::System.Drawing.Size(508, 211));
             this.guna2CustomGradientPanel4.TabIndex = (1);
             // 
-            // guna2ComboBox8
+            // cboSVSua_LoaiPhong
             // 
-            this.guna2ComboBox8.BackColor = (global::System.Drawing.Color.Transparent);
-            this.guna2ComboBox8.BorderRadius = (10);
-            this.guna2ComboBox8.CustomizableEdges = (customizableEdges69);
-            this.guna2ComboBox8.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
-            this.guna2ComboBox8.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
-            this.guna2ComboBox8.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2ComboBox8.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2ComboBox8.Font = (new global::System.Drawing.Font("Segoe UI", 10F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2ComboBox8.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(68)), (global::System.Int32)((global::System.Byte)(88)), (global::System.Int32)((global::System.Byte)(112))));
-            this.guna2ComboBox8.ItemHeight = (30);
-            this.guna2ComboBox8.Location = (new global::System.Drawing.Point(262, 83));
-            this.guna2ComboBox8.Name = ("guna2ComboBox8");
-            this.guna2ComboBox8.ShadowDecoration.CustomizableEdges = (customizableEdges70);
-            this.guna2ComboBox8.Size = (new global::System.Drawing.Size(194, 36));
-            this.guna2ComboBox8.TabIndex = (38);
+            this.cboSVSua_LoaiPhong.BackColor = (global::System.Drawing.Color.Transparent);
+            this.cboSVSua_LoaiPhong.BorderRadius = (10);
+            this.cboSVSua_LoaiPhong.CustomizableEdges = (customizableEdges69);
+            this.cboSVSua_LoaiPhong.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
+            this.cboSVSua_LoaiPhong.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
+            this.cboSVSua_LoaiPhong.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.cboSVSua_LoaiPhong.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.cboSVSua_LoaiPhong.Font = (new global::System.Drawing.Font("Segoe UI", 10F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            this.cboSVSua_LoaiPhong.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(68)), (global::System.Int32)((global::System.Byte)(88)), (global::System.Int32)((global::System.Byte)(112))));
+            this.cboSVSua_LoaiPhong.ItemHeight = (30);
+            this.cboSVSua_LoaiPhong.Location = (new global::System.Drawing.Point(262, 83));
+            this.cboSVSua_LoaiPhong.Name = ("cboSVSua_LoaiPhong");
+            this.cboSVSua_LoaiPhong.ShadowDecoration.CustomizableEdges = (customizableEdges70);
+            this.cboSVSua_LoaiPhong.Size = (new global::System.Drawing.Size(194, 36));
+            this.cboSVSua_LoaiPhong.TabIndex = (38);
             // 
-            // guna2ComboBox7
+            // cboSVSua_Day
             // 
-            this.guna2ComboBox7.BackColor = (global::System.Drawing.Color.Transparent);
-            this.guna2ComboBox7.BorderRadius = (10);
-            this.guna2ComboBox7.CustomizableEdges = (customizableEdges71);
-            this.guna2ComboBox7.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
-            this.guna2ComboBox7.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
-            this.guna2ComboBox7.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2ComboBox7.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2ComboBox7.Font = (new global::System.Drawing.Font("Segoe UI", 10F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2ComboBox7.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(68)), (global::System.Int32)((global::System.Byte)(88)), (global::System.Int32)((global::System.Byte)(112))));
-            this.guna2ComboBox7.ItemHeight = (30);
-            this.guna2ComboBox7.Location = (new global::System.Drawing.Point(41, 81));
-            this.guna2ComboBox7.Name = ("guna2ComboBox7");
-            this.guna2ComboBox7.ShadowDecoration.CustomizableEdges = (customizableEdges72);
-            this.guna2ComboBox7.Size = (new global::System.Drawing.Size(194, 36));
-            this.guna2ComboBox7.TabIndex = (32);
+            this.cboSVSua_Day.BackColor = (global::System.Drawing.Color.Transparent);
+            this.cboSVSua_Day.BorderRadius = (10);
+            this.cboSVSua_Day.CustomizableEdges = (customizableEdges71);
+            this.cboSVSua_Day.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
+            this.cboSVSua_Day.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
+            this.cboSVSua_Day.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.cboSVSua_Day.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.cboSVSua_Day.Font = (new global::System.Drawing.Font("Segoe UI", 10F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            this.cboSVSua_Day.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(68)), (global::System.Int32)((global::System.Byte)(88)), (global::System.Int32)((global::System.Byte)(112))));
+            this.cboSVSua_Day.ItemHeight = (30);
+            this.cboSVSua_Day.Location = (new global::System.Drawing.Point(41, 81));
+            this.cboSVSua_Day.Name = ("cboSVSua_Day");
+            this.cboSVSua_Day.ShadowDecoration.CustomizableEdges = (customizableEdges72);
+            this.cboSVSua_Day.Size = (new global::System.Drawing.Size(194, 36));
+            this.cboSVSua_Day.TabIndex = (32);
+            this.cboSVSua_Day.SelectedIndexChanged += (this.cboSVSua_Day_SelectedIndexChanged);
             // 
-            // guna2ComboBox1
+            // cboSVSua_Phong
             // 
-            this.guna2ComboBox1.BackColor = (global::System.Drawing.Color.Transparent);
-            this.guna2ComboBox1.BorderRadius = (10);
-            this.guna2ComboBox1.CustomizableEdges = (customizableEdges73);
-            this.guna2ComboBox1.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
-            this.guna2ComboBox1.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
-            this.guna2ComboBox1.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2ComboBox1.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2ComboBox1.Font = (new global::System.Drawing.Font("Segoe UI", 10F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2ComboBox1.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(68)), (global::System.Int32)((global::System.Byte)(88)), (global::System.Int32)((global::System.Byte)(112))));
-            this.guna2ComboBox1.ItemHeight = (30);
-            this.guna2ComboBox1.Location = (new global::System.Drawing.Point(41, 153));
-            this.guna2ComboBox1.Name = ("guna2ComboBox1");
-            this.guna2ComboBox1.ShadowDecoration.CustomizableEdges = (customizableEdges74);
-            this.guna2ComboBox1.Size = (new global::System.Drawing.Size(427, 36));
-            this.guna2ComboBox1.TabIndex = (37);
+            this.cboSVSua_Phong.BackColor = (global::System.Drawing.Color.Transparent);
+            this.cboSVSua_Phong.BorderRadius = (10);
+            this.cboSVSua_Phong.CustomizableEdges = (customizableEdges73);
+            this.cboSVSua_Phong.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
+            this.cboSVSua_Phong.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
+            this.cboSVSua_Phong.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.cboSVSua_Phong.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.cboSVSua_Phong.Font = (new global::System.Drawing.Font("Segoe UI", 10F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            this.cboSVSua_Phong.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(68)), (global::System.Int32)((global::System.Byte)(88)), (global::System.Int32)((global::System.Byte)(112))));
+            this.cboSVSua_Phong.ItemHeight = (30);
+            this.cboSVSua_Phong.Location = (new global::System.Drawing.Point(41, 153));
+            this.cboSVSua_Phong.Name = ("cboSVSua_Phong");
+            this.cboSVSua_Phong.ShadowDecoration.CustomizableEdges = (customizableEdges74);
+            this.cboSVSua_Phong.Size = (new global::System.Drawing.Size(427, 36));
+            this.cboSVSua_Phong.TabIndex = (37);
             // 
             // label41
             // 
@@ -1591,230 +1623,264 @@
             this.guna2CustomGradientPanel3.BorderColor = (global::System.Drawing.Color.DimGray);
             this.guna2CustomGradientPanel3.BorderRadius = (20);
             this.guna2CustomGradientPanel3.BorderThickness = (1);
-            this.guna2CustomGradientPanel3.Controls.Add(this.guna2ComboBox6);
+            this.guna2CustomGradientPanel3.Controls.Add(this.cboSVSua_Lop);
+            this.guna2CustomGradientPanel3.Controls.Add(this.txtSVSua_MSSV);
+            this.guna2CustomGradientPanel3.Controls.Add(this.cboSVSua_Nganh);
             this.guna2CustomGradientPanel3.Controls.Add(this.label37);
-            this.guna2CustomGradientPanel3.Controls.Add(this.guna2TextBox6);
             this.guna2CustomGradientPanel3.Controls.Add(this.label36);
-            this.guna2CustomGradientPanel3.Controls.Add(this.guna2DateTimePicker2);
-            this.guna2CustomGradientPanel3.Controls.Add(this.guna2DateTimePicker1);
-            this.guna2CustomGradientPanel3.Controls.Add(this.guna2TextBox10);
+            this.guna2CustomGradientPanel3.Controls.Add(this.label59);
+            this.guna2CustomGradientPanel3.Controls.Add(this.dtpSVSua_NgayCap);
+            this.guna2CustomGradientPanel3.Controls.Add(this.dtpSVSua_NgaySinh);
+            this.guna2CustomGradientPanel3.Controls.Add(this.txtSVSua_Email);
             this.guna2CustomGradientPanel3.Controls.Add(this.label35);
-            this.guna2CustomGradientPanel3.Controls.Add(this.guna2ComboBox5);
+            this.guna2CustomGradientPanel3.Controls.Add(this.cboSVSua_Khoa);
             this.guna2CustomGradientPanel3.Controls.Add(this.label34);
-            this.guna2CustomGradientPanel3.Controls.Add(this.guna2TextBox9);
+            this.guna2CustomGradientPanel3.Controls.Add(this.txtSVSua_NoiCap);
             this.guna2CustomGradientPanel3.Controls.Add(this.label33);
             this.guna2CustomGradientPanel3.Controls.Add(this.label32);
-            this.guna2CustomGradientPanel3.Controls.Add(this.guna2TextBox7);
+            this.guna2CustomGradientPanel3.Controls.Add(this.txtSVSua_CCCD);
             this.guna2CustomGradientPanel3.Controls.Add(this.label31);
-            this.guna2CustomGradientPanel3.Controls.Add(this.guna2TextBox5);
+            this.guna2CustomGradientPanel3.Controls.Add(this.txtSVSua_SDT);
             this.guna2CustomGradientPanel3.Controls.Add(this.label30);
-            this.guna2CustomGradientPanel3.Controls.Add(this.guna2TextBox4);
-            this.guna2CustomGradientPanel3.Controls.Add(this.guna2TextBox3);
+            this.guna2CustomGradientPanel3.Controls.Add(this.txtSVSua_NoiSinh);
+            this.guna2CustomGradientPanel3.Controls.Add(this.txtSVSua_Ten);
             this.guna2CustomGradientPanel3.Controls.Add(this.label29);
             this.guna2CustomGradientPanel3.Controls.Add(this.label28);
             this.guna2CustomGradientPanel3.Controls.Add(this.label27);
-            this.guna2CustomGradientPanel3.Controls.Add(this.guna2ComboBox4);
+            this.guna2CustomGradientPanel3.Controls.Add(this.cboSVSua_GioiTinh);
             this.guna2CustomGradientPanel3.Controls.Add(this.label26);
-            this.guna2CustomGradientPanel3.Controls.Add(this.guna2TextBox2);
+            this.guna2CustomGradientPanel3.Controls.Add(this.txtSVSua_HoTenLot);
             this.guna2CustomGradientPanel3.Controls.Add(this.label25);
             this.guna2CustomGradientPanel3.Controls.Add(this.label24);
-            this.guna2CustomGradientPanel3.CustomizableEdges = (customizableEdges103);
+            this.guna2CustomGradientPanel3.CustomizableEdges = (customizableEdges105);
             this.guna2CustomGradientPanel3.Location = (new global::System.Drawing.Point(33, 24));
             this.guna2CustomGradientPanel3.Name = ("guna2CustomGradientPanel3");
-            this.guna2CustomGradientPanel3.ShadowDecoration.CustomizableEdges = (customizableEdges104);
+            this.guna2CustomGradientPanel3.ShadowDecoration.CustomizableEdges = (customizableEdges106);
             this.guna2CustomGradientPanel3.Size = (new global::System.Drawing.Size(633, 457));
             this.guna2CustomGradientPanel3.TabIndex = (0);
             // 
-            // guna2ComboBox6
+            // cboSVSua_Lop
             // 
-            this.guna2ComboBox6.BackColor = (global::System.Drawing.Color.Transparent);
-            this.guna2ComboBox6.BorderRadius = (10);
-            this.guna2ComboBox6.CustomizableEdges = (customizableEdges77);
-            this.guna2ComboBox6.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
-            this.guna2ComboBox6.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
-            this.guna2ComboBox6.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2ComboBox6.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2ComboBox6.Font = (new global::System.Drawing.Font("Segoe UI", 10F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2ComboBox6.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(68)), (global::System.Int32)((global::System.Byte)(88)), (global::System.Int32)((global::System.Byte)(112))));
-            this.guna2ComboBox6.ItemHeight = (30);
-            this.guna2ComboBox6.Location = (new global::System.Drawing.Point(339, 366));
-            this.guna2ComboBox6.Name = ("guna2ComboBox6");
-            this.guna2ComboBox6.ShadowDecoration.CustomizableEdges = (customizableEdges78);
-            this.guna2ComboBox6.Size = (new global::System.Drawing.Size(258, 36));
-            this.guna2ComboBox6.TabIndex = (31);
+            this.cboSVSua_Lop.BackColor = (global::System.Drawing.Color.Transparent);
+            this.cboSVSua_Lop.BorderRadius = (10);
+            this.cboSVSua_Lop.CustomizableEdges = (customizableEdges77);
+            this.cboSVSua_Lop.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
+            this.cboSVSua_Lop.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
+            this.cboSVSua_Lop.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.cboSVSua_Lop.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.cboSVSua_Lop.Font = (new global::System.Drawing.Font("Segoe UI", 10F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            this.cboSVSua_Lop.ForeColor = (global::System.Drawing.Color.Black);
+            this.cboSVSua_Lop.ItemHeight = (30);
+            this.cboSVSua_Lop.Location = (new global::System.Drawing.Point(339, 403));
+            this.cboSVSua_Lop.Name = ("cboSVSua_Lop");
+            this.cboSVSua_Lop.ShadowDecoration.CustomizableEdges = (customizableEdges78);
+            this.cboSVSua_Lop.Size = (new global::System.Drawing.Size(258, 36));
+            this.cboSVSua_Lop.TabIndex = (49);
+            // 
+            // txtSVSua_MSSV
+            // 
+            this.txtSVSua_MSSV.BorderColor = (global::System.Drawing.Color.Silver);
+            this.txtSVSua_MSSV.BorderRadius = (10);
+            this.txtSVSua_MSSV.CustomizableEdges = (customizableEdges79);
+            this.txtSVSua_MSSV.DefaultText = ("");
+            this.txtSVSua_MSSV.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
+            this.txtSVSua_MSSV.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
+            this.txtSVSua_MSSV.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_MSSV.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_MSSV.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_MSSV.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            this.txtSVSua_MSSV.ForeColor = (global::System.Drawing.Color.Black);
+            this.txtSVSua_MSSV.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_MSSV.Location = (new global::System.Drawing.Point(339, 225));
+            this.txtSVSua_MSSV.Name = ("txtSVSua_MSSV");
+            this.txtSVSua_MSSV.PasswordChar = ('\0');
+            this.txtSVSua_MSSV.PlaceholderText = ("");
+            this.txtSVSua_MSSV.SelectedText = ("");
+            this.txtSVSua_MSSV.ShadowDecoration.CustomizableEdges = (customizableEdges80);
+            this.txtSVSua_MSSV.Size = (new global::System.Drawing.Size(258, 28));
+            this.txtSVSua_MSSV.TabIndex = (29);
+            // 
+            // cboSVSua_Nganh
+            // 
+            this.cboSVSua_Nganh.BackColor = (global::System.Drawing.Color.Transparent);
+            this.cboSVSua_Nganh.BorderRadius = (10);
+            this.cboSVSua_Nganh.CustomizableEdges = (customizableEdges81);
+            this.cboSVSua_Nganh.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
+            this.cboSVSua_Nganh.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
+            this.cboSVSua_Nganh.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.cboSVSua_Nganh.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.cboSVSua_Nganh.Font = (new global::System.Drawing.Font("Segoe UI", 10F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            this.cboSVSua_Nganh.ForeColor = (global::System.Drawing.Color.Black);
+            this.cboSVSua_Nganh.ItemHeight = (30);
+            this.cboSVSua_Nganh.Location = (new global::System.Drawing.Point(339, 341));
+            this.cboSVSua_Nganh.Name = ("cboSVSua_Nganh");
+            this.cboSVSua_Nganh.ShadowDecoration.CustomizableEdges = (customizableEdges82);
+            this.cboSVSua_Nganh.Size = (new global::System.Drawing.Size(258, 36));
+            this.cboSVSua_Nganh.TabIndex = (48);
+            this.cboSVSua_Nganh.SelectedIndexChanged += (this.cboSVSua_Nganh_SelectedIndexChanged);
             // 
             // label37
             // 
             this.label37.AutoSize = (true);
             this.label37.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            this.label37.Location = (new global::System.Drawing.Point(339, 343));
+            this.label37.Location = (new global::System.Drawing.Point(339, 318));
             this.label37.Name = ("label37");
-            this.label37.Size = (new global::System.Drawing.Size(35, 20));
-            this.label37.TabIndex = (30);
-            this.label37.Text = ("Lớp");
-            // 
-            // guna2TextBox6
-            // 
-            this.guna2TextBox6.BorderColor = (global::System.Drawing.Color.Silver);
-            this.guna2TextBox6.BorderRadius = (10);
-            this.guna2TextBox6.CustomizableEdges = (customizableEdges79);
-            this.guna2TextBox6.DefaultText = ("");
-            this.guna2TextBox6.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
-            this.guna2TextBox6.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
-            this.guna2TextBox6.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox6.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox6.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox6.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2TextBox6.ForeColor = (global::System.Drawing.Color.Black);
-            this.guna2TextBox6.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox6.Location = (new global::System.Drawing.Point(339, 250));
-            this.guna2TextBox6.Name = ("guna2TextBox6");
-            this.guna2TextBox6.PasswordChar = ('\0');
-            this.guna2TextBox6.PlaceholderText = ("");
-            this.guna2TextBox6.SelectedText = ("");
-            this.guna2TextBox6.ShadowDecoration.CustomizableEdges = (customizableEdges80);
-            this.guna2TextBox6.Size = (new global::System.Drawing.Size(258, 28));
-            this.guna2TextBox6.TabIndex = (29);
+            this.label37.Size = (new global::System.Drawing.Size(56, 20));
+            this.label37.TabIndex = (47);
+            this.label37.Text = ("Ngành");
             // 
             // label36
             // 
             this.label36.AutoSize = (true);
             this.label36.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            this.label36.Location = (new global::System.Drawing.Point(339, 227));
+            this.label36.Location = (new global::System.Drawing.Point(339, 202));
             this.label36.Name = ("label36");
             this.label36.Size = (new global::System.Drawing.Size(49, 20));
             this.label36.TabIndex = (28);
             this.label36.Text = ("MSSV");
             // 
-            // guna2DateTimePicker2
+            // label59
             // 
-            this.guna2DateTimePicker2.BackColor = (global::System.Drawing.Color.Transparent);
-            this.guna2DateTimePicker2.BorderRadius = (10);
-            this.guna2DateTimePicker2.BorderThickness = (1);
-            this.guna2DateTimePicker2.Checked = (true);
-            this.guna2DateTimePicker2.CustomizableEdges = (customizableEdges81);
-            this.guna2DateTimePicker2.FillColor = (global::System.Drawing.Color.White);
-            this.guna2DateTimePicker2.FocusedColor = (global::System.Drawing.Color.White);
-            this.guna2DateTimePicker2.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2DateTimePicker2.Format = (global::System.Windows.Forms.DateTimePickerFormat.Long);
-            this.guna2DateTimePicker2.Location = (new global::System.Drawing.Point(339, 135));
-            this.guna2DateTimePicker2.MaxDate = (new global::System.DateTime(9998, 12, 31, 0, 0, 0, 0));
-            this.guna2DateTimePicker2.MinDate = (new global::System.DateTime(1753, 1, 1, 0, 0, 0, 0));
-            this.guna2DateTimePicker2.Name = ("guna2DateTimePicker2");
-            this.guna2DateTimePicker2.ShadowDecoration.CustomizableEdges = (customizableEdges82);
-            this.guna2DateTimePicker2.Size = (new global::System.Drawing.Size(258, 28));
-            this.guna2DateTimePicker2.TabIndex = (27);
-            this.guna2DateTimePicker2.Value = (new global::System.DateTime(2023, 11, 25, 10, 20, 9, 389));
+            this.label59.AutoSize = (true);
+            this.label59.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
+            this.label59.Location = (new global::System.Drawing.Point(339, 380));
+            this.label59.Name = ("label59");
+            this.label59.Size = (new global::System.Drawing.Size(35, 20));
+            this.label59.TabIndex = (46);
+            this.label59.Text = ("Lớp");
             // 
-            // guna2DateTimePicker1
+            // dtpSVSua_NgayCap
             // 
-            this.guna2DateTimePicker1.BackColor = (global::System.Drawing.Color.Transparent);
-            this.guna2DateTimePicker1.BorderRadius = (10);
-            this.guna2DateTimePicker1.BorderThickness = (1);
-            this.guna2DateTimePicker1.Checked = (true);
-            this.guna2DateTimePicker1.CustomizableEdges = (customizableEdges83);
-            this.guna2DateTimePicker1.FillColor = (global::System.Drawing.Color.White);
-            this.guna2DateTimePicker1.FocusedColor = (global::System.Drawing.Color.White);
-            this.guna2DateTimePicker1.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2DateTimePicker1.Format = (global::System.Windows.Forms.DateTimePickerFormat.Long);
-            this.guna2DateTimePicker1.Location = (new global::System.Drawing.Point(35, 250));
-            this.guna2DateTimePicker1.MaxDate = (new global::System.DateTime(9998, 12, 31, 0, 0, 0, 0));
-            this.guna2DateTimePicker1.MinDate = (new global::System.DateTime(1753, 1, 1, 0, 0, 0, 0));
-            this.guna2DateTimePicker1.Name = ("guna2DateTimePicker1");
-            this.guna2DateTimePicker1.ShadowDecoration.CustomizableEdges = (customizableEdges84);
-            this.guna2DateTimePicker1.Size = (new global::System.Drawing.Size(258, 28));
-            this.guna2DateTimePicker1.TabIndex = (26);
-            this.guna2DateTimePicker1.Value = (new global::System.DateTime(2023, 11, 25, 10, 20, 9, 389));
+            this.dtpSVSua_NgayCap.BackColor = (global::System.Drawing.Color.Transparent);
+            this.dtpSVSua_NgayCap.BorderRadius = (10);
+            this.dtpSVSua_NgayCap.BorderThickness = (1);
+            this.dtpSVSua_NgayCap.Checked = (true);
+            this.dtpSVSua_NgayCap.CustomFormat = ("yyyy-MM-dd");
+            this.dtpSVSua_NgayCap.CustomizableEdges = (customizableEdges83);
+            this.dtpSVSua_NgayCap.FillColor = (global::System.Drawing.Color.White);
+            this.dtpSVSua_NgayCap.FocusedColor = (global::System.Drawing.Color.White);
+            this.dtpSVSua_NgayCap.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            this.dtpSVSua_NgayCap.Format = (global::System.Windows.Forms.DateTimePickerFormat.Custom);
+            this.dtpSVSua_NgayCap.Location = (new global::System.Drawing.Point(339, 117));
+            this.dtpSVSua_NgayCap.MaxDate = (new global::System.DateTime(9998, 12, 31, 0, 0, 0, 0));
+            this.dtpSVSua_NgayCap.MinDate = (new global::System.DateTime(1753, 1, 1, 0, 0, 0, 0));
+            this.dtpSVSua_NgayCap.Name = ("dtpSVSua_NgayCap");
+            this.dtpSVSua_NgayCap.ShadowDecoration.CustomizableEdges = (customizableEdges84);
+            this.dtpSVSua_NgayCap.Size = (new global::System.Drawing.Size(258, 28));
+            this.dtpSVSua_NgayCap.TabIndex = (27);
+            this.dtpSVSua_NgayCap.Value = (new global::System.DateTime(2023, 11, 25, 10, 20, 9, 389));
             // 
-            // guna2TextBox10
+            // dtpSVSua_NgaySinh
             // 
-            this.guna2TextBox10.BorderColor = (global::System.Drawing.Color.Silver);
-            this.guna2TextBox10.BorderRadius = (10);
-            this.guna2TextBox10.CustomizableEdges = (customizableEdges85);
-            this.guna2TextBox10.DefaultText = ("");
-            this.guna2TextBox10.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
-            this.guna2TextBox10.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
-            this.guna2TextBox10.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox10.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox10.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox10.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2TextBox10.ForeColor = (global::System.Drawing.Color.Black);
-            this.guna2TextBox10.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox10.Location = (new global::System.Drawing.Point(35, 411));
-            this.guna2TextBox10.Name = ("guna2TextBox10");
-            this.guna2TextBox10.PasswordChar = ('\0');
-            this.guna2TextBox10.PlaceholderText = ("");
-            this.guna2TextBox10.SelectedText = ("");
-            this.guna2TextBox10.ShadowDecoration.CustomizableEdges = (customizableEdges86);
-            this.guna2TextBox10.Size = (new global::System.Drawing.Size(258, 28));
-            this.guna2TextBox10.TabIndex = (25);
+            this.dtpSVSua_NgaySinh.BackColor = (global::System.Drawing.Color.Transparent);
+            this.dtpSVSua_NgaySinh.BorderRadius = (10);
+            this.dtpSVSua_NgaySinh.BorderThickness = (1);
+            this.dtpSVSua_NgaySinh.Checked = (true);
+            this.dtpSVSua_NgaySinh.CustomFormat = ("yyyy-MM-dd");
+            this.dtpSVSua_NgaySinh.CustomizableEdges = (customizableEdges85);
+            this.dtpSVSua_NgaySinh.FillColor = (global::System.Drawing.Color.White);
+            this.dtpSVSua_NgaySinh.FocusedColor = (global::System.Drawing.Color.White);
+            this.dtpSVSua_NgaySinh.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            this.dtpSVSua_NgaySinh.Format = (global::System.Windows.Forms.DateTimePickerFormat.Custom);
+            this.dtpSVSua_NgaySinh.Location = (new global::System.Drawing.Point(35, 240));
+            this.dtpSVSua_NgaySinh.MaxDate = (new global::System.DateTime(9998, 12, 31, 0, 0, 0, 0));
+            this.dtpSVSua_NgaySinh.MinDate = (new global::System.DateTime(1753, 1, 1, 0, 0, 0, 0));
+            this.dtpSVSua_NgaySinh.Name = ("dtpSVSua_NgaySinh");
+            this.dtpSVSua_NgaySinh.ShadowDecoration.CustomizableEdges = (customizableEdges86);
+            this.dtpSVSua_NgaySinh.Size = (new global::System.Drawing.Size(258, 28));
+            this.dtpSVSua_NgaySinh.TabIndex = (26);
+            this.dtpSVSua_NgaySinh.Value = (new global::System.DateTime(2023, 11, 25, 10, 20, 9, 389));
+            // 
+            // txtSVSua_Email
+            // 
+            this.txtSVSua_Email.BorderColor = (global::System.Drawing.Color.Silver);
+            this.txtSVSua_Email.BorderRadius = (10);
+            this.txtSVSua_Email.CustomizableEdges = (customizableEdges87);
+            this.txtSVSua_Email.DefaultText = ("");
+            this.txtSVSua_Email.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
+            this.txtSVSua_Email.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
+            this.txtSVSua_Email.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_Email.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_Email.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_Email.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            this.txtSVSua_Email.ForeColor = (global::System.Drawing.Color.Black);
+            this.txtSVSua_Email.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_Email.Location = (new global::System.Drawing.Point(35, 408));
+            this.txtSVSua_Email.Name = ("txtSVSua_Email");
+            this.txtSVSua_Email.PasswordChar = ('\0');
+            this.txtSVSua_Email.PlaceholderText = ("");
+            this.txtSVSua_Email.SelectedText = ("");
+            this.txtSVSua_Email.ShadowDecoration.CustomizableEdges = (customizableEdges88);
+            this.txtSVSua_Email.Size = (new global::System.Drawing.Size(258, 28));
+            this.txtSVSua_Email.TabIndex = (25);
             // 
             // label35
             // 
             this.label35.AutoSize = (true);
             this.label35.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            this.label35.Location = (new global::System.Drawing.Point(35, 388));
+            this.label35.Location = (new global::System.Drawing.Point(35, 384));
             this.label35.Name = ("label35");
             this.label35.Size = (new global::System.Drawing.Size(47, 20));
             this.label35.TabIndex = (24);
             this.label35.Text = ("Email");
             // 
-            // guna2ComboBox5
+            // cboSVSua_Khoa
             // 
-            this.guna2ComboBox5.BackColor = (global::System.Drawing.Color.Transparent);
-            this.guna2ComboBox5.BorderRadius = (10);
-            this.guna2ComboBox5.CustomizableEdges = (customizableEdges87);
-            this.guna2ComboBox5.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
-            this.guna2ComboBox5.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
-            this.guna2ComboBox5.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2ComboBox5.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2ComboBox5.Font = (new global::System.Drawing.Font("Segoe UI", 10F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2ComboBox5.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(68)), (global::System.Int32)((global::System.Byte)(88)), (global::System.Int32)((global::System.Byte)(112))));
-            this.guna2ComboBox5.ItemHeight = (30);
-            this.guna2ComboBox5.Location = (new global::System.Drawing.Point(339, 304));
-            this.guna2ComboBox5.Name = ("guna2ComboBox5");
-            this.guna2ComboBox5.ShadowDecoration.CustomizableEdges = (customizableEdges88);
-            this.guna2ComboBox5.Size = (new global::System.Drawing.Size(258, 36));
-            this.guna2ComboBox5.TabIndex = (23);
+            this.cboSVSua_Khoa.BackColor = (global::System.Drawing.Color.Transparent);
+            this.cboSVSua_Khoa.BorderRadius = (10);
+            this.cboSVSua_Khoa.CustomizableEdges = (customizableEdges89);
+            this.cboSVSua_Khoa.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
+            this.cboSVSua_Khoa.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
+            this.cboSVSua_Khoa.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.cboSVSua_Khoa.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.cboSVSua_Khoa.Font = (new global::System.Drawing.Font("Segoe UI", 10F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            this.cboSVSua_Khoa.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(68)), (global::System.Int32)((global::System.Byte)(88)), (global::System.Int32)((global::System.Byte)(112))));
+            this.cboSVSua_Khoa.ItemHeight = (30);
+            this.cboSVSua_Khoa.Location = (new global::System.Drawing.Point(339, 279));
+            this.cboSVSua_Khoa.Name = ("cboSVSua_Khoa");
+            this.cboSVSua_Khoa.ShadowDecoration.CustomizableEdges = (customizableEdges90);
+            this.cboSVSua_Khoa.Size = (new global::System.Drawing.Size(258, 36));
+            this.cboSVSua_Khoa.TabIndex = (23);
+            this.cboSVSua_Khoa.SelectedIndexChanged += (this.cboSVSua_Khoa_SelectedIndexChanged);
             // 
             // label34
             // 
             this.label34.AutoSize = (true);
             this.label34.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            this.label34.Location = (new global::System.Drawing.Point(339, 281));
+            this.label34.Location = (new global::System.Drawing.Point(339, 256));
             this.label34.Name = ("label34");
             this.label34.Size = (new global::System.Drawing.Size(45, 20));
             this.label34.TabIndex = (22);
             this.label34.Text = ("Khoa");
             // 
-            // guna2TextBox9
+            // txtSVSua_NoiCap
             // 
-            this.guna2TextBox9.BorderColor = (global::System.Drawing.Color.Silver);
-            this.guna2TextBox9.BorderRadius = (10);
-            this.guna2TextBox9.CustomizableEdges = (customizableEdges89);
-            this.guna2TextBox9.DefaultText = ("");
-            this.guna2TextBox9.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
-            this.guna2TextBox9.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
-            this.guna2TextBox9.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox9.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox9.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox9.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2TextBox9.ForeColor = (global::System.Drawing.Color.Black);
-            this.guna2TextBox9.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox9.Location = (new global::System.Drawing.Point(339, 197));
-            this.guna2TextBox9.Name = ("guna2TextBox9");
-            this.guna2TextBox9.PasswordChar = ('\0');
-            this.guna2TextBox9.PlaceholderText = ("");
-            this.guna2TextBox9.SelectedText = ("");
-            this.guna2TextBox9.ShadowDecoration.CustomizableEdges = (customizableEdges90);
-            this.guna2TextBox9.Size = (new global::System.Drawing.Size(258, 28));
-            this.guna2TextBox9.TabIndex = (21);
+            this.txtSVSua_NoiCap.BorderColor = (global::System.Drawing.Color.Silver);
+            this.txtSVSua_NoiCap.BorderRadius = (10);
+            this.txtSVSua_NoiCap.CustomizableEdges = (customizableEdges91);
+            this.txtSVSua_NoiCap.DefaultText = ("");
+            this.txtSVSua_NoiCap.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
+            this.txtSVSua_NoiCap.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
+            this.txtSVSua_NoiCap.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_NoiCap.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_NoiCap.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_NoiCap.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            this.txtSVSua_NoiCap.ForeColor = (global::System.Drawing.Color.Black);
+            this.txtSVSua_NoiCap.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_NoiCap.Location = (new global::System.Drawing.Point(339, 171));
+            this.txtSVSua_NoiCap.Name = ("txtSVSua_NoiCap");
+            this.txtSVSua_NoiCap.PasswordChar = ('\0');
+            this.txtSVSua_NoiCap.PlaceholderText = ("");
+            this.txtSVSua_NoiCap.SelectedText = ("");
+            this.txtSVSua_NoiCap.ShadowDecoration.CustomizableEdges = (customizableEdges92);
+            this.txtSVSua_NoiCap.Size = (new global::System.Drawing.Size(258, 28));
+            this.txtSVSua_NoiCap.TabIndex = (21);
             // 
             // label33
             // 
             this.label33.AutoSize = (true);
             this.label33.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            this.label33.Location = (new global::System.Drawing.Point(339, 174));
+            this.label33.Location = (new global::System.Drawing.Point(339, 148));
             this.label33.Name = ("label33");
             this.label33.Size = (new global::System.Drawing.Size(62, 20));
             this.label33.TabIndex = (20);
@@ -1824,129 +1890,129 @@
             // 
             this.label32.AutoSize = (true);
             this.label32.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            this.label32.Location = (new global::System.Drawing.Point(339, 113));
+            this.label32.Location = (new global::System.Drawing.Point(339, 94));
             this.label32.Name = ("label32");
             this.label32.Size = (new global::System.Drawing.Size(74, 20));
             this.label32.TabIndex = (18);
             this.label32.Text = ("Ngày cấp");
             // 
-            // guna2TextBox7
+            // txtSVSua_CCCD
             // 
-            this.guna2TextBox7.BorderColor = (global::System.Drawing.Color.Silver);
-            this.guna2TextBox7.BorderRadius = (10);
-            this.guna2TextBox7.CustomizableEdges = (customizableEdges91);
-            this.guna2TextBox7.DefaultText = ("");
-            this.guna2TextBox7.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
-            this.guna2TextBox7.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
-            this.guna2TextBox7.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox7.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox7.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox7.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2TextBox7.ForeColor = (global::System.Drawing.Color.Black);
-            this.guna2TextBox7.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox7.Location = (new global::System.Drawing.Point(339, 81));
-            this.guna2TextBox7.Name = ("guna2TextBox7");
-            this.guna2TextBox7.PasswordChar = ('\0');
-            this.guna2TextBox7.PlaceholderText = ("");
-            this.guna2TextBox7.SelectedText = ("");
-            this.guna2TextBox7.ShadowDecoration.CustomizableEdges = (customizableEdges92);
-            this.guna2TextBox7.Size = (new global::System.Drawing.Size(258, 28));
-            this.guna2TextBox7.TabIndex = (17);
+            this.txtSVSua_CCCD.BorderColor = (global::System.Drawing.Color.Silver);
+            this.txtSVSua_CCCD.BorderRadius = (10);
+            this.txtSVSua_CCCD.CustomizableEdges = (customizableEdges93);
+            this.txtSVSua_CCCD.DefaultText = ("");
+            this.txtSVSua_CCCD.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
+            this.txtSVSua_CCCD.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
+            this.txtSVSua_CCCD.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_CCCD.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_CCCD.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_CCCD.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            this.txtSVSua_CCCD.ForeColor = (global::System.Drawing.Color.Black);
+            this.txtSVSua_CCCD.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_CCCD.Location = (new global::System.Drawing.Point(339, 63));
+            this.txtSVSua_CCCD.Name = ("txtSVSua_CCCD");
+            this.txtSVSua_CCCD.PasswordChar = ('\0');
+            this.txtSVSua_CCCD.PlaceholderText = ("");
+            this.txtSVSua_CCCD.SelectedText = ("");
+            this.txtSVSua_CCCD.ShadowDecoration.CustomizableEdges = (customizableEdges94);
+            this.txtSVSua_CCCD.Size = (new global::System.Drawing.Size(258, 28));
+            this.txtSVSua_CCCD.TabIndex = (17);
             // 
             // label31
             // 
             this.label31.AutoSize = (true);
             this.label31.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            this.label31.Location = (new global::System.Drawing.Point(339, 58));
+            this.label31.Location = (new global::System.Drawing.Point(339, 40));
             this.label31.Name = ("label31");
             this.label31.Size = (new global::System.Drawing.Size(47, 20));
             this.label31.TabIndex = (16);
             this.label31.Text = ("CCCD");
             // 
-            // guna2TextBox5
+            // txtSVSua_SDT
             // 
-            this.guna2TextBox5.BorderColor = (global::System.Drawing.Color.Silver);
-            this.guna2TextBox5.BorderRadius = (10);
-            this.guna2TextBox5.CustomizableEdges = (customizableEdges93);
-            this.guna2TextBox5.DefaultText = ("");
-            this.guna2TextBox5.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
-            this.guna2TextBox5.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
-            this.guna2TextBox5.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox5.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox5.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox5.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2TextBox5.ForeColor = (global::System.Drawing.Color.Black);
-            this.guna2TextBox5.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox5.Location = (new global::System.Drawing.Point(35, 359));
-            this.guna2TextBox5.Name = ("guna2TextBox5");
-            this.guna2TextBox5.PasswordChar = ('\0');
-            this.guna2TextBox5.PlaceholderText = ("");
-            this.guna2TextBox5.SelectedText = ("");
-            this.guna2TextBox5.ShadowDecoration.CustomizableEdges = (customizableEdges94);
-            this.guna2TextBox5.Size = (new global::System.Drawing.Size(258, 28));
-            this.guna2TextBox5.TabIndex = (15);
+            this.txtSVSua_SDT.BorderColor = (global::System.Drawing.Color.Silver);
+            this.txtSVSua_SDT.BorderRadius = (10);
+            this.txtSVSua_SDT.CustomizableEdges = (customizableEdges95);
+            this.txtSVSua_SDT.DefaultText = ("");
+            this.txtSVSua_SDT.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
+            this.txtSVSua_SDT.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
+            this.txtSVSua_SDT.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_SDT.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_SDT.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_SDT.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            this.txtSVSua_SDT.ForeColor = (global::System.Drawing.Color.Black);
+            this.txtSVSua_SDT.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_SDT.Location = (new global::System.Drawing.Point(35, 352));
+            this.txtSVSua_SDT.Name = ("txtSVSua_SDT");
+            this.txtSVSua_SDT.PasswordChar = ('\0');
+            this.txtSVSua_SDT.PlaceholderText = ("");
+            this.txtSVSua_SDT.SelectedText = ("");
+            this.txtSVSua_SDT.ShadowDecoration.CustomizableEdges = (customizableEdges96);
+            this.txtSVSua_SDT.Size = (new global::System.Drawing.Size(258, 28));
+            this.txtSVSua_SDT.TabIndex = (15);
             // 
             // label30
             // 
             this.label30.AutoSize = (true);
             this.label30.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            this.label30.Location = (new global::System.Drawing.Point(35, 336));
+            this.label30.Location = (new global::System.Drawing.Point(35, 328));
             this.label30.Name = ("label30");
             this.label30.Size = (new global::System.Drawing.Size(37, 20));
             this.label30.TabIndex = (14);
             this.label30.Text = ("SĐT");
             // 
-            // guna2TextBox4
+            // txtSVSua_NoiSinh
             // 
-            this.guna2TextBox4.BorderColor = (global::System.Drawing.Color.Silver);
-            this.guna2TextBox4.BorderRadius = (10);
-            this.guna2TextBox4.CustomizableEdges = (customizableEdges95);
-            this.guna2TextBox4.DefaultText = ("");
-            this.guna2TextBox4.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
-            this.guna2TextBox4.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
-            this.guna2TextBox4.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox4.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox4.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox4.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2TextBox4.ForeColor = (global::System.Drawing.Color.Black);
-            this.guna2TextBox4.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox4.Location = (new global::System.Drawing.Point(35, 305));
-            this.guna2TextBox4.Name = ("guna2TextBox4");
-            this.guna2TextBox4.PasswordChar = ('\0');
-            this.guna2TextBox4.PlaceholderText = ("");
-            this.guna2TextBox4.SelectedText = ("");
-            this.guna2TextBox4.ShadowDecoration.CustomizableEdges = (customizableEdges96);
-            this.guna2TextBox4.Size = (new global::System.Drawing.Size(258, 28));
-            this.guna2TextBox4.TabIndex = (13);
+            this.txtSVSua_NoiSinh.BorderColor = (global::System.Drawing.Color.Silver);
+            this.txtSVSua_NoiSinh.BorderRadius = (10);
+            this.txtSVSua_NoiSinh.CustomizableEdges = (customizableEdges97);
+            this.txtSVSua_NoiSinh.DefaultText = ("");
+            this.txtSVSua_NoiSinh.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
+            this.txtSVSua_NoiSinh.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
+            this.txtSVSua_NoiSinh.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_NoiSinh.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_NoiSinh.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_NoiSinh.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            this.txtSVSua_NoiSinh.ForeColor = (global::System.Drawing.Color.Black);
+            this.txtSVSua_NoiSinh.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_NoiSinh.Location = (new global::System.Drawing.Point(35, 296));
+            this.txtSVSua_NoiSinh.Name = ("txtSVSua_NoiSinh");
+            this.txtSVSua_NoiSinh.PasswordChar = ('\0');
+            this.txtSVSua_NoiSinh.PlaceholderText = ("");
+            this.txtSVSua_NoiSinh.SelectedText = ("");
+            this.txtSVSua_NoiSinh.ShadowDecoration.CustomizableEdges = (customizableEdges98);
+            this.txtSVSua_NoiSinh.Size = (new global::System.Drawing.Size(258, 28));
+            this.txtSVSua_NoiSinh.TabIndex = (13);
             // 
-            // guna2TextBox3
+            // txtSVSua_Ten
             // 
-            this.guna2TextBox3.BorderColor = (global::System.Drawing.Color.Silver);
-            this.guna2TextBox3.BorderRadius = (10);
-            this.guna2TextBox3.CustomizableEdges = (customizableEdges97);
-            this.guna2TextBox3.DefaultText = ("");
-            this.guna2TextBox3.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
-            this.guna2TextBox3.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
-            this.guna2TextBox3.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox3.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox3.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox3.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2TextBox3.ForeColor = (global::System.Drawing.Color.Black);
-            this.guna2TextBox3.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox3.Location = (new global::System.Drawing.Point(35, 135));
-            this.guna2TextBox3.Name = ("guna2TextBox3");
-            this.guna2TextBox3.PasswordChar = ('\0');
-            this.guna2TextBox3.PlaceholderText = ("");
-            this.guna2TextBox3.SelectedText = ("");
-            this.guna2TextBox3.ShadowDecoration.CustomizableEdges = (customizableEdges98);
-            this.guna2TextBox3.Size = (new global::System.Drawing.Size(258, 28));
-            this.guna2TextBox3.TabIndex = (11);
+            this.txtSVSua_Ten.BorderColor = (global::System.Drawing.Color.Silver);
+            this.txtSVSua_Ten.BorderRadius = (10);
+            this.txtSVSua_Ten.CustomizableEdges = (customizableEdges99);
+            this.txtSVSua_Ten.DefaultText = ("");
+            this.txtSVSua_Ten.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
+            this.txtSVSua_Ten.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
+            this.txtSVSua_Ten.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_Ten.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_Ten.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_Ten.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            this.txtSVSua_Ten.ForeColor = (global::System.Drawing.Color.Black);
+            this.txtSVSua_Ten.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_Ten.Location = (new global::System.Drawing.Point(35, 120));
+            this.txtSVSua_Ten.Name = ("txtSVSua_Ten");
+            this.txtSVSua_Ten.PasswordChar = ('\0');
+            this.txtSVSua_Ten.PlaceholderText = ("");
+            this.txtSVSua_Ten.SelectedText = ("");
+            this.txtSVSua_Ten.ShadowDecoration.CustomizableEdges = (customizableEdges100);
+            this.txtSVSua_Ten.Size = (new global::System.Drawing.Size(258, 28));
+            this.txtSVSua_Ten.TabIndex = (11);
             // 
             // label29
             // 
             this.label29.AutoSize = (true);
             this.label29.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            this.label29.Location = (new global::System.Drawing.Point(35, 282));
+            this.label29.Location = (new global::System.Drawing.Point(35, 272));
             this.label29.Name = ("label29");
             this.label29.Size = (new global::System.Drawing.Size(67, 20));
             this.label29.TabIndex = (9);
@@ -1956,7 +2022,7 @@
             // 
             this.label28.AutoSize = (true);
             this.label28.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            this.label28.Location = (new global::System.Drawing.Point(35, 228));
+            this.label28.Location = (new global::System.Drawing.Point(35, 216));
             this.label28.Name = ("label28");
             this.label28.Size = (new global::System.Drawing.Size(79, 20));
             this.label28.TabIndex = (7);
@@ -1966,68 +2032,69 @@
             // 
             this.label27.AutoSize = (true);
             this.label27.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            this.label27.Location = (new global::System.Drawing.Point(35, 166));
+            this.label27.Location = (new global::System.Drawing.Point(35, 152));
             this.label27.Name = ("label27");
             this.label27.Size = (new global::System.Drawing.Size(69, 20));
             this.label27.TabIndex = (6);
             this.label27.Text = ("Giới tính");
             // 
-            // guna2ComboBox4
+            // cboSVSua_GioiTinh
             // 
-            this.guna2ComboBox4.BackColor = (global::System.Drawing.Color.Transparent);
-            this.guna2ComboBox4.BorderRadius = (10);
-            this.guna2ComboBox4.CustomizableEdges = (customizableEdges99);
-            this.guna2ComboBox4.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
-            this.guna2ComboBox4.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
-            this.guna2ComboBox4.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2ComboBox4.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2ComboBox4.Font = (new global::System.Drawing.Font("Segoe UI", 10F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2ComboBox4.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(68)), (global::System.Int32)((global::System.Byte)(88)), (global::System.Int32)((global::System.Byte)(112))));
-            this.guna2ComboBox4.ItemHeight = (30);
-            this.guna2ComboBox4.Location = (new global::System.Drawing.Point(35, 189));
-            this.guna2ComboBox4.Name = ("guna2ComboBox4");
-            this.guna2ComboBox4.ShadowDecoration.CustomizableEdges = (customizableEdges100);
-            this.guna2ComboBox4.Size = (new global::System.Drawing.Size(258, 36));
-            this.guna2ComboBox4.TabIndex = (5);
+            this.cboSVSua_GioiTinh.BackColor = (global::System.Drawing.Color.Transparent);
+            this.cboSVSua_GioiTinh.BorderRadius = (10);
+            this.cboSVSua_GioiTinh.CustomizableEdges = (customizableEdges101);
+            this.cboSVSua_GioiTinh.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
+            this.cboSVSua_GioiTinh.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
+            this.cboSVSua_GioiTinh.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.cboSVSua_GioiTinh.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.cboSVSua_GioiTinh.Font = (new global::System.Drawing.Font("Segoe UI", 10F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            this.cboSVSua_GioiTinh.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(68)), (global::System.Int32)((global::System.Byte)(88)), (global::System.Int32)((global::System.Byte)(112))));
+            this.cboSVSua_GioiTinh.ItemHeight = (30);
+            this.cboSVSua_GioiTinh.Items.AddRange(new global::System.Object[] { "Nam", "Nữ" });
+            this.cboSVSua_GioiTinh.Location = (new global::System.Drawing.Point(35, 176));
+            this.cboSVSua_GioiTinh.Name = ("cboSVSua_GioiTinh");
+            this.cboSVSua_GioiTinh.ShadowDecoration.CustomizableEdges = (customizableEdges102);
+            this.cboSVSua_GioiTinh.Size = (new global::System.Drawing.Size(258, 36));
+            this.cboSVSua_GioiTinh.TabIndex = (5);
             // 
             // label26
             // 
             this.label26.AutoSize = (true);
             this.label26.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            this.label26.Location = (new global::System.Drawing.Point(35, 112));
+            this.label26.Location = (new global::System.Drawing.Point(35, 96));
             this.label26.Name = ("label26");
             this.label26.Size = (new global::System.Drawing.Size(34, 20));
             this.label26.TabIndex = (3);
             this.label26.Text = ("Tên");
             // 
-            // guna2TextBox2
+            // txtSVSua_HoTenLot
             // 
-            this.guna2TextBox2.BorderColor = (global::System.Drawing.Color.Silver);
-            this.guna2TextBox2.BorderRadius = (10);
-            this.guna2TextBox2.CustomizableEdges = (customizableEdges101);
-            this.guna2TextBox2.DefaultText = ("");
-            this.guna2TextBox2.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
-            this.guna2TextBox2.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
-            this.guna2TextBox2.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox2.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
-            this.guna2TextBox2.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox2.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2TextBox2.ForeColor = (global::System.Drawing.Color.Black);
-            this.guna2TextBox2.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
-            this.guna2TextBox2.Location = (new global::System.Drawing.Point(35, 81));
-            this.guna2TextBox2.Name = ("guna2TextBox2");
-            this.guna2TextBox2.PasswordChar = ('\0');
-            this.guna2TextBox2.PlaceholderText = ("");
-            this.guna2TextBox2.SelectedText = ("");
-            this.guna2TextBox2.ShadowDecoration.CustomizableEdges = (customizableEdges102);
-            this.guna2TextBox2.Size = (new global::System.Drawing.Size(258, 28));
-            this.guna2TextBox2.TabIndex = (2);
+            this.txtSVSua_HoTenLot.BorderColor = (global::System.Drawing.Color.Silver);
+            this.txtSVSua_HoTenLot.BorderRadius = (10);
+            this.txtSVSua_HoTenLot.CustomizableEdges = (customizableEdges103);
+            this.txtSVSua_HoTenLot.DefaultText = ("");
+            this.txtSVSua_HoTenLot.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
+            this.txtSVSua_HoTenLot.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
+            this.txtSVSua_HoTenLot.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_HoTenLot.DisabledState.PlaceholderForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138)), (global::System.Int32)((global::System.Byte)(138))));
+            this.txtSVSua_HoTenLot.FocusedState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_HoTenLot.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            this.txtSVSua_HoTenLot.ForeColor = (global::System.Drawing.Color.Black);
+            this.txtSVSua_HoTenLot.HoverState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
+            this.txtSVSua_HoTenLot.Location = (new global::System.Drawing.Point(35, 64));
+            this.txtSVSua_HoTenLot.Name = ("txtSVSua_HoTenLot");
+            this.txtSVSua_HoTenLot.PasswordChar = ('\0');
+            this.txtSVSua_HoTenLot.PlaceholderText = ("");
+            this.txtSVSua_HoTenLot.SelectedText = ("");
+            this.txtSVSua_HoTenLot.ShadowDecoration.CustomizableEdges = (customizableEdges104);
+            this.txtSVSua_HoTenLot.Size = (new global::System.Drawing.Size(258, 28));
+            this.txtSVSua_HoTenLot.TabIndex = (2);
             // 
             // label25
             // 
             this.label25.AutoSize = (true);
             this.label25.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            this.label25.Location = (new global::System.Drawing.Point(35, 58));
+            this.label25.Location = (new global::System.Drawing.Point(35, 40));
             this.label25.Name = ("label25");
             this.label25.Size = (new global::System.Drawing.Size(99, 20));
             this.label25.TabIndex = (1);
@@ -2037,7 +2104,7 @@
             // 
             this.label24.AutoSize = (true);
             this.label24.Font = (new global::System.Drawing.Font("Segoe UI", 13F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            this.label24.Location = (new global::System.Drawing.Point(190, 18));
+            this.label24.Location = (new global::System.Drawing.Point(190, 6));
             this.label24.Name = ("label24");
             this.label24.Size = (new global::System.Drawing.Size(252, 30));
             this.label24.TabIndex = (0);
@@ -2060,90 +2127,83 @@
             this.guna2Panel1.BorderColor = (global::System.Drawing.Color.Gray);
             this.guna2Panel1.BorderRadius = (20);
             this.guna2Panel1.BorderThickness = (1);
-            this.guna2Panel1.Controls.Add(this.guna2Button6);
-            this.guna2Panel1.Controls.Add(this.guna2Button5);
-            this.guna2Panel1.Controls.Add(this.guna2Button2);
-            this.guna2Panel1.Controls.Add(this.dtGWXoaSV);
+            this.guna2Panel1.Controls.Add(this.btnSVXoa_Huy);
+            this.guna2Panel1.Controls.Add(this.btnSVXoa_Luu);
+            this.guna2Panel1.Controls.Add(this.btnSVXoa_Xoa);
             this.guna2Panel1.Controls.Add(this.btnSVX);
             this.guna2Panel1.Controls.Add(this.txtSVXoa_timKiem);
-            this.guna2Panel1.CustomizableEdges = (customizableEdges115);
+            this.guna2Panel1.Controls.Add(this.dtGWXoaSV);
+            this.guna2Panel1.CustomizableEdges = (customizableEdges117);
             this.guna2Panel1.Location = (new global::System.Drawing.Point(44, 35));
             this.guna2Panel1.Name = ("guna2Panel1");
-            this.guna2Panel1.ShadowDecoration.CustomizableEdges = (customizableEdges116);
+            this.guna2Panel1.ShadowDecoration.CustomizableEdges = (customizableEdges118);
             this.guna2Panel1.Size = (new global::System.Drawing.Size(1148, 743));
             this.guna2Panel1.TabIndex = (0);
             // 
-            // guna2Button6
+            // btnSVXoa_Huy
             // 
-            this.guna2Button6.BorderRadius = (15);
-            this.guna2Button6.CustomizableEdges = (customizableEdges105);
-            this.guna2Button6.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
-            this.guna2Button6.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
-            this.guna2Button6.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
-            this.guna2Button6.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141))));
-            this.guna2Button6.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(30)), (global::System.Int32)((global::System.Byte)(183)), (global::System.Int32)((global::System.Byte)(248))));
-            this.guna2Button6.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2Button6.ForeColor = (global::System.Drawing.Color.White);
-            this.guna2Button6.Location = (new global::System.Drawing.Point(818, 671));
-            this.guna2Button6.Name = ("guna2Button6");
-            this.guna2Button6.ShadowDecoration.CustomizableEdges = (customizableEdges106);
-            this.guna2Button6.Size = (new global::System.Drawing.Size(225, 42));
-            this.guna2Button6.TabIndex = (9);
-            this.guna2Button6.Tag = ("");
-            this.guna2Button6.Text = ("Hủy");
+            this.btnSVXoa_Huy.BorderRadius = (15);
+            this.btnSVXoa_Huy.CustomizableEdges = (customizableEdges107);
+            this.btnSVXoa_Huy.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
+            this.btnSVXoa_Huy.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
+            this.btnSVXoa_Huy.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
+            this.btnSVXoa_Huy.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141))));
+            this.btnSVXoa_Huy.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(30)), (global::System.Int32)((global::System.Byte)(183)), (global::System.Int32)((global::System.Byte)(248))));
+            this.btnSVXoa_Huy.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
+            this.btnSVXoa_Huy.ForeColor = (global::System.Drawing.Color.White);
+            this.btnSVXoa_Huy.Location = (new global::System.Drawing.Point(818, 671));
+            this.btnSVXoa_Huy.Name = ("btnSVXoa_Huy");
+            this.btnSVXoa_Huy.ShadowDecoration.CustomizableEdges = (customizableEdges108);
+            this.btnSVXoa_Huy.Size = (new global::System.Drawing.Size(225, 42));
+            this.btnSVXoa_Huy.TabIndex = (9);
+            this.btnSVXoa_Huy.Tag = ("");
+            this.btnSVXoa_Huy.Text = ("Hủy");
+            this.btnSVXoa_Huy.Click += (this.btnSVXoa_Huy_Click);
             // 
-            // guna2Button5
+            // btnSVXoa_Luu
             // 
-            this.guna2Button5.BorderRadius = (15);
-            this.guna2Button5.CustomizableEdges = (customizableEdges107);
-            this.guna2Button5.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
-            this.guna2Button5.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
-            this.guna2Button5.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
-            this.guna2Button5.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141))));
-            this.guna2Button5.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(23)), (global::System.Int32)((global::System.Byte)(212)), (global::System.Int32)((global::System.Byte)(76))));
-            this.guna2Button5.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2Button5.ForeColor = (global::System.Drawing.Color.White);
-            this.guna2Button5.Location = (new global::System.Drawing.Point(462, 671));
-            this.guna2Button5.Name = ("guna2Button5");
-            this.guna2Button5.ShadowDecoration.CustomizableEdges = (customizableEdges108);
-            this.guna2Button5.Size = (new global::System.Drawing.Size(225, 42));
-            this.guna2Button5.TabIndex = (8);
-            this.guna2Button5.Tag = ("");
-            this.guna2Button5.Text = ("Lưu");
+            this.btnSVXoa_Luu.BorderRadius = (15);
+            this.btnSVXoa_Luu.CustomizableEdges = (customizableEdges109);
+            this.btnSVXoa_Luu.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
+            this.btnSVXoa_Luu.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
+            this.btnSVXoa_Luu.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
+            this.btnSVXoa_Luu.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141))));
+            this.btnSVXoa_Luu.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(23)), (global::System.Int32)((global::System.Byte)(212)), (global::System.Int32)((global::System.Byte)(76))));
+            this.btnSVXoa_Luu.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
+            this.btnSVXoa_Luu.ForeColor = (global::System.Drawing.Color.White);
+            this.btnSVXoa_Luu.Location = (new global::System.Drawing.Point(462, 671));
+            this.btnSVXoa_Luu.Name = ("btnSVXoa_Luu");
+            this.btnSVXoa_Luu.ShadowDecoration.CustomizableEdges = (customizableEdges110);
+            this.btnSVXoa_Luu.Size = (new global::System.Drawing.Size(225, 42));
+            this.btnSVXoa_Luu.TabIndex = (8);
+            this.btnSVXoa_Luu.Tag = ("");
+            this.btnSVXoa_Luu.Text = ("Lưu");
+            this.btnSVXoa_Luu.Click += (this.btnSVXoa_Luu_Click);
             // 
-            // guna2Button2
+            // btnSVXoa_Xoa
             // 
-            this.guna2Button2.BorderRadius = (15);
-            this.guna2Button2.CustomizableEdges = (customizableEdges109);
-            this.guna2Button2.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
-            this.guna2Button2.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
-            this.guna2Button2.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
-            this.guna2Button2.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141))));
-            this.guna2Button2.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(255)), (global::System.Int32)((global::System.Byte)(1)), (global::System.Int32)((global::System.Byte)(17))));
-            this.guna2Button2.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2Button2.ForeColor = (global::System.Drawing.Color.White);
-            this.guna2Button2.Location = (new global::System.Drawing.Point(106, 671));
-            this.guna2Button2.Name = ("guna2Button2");
-            this.guna2Button2.ShadowDecoration.CustomizableEdges = (customizableEdges110);
-            this.guna2Button2.Size = (new global::System.Drawing.Size(225, 42));
-            this.guna2Button2.TabIndex = (7);
-            this.guna2Button2.Tag = ("");
-            this.guna2Button2.Text = ("Xóa");
-            // 
-            // dtGWXoaSV
-            // 
-            this.dtGWXoaSV.ColumnHeadersHeightSizeMode = (global::System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize);
-            this.dtGWXoaSV.Location = (new global::System.Drawing.Point(36, 82));
-            this.dtGWXoaSV.Name = ("dtGWXoaSV");
-            this.dtGWXoaSV.RowHeadersWidth = (51);
-            this.dtGWXoaSV.RowTemplate.Height = (29);
-            this.dtGWXoaSV.Size = (new global::System.Drawing.Size(1086, 557));
-            this.dtGWXoaSV.TabIndex = (6);
+            this.btnSVXoa_Xoa.BorderRadius = (15);
+            this.btnSVXoa_Xoa.CustomizableEdges = (customizableEdges111);
+            this.btnSVXoa_Xoa.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
+            this.btnSVXoa_Xoa.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
+            this.btnSVXoa_Xoa.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
+            this.btnSVXoa_Xoa.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141))));
+            this.btnSVXoa_Xoa.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(255)), (global::System.Int32)((global::System.Byte)(1)), (global::System.Int32)((global::System.Byte)(17))));
+            this.btnSVXoa_Xoa.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
+            this.btnSVXoa_Xoa.ForeColor = (global::System.Drawing.Color.White);
+            this.btnSVXoa_Xoa.Location = (new global::System.Drawing.Point(106, 671));
+            this.btnSVXoa_Xoa.Name = ("btnSVXoa_Xoa");
+            this.btnSVXoa_Xoa.ShadowDecoration.CustomizableEdges = (customizableEdges112);
+            this.btnSVXoa_Xoa.Size = (new global::System.Drawing.Size(225, 42));
+            this.btnSVXoa_Xoa.TabIndex = (7);
+            this.btnSVXoa_Xoa.Tag = ("");
+            this.btnSVXoa_Xoa.Text = ("Xóa");
+            this.btnSVXoa_Xoa.Click += (this.btnSVXoa_Xoa_Click);
             // 
             // btnSVX
             // 
             this.btnSVX.BorderRadius = (10);
-            this.btnSVX.CustomizableEdges = (customizableEdges111);
+            this.btnSVX.CustomizableEdges = (customizableEdges113);
             this.btnSVX.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSVX.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSVX.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -2154,7 +2214,7 @@
             this.btnSVX.Image = (global::QL_KTX.Properties.Resources.magnifying_glass);
             this.btnSVX.Location = (new global::System.Drawing.Point(904, 15));
             this.btnSVX.Name = ("btnSVX");
-            this.btnSVX.ShadowDecoration.CustomizableEdges = (customizableEdges112);
+            this.btnSVX.ShadowDecoration.CustomizableEdges = (customizableEdges114);
             this.btnSVX.Size = (new global::System.Drawing.Size(56, 46));
             this.btnSVX.TabIndex = (4);
             // 
@@ -2162,7 +2222,7 @@
             // 
             this.txtSVXoa_timKiem.BorderColor = (global::System.Drawing.Color.Black);
             this.txtSVXoa_timKiem.BorderRadius = (20);
-            this.txtSVXoa_timKiem.CustomizableEdges = (customizableEdges113);
+            this.txtSVXoa_timKiem.CustomizableEdges = (customizableEdges115);
             this.txtSVXoa_timKiem.DefaultText = ("");
             this.txtSVXoa_timKiem.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVXoa_timKiem.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2177,9 +2237,38 @@
             this.txtSVXoa_timKiem.PasswordChar = ('\0');
             this.txtSVXoa_timKiem.PlaceholderText = ("");
             this.txtSVXoa_timKiem.SelectedText = ("");
-            this.txtSVXoa_timKiem.ShadowDecoration.CustomizableEdges = (customizableEdges114);
+            this.txtSVXoa_timKiem.ShadowDecoration.CustomizableEdges = (customizableEdges116);
             this.txtSVXoa_timKiem.Size = (new global::System.Drawing.Size(698, 37));
             this.txtSVXoa_timKiem.TabIndex = (5);
+            // 
+            // dtGWXoaSV
+            // 
+            this.dtGWXoaSV.BackgroundColor = (global::System.Drawing.Color.White);
+            dataGridViewCellStyle4.Alignment = (global::System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft);
+            dataGridViewCellStyle4.BackColor = (global::System.Drawing.SystemColors.Control);
+            dataGridViewCellStyle4.Font = (new global::System.Drawing.Font("Segoe UI", 8F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
+            dataGridViewCellStyle4.ForeColor = (global::System.Drawing.SystemColors.WindowText);
+            dataGridViewCellStyle4.SelectionBackColor = (global::System.Drawing.SystemColors.Highlight);
+            dataGridViewCellStyle4.SelectionForeColor = (global::System.Drawing.SystemColors.HighlightText);
+            dataGridViewCellStyle4.WrapMode = (global::System.Windows.Forms.DataGridViewTriState.True);
+            this.dtGWXoaSV.ColumnHeadersDefaultCellStyle = (dataGridViewCellStyle4);
+            this.dtGWXoaSV.ColumnHeadersHeightSizeMode = (global::System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize);
+            dataGridViewCellStyle5.Alignment = (global::System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft);
+            dataGridViewCellStyle5.BackColor = (global::System.Drawing.SystemColors.Window);
+            dataGridViewCellStyle5.Font = (new global::System.Drawing.Font("Segoe UI", 8F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
+            dataGridViewCellStyle5.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(15)), (global::System.Int32)((global::System.Byte)(2)), (global::System.Int32)((global::System.Byte)(73))));
+            dataGridViewCellStyle5.SelectionBackColor = (global::System.Drawing.SystemColors.Highlight);
+            dataGridViewCellStyle5.SelectionForeColor = (global::System.Drawing.SystemColors.HighlightText);
+            dataGridViewCellStyle5.WrapMode = (global::System.Windows.Forms.DataGridViewTriState.False);
+            this.dtGWXoaSV.DefaultCellStyle = (dataGridViewCellStyle5);
+            this.dtGWXoaSV.Location = (new global::System.Drawing.Point(36, 82));
+            this.dtGWXoaSV.Name = ("dtGWXoaSV");
+            this.dtGWXoaSV.RowHeadersWidth = (51);
+            this.dtGWXoaSV.RowTemplate.Height = (29);
+            this.dtGWXoaSV.SelectionMode = (global::System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect);
+            this.dtGWXoaSV.Size = (new global::System.Drawing.Size(1086, 557));
+            this.dtGWXoaSV.TabIndex = (6);
+            this.dtGWXoaSV.CellClick += (this.dtGWXoaSV_CellClick);
             // 
             // tabDanhSachSV
             // 
@@ -2202,17 +2291,17 @@
             this.guna2Panel2.Controls.Add(this.dtgSV_XemDanhSach);
             this.guna2Panel2.Controls.Add(this.guna2Button10);
             this.guna2Panel2.Controls.Add(this.guna2TextBox1);
-            this.guna2Panel2.CustomizableEdges = (customizableEdges123);
+            this.guna2Panel2.CustomizableEdges = (customizableEdges125);
             this.guna2Panel2.Location = (new global::System.Drawing.Point(44, 35));
             this.guna2Panel2.Name = ("guna2Panel2");
-            this.guna2Panel2.ShadowDecoration.CustomizableEdges = (customizableEdges124);
+            this.guna2Panel2.ShadowDecoration.CustomizableEdges = (customizableEdges126);
             this.guna2Panel2.Size = (new global::System.Drawing.Size(1148, 743));
             this.guna2Panel2.TabIndex = (1);
             // 
             // guna2Button8
             // 
             this.guna2Button8.BorderRadius = (15);
-            this.guna2Button8.CustomizableEdges = (customizableEdges117);
+            this.guna2Button8.CustomizableEdges = (customizableEdges119);
             this.guna2Button8.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.guna2Button8.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.guna2Button8.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -2222,7 +2311,7 @@
             this.guna2Button8.ForeColor = (global::System.Drawing.Color.White);
             this.guna2Button8.Location = (new global::System.Drawing.Point(462, 671));
             this.guna2Button8.Name = ("guna2Button8");
-            this.guna2Button8.ShadowDecoration.CustomizableEdges = (customizableEdges118);
+            this.guna2Button8.ShadowDecoration.CustomizableEdges = (customizableEdges120);
             this.guna2Button8.Size = (new global::System.Drawing.Size(225, 42));
             this.guna2Button8.TabIndex = (8);
             this.guna2Button8.Tag = ("FF0111");
@@ -2230,18 +2319,28 @@
             // 
             // dtgSV_XemDanhSach
             // 
+            this.dtgSV_XemDanhSach.BackgroundColor = (global::System.Drawing.Color.White);
+            dataGridViewCellStyle6.Alignment = (global::System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft);
+            dataGridViewCellStyle6.BackColor = (global::System.Drawing.SystemColors.Control);
+            dataGridViewCellStyle6.Font = (new global::System.Drawing.Font("Segoe UI", 8F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
+            dataGridViewCellStyle6.ForeColor = (global::System.Drawing.SystemColors.WindowText);
+            dataGridViewCellStyle6.SelectionBackColor = (global::System.Drawing.SystemColors.Highlight);
+            dataGridViewCellStyle6.SelectionForeColor = (global::System.Drawing.SystemColors.HighlightText);
+            dataGridViewCellStyle6.WrapMode = (global::System.Windows.Forms.DataGridViewTriState.True);
+            this.dtgSV_XemDanhSach.ColumnHeadersDefaultCellStyle = (dataGridViewCellStyle6);
             this.dtgSV_XemDanhSach.ColumnHeadersHeightSizeMode = (global::System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize);
             this.dtgSV_XemDanhSach.Location = (new global::System.Drawing.Point(36, 82));
             this.dtgSV_XemDanhSach.Name = ("dtgSV_XemDanhSach");
             this.dtgSV_XemDanhSach.RowHeadersWidth = (51);
             this.dtgSV_XemDanhSach.RowTemplate.Height = (29);
+            this.dtgSV_XemDanhSach.SelectionMode = (global::System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect);
             this.dtgSV_XemDanhSach.Size = (new global::System.Drawing.Size(1086, 557));
             this.dtgSV_XemDanhSach.TabIndex = (6);
             // 
             // guna2Button10
             // 
             this.guna2Button10.BorderRadius = (10);
-            this.guna2Button10.CustomizableEdges = (customizableEdges119);
+            this.guna2Button10.CustomizableEdges = (customizableEdges121);
             this.guna2Button10.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.guna2Button10.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.guna2Button10.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -2252,7 +2351,7 @@
             this.guna2Button10.Image = (global::QL_KTX.Properties.Resources.magnifying_glass);
             this.guna2Button10.Location = (new global::System.Drawing.Point(904, 15));
             this.guna2Button10.Name = ("guna2Button10");
-            this.guna2Button10.ShadowDecoration.CustomizableEdges = (customizableEdges120);
+            this.guna2Button10.ShadowDecoration.CustomizableEdges = (customizableEdges122);
             this.guna2Button10.Size = (new global::System.Drawing.Size(56, 46));
             this.guna2Button10.TabIndex = (4);
             // 
@@ -2260,7 +2359,7 @@
             // 
             this.guna2TextBox1.BorderColor = (global::System.Drawing.Color.Black);
             this.guna2TextBox1.BorderRadius = (20);
-            this.guna2TextBox1.CustomizableEdges = (customizableEdges121);
+            this.guna2TextBox1.CustomizableEdges = (customizableEdges123);
             this.guna2TextBox1.DefaultText = ("");
             this.guna2TextBox1.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.guna2TextBox1.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2275,7 +2374,7 @@
             this.guna2TextBox1.PasswordChar = ('\0');
             this.guna2TextBox1.PlaceholderText = ("");
             this.guna2TextBox1.SelectedText = ("");
-            this.guna2TextBox1.ShadowDecoration.CustomizableEdges = (customizableEdges122);
+            this.guna2TextBox1.ShadowDecoration.CustomizableEdges = (customizableEdges124);
             this.guna2TextBox1.Size = (new global::System.Drawing.Size(698, 37));
             this.guna2TextBox1.TabIndex = (5);
             // 
@@ -2323,17 +2422,17 @@
             this.guna2Panel3.Controls.Add(this.guna2TextBox8);
             this.guna2Panel3.Controls.Add(this.label48);
             this.guna2Panel3.Controls.Add(this.label47);
-            this.guna2Panel3.CustomizableEdges = (customizableEdges157);
+            this.guna2Panel3.CustomizableEdges = (customizableEdges159);
             this.guna2Panel3.Location = (new global::System.Drawing.Point(27, 17));
             this.guna2Panel3.Name = ("guna2Panel3");
-            this.guna2Panel3.ShadowDecoration.CustomizableEdges = (customizableEdges158);
+            this.guna2Panel3.ShadowDecoration.CustomizableEdges = (customizableEdges160);
             this.guna2Panel3.Size = (new global::System.Drawing.Size(1183, 768));
             this.guna2Panel3.TabIndex = (0);
             // 
             // guna2Button13
             // 
             this.guna2Button13.BorderRadius = (15);
-            this.guna2Button13.CustomizableEdges = (customizableEdges125);
+            this.guna2Button13.CustomizableEdges = (customizableEdges127);
             this.guna2Button13.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.guna2Button13.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.guna2Button13.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -2343,7 +2442,7 @@
             this.guna2Button13.ForeColor = (global::System.Drawing.Color.White);
             this.guna2Button13.Location = (new global::System.Drawing.Point(807, 697));
             this.guna2Button13.Name = ("guna2Button13");
-            this.guna2Button13.ShadowDecoration.CustomizableEdges = (customizableEdges126);
+            this.guna2Button13.ShadowDecoration.CustomizableEdges = (customizableEdges128);
             this.guna2Button13.Size = (new global::System.Drawing.Size(165, 48));
             this.guna2Button13.TabIndex = (29);
             this.guna2Button13.Tag = ("");
@@ -2352,7 +2451,7 @@
             // guna2Button12
             // 
             this.guna2Button12.BorderRadius = (15);
-            this.guna2Button12.CustomizableEdges = (customizableEdges127);
+            this.guna2Button12.CustomizableEdges = (customizableEdges129);
             this.guna2Button12.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.guna2Button12.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.guna2Button12.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -2362,7 +2461,7 @@
             this.guna2Button12.ForeColor = (global::System.Drawing.Color.White);
             this.guna2Button12.Location = (new global::System.Drawing.Point(608, 697));
             this.guna2Button12.Name = ("guna2Button12");
-            this.guna2Button12.ShadowDecoration.CustomizableEdges = (customizableEdges128);
+            this.guna2Button12.ShadowDecoration.CustomizableEdges = (customizableEdges130);
             this.guna2Button12.Size = (new global::System.Drawing.Size(165, 48));
             this.guna2Button12.TabIndex = (28);
             this.guna2Button12.Tag = ("");
@@ -2371,7 +2470,7 @@
             // guna2Button11
             // 
             this.guna2Button11.BorderRadius = (15);
-            this.guna2Button11.CustomizableEdges = (customizableEdges129);
+            this.guna2Button11.CustomizableEdges = (customizableEdges131);
             this.guna2Button11.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.guna2Button11.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.guna2Button11.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -2381,7 +2480,7 @@
             this.guna2Button11.ForeColor = (global::System.Drawing.Color.White);
             this.guna2Button11.Location = (new global::System.Drawing.Point(409, 697));
             this.guna2Button11.Name = ("guna2Button11");
-            this.guna2Button11.ShadowDecoration.CustomizableEdges = (customizableEdges130);
+            this.guna2Button11.ShadowDecoration.CustomizableEdges = (customizableEdges132);
             this.guna2Button11.Size = (new global::System.Drawing.Size(165, 48));
             this.guna2Button11.TabIndex = (27);
             this.guna2Button11.Tag = ("");
@@ -2390,7 +2489,7 @@
             // guna2Button9
             // 
             this.guna2Button9.BorderRadius = (15);
-            this.guna2Button9.CustomizableEdges = (customizableEdges131);
+            this.guna2Button9.CustomizableEdges = (customizableEdges133);
             this.guna2Button9.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.guna2Button9.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.guna2Button9.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -2400,7 +2499,7 @@
             this.guna2Button9.ForeColor = (global::System.Drawing.Color.White);
             this.guna2Button9.Location = (new global::System.Drawing.Point(210, 697));
             this.guna2Button9.Name = ("guna2Button9");
-            this.guna2Button9.ShadowDecoration.CustomizableEdges = (customizableEdges132);
+            this.guna2Button9.ShadowDecoration.CustomizableEdges = (customizableEdges134);
             this.guna2Button9.Size = (new global::System.Drawing.Size(165, 48));
             this.guna2Button9.TabIndex = (26);
             this.guna2Button9.Tag = ("");
@@ -2419,7 +2518,7 @@
             // guna2Button7
             // 
             this.guna2Button7.BorderRadius = (10);
-            this.guna2Button7.CustomizableEdges = (customizableEdges133);
+            this.guna2Button7.CustomizableEdges = (customizableEdges135);
             this.guna2Button7.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.guna2Button7.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.guna2Button7.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -2430,7 +2529,7 @@
             this.guna2Button7.Image = (global::QL_KTX.Properties.Resources.magnifying_glass);
             this.guna2Button7.Location = (new global::System.Drawing.Point(921, 376));
             this.guna2Button7.Name = ("guna2Button7");
-            this.guna2Button7.ShadowDecoration.CustomizableEdges = (customizableEdges134);
+            this.guna2Button7.ShadowDecoration.CustomizableEdges = (customizableEdges136);
             this.guna2Button7.Size = (new global::System.Drawing.Size(56, 46));
             this.guna2Button7.TabIndex = (23);
             // 
@@ -2438,7 +2537,7 @@
             // 
             this.guna2TextBox24.BorderColor = (global::System.Drawing.Color.Black);
             this.guna2TextBox24.BorderRadius = (20);
-            this.guna2TextBox24.CustomizableEdges = (customizableEdges135);
+            this.guna2TextBox24.CustomizableEdges = (customizableEdges137);
             this.guna2TextBox24.DefaultText = ("");
             this.guna2TextBox24.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.guna2TextBox24.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2453,7 +2552,7 @@
             this.guna2TextBox24.PasswordChar = ('\0');
             this.guna2TextBox24.PlaceholderText = ("");
             this.guna2TextBox24.SelectedText = ("");
-            this.guna2TextBox24.ShadowDecoration.CustomizableEdges = (customizableEdges136);
+            this.guna2TextBox24.ShadowDecoration.CustomizableEdges = (customizableEdges138);
             this.guna2TextBox24.Size = (new global::System.Drawing.Size(698, 37));
             this.guna2TextBox24.TabIndex = (24);
             // 
@@ -2461,7 +2560,7 @@
             // 
             this.guna2TextBox19.BorderColor = (global::System.Drawing.Color.Silver);
             this.guna2TextBox19.BorderRadius = (10);
-            this.guna2TextBox19.CustomizableEdges = (customizableEdges137);
+            this.guna2TextBox19.CustomizableEdges = (customizableEdges139);
             this.guna2TextBox19.DefaultText = ("");
             this.guna2TextBox19.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.guna2TextBox19.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2476,7 +2575,7 @@
             this.guna2TextBox19.PasswordChar = ('\0');
             this.guna2TextBox19.PlaceholderText = ("");
             this.guna2TextBox19.SelectedText = ("");
-            this.guna2TextBox19.ShadowDecoration.CustomizableEdges = (customizableEdges138);
+            this.guna2TextBox19.ShadowDecoration.CustomizableEdges = (customizableEdges140);
             this.guna2TextBox19.Size = (new global::System.Drawing.Size(330, 28));
             this.guna2TextBox19.TabIndex = (22);
             // 
@@ -2494,7 +2593,7 @@
             // 
             this.guna2TextBox20.BorderColor = (global::System.Drawing.Color.Silver);
             this.guna2TextBox20.BorderRadius = (10);
-            this.guna2TextBox20.CustomizableEdges = (customizableEdges139);
+            this.guna2TextBox20.CustomizableEdges = (customizableEdges141);
             this.guna2TextBox20.DefaultText = ("");
             this.guna2TextBox20.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.guna2TextBox20.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2509,7 +2608,7 @@
             this.guna2TextBox20.PasswordChar = ('\0');
             this.guna2TextBox20.PlaceholderText = ("");
             this.guna2TextBox20.SelectedText = ("");
-            this.guna2TextBox20.ShadowDecoration.CustomizableEdges = (customizableEdges140);
+            this.guna2TextBox20.ShadowDecoration.CustomizableEdges = (customizableEdges142);
             this.guna2TextBox20.Size = (new global::System.Drawing.Size(330, 28));
             this.guna2TextBox20.TabIndex = (20);
             // 
@@ -2527,7 +2626,7 @@
             // 
             this.guna2TextBox21.BorderColor = (global::System.Drawing.Color.Silver);
             this.guna2TextBox21.BorderRadius = (10);
-            this.guna2TextBox21.CustomizableEdges = (customizableEdges141);
+            this.guna2TextBox21.CustomizableEdges = (customizableEdges143);
             this.guna2TextBox21.DefaultText = ("");
             this.guna2TextBox21.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.guna2TextBox21.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2542,7 +2641,7 @@
             this.guna2TextBox21.PasswordChar = ('\0');
             this.guna2TextBox21.PlaceholderText = ("");
             this.guna2TextBox21.SelectedText = ("");
-            this.guna2TextBox21.ShadowDecoration.CustomizableEdges = (customizableEdges142);
+            this.guna2TextBox21.ShadowDecoration.CustomizableEdges = (customizableEdges144);
             this.guna2TextBox21.Size = (new global::System.Drawing.Size(330, 28));
             this.guna2TextBox21.TabIndex = (18);
             // 
@@ -2560,7 +2659,7 @@
             // 
             this.guna2TextBox22.BorderColor = (global::System.Drawing.Color.Silver);
             this.guna2TextBox22.BorderRadius = (10);
-            this.guna2TextBox22.CustomizableEdges = (customizableEdges143);
+            this.guna2TextBox22.CustomizableEdges = (customizableEdges145);
             this.guna2TextBox22.DefaultText = ("");
             this.guna2TextBox22.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.guna2TextBox22.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2575,7 +2674,7 @@
             this.guna2TextBox22.PasswordChar = ('\0');
             this.guna2TextBox22.PlaceholderText = ("");
             this.guna2TextBox22.SelectedText = ("");
-            this.guna2TextBox22.ShadowDecoration.CustomizableEdges = (customizableEdges144);
+            this.guna2TextBox22.ShadowDecoration.CustomizableEdges = (customizableEdges146);
             this.guna2TextBox22.Size = (new global::System.Drawing.Size(330, 28));
             this.guna2TextBox22.TabIndex = (16);
             // 
@@ -2593,7 +2692,7 @@
             // 
             this.guna2TextBox23.BorderColor = (global::System.Drawing.Color.Silver);
             this.guna2TextBox23.BorderRadius = (10);
-            this.guna2TextBox23.CustomizableEdges = (customizableEdges145);
+            this.guna2TextBox23.CustomizableEdges = (customizableEdges147);
             this.guna2TextBox23.DefaultText = ("");
             this.guna2TextBox23.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.guna2TextBox23.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2608,7 +2707,7 @@
             this.guna2TextBox23.PasswordChar = ('\0');
             this.guna2TextBox23.PlaceholderText = ("");
             this.guna2TextBox23.SelectedText = ("");
-            this.guna2TextBox23.ShadowDecoration.CustomizableEdges = (customizableEdges146);
+            this.guna2TextBox23.ShadowDecoration.CustomizableEdges = (customizableEdges148);
             this.guna2TextBox23.Size = (new global::System.Drawing.Size(330, 28));
             this.guna2TextBox23.TabIndex = (14);
             // 
@@ -2626,7 +2725,7 @@
             // 
             this.guna2TextBox18.BorderColor = (global::System.Drawing.Color.Silver);
             this.guna2TextBox18.BorderRadius = (10);
-            this.guna2TextBox18.CustomizableEdges = (customizableEdges147);
+            this.guna2TextBox18.CustomizableEdges = (customizableEdges149);
             this.guna2TextBox18.DefaultText = ("");
             this.guna2TextBox18.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.guna2TextBox18.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2641,7 +2740,7 @@
             this.guna2TextBox18.PasswordChar = ('\0');
             this.guna2TextBox18.PlaceholderText = ("");
             this.guna2TextBox18.SelectedText = ("");
-            this.guna2TextBox18.ShadowDecoration.CustomizableEdges = (customizableEdges148);
+            this.guna2TextBox18.ShadowDecoration.CustomizableEdges = (customizableEdges150);
             this.guna2TextBox18.Size = (new global::System.Drawing.Size(330, 28));
             this.guna2TextBox18.TabIndex = (12);
             // 
@@ -2659,7 +2758,7 @@
             // 
             this.guna2TextBox17.BorderColor = (global::System.Drawing.Color.Silver);
             this.guna2TextBox17.BorderRadius = (10);
-            this.guna2TextBox17.CustomizableEdges = (customizableEdges149);
+            this.guna2TextBox17.CustomizableEdges = (customizableEdges151);
             this.guna2TextBox17.DefaultText = ("");
             this.guna2TextBox17.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.guna2TextBox17.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2674,7 +2773,7 @@
             this.guna2TextBox17.PasswordChar = ('\0');
             this.guna2TextBox17.PlaceholderText = ("");
             this.guna2TextBox17.SelectedText = ("");
-            this.guna2TextBox17.ShadowDecoration.CustomizableEdges = (customizableEdges150);
+            this.guna2TextBox17.ShadowDecoration.CustomizableEdges = (customizableEdges152);
             this.guna2TextBox17.Size = (new global::System.Drawing.Size(330, 28));
             this.guna2TextBox17.TabIndex = (10);
             // 
@@ -2692,7 +2791,7 @@
             // 
             this.guna2TextBox12.BorderColor = (global::System.Drawing.Color.Silver);
             this.guna2TextBox12.BorderRadius = (10);
-            this.guna2TextBox12.CustomizableEdges = (customizableEdges151);
+            this.guna2TextBox12.CustomizableEdges = (customizableEdges153);
             this.guna2TextBox12.DefaultText = ("");
             this.guna2TextBox12.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.guna2TextBox12.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2707,7 +2806,7 @@
             this.guna2TextBox12.PasswordChar = ('\0');
             this.guna2TextBox12.PlaceholderText = ("");
             this.guna2TextBox12.SelectedText = ("");
-            this.guna2TextBox12.ShadowDecoration.CustomizableEdges = (customizableEdges152);
+            this.guna2TextBox12.ShadowDecoration.CustomizableEdges = (customizableEdges154);
             this.guna2TextBox12.Size = (new global::System.Drawing.Size(330, 28));
             this.guna2TextBox12.TabIndex = (8);
             // 
@@ -2725,7 +2824,7 @@
             // 
             this.guna2TextBox11.BorderColor = (global::System.Drawing.Color.Silver);
             this.guna2TextBox11.BorderRadius = (10);
-            this.guna2TextBox11.CustomizableEdges = (customizableEdges153);
+            this.guna2TextBox11.CustomizableEdges = (customizableEdges155);
             this.guna2TextBox11.DefaultText = ("");
             this.guna2TextBox11.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.guna2TextBox11.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2740,7 +2839,7 @@
             this.guna2TextBox11.PasswordChar = ('\0');
             this.guna2TextBox11.PlaceholderText = ("");
             this.guna2TextBox11.SelectedText = ("");
-            this.guna2TextBox11.ShadowDecoration.CustomizableEdges = (customizableEdges154);
+            this.guna2TextBox11.ShadowDecoration.CustomizableEdges = (customizableEdges156);
             this.guna2TextBox11.Size = (new global::System.Drawing.Size(330, 28));
             this.guna2TextBox11.TabIndex = (6);
             // 
@@ -2758,7 +2857,7 @@
             // 
             this.guna2TextBox8.BorderColor = (global::System.Drawing.Color.Silver);
             this.guna2TextBox8.BorderRadius = (10);
-            this.guna2TextBox8.CustomizableEdges = (customizableEdges155);
+            this.guna2TextBox8.CustomizableEdges = (customizableEdges157);
             this.guna2TextBox8.DefaultText = ("");
             this.guna2TextBox8.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.guna2TextBox8.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2773,7 +2872,7 @@
             this.guna2TextBox8.PasswordChar = ('\0');
             this.guna2TextBox8.PlaceholderText = ("");
             this.guna2TextBox8.SelectedText = ("");
-            this.guna2TextBox8.ShadowDecoration.CustomizableEdges = (customizableEdges156);
+            this.guna2TextBox8.ShadowDecoration.CustomizableEdges = (customizableEdges158);
             this.guna2TextBox8.Size = (new global::System.Drawing.Size(330, 28));
             this.guna2TextBox8.TabIndex = (4);
             // 
@@ -2797,29 +2896,20 @@
             this.label47.TabIndex = (0);
             this.label47.Text = ("Hóa Đơn Thuê Phòng");
             // 
-            // txtTest
-            // 
-            this.txtTest.Location = (new global::System.Drawing.Point(888, 459));
-            this.txtTest.Multiline = (true);
-            this.txtTest.Name = ("txtTest");
-            this.txtTest.Size = (new global::System.Drawing.Size(276, 132));
-            this.txtTest.TabIndex = (3);
-            // 
             // FormSinhVien
             // 
             this.AutoScaleDimensions = (new global::System.Drawing.SizeF(5F, 12F));
             this.AutoScaleMode = (global::System.Windows.Forms.AutoScaleMode.Font);
             this.BackColor = (global::System.Drawing.Color.White);
             this.ClientSize = (new global::System.Drawing.Size(1244, 848));
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.tabControlChucNangSinhVien);
             this.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Pixel));
             this.Margin = (new global::System.Windows.Forms.Padding(2));
             this.Name = ("FormSinhVien");
             this.Text = ("FormSinhVien");
             this.Load += (this.FormSinhVien_Load);
-            this.tabControl1.ResumeLayout(false);
+            this.tabControlChucNangSinhVien.ResumeLayout(false);
             this.tabThemSV.ResumeLayout(false);
-            this.tabThemSV.PerformLayout();
             this.guna2CustomGradientPanel2.ResumeLayout(false);
             this.guna2CustomGradientPanel2.PerformLayout();
             this.guna2CustomGradientPanel1.ResumeLayout(false);
@@ -2847,7 +2937,7 @@
 
         #endregion
 
-        private TabControl tabControl1;
+        private TabControl tabControlChucNangSinhVien;
         private TabPage tabThemSV;
         private TabPage tabSuaSV;
         private TabPage tabXoaSV;
@@ -2901,59 +2991,57 @@
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel5;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel4;
         private Guna.UI2.WinForms.Guna2Button btnSVSua_TimKiem;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
+        private Guna.UI2.WinForms.Guna2Button btnSVSua_Sua;
+        private Guna.UI2.WinForms.Guna2Button btnSVSua_Luu;
+        private Guna.UI2.WinForms.Guna2Button btnSVSua_Huy;
         private Label label24;
         private Label label25;
         private Label label27;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox4;
+        private Guna.UI2.WinForms.Guna2ComboBox cboSVSua_GioiTinh;
         private Label label26;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        private Guna.UI2.WinForms.Guna2TextBox txtSVSua_HoTenLot;
         private Label label29;
         private Label label28;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox7;
+        private Guna.UI2.WinForms.Guna2TextBox txtSVSua_NoiSinh;
+        private Guna.UI2.WinForms.Guna2TextBox txtSVSua_Ten;
+        private Guna.UI2.WinForms.Guna2TextBox txtSVSua_CCCD;
         private Label label31;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox5;
+        private Guna.UI2.WinForms.Guna2TextBox txtSVSua_SDT;
         private Label label30;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox5;
+        private Guna.UI2.WinForms.Guna2ComboBox cboSVSua_Khoa;
         private Label label34;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox9;
+        private Guna.UI2.WinForms.Guna2TextBox txtSVSua_NoiCap;
         private Label label33;
         private Label label32;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox10;
+        private Guna.UI2.WinForms.Guna2TextBox txtSVSua_Email;
         private Label label35;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox6;
-        private Label label37;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
+        private Guna.UI2.WinForms.Guna2TextBox txtSVSua_MSSV;
         private Label label36;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker2;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
+        private Guna.UI2.WinForms.Guna2DateTimePicker dtpSVSua_NgayCap;
+        private Guna.UI2.WinForms.Guna2DateTimePicker dtpSVSua_NgaySinh;
         private Label label41;
         private Label label40;
         private Label label39;
         private Label label38;
         private Label label42;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox13;
+        private Guna.UI2.WinForms.Guna2TextBox txtSVSua_HoKhau;
         private Label label43;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox14;
+        private Guna.UI2.WinForms.Guna2TextBox txtSVSua_Phuong;
         private Label label44;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox15;
+        private Guna.UI2.WinForms.Guna2TextBox txtSVSua_Huyen;
         private Label label45;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox16;
+        private Guna.UI2.WinForms.Guna2TextBox txtSVSua_Tinh;
         private Label label46;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox8;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox7;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private Guna.UI2.WinForms.Guna2ComboBox cboSVSua_LoaiPhong;
+        private Guna.UI2.WinForms.Guna2ComboBox cboSVSua_Day;
+        private Guna.UI2.WinForms.Guna2ComboBox cboSVSua_Phong;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
         private DataGridView dtGWXoaSV;
         private Guna.UI2.WinForms.Guna2Button btnSVX;
         private Guna.UI2.WinForms.Guna2TextBox txtSVXoa_timKiem;
-        private Guna.UI2.WinForms.Guna2Button guna2Button6;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private Guna.UI2.WinForms.Guna2Button btnSVXoa_Huy;
+        private Guna.UI2.WinForms.Guna2Button btnSVXoa_Luu;
+        private Guna.UI2.WinForms.Guna2Button btnSVXoa_Xoa;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
         private Guna.UI2.WinForms.Guna2Button guna2Button8;
         private DataGridView dtgSV_XemDanhSach;
@@ -2995,6 +3083,9 @@
         private Label label12;
         private Guna.UI2.WinForms.Guna2DateTimePicker dtpSVThem_NgayCap;
         private DataGridView dtGWSuaSinhVien;
-        private global::System.Windows.Forms.TextBox txtTest;
+        private global::Guna.UI2.WinForms.Guna2ComboBox cboSVSua_Lop;
+        private global::Guna.UI2.WinForms.Guna2ComboBox cboSVSua_Nganh;
+        private global::System.Windows.Forms.Label label37;
+        private global::System.Windows.Forms.Label label59;
     }
 }

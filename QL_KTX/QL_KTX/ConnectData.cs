@@ -10,16 +10,17 @@ using System.Threading.Tasks;
 namespace QL_KTX
 {
 
-    internal class ConnectData
+    public class ConnectData
     {
-        string StringConnection = "Data Source=LAPTOP-OUMK55PL\\SQLEXPRESS;Initial Catalog=QLKTX;Integrated Security=True";
+        private string StringConnection = "Data Source=LAPTOP-OUMK55PL\\SQLEXPRESS;Initial Catalog=QLKTX;Integrated Security=True";
         public SqlConnection Connection = null;
-
+       
         
         public void openConnect()
         {
-            Connection = new SqlConnection(StringConnection);
-            if(Connection.State != ConnectionState.Open) {
+            Connection = new SqlConnection();
+            Connection.ConnectionString = StringConnection;
+            if (Connection.State != ConnectionState.Open) {
                 Connection.Open();
             }
         }
@@ -28,7 +29,6 @@ namespace QL_KTX
             if(Connection.State != ConnectionState.Closed)
             {
                 Connection.Close();
-                Connection.Dispose();
             }
         }
         
@@ -48,5 +48,13 @@ namespace QL_KTX
             sqlCommand.Dispose();
             return kq;
         }
+
+        public void DeleteRow(DataSet dataSet,int index)
+        {
+            DataTable dataTable = dataSet.Tables[0];
+            DataRow rowDelete = dataTable.Rows[index];
+            rowDelete.Delete();
+        }
+
     }
 }

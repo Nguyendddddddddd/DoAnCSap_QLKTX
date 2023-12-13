@@ -15,7 +15,7 @@ namespace QL_KTX
 {
     public partial class FormNhanVien : Form
     {
-        string strCon = @"Data Source=HOAINAMPC\SQLSERVER;Initial Catalog=QLKTX;Integrated Security=True";
+        string strCon = @"Data Source=LAPTOP-OUMK55PL\SQLEXPRESS;Initial Catalog=QLKTX;Integrated Security=True";
         SqlConnection sqlCon = null;
         SqlDataAdapter adapter = null;
         SqlDataAdapter adapter_NVLamViec = null;
@@ -112,7 +112,7 @@ namespace QL_KTX
             DataRowView macv = (DataRowView)cboNVThem_ChucVu.SelectedItem;
             row["MaCV"] = macv["MaCV"].ToString();
 
-            // string sql = "insert into NhanVien values('" + maNhanVien + "', N'" + hoten + "', N'" + ten + "', N'" + gioiTinh + "', N'" + ngaySinh + "', '" + cccd + "', N'" + ngayCap + "', N'" + noiCap + "', N'" + noiSinh + "', N'" + HKTT + "', " + sdt + ", '" + email + "', " + luongChinh + ", " + 1 + ", '" + chucvu + "')";
+            // string sql = "insert into NhanVien values('" + maNhanVien + "', N'" + hoten + "', N'" + ten + "', N'" + gioiTinh + "', N'" + ngaySinh + "', " + cccd + ", N'" + ngayCap + "', N'" + noiCap + "', N'" + noiSinh + "', N'" + HKTT + "', " + sdt + ", '" + email + "', " + luongChinh + ", " + 1 + ", '" + chucvu + "')";
             dataset.Tables["tblNhanVien"].Rows.Add(row);
             int kq = adapter.Update(dataset.Tables["tblNhanVien"]);
             if (kq > 0)

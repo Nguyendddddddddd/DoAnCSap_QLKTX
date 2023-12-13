@@ -310,7 +310,7 @@
             this.dtGWXoaSV = (new global::System.Windows.Forms.DataGridView());
             this.tabDanhSachSV = (new global::System.Windows.Forms.TabPage());
             this.guna2Panel2 = (new global::Guna.UI2.WinForms.Guna2Panel());
-            this.guna2Button8 = (new global::Guna.UI2.WinForms.Guna2Button());
+            this.btnSVXemChiTiet = (new global::Guna.UI2.WinForms.Guna2Button());
             this.dtgSV_XemDanhSach = (new global::System.Windows.Forms.DataGridView());
             this.guna2Button10 = (new global::Guna.UI2.WinForms.Guna2Button());
             this.guna2TextBox1 = (new global::Guna.UI2.WinForms.Guna2TextBox());
@@ -507,6 +507,7 @@
             this.cboThemSV_Day.ShadowDecoration.CustomizableEdges = (customizableEdges8);
             this.cboThemSV_Day.Size = (new global::System.Drawing.Size(183, 36));
             this.cboThemSV_Day.TabIndex = (40);
+            this.cboThemSV_Day.SelectedIndexChanged += (this.cboThemSV_Day_SelectedIndexChanged);
             // 
             // label21
             // 
@@ -2287,7 +2288,7 @@
             this.guna2Panel2.BorderColor = (global::System.Drawing.Color.Gray);
             this.guna2Panel2.BorderRadius = (20);
             this.guna2Panel2.BorderThickness = (1);
-            this.guna2Panel2.Controls.Add(this.guna2Button8);
+            this.guna2Panel2.Controls.Add(this.btnSVXemChiTiet);
             this.guna2Panel2.Controls.Add(this.dtgSV_XemDanhSach);
             this.guna2Panel2.Controls.Add(this.guna2Button10);
             this.guna2Panel2.Controls.Add(this.guna2TextBox1);
@@ -2298,24 +2299,25 @@
             this.guna2Panel2.Size = (new global::System.Drawing.Size(1148, 743));
             this.guna2Panel2.TabIndex = (1);
             // 
-            // guna2Button8
+            // btnSVXemChiTiet
             // 
-            this.guna2Button8.BorderRadius = (15);
-            this.guna2Button8.CustomizableEdges = (customizableEdges119);
-            this.guna2Button8.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
-            this.guna2Button8.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
-            this.guna2Button8.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
-            this.guna2Button8.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141))));
-            this.guna2Button8.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(30)), (global::System.Int32)((global::System.Byte)(183)), (global::System.Int32)((global::System.Byte)(248))));
-            this.guna2Button8.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            this.guna2Button8.ForeColor = (global::System.Drawing.Color.White);
-            this.guna2Button8.Location = (new global::System.Drawing.Point(462, 671));
-            this.guna2Button8.Name = ("guna2Button8");
-            this.guna2Button8.ShadowDecoration.CustomizableEdges = (customizableEdges120);
-            this.guna2Button8.Size = (new global::System.Drawing.Size(225, 42));
-            this.guna2Button8.TabIndex = (8);
-            this.guna2Button8.Tag = ("FF0111");
-            this.guna2Button8.Text = ("Xem chi tiết");
+            this.btnSVXemChiTiet.BorderRadius = (15);
+            this.btnSVXemChiTiet.CustomizableEdges = (customizableEdges119);
+            this.btnSVXemChiTiet.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
+            this.btnSVXemChiTiet.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
+            this.btnSVXemChiTiet.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
+            this.btnSVXemChiTiet.DisabledState.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141)), (global::System.Int32)((global::System.Byte)(141))));
+            this.btnSVXemChiTiet.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(30)), (global::System.Int32)((global::System.Byte)(183)), (global::System.Int32)((global::System.Byte)(248))));
+            this.btnSVXemChiTiet.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
+            this.btnSVXemChiTiet.ForeColor = (global::System.Drawing.Color.White);
+            this.btnSVXemChiTiet.Location = (new global::System.Drawing.Point(462, 671));
+            this.btnSVXemChiTiet.Name = ("btnSVXemChiTiet");
+            this.btnSVXemChiTiet.ShadowDecoration.CustomizableEdges = (customizableEdges120);
+            this.btnSVXemChiTiet.Size = (new global::System.Drawing.Size(225, 42));
+            this.btnSVXemChiTiet.TabIndex = (8);
+            this.btnSVXemChiTiet.Tag = ("FF0111");
+            this.btnSVXemChiTiet.Text = ("Xem chi tiết");
+            this.btnSVXemChiTiet.Click += (this.btnSVXemChiTiet_Click);
             // 
             // dtgSV_XemDanhSach
             // 
@@ -2336,6 +2338,7 @@
             this.dtgSV_XemDanhSach.SelectionMode = (global::System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect);
             this.dtgSV_XemDanhSach.Size = (new global::System.Drawing.Size(1086, 557));
             this.dtgSV_XemDanhSach.TabIndex = (6);
+            this.dtgSV_XemDanhSach.CellClick += (this.dtgSV_XemDanhSach_CellClick);
             // 
             // guna2Button10
             // 
@@ -3043,7 +3046,7 @@
         private Guna.UI2.WinForms.Guna2Button btnSVXoa_Luu;
         private Guna.UI2.WinForms.Guna2Button btnSVXoa_Xoa;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button8;
+        private Guna.UI2.WinForms.Guna2Button btnSVXemChiTiet;
         private DataGridView dtgSV_XemDanhSach;
         private Guna.UI2.WinForms.Guna2Button guna2Button10;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;

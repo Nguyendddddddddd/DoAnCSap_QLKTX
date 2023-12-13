@@ -16,7 +16,7 @@ using System.Net.Mail;
 
 namespace QL_KTX
 {
-    enum SV
+    public enum SV
     {
         MSSV,
         HoVaTenLot,
@@ -33,6 +33,24 @@ namespace QL_KTX
         Email,
         MaPhong
     }
+    public struct SinhVien
+    {
+        public string MSSV;
+        public string HoVaTenLot;
+        public string Ten;
+        public string GioiTinh;
+        public string NgaySinh;
+        public string CCCD;
+        public string NoiSinh;
+        public string HKTT;
+        public string NgayCapCCCD;
+        public string NoiCapCCCD;
+        public string MaLop;
+        public string SDT;
+        public string Email;
+        public string MaPhong;
+
+    }
     public partial class FormSinhVien : Form
     {
 
@@ -41,8 +59,7 @@ namespace QL_KTX
         private ConnectData ConnectData = null;
         private int indexDtgwXoaSV = -1;
         private int indexDtgwSuaSV = -1;
-
-
+        private SinhVien SinhVien;
         public FormSinhVien()
         {
             InitializeComponent();
@@ -142,7 +159,7 @@ namespace QL_KTX
                 string Email = txtSVThem_Email.Text;
 
                 DataRowView Phong = (DataRowView)cboSVThem_Phong.SelectedItem;
-                string MaPhong = Phong["MaPhong"].ToString();
+                string MaPhong = Phong["MaPhong"].ToString().Trim();
 
                 if (HovaTenLot == "")
                     throw new ExceptionKhongCoDuLieu(txtSVThem_HoTenLot, "Họ Và Tên Lót");
@@ -184,9 +201,6 @@ namespace QL_KTX
                     MessageBox.Show("Email Không Đúng định dạng vui lòng nhập lại");
                     return;
                 }
-
-
-
                 // Cau lenh sql insert sinh vien
                 string TruongDuLieu = "(MSSV,HovaTenLot,Ten,GioiTinh,NgaySinh,CCCD,NoiSinh,HKTT,ngayCapCCCD,NoiCapCCCD,MaLop,STD,Email,MaPhong)";
                 string cacBien = $"('{MSSV}','{HovaTenLot}','{Ten}','{GioiTinh}','{NgaySinh}','{CCCD}','{NoiSinh}','{HKTT}','{NgayCap}','{NoiCap}','{MaLop}','{SDT}','{Email}','{MaPhong}')";
@@ -204,6 +218,14 @@ namespace QL_KTX
                 {
                     MessageBox.Show("Thêm sinh viên không thành công", "Thông báo");
                 }
+
+                ConnectData.openConnect();
+                string updatePhong = @$"UPDATE Phong
+                                       SET SoNguoiHienTai = SoNguoiHienTai +1
+                                       WHERE MaPhong = '{MaPhong}'";
+                connectData.insertData(updatePhong);
+                
+                ConnectData.closeConnect();
 
 
             }
@@ -372,10 +394,17 @@ namespace QL_KTX
         private void tabControlChucNangSinhVien_SelectedIndexChanged(object sender, EventArgs e)
         {
             int tabindex = tabControlChucNangSinhVien.SelectedIndex;
-
-            if (tabindex == 1)
+            switch (tabindex)
             {
-                dtGWSuaSinhVien.DataSource = DataSetSV.Tables[0];
+                case 1:
+                    dtGWSuaSinhVien.DataSource = DataSetSV.Tables[0];
+                    break;
+                case 2:
+                    dtGWXoaSV.DataSource = DataSetSV.Tables[0];
+                    break;
+                case 3:
+                    dtgSV_XemDanhSach.DataSource = DataSetSV.Tables[0];
+                    break;
             }
         }
 
@@ -387,6 +416,38 @@ namespace QL_KTX
             DataSetSV.Tables.Clear();
             DataAdapterSV.Fill(DataSetSV);
             ConnectData.closeConnect();
+        }
+
+        private void btnSVXemChiTiet_Click(object sender, EventArgs e)
+        {
+            FormChiTietSinhVien formChiTietSinhVien = new FormChiTietSinhVien(SinhVien);
+            formChiTietSinhVien.ShowDialog();
+        }
+
+        private void dtgSV_XemDanhSach_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex < 0)
+                return;
+            DataRow selectedRow = DataSetSV.Tables[0].Rows[e.RowIndex];
+            SinhVien.MSSV = selectedRow[((int)SV.MSSV)].ToString();
+            SinhVien.HoVaTenLot = selectedRow[((int)SV.HoVaTenLot)].ToString();
+            SinhVien.Ten = selectedRow[((int)SV.Ten)].ToString();
+            SinhVien.GioiTinh = selectedRow[((int)SV.GioiTinh)].ToString();
+            SinhVien.NgaySinh = selectedRow[((int)SV.NgaySinh)].ToString();
+            SinhVien.NgayCapCCCD = selectedRow[((int)SV.NgayCapCCCD)].ToString();
+            SinhVien.NoiCapCCCD = selectedRow[((int)SV.NoiCapCCCD)].ToString();
+            SinhVien.SDT = selectedRow[((int)SV.SDT)].ToString();
+            SinhVien.Email = selectedRow[((int)SV.Email)].ToString();
+            SinhVien.HKTT = selectedRow[((int)SV.HKTT)].ToString();
+            SinhVien.MaLop = selectedRow[((int)SV.MaLop)].ToString();
+            SinhVien.MaPhong = selectedRow[((int)SV.MaPhong)].ToString();
+            SinhVien.CCCD = selectedRow[((int)SV.CCCD)].ToString();
+            SinhVien.NoiSinh = selectedRow[((int)SV.NoiSinh)].ToString();
+        }
+
+        private void cboThemSV_Day_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

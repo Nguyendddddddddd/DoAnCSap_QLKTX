@@ -33,9 +33,11 @@ namespace QL_KTX
         }
         
         public DataSet ReadData(string sql) {
+            openConnect();
             SqlDataAdapter adapter = new SqlDataAdapter(sql,Connection);
             DataSet dataSet = new DataSet();
             adapter.Fill(dataSet);
+            closeConnect(); 
             adapter.Dispose();
             return dataSet;
         } 

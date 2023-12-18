@@ -7,6 +7,11 @@
         FormSinhVien formSinhVien;
         FormPhong formPhong;
         FormNhanVien formNhanVien;
+        FormCapTaiKhoan formCapTaiKhoan;
+
+        FormDangNhap dangNhap;
+        public int quyen;
+        public string tenTK;
 
 
         public Form1()
@@ -16,6 +21,7 @@
             formSinhVien = new FormSinhVien();
             formPhong = new FormPhong();
             formNhanVien = new FormNhanVien();
+            formCapTaiKhoan = new FormCapTaiKhoan();
 
         }
 
@@ -39,15 +45,15 @@
         private void btnTrangChu_Click(object sender, EventArgs e)
         {
             lbTitle.Text = "TRANG CHỦ ";
-          
-            openChillForm (formTrangChu);
-            
+
+            openChillForm(formTrangChu);
+
         }
 
         private void btnSinhVien_Click(object sender, EventArgs e)
         {
             lbTitle.Text = "SINH VIÊN";
-           
+
             openChillForm(formSinhVien);
 
         }
@@ -55,7 +61,7 @@
         private void btnPhong_Click(object sender, EventArgs e)
         {
             lbTitle.Text = "PHÒNG";
-            
+
             openChillForm(formPhong);
 
         }
@@ -66,5 +72,45 @@
             openChillForm(formNhanVien);
 
         }
+
+        private void btnCapTaiKhoan_Click(object sender, EventArgs e)
+        {
+            lbTitle.Text = "CẤP TÀI KHOẢN";
+            openChillForm(formCapTaiKhoan);
+        }
+
+        private void btnDangXuat_Click(object sender, EventArgs e)
+        {
+            DialogResult d = MessageBox.Show("Bạn có muốn đăng xuất ?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            if (d == DialogResult.OK)
+            {
+                this.Close();
+            }
+
+
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            if (quyen == 1)
+            {
+                btnNhanVien.Enabled = true;
+                btnCapTaiKhoan.Enabled = true;
+            }
+            sttThoiGianDN.Text ="TG: "+ DateTime.Now.ToString();
+            lblUserName.Text = "User: " + tenTK.ToUpper();
+
+        }
+
+        private void btnThoat_Click(object sender, EventArgs e)
+        {
+            DialogResult dialog = MessageBox.Show("Bạn có muốn thoát ?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            if (dialog == DialogResult.OK)
+            {
+                Application.Exit();
+            }
+        }
+
+       
     }
 }

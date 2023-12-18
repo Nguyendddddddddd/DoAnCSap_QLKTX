@@ -15,7 +15,7 @@ namespace QL_KTX
 {
     public partial class FormNhanVien : Form
     {
-        string strCon = @"Data Source=LAPTOP-OUMK55PL\SQLEXPRESS;Initial Catalog=QLKTX;Integrated Security=True";
+        string strCon = @"Data Source=HOAINAMPC\SQLSERVER;Initial Catalog=QLKTX;Integrated Security=True";
         SqlConnection sqlCon = null;
         SqlDataAdapter adapter = null;
         SqlDataAdapter adapter_NVLamViec = null;
@@ -349,7 +349,7 @@ namespace QL_KTX
                 return;
             }
 
-            if (viTri <0)
+            if (viTri < 0)
             {
                 MessageBox.Show("Vị trí xóa không hợp lệ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -381,9 +381,10 @@ namespace QL_KTX
                 else
                     MessageBox.Show("Lưu không thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 btnNVXoa_huy.Enabled = false;
-            }catch(SqlException ex)
+            }
+            catch (SqlException ex)
             {
-                MessageBox.Show("Bản lương nhân viên còn tồn tại, hãy xóa bản lương của nhân viên trước","Thông báo", MessageBoxButtons.OK,MessageBoxIcon.Warning);
+                MessageBox.Show("Bản lương nhân viên còn tồn tại, hãy xóa bản lương của nhân viên trước", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
 
 
                 dataset.Tables["tblNhanVien"].Clear();
@@ -590,13 +591,13 @@ namespace QL_KTX
             viTri_InBangLuong = e.RowIndex;
             if (viTri_InBangLuong == -1)
                 return;
-            if (viTri_InBangLuong>= dataset_InBangLuong.Tables["tblInBangLuong_Them"].Rows.Count)
+            if (viTri_InBangLuong >= dataset_InBangLuong.Tables["tblInBangLuong_Them"].Rows.Count)
                 return;
 
             DataRow row = dataset_InBangLuong.Tables["tblInBangLuong_Them"].Rows[viTri_InBangLuong];
-            cboInBangLuong_MaNV.SelectedValue= row["MaNV"];
+            cboInBangLuong_MaNV.SelectedValue = row["MaNV"];
             txtInBanLuong_PhuCapKhac.Text = row["PhuCapKhac"].ToString();
-            txtInBanLuong_Thuong.Text= row["Thuong"].ToString();
+            txtInBanLuong_Thuong.Text = row["Thuong"].ToString();
             txtInBanLuong_Thang.Text = row["Thang"].ToString();
             txtInBanLuong_Nam.Text = row["Nam"].ToString();
             txtInBanLuong_NgayCong.Text = row["SoNgayCong"].ToString();
@@ -608,7 +609,7 @@ namespace QL_KTX
 
         private void btnInBanLuong_Xoa_Click(object sender, EventArgs e)
         {
-            if (viTri_InBangLuong== -1)
+            if (viTri_InBangLuong == -1)
             {
                 MessageBox.Show("Chưa chọn bảng lương cần xóa", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -660,7 +661,7 @@ namespace QL_KTX
                 return;
             }
 
-            if (txtInBanLuong_PhuCapKhac.Text == "" || txtInBanLuong_Thuong.Text=="")
+            if (txtInBanLuong_PhuCapKhac.Text == "" || txtInBanLuong_Thuong.Text == "")
             {
                 txtInBanLuong_PhuCapKhac.Text = 0 + "";
                 txtInBanLuong_Thuong.Text = 0 + "";
@@ -684,6 +685,11 @@ namespace QL_KTX
                 MessageBox.Show("Sửa thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
             else
                 MessageBox.Show("Sửa thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
+
+        private void btnInBanLuong_In_Click(object sender, EventArgs e)
+        {
+            HamChucNang.Export(dgvTinhLuong_DanhSach, "F:\\Test_IN\\test_inHoaDon.xlsx");
         }
     }
 }

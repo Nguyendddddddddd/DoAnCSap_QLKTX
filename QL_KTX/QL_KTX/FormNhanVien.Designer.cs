@@ -2408,6 +2408,7 @@
             btnInBanLuong_In.Size = new Size(146, 53);
             btnInBanLuong_In.TabIndex = 76;
             btnInBanLuong_In.Text = "In";
+            btnInBanLuong_In.Click += btnInBanLuong_In_Click;
             // 
             // btnInBanLuong_Xoa
             // 
@@ -2468,6 +2469,7 @@
             // 
             // dgvTinhLuong_DanhSach
             // 
+            dgvTinhLuong_DanhSach.AllowUserToAddRows = false;
             dataGridViewCellStyle10.Alignment = DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle10.BackColor = SystemColors.Control;
             dataGridViewCellStyle10.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);

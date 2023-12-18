@@ -11,6 +11,28 @@ namespace QL_KTX
 {
     public class HamChucNang
     {
+        public static bool TiemKiem(DataGridView dataGrid, string chuoiTimKiem,string Table, string cotTiemKiem)
+        {
+            ConnectData connectData = new ConnectData();
+            DataTable dataTable = connectData.ReadData($"select * from {Table} as a where a.{cotTiemKiem} like N'%{chuoiTimKiem}%'").Tables[0];
+            if (dataTable.Rows.Count <= 0)
+            {
+                return false;
+            }
+            dataGrid.DataSource = dataTable;
+            return true;
+        }
+        public static bool TiemKiem(DataGridView dataGrid, string chuoiTimKiem, string Table, string cotTiemKiem, string cotDieuKien, string dieuKien)
+        {
+            ConnectData connectData = new ConnectData();
+            DataTable dataTable = connectData.ReadData($"select * from {Table} as a where a.{cotTiemKiem} like N'%{chuoiTimKiem}%' and a.{cotDieuKien} = {dieuKien}").Tables[0];
+            if (dataTable.Rows.Count <= 0)
+            {
+                return false;
+            }
+            dataGrid.DataSource = dataTable;
+            return true;
+        }
         public static void Export(DataGridView dataGridView, string filePath)
         {
             try

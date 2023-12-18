@@ -31,6 +31,7 @@ namespace QL_KTX
 
         private void FormChiTietSinhVien_Load(object sender, EventArgs e)
         {
+            ConnectData connectData = new ConnectData();
             string []arrayHoKhau = SinhVien.HKTT.Split(',');
             txtHoVaTen.Text = $"{SinhVien.HoVaTenLot} {SinhVien.Ten}";
             txtNgaySinh.Text = SinhVien.NgaySinh.Split(" ")[0];
@@ -48,6 +49,14 @@ namespace QL_KTX
             txtPhong.Text = SinhVien.MaPhong;
             txtGioiTinh.Text = SinhVien.GioiTinh;
             txtMSSV.Text = SinhVien.MSSV;
+
+            txtDay.Text = connectData.ReadData(@$"select * 
+                                                from DayKTX as d, Phong as p 
+                                                where p.MaPhong = '{SinhVien.MaPhong}' and d.MaDay = p.MaDay").Tables[0].Rows[0]["TenDay"].ToString();
+            txtLoaiPhong.Text  = connectData.ReadData(@$"select * 
+                                                from LoaiPhong as d, Phong as p 
+                                                where p.MaPhong = '{SinhVien.MaPhong}' and d.MaLoai = p.MaLoai").Tables[0].Rows[0]["TenLoai"].ToString();
+
         }
     }
 }

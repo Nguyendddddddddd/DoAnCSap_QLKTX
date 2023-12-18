@@ -52,11 +52,11 @@ namespace QL_KTX
                 {
                     Size = new Size(200, 200),
                     BackColor = Color.Transparent,
-                    FillColor = Color.Aqua,
+                    FillColor = Color.FromArgb(109, 185, 239),
                     Margin = new Padding(10),
                     BorderRadius = 20,
                     BorderThickness = 1,
-                    BorderColor = Color.Aqua,
+                    BorderColor = Color.FromArgb(109, 185, 239),
                 });
             }
             int index = 0;
@@ -73,10 +73,20 @@ namespace QL_KTX
                     Size = new Size(200, 40),
                     TextAlign = ContentAlignment.TopCenter
                 });
+                DataRowCollection RowSoLuong = connectData.ReadData($"select * from Phong as p, LoaiPhong as lp where p.MaLoai = lp.MaLoai and p.MaPhong = '{RowPhong[index]["MaPhong"].ToString()}'").Tables[0].Rows;
+                panel.Controls.Add(new Label()
+                {
+                    Text = $"{RowSoLuong[0]["SoNguoiHienTai"]}/{RowSoLuong[0]["SoNguoiToiDa"]} Sinh viên",
+                    ForeColor = Color.White,
+                    Font = new Font("Segoe UI", 16, FontStyle.Bold),
+                    Size = new Size(200, 40),
+                    TextAlign = ContentAlignment.TopCenter,
+                    Dock = DockStyle.Bottom,
+                }) ;
 
                 panel.Controls.Add(new Guna2Panel()
                 {
-                    BackColor = Color.Aqua,
+                    BackColor = Color.FromArgb(109, 185, 239),
                     Size = new Size(100, 100),
                     Location = new Point(panel.Width / 2 - 50, panel.Height / 2 - 50),
                     BackgroundImage = new Bitmap(global::QL_KTX.Properties.Resources.bed),

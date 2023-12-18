@@ -1,4 +1,5 @@
-﻿using QL_KTX;
+﻿using Guna.UI2.WinForms;
+using QL_KTX;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -7,6 +8,7 @@ using System.Data.Common;
 using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,7 +17,7 @@ namespace QL_KTX
 {
     public partial class FormNhanVien : Form
     {
-        string strCon = @"Data Source=HOAINAMPC\SQLSERVER;Initial Catalog=QLKTX;Integrated Security=True";
+        string strCon = @"Data Source=LAPTOP-OUMK55PL\SQLEXPRESS;Initial Catalog=QLKTX;Integrated Security=True";
         SqlConnection sqlCon = null;
         SqlDataAdapter adapter = null;
         SqlDataAdapter adapter_NVLamViec = null;
@@ -40,7 +42,35 @@ namespace QL_KTX
 
 
         }
-
+        public bool kiemtraTrungDuLieu(Guna2TextBox txt, string strKT, string table)
+        {
+            ConnectData connectData = new ConnectData();
+            connectData.openConnect();
+            DataSet dataSet = connectData.ReadData($"SELECT {strKT} FROM {table}");
+            DataTable dataTable = dataSet.Tables[0];
+            connectData.closeConnect();
+            foreach (DataRow r in dataTable.Rows)
+            {
+                if (r[strKT].ToString().Trim() == txt.Text.Trim())
+                {
+                    return false;
+                }
+            }
+            dataSet.Dispose();
+            return true;
+        }
+        public bool IsEmail(string email)
+        {
+            try
+            {
+                MailAddress m = new MailAddress(email);
+                return true;
+            }
+            catch (FormatException)
+            {
+                return false;
+            }
+        }
         private void FormNhanVien_Load(object sender, EventArgs e)
         {
 
@@ -87,58 +117,112 @@ namespace QL_KTX
 
         public void themNhanVien()
         {
+            try
+            {
+                DataRow row = dataset.Tables["tblNhanVien"].NewRow();
+                if (txtNVThem_MaNhanVien.Text == "")
+                    throw new ExceptionKhongCoDuLieu(txtNVThem_MaNhanVien, "Mã nhân viên");
+                if (txtNVThem_HoTenLot.Text == "")
+                    throw new ExceptionKhongCoDuLieu(txtNVThem_HoTenLot, "Họ và Tên lót");
+                if (txtNVThem_Ten.Text == "")
+                    throw new ExceptionKhongCoDuLieu(txtNVThem_Ten, "Ten");
+                if (txtNVThem_CCCD.Text == "")
+                    throw new ExceptionKhongCoDuLieu(txtNVThem_CCCD, "CCCD");
+                if (txtNVThem_NoiSinh.Text == "")
+                    throw new ExceptionKhongCoDuLieu(txtNVThem_NoiSinh, "Nơi Sinh");
+                if (txtNVThem_ThanhPho.Text == "")
+                    throw new ExceptionKhongCoDuLieu(txtNVThem_ThanhPho, "Tỉnh");
+                if (txtNVThem_Huyen.Text == "")
+                    throw new ExceptionKhongCoDuLieu(txtNVThem_Huyen, "Huyện");
+                if (txtNVThem_Phuong.Text == "")
+                    throw new ExceptionKhongCoDuLieu(txtNVThem_Phuong, "Xã");
+                if (txtNVThem_HoKhau.Text == "")
+                    throw new ExceptionKhongCoDuLieu(txtNVThem_HoKhau, "Hộ Khẩu");
+                if (txtNVThem_SDT.Text == "")
+                    throw new ExceptionKhongCoDuLieu(txtNVThem_SDT, "Số Điện Thoại");
+                if (txtNVThem_Email.Text == "")
+                    throw new ExceptionKhongCoDuLieu(txtNVThem_Email, "Email");
+                if (txtNVThem_LuongChinh.Text == "")
+                    throw new ExceptionKhongCoDuLieu(txtNVThem_LuongChinh, "Lương chính");
 
-            DataRow row = dataset.Tables["tblNhanVien"].NewRow();
+                if (!kiemtraTrungDuLieu(txtNVThem_MaNhanVien, "MaNV", "NhanVien"))
+                    throw new ExceptionTrungDuLieuDuyNhat(txtNVThem_MaNhanVien, "Mã số nhân viên đã tồn tại vui lòng nhập mã số nhân viên khác");
+                if (!kiemtraTrungDuLieu(txtNVThem_SDT, "SDT", "NhanVien"))
+                    throw new ExceptionTrungDuLieuDuyNhat(txtNVThem_SDT, "Số điện thoại đã tồn tại vui lòng nhập số điện thoại khác");
+                if (!kiemtraTrungDuLieu(txtNVThem_Email, "Email", "NhanVien"))
+                    throw new ExceptionTrungDuLieuDuyNhat(txtNVThem_Email, "Email đã tồn tại vui lòng nhập email khác");
+                if (!kiemtraTrungDuLieu(txtNVThem_CCCD, "CCCD", "NhanVien"))
+                    throw new ExceptionTrungDuLieuDuyNhat(txtNVThem_CCCD, "CCCD đã tồn tại vui lòng nhập CCCD khác");
 
-            row["MaNV"] = txtNVThem_MaNhanVien.Text;
-            row["HovaTenLot"] = txtNVThem_HoTenLot.Text.Trim();
-            row["Ten"] = txtNVThem_Ten.Text.Trim();
-            row["GioiTinh"] = cboNVThem_GioiTinh.SelectedItem.ToString();
-            row["NgaySinh"] = dtpNVThem_NgaySinh.Value.ToShortDateString();
-            row["CCCD"] = txtNVThem_CCCD.Text.Trim();
-            row["NgayCap"] = dtpNVThem_NgayCap.Value.ToShortDateString();
-            row["NoiCap"] = cboNVThem_NoiCap.SelectedItem.ToString();
-            row["NoiSinh"] = txtNVThem_NoiSinh.Text.Trim();
-            string thanhpho = txtNVThem_ThanhPho.Text;
-            string huyen = txtNVThem_Huyen.Text;
-            string xa = txtNVThem_Phuong.Text;
-            string soNha = txtNVThem_HoKhau.Text;
-            string HKTT = $"{soNha}, {xa}, {huyen}, {thanhpho}";
-            row["HKTT"] = HKTT.Trim();
-            row["SDT"] = txtNVThem_SDT.Text.Trim();
-            row["Email"] = txtNVThem_Email.Text.Trim();
-            row["LuongChinh"] = int.Parse(txtNVThem_LuongChinh.Text);
-            row["TrangThaiLamViec"] = 1;
-            DataRowView macv = (DataRowView)cboNVThem_ChucVu.SelectedItem;
-            row["MaCV"] = macv["MaCV"].ToString();
+                if (!IsEmail(txtNVThem_Email.Text))
+                {
+                    MessageBox.Show("Email Không Đúng định dạng vui lòng nhập lại");
+                    return;
+                }
+                row["MaNV"] = txtNVThem_MaNhanVien.Text;
+                row["HovaTenLot"] = txtNVThem_HoTenLot.Text.Trim();
+                row["Ten"] = txtNVThem_Ten.Text.Trim();
+                row["GioiTinh"] = cboNVThem_GioiTinh.SelectedItem.ToString();
+                row["NgaySinh"] = dtpNVThem_NgaySinh.Value.ToShortDateString();
+                row["CCCD"] = txtNVThem_CCCD.Text.Trim();
+                row["NgayCap"] = dtpNVThem_NgayCap.Value.ToShortDateString();
+                row["NoiCap"] = cboNVThem_NoiCap.SelectedItem.ToString();
+                row["NoiSinh"] = txtNVThem_NoiSinh.Text.Trim();
+                string thanhpho = txtNVThem_ThanhPho.Text;
+                string huyen = txtNVThem_Huyen.Text;
+                string xa = txtNVThem_Phuong.Text;
+                string soNha = txtNVThem_HoKhau.Text;
+                string HKTT = $"{soNha}, {xa}, {huyen}, {thanhpho}";
+                row["HKTT"] = HKTT.Trim();
+                row["SDT"] = txtNVThem_SDT.Text.Trim();
+                row["Email"] = txtNVThem_Email.Text.Trim();
+                row["LuongChinh"] = int.Parse(txtNVThem_LuongChinh.Text);
+                row["TrangThaiLamViec"] = 1;
+                DataRowView macv = (DataRowView)cboNVThem_ChucVu.SelectedItem;
+                row["MaCV"] = macv["MaCV"].ToString();
 
-            // string sql = "insert into NhanVien values('" + maNhanVien + "', N'" + hoten + "', N'" + ten + "', N'" + gioiTinh + "', N'" + ngaySinh + "', " + cccd + ", N'" + ngayCap + "', N'" + noiCap + "', N'" + noiSinh + "', N'" + HKTT + "', " + sdt + ", '" + email + "', " + luongChinh + ", " + 1 + ", '" + chucvu + "')";
-            dataset.Tables["tblNhanVien"].Rows.Add(row);
-            int kq = adapter.Update(dataset.Tables["tblNhanVien"]);
-            if (kq > 0)
-                MessageBox.Show("Thêm nhân viên thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            else
-                MessageBox.Show("Thêm nhân viên thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                // string sql = "insert into NhanVien values('" + maNhanVien + "', N'" + hoten + "', N'" + ten + "', N'" + gioiTinh + "', N'" + ngaySinh + "', " + cccd + ", N'" + ngayCap + "', N'" + noiCap + "', N'" + noiSinh + "', N'" + HKTT + "', " + sdt + ", '" + email + "', " + luongChinh + ", " + 1 + ", '" + chucvu + "')";
+                dataset.Tables["tblNhanVien"].Rows.Add(row);
+                int kq = adapter.Update(dataset.Tables["tblNhanVien"]);
+                if (kq > 0)
+                    MessageBox.Show("Thêm nhân viên thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                else
+                    MessageBox.Show("Thêm nhân viên thất bại", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
-            // them xong xoa du lieu o cac o textbox
-            txtNVThem_HoTenLot.Clear();
-            txtNVThem_Ten.Clear();
-            cboNVThem_GioiTinh.SelectedIndex = 0;
-            dtpNVThem_NgaySinh.Value = DateTime.Now;
-            txtNVThem_NoiSinh.Clear();
-            txtNVThem_SDT.Clear();
-            txtNVThem_Email.Clear();
-            txtNVThem_CCCD.Clear();
-            dtpNVThem_NgayCap.Value = DateTime.Now;
-            cboNVThem_NoiCap.SelectedIndex = 0;
-            txtNVThem_MaNhanVien.Clear();
-            cboNVThem_ChucVu.SelectedIndex = 0;
-            txtNVThem_LuongChinh.Clear();
-            txtNVThem_ThanhPho.Clear();
-            txtNVThem_Huyen.Clear();
-            txtNVThem_Phuong.Clear();
-            txtNVThem_HoKhau.Clear();
-            txtNVThem_HoTenLot.Focus();
+                // them xong xoa du lieu o cac o textbox
+                txtNVThem_HoTenLot.Clear();
+                txtNVThem_Ten.Clear();
+                cboNVThem_GioiTinh.SelectedIndex = 0;
+                dtpNVThem_NgaySinh.Value = DateTime.Now;
+                txtNVThem_NoiSinh.Clear();
+                txtNVThem_SDT.Clear();
+                txtNVThem_Email.Clear();
+                txtNVThem_CCCD.Clear();
+                dtpNVThem_NgayCap.Value = DateTime.Now;
+                cboNVThem_NoiCap.SelectedIndex = 0;
+                txtNVThem_MaNhanVien.Clear();
+                cboNVThem_ChucVu.SelectedIndex = 0;
+                txtNVThem_LuongChinh.Clear();
+                txtNVThem_ThanhPho.Clear();
+                txtNVThem_Huyen.Clear();
+                txtNVThem_Phuong.Clear();
+                txtNVThem_HoKhau.Clear();
+                txtNVThem_HoTenLot.Focus();
+            }
+            catch (ExceptionKhongCoDuLieu ex)
+            {
+                MessageBox.Show($"Bạn chưa nhập ${ex.thongBaoLoi}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                ex.txt.Focus();
+            }
+            catch (FormatException ex)
+            {
+                MessageBox.Show("Lương chính phải là số", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            catch (ExceptionTrungDuLieuDuyNhat ex)
+            {
+                MessageBox.Show(ex.ThongBaoLoi);
+            }
+
 
         }
 
@@ -213,7 +297,7 @@ namespace QL_KTX
             txtNVSua_SDT.Text = Row["SDT"].ToString();
             txtNVSua_email.Text = Row["EMAIL"].ToString();
             txtNVSua_LuongChinh.Text = Row["LuongChinh"].ToString();
-            cboNVSua_ChucVu.SelectedItem = Row["MaCV"].ToString();   // CON LOI CHUA FIX DUOC, CHO HIEN THI TEN CHUC VU LEN COBOBOX, DA TEXT THU NHUNG CHI HIEN THI BAO VE LEN THOI
+            cboNVSua_ChucVu.SelectedValue = Row["MaCV"];   // CON LOI CHUA FIX DUOC, CHO HIEN THI TEN CHUC VU LEN COBOBOX, DA TEXT THU NHUNG CHI HIEN THI BAO VE LEN THOI
 
 
         }
@@ -236,7 +320,35 @@ namespace QL_KTX
                 MessageBox.Show("Vị trí chọn không hợp lệ", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
-
+            if (txtNVSua_MaNV.Text == "")
+                throw new ExceptionKhongCoDuLieu(txtNVSua_MaNV, "Mã nhân viên");
+            if (txtNVSua_hoTenLot.Text == "")
+                throw new ExceptionKhongCoDuLieu(txtNVSua_hoTenLot, "Họ và Tên lót");
+            if (txtNVSua_ten.Text == "")
+                throw new ExceptionKhongCoDuLieu(txtNVSua_ten, "Ten");
+            if (txtNVSua_CCCD.Text == "")
+                throw new ExceptionKhongCoDuLieu(txtNVSua_CCCD, "CCCD");
+            if (txtNVSua_NoiSinh.Text == "")
+                throw new ExceptionKhongCoDuLieu(txtNVSua_NoiSinh, "Nơi Sinh");
+            if (txtNVSua_ThanhPho.Text == "")
+                throw new ExceptionKhongCoDuLieu(txtNVSua_ThanhPho, "Tỉnh");
+            if (txtNVSua_Quan.Text == "")
+                throw new ExceptionKhongCoDuLieu(txtNVSua_Quan, "Huyện");
+            if (txtNVSua_Phuong.Text == "")
+                throw new ExceptionKhongCoDuLieu(txtNVSua_Phuong, "Xã");
+            if (txtNVSua_HoKhau.Text == "")
+                throw new ExceptionKhongCoDuLieu(txtNVSua_HoKhau, "Hộ Khẩu");
+            if (txtNVSua_SDT.Text == "")
+                throw new ExceptionKhongCoDuLieu(txtNVSua_SDT, "Số Điện Thoại");
+            if (txtNVSua_email.Text == "")
+                throw new ExceptionKhongCoDuLieu(txtNVSua_email, "Email");
+            if (txtNVSua_LuongChinh.Text == "")
+                throw new ExceptionKhongCoDuLieu(txtNVSua_LuongChinh, "Lương chính");
+            if (!IsEmail(txtNVSua_email.Text))
+            {
+                MessageBox.Show("Email Không Đúng định dạng vui lòng nhập lại");
+                return;
+            }
             DataRow Row = dataset.Tables["tblNhanVien"].Rows[viTri];
 
             Row.BeginEdit();
@@ -445,59 +557,17 @@ namespace QL_KTX
         private void btnNVSua_TimKiem_Click(object sender, EventArgs e)
         {
 
-            if (txtNVSua_TimKiem.Text != "")
-            {
-                string maNVDaNhap = txtNVSua_TimKiem.Text.Trim();
-                string query_TimKiem = "select * from nhanvien where manv = '" + maNVDaNhap + "'";
-                adapter_TimKiem = new SqlDataAdapter(query_TimKiem, sqlCon);
-                adapter_TimKiem.Fill(dataset, "tblNhanVien");
-
-                if (dataset.Tables["tblNhanVien"].Rows.Count == 0)
-                {
-                    dgvNVSua_DanhSach.DataSource = dataset.Tables["tblNhanVien"];
-                }
-                else
-                {
-                    dataset.Tables["tblNhanVien"].Clear();
-                    adapter_TimKiem.Fill(dataset, "tblNhanVien");
-                    dgvNVSua_DanhSach.DataSource = dataset.Tables["tblNhanVien"];
-                }
-
-            }
-            else
-            {
-                dataset.Tables["tblNhanVien"].Clear();
-                adapter.Fill(dataset, "tblNhanVien");
-                dgvNVSua_DanhSach.DataSource = dataset.Tables["tblNhanVien"];
-            }
+            if (HamChucNang.TiemKiem(dgvNVSua_DanhSach, txtNVSua_TimKiem.Text, "NhanVien", "MaNV"))
+                return;
+            MessageBox.Show($"Không tìm thấy {txtNVSua_TimKiem.Text}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
 
         private void btnNVXoa_TimKiem_Click(object sender, EventArgs e)
         {
-            if (txtNVXoa_timKiem.Text != "")
-            {
-                string maNVDaNhap = txtNVXoa_timKiem.Text;
-                string query_Tim = "select * from nhanvien where manv = '" + maNVDaNhap + "'";
-                adapter_TimKiem = new SqlDataAdapter(query_Tim, sqlCon);
-                adapter_TimKiem.Fill(dataset, "tblNhanVien");
-                if (dataset.Tables["tblNhanVien"].Rows.Count == 0)
-                {
-                    dgvNVXoa_DanhSach.DataSource = dataset.Tables["tblNhanVien"];
-                }
-                else
-                {
-                    dataset.Tables["tblNhanVien"].Clear();
-                    adapter_TimKiem.Fill(dataset, "tblNhanVien");
-                    dgvNVXoa_DanhSach.DataSource = dataset.Tables["tblNhanVien"];
-                }
-            }
-            else
-            {
-                dataset.Tables["tblNhanVien"].Clear();
-                adapter.Fill(dataset, "tblNhanVien");
-                dgvNVXoa_DanhSach.DataSource = dataset.Tables["tblNhanVien"];
-            }
+            if (HamChucNang.TiemKiem(dgvNVXoa_DanhSach, txtNVXoa_timKiem.Text, "NhanVien", "MaNV"))
+                return;
+            MessageBox.Show($"Không tìm thấy {txtNVXoa_timKiem.Text}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
         private void cboInBangLuong_MaNV_SelectedIndexChanged(object sender, EventArgs e)
@@ -690,6 +760,59 @@ namespace QL_KTX
         private void btnInBanLuong_In_Click(object sender, EventArgs e)
         {
             HamChucNang.Export(dgvTinhLuong_DanhSach, "F:\\Test_IN\\test_inHoaDon.xlsx");
+        }
+
+        private void txtNVSua_TimKiem_TextChanged(object sender, EventArgs e)
+        {
+            if (txtNVSua_TimKiem.Text.Length == 0)
+                dgvNVSua_DanhSach.DataSource = dataset.Tables["tblNhanVien"];
+
+        }
+
+        private void txtNVXoa_timKiem_TextChanged(object sender, EventArgs e)
+        {
+            if (txtNVXoa_timKiem.Text.Length == 0)
+                dgvNVXoa_DanhSach.DataSource = dataset.Tables["tblNhanVien"];
+        }
+
+        private void txtDSNV_Tim_TextChanged(object sender, EventArgs e)
+        {
+            if (txtDSNV_Tim.Text.Length == 0)
+                dgvDSNVLamViec_DanhSach.DataSource = dataset.Tables["tblNhanVienLamViec"];
+        }
+
+        private void btnDSNV_Tim_Click(object sender, EventArgs e)
+        {
+            if (HamChucNang.TiemKiem(dgvDSNVLamViec_DanhSach, txtDSNV_Tim.Text, "NhanVien", "MaNV", "TrangThaiLamViec", "1")) 
+            return;
+            MessageBox.Show($"Không tìm thấy {txtNVXoa_timKiem.Text}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        }
+
+        private void btnNVThoiViec_timKiem_Click(object sender, EventArgs e)
+        {
+            if (HamChucNang.TiemKiem(dgvNVNghiViec_DanhSach, txtNVThoiViec_timKiem.Text, "NhanVien", "MaNV", "TrangThaiLamViec", "0")) 
+            return;
+            MessageBox.Show($"Không tìm thấy {txtNVXoa_timKiem.Text}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void txtNVThoiViec_timKiem_TextChanged(object sender, EventArgs e)
+        {
+            if (txtNVThoiViec_timKiem.Text.Length == 0)
+                dgvNVNghiViec_DanhSach.DataSource = dataset.Tables["tblNhanVienNghiViec"];
+        }
+
+        private void btnInBanLuong_Tim_Click(object sender, EventArgs e)
+        {
+            if (HamChucNang.TiemKiem(dgvTinhLuong_DanhSach, txtTimKiemLuong.Text, "LuongNhanVien", "MaNV")) 
+            return;
+            MessageBox.Show($"Không tìm thấy {txtNVXoa_timKiem.Text}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void txtTimKiemLuong_TextChanged(object sender, EventArgs e)
+        {
+            if (txtTimKiemLuong.Text.Length == 0)
+                dgvTinhLuong_DanhSach.DataSource = dataset_InBangLuong.Tables[0];
         }
     }
 }

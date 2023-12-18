@@ -15,7 +15,7 @@ namespace QL_KTX
 {
     public partial class FormCapTaiKhoan : Form
     {
-        string strCon = "Data Source=HOAINAMPC\\SQLSERVER;Initial Catalog=QLKTX;Integrated Security=True";
+        string strCon = "Data Source=LAPTOP-OUMK55PL\\SQLEXPRESS;Initial Catalog=QLKTX;Integrated Security=True";
         SqlConnection sqlCon = null;
         SqlDataAdapter adapter = null;
         DataSet dataset = null;

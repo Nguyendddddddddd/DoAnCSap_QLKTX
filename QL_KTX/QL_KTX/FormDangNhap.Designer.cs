@@ -64,8 +64,9 @@
             ptbNenDangNhap.Dock = DockStyle.Fill;
             ptbNenDangNhap.Image = Properties.Resources.NenDangNhap;
             ptbNenDangNhap.Location = new Point(0, 0);
+            ptbNenDangNhap.Margin = new Padding(2, 2, 2, 2);
             ptbNenDangNhap.Name = "ptbNenDangNhap";
-            ptbNenDangNhap.Size = new Size(809, 1052);
+            ptbNenDangNhap.Size = new Size(588, 842);
             ptbNenDangNhap.SizeMode = PictureBoxSizeMode.CenterImage;
             ptbNenDangNhap.TabIndex = 0;
             ptbNenDangNhap.TabStop = false;
@@ -75,30 +76,27 @@
             guna2HtmlLabel2.BackColor = Color.Transparent;
             guna2HtmlLabel2.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point);
             guna2HtmlLabel2.ForeColor = Color.FromArgb(135, 195, 255);
-            guna2HtmlLabel2.Location = new Point(96, 255);
-            guna2HtmlLabel2.Margin = new Padding(4);
+            guna2HtmlLabel2.Location = new Point(70, 204);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            guna2HtmlLabel2.Size = new Size(538, 40);
+            guna2HtmlLabel2.Size = new Size(436, 33);
             guna2HtmlLabel2.TabIndex = 1;
             guna2HtmlLabel2.Text = "ĐĂNG NHẬP VÀO TÀI KHOẢN CỦA BẠN";
             // 
             // guna2HtmlLabel3
             // 
             guna2HtmlLabel3.BackColor = Color.Transparent;
-            guna2HtmlLabel3.Location = new Point(96, 403);
-            guna2HtmlLabel3.Margin = new Padding(4);
+            guna2HtmlLabel3.Location = new Point(70, 322);
             guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            guna2HtmlLabel3.Size = new Size(99, 27);
+            guna2HtmlLabel3.Size = new Size(81, 22);
             guna2HtmlLabel3.TabIndex = 2;
             guna2HtmlLabel3.Text = "TÀI KHOẢN";
             // 
             // guna2HtmlLabel4
             // 
             guna2HtmlLabel4.BackColor = Color.Transparent;
-            guna2HtmlLabel4.Location = new Point(96, 527);
-            guna2HtmlLabel4.Margin = new Padding(4);
+            guna2HtmlLabel4.Location = new Point(70, 422);
             guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            guna2HtmlLabel4.Size = new Size(96, 27);
+            guna2HtmlLabel4.Size = new Size(78, 22);
             guna2HtmlLabel4.TabIndex = 3;
             guna2HtmlLabel4.Text = "MẬT KHẨU";
             // 
@@ -116,14 +114,13 @@
             txtDangNhap_TaiKhoan.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtDangNhap_TaiKhoan.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             txtDangNhap_TaiKhoan.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtDangNhap_TaiKhoan.Location = new Point(96, 438);
-            txtDangNhap_TaiKhoan.Margin = new Padding(4);
+            txtDangNhap_TaiKhoan.Location = new Point(70, 350);
             txtDangNhap_TaiKhoan.Name = "txtDangNhap_TaiKhoan";
             txtDangNhap_TaiKhoan.PasswordChar = '\0';
             txtDangNhap_TaiKhoan.PlaceholderText = "";
             txtDangNhap_TaiKhoan.SelectedText = "";
             txtDangNhap_TaiKhoan.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            txtDangNhap_TaiKhoan.Size = new Size(631, 54);
+            txtDangNhap_TaiKhoan.Size = new Size(459, 43);
             txtDangNhap_TaiKhoan.TabIndex = 4;
             // 
             // txtDangNhap_MatKhau
@@ -140,14 +137,13 @@
             txtDangNhap_MatKhau.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtDangNhap_MatKhau.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
             txtDangNhap_MatKhau.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtDangNhap_MatKhau.Location = new Point(96, 562);
-            txtDangNhap_MatKhau.Margin = new Padding(4);
+            txtDangNhap_MatKhau.Location = new Point(70, 450);
             txtDangNhap_MatKhau.Name = "txtDangNhap_MatKhau";
             txtDangNhap_MatKhau.PasswordChar = '*';
             txtDangNhap_MatKhau.PlaceholderText = "";
             txtDangNhap_MatKhau.SelectedText = "";
             txtDangNhap_MatKhau.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            txtDangNhap_MatKhau.Size = new Size(631, 56);
+            txtDangNhap_MatKhau.Size = new Size(459, 45);
             txtDangNhap_MatKhau.TabIndex = 5;
             // 
             // btnDangNhap_DangNhap
@@ -162,11 +158,10 @@
             btnDangNhap_DangNhap.FillColor = Color.FromArgb(135, 195, 255);
             btnDangNhap_DangNhap.Font = new Font("Segoe UI", 9F, FontStyle.Bold, GraphicsUnit.Point);
             btnDangNhap_DangNhap.ForeColor = Color.White;
-            btnDangNhap_DangNhap.Location = new Point(96, 741);
-            btnDangNhap_DangNhap.Margin = new Padding(4);
+            btnDangNhap_DangNhap.Location = new Point(70, 593);
             btnDangNhap_DangNhap.Name = "btnDangNhap_DangNhap";
             btnDangNhap_DangNhap.ShadowDecoration.CustomizableEdges = customizableEdges6;
-            btnDangNhap_DangNhap.Size = new Size(631, 70);
+            btnDangNhap_DangNhap.Size = new Size(459, 56);
             btnDangNhap_DangNhap.TabIndex = 6;
             btnDangNhap_DangNhap.Text = "ĐĂNG NHẬP";
             btnDangNhap_DangNhap.Click += btnDangNhap_DangNhap_Click;
@@ -183,20 +178,20 @@
             PanelDangNhap_BenTrai.Controls.Add(guna2HtmlLabel3);
             PanelDangNhap_BenTrai.Controls.Add(guna2HtmlLabel4);
             PanelDangNhap_BenTrai.CustomizableEdges = customizableEdges7;
-            PanelDangNhap_BenTrai.Location = new Point(-4, 1);
+            PanelDangNhap_BenTrai.Location = new Point(-3, 1);
+            PanelDangNhap_BenTrai.Margin = new Padding(2, 2, 2, 2);
             PanelDangNhap_BenTrai.Name = "PanelDangNhap_BenTrai";
             PanelDangNhap_BenTrai.ShadowDecoration.CustomizableEdges = customizableEdges8;
-            PanelDangNhap_BenTrai.Size = new Size(908, 1052);
+            PanelDangNhap_BenTrai.Size = new Size(660, 842);
             PanelDangNhap_BenTrai.TabIndex = 7;
             // 
             // lblDangNhap_ThoatChuongTrinh
             // 
             lblDangNhap_ThoatChuongTrinh.BackColor = Color.Transparent;
             lblDangNhap_ThoatChuongTrinh.ForeColor = Color.FromArgb(135, 195, 255);
-            lblDangNhap_ThoatChuongTrinh.Location = new Point(319, 837);
-            lblDangNhap_ThoatChuongTrinh.Margin = new Padding(4);
+            lblDangNhap_ThoatChuongTrinh.Location = new Point(232, 670);
             lblDangNhap_ThoatChuongTrinh.Name = "lblDangNhap_ThoatChuongTrinh";
-            lblDangNhap_ThoatChuongTrinh.Size = new Size(165, 27);
+            lblDangNhap_ThoatChuongTrinh.Size = new Size(129, 22);
             lblDangNhap_ThoatChuongTrinh.TabIndex = 12;
             lblDangNhap_ThoatChuongTrinh.Text = "Thoát chương trình";
             lblDangNhap_ThoatChuongTrinh.Click += lblDangNhap_ThoatChuongTrinh_Click;
@@ -210,9 +205,10 @@
             chkDangNhap_GhiNho.CheckedState.BorderThickness = 0;
             chkDangNhap_GhiNho.CheckedState.FillColor = Color.FromArgb(94, 148, 255);
             chkDangNhap_GhiNho.CheckMarkColor = Color.Black;
-            chkDangNhap_GhiNho.Location = new Point(96, 667);
+            chkDangNhap_GhiNho.Location = new Point(70, 534);
+            chkDangNhap_GhiNho.Margin = new Padding(2, 2, 2, 2);
             chkDangNhap_GhiNho.Name = "chkDangNhap_GhiNho";
-            chkDangNhap_GhiNho.Size = new Size(160, 29);
+            chkDangNhap_GhiNho.Size = new Size(127, 24);
             chkDangNhap_GhiNho.TabIndex = 10;
             chkDangNhap_GhiNho.Text = "Hiện mật khẩu";
             chkDangNhap_GhiNho.UncheckedState.BorderColor = Color.FromArgb(125, 137, 149);
@@ -227,10 +223,9 @@
             guna2HtmlLabel6.BackColor = Color.Transparent;
             guna2HtmlLabel6.Font = new Font("Segoe UI Variable Display", 44F, FontStyle.Bold, GraphicsUnit.Point);
             guna2HtmlLabel6.ForeColor = Color.FromArgb(135, 195, 255);
-            guna2HtmlLabel6.Location = new Point(122, 128);
-            guna2HtmlLabel6.Margin = new Padding(4);
+            guna2HtmlLabel6.Location = new Point(89, 102);
             guna2HtmlLabel6.Name = "guna2HtmlLabel6";
-            guna2HtmlLabel6.Size = new Size(490, 119);
+            guna2HtmlLabel6.Size = new Size(405, 99);
             guna2HtmlLabel6.TabIndex = 9;
             guna2HtmlLabel6.Text = "WELCOME !";
             // 
@@ -240,10 +235,11 @@
             PanelDangNhap_BenPhai.Controls.Add(guna2HtmlLabel1);
             PanelDangNhap_BenPhai.Controls.Add(ptbNenDangNhap);
             PanelDangNhap_BenPhai.CustomizableEdges = customizableEdges9;
-            PanelDangNhap_BenPhai.Location = new Point(903, 1);
+            PanelDangNhap_BenPhai.Location = new Point(657, 1);
+            PanelDangNhap_BenPhai.Margin = new Padding(2, 2, 2, 2);
             PanelDangNhap_BenPhai.Name = "PanelDangNhap_BenPhai";
             PanelDangNhap_BenPhai.ShadowDecoration.CustomizableEdges = customizableEdges10;
-            PanelDangNhap_BenPhai.Size = new Size(809, 1052);
+            PanelDangNhap_BenPhai.Size = new Size(588, 842);
             PanelDangNhap_BenPhai.TabIndex = 8;
             // 
             // guna2HtmlLabel5
@@ -251,10 +247,9 @@
             guna2HtmlLabel5.BackColor = Color.Transparent;
             guna2HtmlLabel5.Font = new Font("Segoe UI", 16F, FontStyle.Bold, GraphicsUnit.Point);
             guna2HtmlLabel5.ForeColor = Color.FromArgb(135, 195, 255);
-            guna2HtmlLabel5.Location = new Point(118, 486);
-            guna2HtmlLabel5.Margin = new Padding(4);
+            guna2HtmlLabel5.Location = new Point(86, 389);
             guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            guna2HtmlLabel5.Size = new Size(315, 47);
+            guna2HtmlLabel5.Size = new Size(265, 39);
             guna2HtmlLabel5.TabIndex = 8;
             guna2HtmlLabel5.Text = "QUẢN LÝ KÝ TÚC XÁ";
             // 
@@ -263,23 +258,22 @@
             guna2HtmlLabel1.BackColor = Color.Transparent;
             guna2HtmlLabel1.Font = new Font("Segoe UI", 36F, FontStyle.Bold, GraphicsUnit.Point);
             guna2HtmlLabel1.ForeColor = Color.FromArgb(135, 195, 255);
-            guna2HtmlLabel1.Location = new Point(118, 380);
-            guna2HtmlLabel1.Margin = new Padding(4);
+            guna2HtmlLabel1.Location = new Point(86, 304);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            guna2HtmlLabel1.Size = new Size(406, 98);
+            guna2HtmlLabel1.Size = new Size(338, 83);
             guna2HtmlLabel1.TabIndex = 7;
             guna2HtmlLabel1.Text = "PHẦN MỀM";
             // 
             // FormDangNhap
             // 
-            AutoScaleDimensions = new SizeF(11F, 25F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoSize = true;
             BackColor = SystemColors.Control;
-            ClientSize = new Size(1710, 1050);
+            ClientSize = new Size(1244, 840);
             Controls.Add(PanelDangNhap_BenPhai);
             Controls.Add(PanelDangNhap_BenTrai);
             FormBorderStyle = FormBorderStyle.None;
-            Margin = new Padding(4);
             Name = "FormDangNhap";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormDangNhap";
@@ -309,4 +303,4 @@
         private Guna.UI2.WinForms.Guna2CheckBox chkDangNhap_GhiNho;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblDangNhap_ThoatChuongTrinh;
     }
-} 
+}

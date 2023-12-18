@@ -101,3 +101,4 @@ D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\bin\Debug\net6.0-windows\runtime
 D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\bin\Debug\net6.0-windows\DocumentFormat.OpenXml.dll
 D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\bin\Debug\net6.0-windows\DocumentFormat.OpenXml.Framework.dll
 D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\bin\Debug\net6.0-windows\System.IO.Packaging.dll
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.FormCapTaiKhoan.resources

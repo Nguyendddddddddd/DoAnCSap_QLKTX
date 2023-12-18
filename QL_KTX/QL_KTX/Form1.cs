@@ -97,8 +97,8 @@
                 btnNhanVien.Enabled = true;
                 btnCapTaiKhoan.Enabled = true;
             }
-            sttThoiGianDN.Text ="TG: "+ DateTime.Now.ToString();
-            lblUserName.Text = "User: " + tenTK.ToUpper();
+            sttThoiGianDN.Text = "TG: " + DateTime.Now.ToString();
+            lblUserName.Text = tenTK.ToUpper();
 
         }
 
@@ -111,6 +111,6 @@
             }
         }
 
-       
+
     }
 }

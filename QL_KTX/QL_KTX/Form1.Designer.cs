@@ -28,21 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             panel1 = new Panel();
             guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             statusStrip1 = new StatusStrip();
@@ -88,38 +88,37 @@
             // 
             // guna2CirclePictureBox1
             // 
-            guna2CirclePictureBox1.BackColor = Color.Transparent;
-            guna2CirclePictureBox1.ErrorImage = null;
-            guna2CirclePictureBox1.FillColor = Color.Black;
+            guna2CirclePictureBox1.Image = Properties.Resources.administrator2;
             guna2CirclePictureBox1.ImageRotate = 0F;
-            guna2CirclePictureBox1.Location = new Point(80, 72);
+            guna2CirclePictureBox1.Location = new Point(87, 79);
             guna2CirclePictureBox1.Name = "guna2CirclePictureBox1";
-            guna2CirclePictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges1;
+            guna2CirclePictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges16;
             guna2CirclePictureBox1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            guna2CirclePictureBox1.Size = new Size(100, 100);
-            guna2CirclePictureBox1.TabIndex = 1;
+            guna2CirclePictureBox1.Size = new Size(80, 80);
+            guna2CirclePictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            guna2CirclePictureBox1.TabIndex = 11;
             guna2CirclePictureBox1.TabStop = false;
             // 
             // statusStrip1
             // 
             statusStrip1.ImageScalingSize = new Size(24, 24);
             statusStrip1.Items.AddRange(new ToolStripItem[] { sttThoiGianDN });
-            statusStrip1.Location = new Point(0, 961);
+            statusStrip1.Location = new Point(0, 967);
             statusStrip1.Name = "statusStrip1";
-            statusStrip1.Size = new Size(254, 32);
+            statusStrip1.Size = new Size(254, 26);
             statusStrip1.TabIndex = 10;
             statusStrip1.Text = "statusStrip1";
             // 
             // sttThoiGianDN
             // 
             sttThoiGianDN.Name = "sttThoiGianDN";
-            sttThoiGianDN.Size = new Size(187, 25);
+            sttThoiGianDN.Size = new Size(146, 20);
             sttThoiGianDN.Text = "Thời gian đăng nhập";
             // 
             // btnCapTaiKhoan
             // 
             btnCapTaiKhoan.BorderRadius = 10;
-            btnCapTaiKhoan.CustomizableEdges = customizableEdges2;
+            btnCapTaiKhoan.CustomizableEdges = customizableEdges17;
             btnCapTaiKhoan.DisabledState.BorderColor = Color.DarkGray;
             btnCapTaiKhoan.DisabledState.CustomBorderColor = Color.DarkGray;
             btnCapTaiKhoan.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -133,7 +132,7 @@
             btnCapTaiKhoan.Image = Properties.Resources.Pictogrammers_Material_Account_cog_512;
             btnCapTaiKhoan.Location = new Point(30, 552);
             btnCapTaiKhoan.Name = "btnCapTaiKhoan";
-            btnCapTaiKhoan.ShadowDecoration.CustomizableEdges = customizableEdges3;
+            btnCapTaiKhoan.ShadowDecoration.CustomizableEdges = customizableEdges18;
             btnCapTaiKhoan.Size = new Size(200, 58);
             btnCapTaiKhoan.TabIndex = 9;
             btnCapTaiKhoan.Text = "Cấp tài khoản";
@@ -142,7 +141,7 @@
             // btnDangXuat
             // 
             btnDangXuat.BorderRadius = 10;
-            btnDangXuat.CustomizableEdges = customizableEdges4;
+            btnDangXuat.CustomizableEdges = customizableEdges19;
             btnDangXuat.DisabledState.BorderColor = Color.DarkGray;
             btnDangXuat.DisabledState.CustomBorderColor = Color.DarkGray;
             btnDangXuat.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -155,7 +154,7 @@
             btnDangXuat.Image = Properties.Resources.enter;
             btnDangXuat.Location = new Point(30, 832);
             btnDangXuat.Name = "btnDangXuat";
-            btnDangXuat.ShadowDecoration.CustomizableEdges = customizableEdges5;
+            btnDangXuat.ShadowDecoration.CustomizableEdges = customizableEdges20;
             btnDangXuat.Size = new Size(200, 58);
             btnDangXuat.TabIndex = 8;
             btnDangXuat.Text = "Đăng xuất";
@@ -167,7 +166,7 @@
             lblUserName.Font = new Font("Segoe UI", 7.8F, FontStyle.Bold, GraphicsUnit.Point);
             lblUserName.Location = new Point(51, 191);
             lblUserName.Name = "lblUserName";
-            lblUserName.Size = new Size(53, 21);
+            lblUserName.Size = new Size(44, 17);
             lblUserName.TabIndex = 7;
             lblUserName.Text = "User: ";
             lblUserName.TextAlign = ContentAlignment.MiddleCenter;
@@ -175,7 +174,7 @@
             // btnThoat
             // 
             btnThoat.BorderRadius = 10;
-            btnThoat.CustomizableEdges = customizableEdges6;
+            btnThoat.CustomizableEdges = customizableEdges21;
             btnThoat.DisabledState.BorderColor = Color.DarkGray;
             btnThoat.DisabledState.CustomBorderColor = Color.DarkGray;
             btnThoat.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -188,7 +187,7 @@
             btnThoat.Image = Properties.Resources.exit_1_;
             btnThoat.Location = new Point(30, 897);
             btnThoat.Name = "btnThoat";
-            btnThoat.ShadowDecoration.CustomizableEdges = customizableEdges7;
+            btnThoat.ShadowDecoration.CustomizableEdges = customizableEdges22;
             btnThoat.Size = new Size(200, 58);
             btnThoat.TabIndex = 6;
             btnThoat.Text = "Thoát";
@@ -197,7 +196,7 @@
             // btnNhanVien
             // 
             btnNhanVien.BorderRadius = 10;
-            btnNhanVien.CustomizableEdges = customizableEdges8;
+            btnNhanVien.CustomizableEdges = customizableEdges23;
             btnNhanVien.DisabledState.BorderColor = Color.DarkGray;
             btnNhanVien.DisabledState.CustomBorderColor = Color.DarkGray;
             btnNhanVien.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -211,7 +210,7 @@
             btnNhanVien.Image = Properties.Resources.user;
             btnNhanVien.Location = new Point(28, 473);
             btnNhanVien.Name = "btnNhanVien";
-            btnNhanVien.ShadowDecoration.CustomizableEdges = customizableEdges9;
+            btnNhanVien.ShadowDecoration.CustomizableEdges = customizableEdges24;
             btnNhanVien.Size = new Size(200, 58);
             btnNhanVien.TabIndex = 5;
             btnNhanVien.Text = "Nhân viên";
@@ -220,7 +219,7 @@
             // btnPhong
             // 
             btnPhong.BorderRadius = 10;
-            btnPhong.CustomizableEdges = customizableEdges10;
+            btnPhong.CustomizableEdges = customizableEdges25;
             btnPhong.DisabledState.BorderColor = Color.DarkGray;
             btnPhong.DisabledState.CustomBorderColor = Color.DarkGray;
             btnPhong.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -233,7 +232,7 @@
             btnPhong.Image = Properties.Resources.opened_door_aperture;
             btnPhong.Location = new Point(30, 394);
             btnPhong.Name = "btnPhong";
-            btnPhong.ShadowDecoration.CustomizableEdges = customizableEdges11;
+            btnPhong.ShadowDecoration.CustomizableEdges = customizableEdges26;
             btnPhong.Size = new Size(200, 58);
             btnPhong.TabIndex = 4;
             btnPhong.Text = "Phòng";
@@ -242,7 +241,7 @@
             // btnSinhVien
             // 
             btnSinhVien.BorderRadius = 10;
-            btnSinhVien.CustomizableEdges = customizableEdges12;
+            btnSinhVien.CustomizableEdges = customizableEdges27;
             btnSinhVien.DisabledState.BorderColor = Color.DarkGray;
             btnSinhVien.DisabledState.CustomBorderColor = Color.DarkGray;
             btnSinhVien.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -255,7 +254,7 @@
             btnSinhVien.Image = Properties.Resources.user;
             btnSinhVien.Location = new Point(28, 315);
             btnSinhVien.Name = "btnSinhVien";
-            btnSinhVien.ShadowDecoration.CustomizableEdges = customizableEdges13;
+            btnSinhVien.ShadowDecoration.CustomizableEdges = customizableEdges28;
             btnSinhVien.Size = new Size(200, 58);
             btnSinhVien.TabIndex = 3;
             btnSinhVien.Text = "Sinh viên";
@@ -265,7 +264,7 @@
             // 
             btnTrangChu.BorderRadius = 10;
             btnTrangChu.CustomBorderThickness = new Padding(3);
-            btnTrangChu.CustomizableEdges = customizableEdges14;
+            btnTrangChu.CustomizableEdges = customizableEdges29;
             btnTrangChu.DisabledState.BorderColor = Color.DarkGray;
             btnTrangChu.DisabledState.CustomBorderColor = Color.DarkGray;
             btnTrangChu.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -279,7 +278,7 @@
             btnTrangChu.Image = Properties.Resources.home;
             btnTrangChu.Location = new Point(28, 236);
             btnTrangChu.Name = "btnTrangChu";
-            btnTrangChu.ShadowDecoration.CustomizableEdges = customizableEdges15;
+            btnTrangChu.ShadowDecoration.CustomizableEdges = customizableEdges30;
             btnTrangChu.Size = new Size(200, 58);
             btnTrangChu.TabIndex = 2;
             btnTrangChu.Text = "Trang chủ";
@@ -292,7 +291,7 @@
             label1.ForeColor = Color.FromArgb(15, 2, 73);
             label1.Location = new Point(26, 23);
             label1.Name = "label1";
-            label1.Size = new Size(196, 32);
+            label1.Size = new Size(204, 35);
             label1.TabIndex = 0;
             label1.Text = "KÝ TÚC XÁ AGU";
             // 
@@ -314,7 +313,7 @@
             lbTitle.ForeColor = Color.FromArgb(15, 2, 73);
             lbTitle.Location = new Point(54, 23);
             lbTitle.Name = "lbTitle";
-            lbTitle.Size = new Size(0, 32);
+            lbTitle.Size = new Size(0, 35);
             lbTitle.TabIndex = 9;
             // 
             // pnlMain
@@ -339,7 +338,7 @@
             Margin = new Padding(2);
             Name = "Form1";
             StartPosition = FormStartPosition.CenterScreen;
-            Text = "Form1";
+            Text = "Quản Lý Ký Túc Xá";
             Load += Form1_Load;
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
@@ -357,7 +356,6 @@
         private Panel panel2;
         private Label label1;
         private Guna.UI2.WinForms.Guna2Button btnTrangChu;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
         private Guna.UI2.WinForms.Guna2Button btnThoat;
         private Guna.UI2.WinForms.Guna2Button btnNhanVien;
         private Guna.UI2.WinForms.Guna2Button btnPhong;
@@ -369,5 +367,6 @@
         private Guna.UI2.WinForms.Guna2Button btnCapTaiKhoan;
         private StatusStrip statusStrip1;
         private ToolStripStatusLabel sttThoiGianDN;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
     }
 }

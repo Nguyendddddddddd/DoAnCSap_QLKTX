@@ -54,8 +54,8 @@ namespace QL_KTX
         public void DeleteRow(DataSet dataSet,int index)
         {
             DataTable dataTable = dataSet.Tables[0];
-            DataRow rowDelete = dataTable.Rows[index];
-            rowDelete.Delete();
+            dataTable.Rows[index].Delete();
+             dataTable.Rows.RemoveAt(index);
         }
 
     }

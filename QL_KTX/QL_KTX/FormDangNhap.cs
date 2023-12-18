@@ -21,7 +21,7 @@ namespace QL_KTX
         public FormDangNhap()
         {
             InitializeComponent();
-            
+
         }
 
         private void FormDangNhap_Load(object sender, EventArgs e)

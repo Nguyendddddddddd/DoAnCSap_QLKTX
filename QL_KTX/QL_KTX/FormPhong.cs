@@ -522,6 +522,11 @@ namespace QL_KTX
 
         private void btnSuaHoaDon_Click(object sender, EventArgs e)
         {
+            if (indexDienNuoc < 0)
+            {
+                MessageBox.Show("Bạn chưa chọn hóa đơn cần sửa","Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+                return;
+            }
             DialogResult result = MessageBox.Show("Bạn muốn sửa hóa đơn?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (result == DialogResult.Cancel)
                 return;
@@ -578,6 +583,11 @@ namespace QL_KTX
         }
         private void btnXoaHoaDon_Click(object sender, EventArgs e)
         {
+            if (indexDienNuoc < 0)
+            {
+                MessageBox.Show("Bạn chưa chọn hóa đơn", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                return;
+            }
             DialogResult result = MessageBox.Show("Bạn muốn xóa hóa đơn?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (result == DialogResult.Cancel)
                 return;

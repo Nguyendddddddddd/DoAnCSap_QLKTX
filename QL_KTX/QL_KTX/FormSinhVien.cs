@@ -333,7 +333,7 @@ namespace QL_KTX
             {
                 if (indexDtgwSuaSV == -1)
                 {
-                    MessageBox.Show("Bạn chưa chọn sinh viên để xóa");
+                    MessageBox.Show("Bạn chưa chọn sinh viên để sữa","Thông báo");
                     return;
                 }
                 DataTable table = dataSet.Tables["Phong"];
@@ -391,7 +391,6 @@ namespace QL_KTX
                                   where r["MaPhong"].ToString().Trim() == RowUpdate[((int)SV.MaPhong)].ToString().Trim()
                                   select r).FirstOrDefault();
 
-                MessageBox.Show($"Phong xoa {PhongX["MaPhong"].ToString()} || Phong them {PhongT["MaPhong"].ToString()}");
 
 
                 PhongX["SoNguoiHienTai"] = Convert.ToInt32(PhongX["SoNguoiHienTai"]) - 1;
@@ -482,7 +481,7 @@ namespace QL_KTX
             {
                 int kq = DataAdapterSV.Update(dataSet.Tables[0]);
                 int kq2 = DataAdapterPhong.Update(dataSet, "Phong");
-                MessageBox.Show(kq2.ToString());
+                
                 if (kq > 0)
                     MessageBox.Show("Lưu Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 else
@@ -608,6 +607,10 @@ namespace QL_KTX
             catch (ExceptionTrungDuLieuDuyNhat ex)
             {
                 MessageBox.Show(ex.ThongBaoLoi, "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            catch (SqlException ex)
+            {
+                MessageBox.Show("Lỗi","Thông báo");
             }
 
         }

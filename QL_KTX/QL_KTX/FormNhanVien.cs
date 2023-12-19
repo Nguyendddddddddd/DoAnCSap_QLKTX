@@ -760,7 +760,7 @@ namespace QL_KTX
         private void btnInBanLuong_In_Click(object sender, EventArgs e)
         {
             if (saveFileDialog1.ShowDialog() == DialogResult.OK)
-                HamChucNang.Export(dgvTinhLuong_DanhSach,saveFileDialog1.FileName);
+                HamChucNang.Export(dgvTinhLuong_DanhSach, saveFileDialog1.FileName);
         }
 
         private void txtNVSua_TimKiem_TextChanged(object sender, EventArgs e)

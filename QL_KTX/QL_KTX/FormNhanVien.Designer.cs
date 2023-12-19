@@ -2854,6 +2854,10 @@
             this.label39.TabIndex = (46);
             this.label39.Text = ("Mã Nhân Viên");
             // 
+            // saveFileDialog1
+            // 
+            this.saveFileDialog1.DefaultExt = ("xlsx");
+            // 
             // FormNhanVien
             // 
             this.AutoScaleDimensions = (new global::System.Drawing.SizeF(5F, 12F));

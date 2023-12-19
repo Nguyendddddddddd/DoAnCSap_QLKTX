@@ -524,7 +524,7 @@ namespace QL_KTX
         {
             if (indexDienNuoc < 0)
             {
-                MessageBox.Show("Bạn chưa chọn hóa đơn cần sửa","Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+                MessageBox.Show("Bạn chưa chọn hóa đơn cần sửa", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
                 return;
             }
             DialogResult result = MessageBox.Show("Bạn muốn sửa hóa đơn?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
@@ -600,7 +600,7 @@ namespace QL_KTX
         private void btnInHoaDon_Click(object sender, EventArgs e)
         {
 
-            if (saveFileDialog1.ShowDialog() == DialogResult.OK)            
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
                 HamChucNang.Export(dtGWDienNuoc, saveFileDialog1.FileName);
         }
 

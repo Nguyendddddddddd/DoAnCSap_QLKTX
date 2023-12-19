@@ -2912,6 +2912,10 @@
             this.label47.TabIndex = (0);
             this.label47.Text = ("Hóa Đơn Thuê Phòng");
             // 
+            // saveFileDialog1
+            // 
+            this.saveFileDialog1.DefaultExt = ("xlsx");
+            // 
             // FormSinhVien
             // 
             this.AutoScaleDimensions = (new global::System.Drawing.SizeF(5F, 12F));

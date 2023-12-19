@@ -1251,6 +1251,10 @@
             tabControl1.TabIndex = 0;
             tabControl1.SelectedIndexChanged += tabControl1_SelectedIndexChanged;
             // 
+            // saveFileDialog1
+            // 
+            saveFileDialog1.DefaultExt = "xlsx";
+            // 
             // FormPhong
             // 
             AutoScaleDimensions = new SizeF(5F, 12F);

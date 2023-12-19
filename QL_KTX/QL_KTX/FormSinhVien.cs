@@ -333,7 +333,7 @@ namespace QL_KTX
             {
                 if (indexDtgwSuaSV == -1)
                 {
-                    MessageBox.Show("Bạn chưa chọn sinh viên để sữa","Thông báo");
+                    MessageBox.Show("Bạn chưa chọn sinh viên để sữa", "Thông báo");
                     return;
                 }
                 DataTable table = dataSet.Tables["Phong"];
@@ -481,7 +481,7 @@ namespace QL_KTX
             {
                 int kq = DataAdapterSV.Update(dataSet.Tables[0]);
                 int kq2 = DataAdapterPhong.Update(dataSet, "Phong");
-                
+
                 if (kq > 0)
                     MessageBox.Show("Lưu Thành Công", "Thông Báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 else
@@ -610,7 +610,7 @@ namespace QL_KTX
             }
             catch (SqlException ex)
             {
-                MessageBox.Show("Lỗi","Thông báo");
+                MessageBox.Show("Lỗi", "Thông báo");
             }
 
         }

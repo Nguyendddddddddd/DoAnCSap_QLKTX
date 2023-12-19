@@ -23,6 +23,12 @@ namespace QL_KTX
         public FormTrangChu()
         {
             InitializeComponent();
+            label1.Size = new Size(350, 40);
+            label1.TextAlign = ContentAlignment.MiddleCenter;
+            label2.Size = new Size(350, 40);
+            label2.TextAlign = ContentAlignment.MiddleCenter;
+            label3.Size = new Size(350, 40);
+            label3.TextAlign = ContentAlignment.MiddleCenter;
             timer1.Start();
         }
         private void LoadSoLuong()

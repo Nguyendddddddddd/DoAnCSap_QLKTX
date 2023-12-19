@@ -120,9 +120,6 @@ namespace QL_KTX
         private void btnSinhVien_Them_Click(object sender, EventArgs e)
         {
             ThemSinhVien();
-
-
-
         }
 
         private void ThemSinhVien()
@@ -472,7 +469,7 @@ namespace QL_KTX
             cboSVSua_Khoa.SelectedIndex = cboSVSua_Khoa.FindStringExact(rowKhoa[0].ToString());
             cboSVSua_Lop.SelectedIndex = cboSVSua_Lop.FindStringExact(rowSeleted[((int)SV.MaLop)].ToString());
             cboSVSua_Nganh.SelectedIndex = cboSVSua_Nganh.FindStringExact(rowNganh[0].ToString());
-
+            cboSVSua_Phong.SelectedValue = rowSeleted[((int)SV.MaPhong)].ToString();
             txtSVSua_Tinh.Text = hoKhaus[3];
             txtSVSua_Huyen.Text = hoKhaus[2];
             txtSVSua_Phuong.Text = hoKhaus[1];
@@ -792,6 +789,13 @@ namespace QL_KTX
         {
             if (txtTimKiem_HD.Text.Length == 0)
                 dtGWHoaDonThuePhong.DataSource = dataSet.Tables[1];
+        }
+        private void btnInHD_Click(object sender, EventArgs e)
+        {
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                HamChucNang.Export(dtGWHoaDonThuePhong, saveFileDialog1.FileName);
+            }
         }
     }
 }

@@ -102,3 +102,8 @@ D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\bin\Debug\net6.0-windows\Documen
 D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\bin\Debug\net6.0-windows\DocumentFormat.OpenXml.Framework.dll
 D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\bin\Debug\net6.0-windows\System.IO.Packaging.dll
 D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\obj\Debug\net6.0-windows\QL_KTX.FormCapTaiKhoan.resources
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\bin\Debug\net6.0-windows\ClosedXML.dll
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\bin\Debug\net6.0-windows\ExcelNumberFormat.dll
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\bin\Debug\net6.0-windows\Irony.dll
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\bin\Debug\net6.0-windows\SixLabors.Fonts.dll
+D:\DoAnC#\FormDoAn\DoAnCSap_QLKTX\QL_KTX\QL_KTX\bin\Debug\net6.0-windows\XLParser.dll

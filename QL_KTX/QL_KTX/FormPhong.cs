@@ -589,10 +589,9 @@ namespace QL_KTX
 
         private void btnInHoaDon_Click(object sender, EventArgs e)
         {
-            DialogResult result = MessageBox.Show("Bạn muốn in hóa đơn? ", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
-            if (result == DialogResult.Cancel)
-                return;
-            HamChucNang.Export(dtGWDienNuoc, "D:\\ExportedData.xlsx");
+
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)            
+                HamChucNang.Export(dtGWDienNuoc, saveFileDialog1.FileName);
         }
 
         private void btnTimKiem_Click(object sender, EventArgs e)
@@ -629,18 +628,18 @@ namespace QL_KTX
 
         private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
-/*            MessageBox.Show(tabControl1.SelectedIndex + "");
-            if (tabControl1.SelectedIndex == 0)
-            {
-                dataSet.Tables[0].Clear();
-                dataAdapter.Fill(dataSet);
-                dtGWCapNhatPhong.DataSource = dataSet.Tables[0];
-            }*/
+            /*            MessageBox.Show(tabControl1.SelectedIndex + "");
+                        if (tabControl1.SelectedIndex == 0)
+                        {
+                            dataSet.Tables[0].Clear();
+                            dataAdapter.Fill(dataSet);
+                            dtGWCapNhatPhong.DataSource = dataSet.Tables[0];
+                        }*/
         }
 
         private void FormPhong_Paint(object sender, PaintEventArgs e)
         {
-           
+
             if (tabControl1.SelectedIndex == 0)
             {
                 dataSet.Tables[0].Clear();

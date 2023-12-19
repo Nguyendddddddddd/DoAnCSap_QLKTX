@@ -163,6 +163,7 @@
             label5 = new Label();
             tabControl1 = new TabControl();
             saveFile = new SaveFileDialog();
+            saveFileDialog1 = new SaveFileDialog();
             HoaDonDienNuoc.SuspendLayout();
             panelHHDienNuoc.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)dtGWDienNuoc).BeginInit();
@@ -875,6 +876,10 @@
             // 
             // dtGWCapNhatPhong
             // 
+            dtGWCapNhatPhong.AllowUserToAddRows = false;
+            dtGWCapNhatPhong.AllowUserToDeleteRows = false;
+            dtGWCapNhatPhong.AllowUserToResizeColumns = false;
+            dtGWCapNhatPhong.AllowUserToResizeRows = false;
             dtGWCapNhatPhong.BackgroundColor = Color.White;
             dtGWCapNhatPhong.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
@@ -1340,5 +1345,6 @@
         private SaveFileDialog saveFile;
         private Guna.UI2.WinForms.Guna2Button btnTiemKiemHD;
         private Guna.UI2.WinForms.Guna2TextBox txtTimKiemHD;
+        private SaveFileDialog saveFileDialog1;
     }
 }

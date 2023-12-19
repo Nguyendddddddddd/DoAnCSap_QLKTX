@@ -470,9 +470,8 @@ namespace QL_KTX
             DialogResult result = MessageBox.Show("Bạn có muốn xóa nhân viên ?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Question);
             if (result == DialogResult.OK)
             {
-
-                DataRow row = dataset.Tables["tblNhanVien"].Rows[viTri];
-                row.Delete();
+                DataGridViewRow dr = dgvNVXoa_DanhSach.SelectedRows[0];
+                dgvNVXoa_DanhSach.Rows.Remove(dr);
 
                 btnNVXoa_Luu.Enabled = true;
                 btnNVXoa_huy.Enabled = true;
@@ -697,11 +696,12 @@ namespace QL_KTX
                 return;
             }
 
-            DataRow row = dataset_InBangLuong.Tables["tblInBangLuong_Them"].Rows[viTri_InBangLuong];
             DialogResult result = MessageBox.Show("Bạn có muốn xóa bảng lương không ?", "Thông báo", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
             if (result == DialogResult.OK)
             {
-                row.Delete();
+
+                DataGridViewRow dr = dgvTinhLuong_DanhSach.SelectedRows[0];
+                dgvTinhLuong_DanhSach.Rows.Remove(dr);
                 int kq = adapter_InBangLuong.Update(dataset_InBangLuong.Tables["tblInBangLuong_Them"]);
                 if (kq > 0)
                     MessageBox.Show("Xóa thành công", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -759,7 +759,8 @@ namespace QL_KTX
 
         private void btnInBanLuong_In_Click(object sender, EventArgs e)
         {
-            HamChucNang.Export(dgvTinhLuong_DanhSach, "F:\\Test_IN\\test_inHoaDon.xlsx");
+            if (saveFileDialog1.ShowDialog() == DialogResult.OK)
+                HamChucNang.Export(dgvTinhLuong_DanhSach,saveFileDialog1.FileName);
         }
 
         private void txtNVSua_TimKiem_TextChanged(object sender, EventArgs e)
@@ -783,16 +784,16 @@ namespace QL_KTX
 
         private void btnDSNV_Tim_Click(object sender, EventArgs e)
         {
-            if (HamChucNang.TiemKiem(dgvDSNVLamViec_DanhSach, txtDSNV_Tim.Text, "NhanVien", "MaNV", "TrangThaiLamViec", "1")) 
-            return;
+            if (HamChucNang.TiemKiem(dgvDSNVLamViec_DanhSach, txtDSNV_Tim.Text, "NhanVien", "MaNV", "TrangThaiLamViec", "1"))
+                return;
             MessageBox.Show($"Không tìm thấy {txtNVXoa_timKiem.Text}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
         }
 
         private void btnNVThoiViec_timKiem_Click(object sender, EventArgs e)
         {
-            if (HamChucNang.TiemKiem(dgvNVNghiViec_DanhSach, txtNVThoiViec_timKiem.Text, "NhanVien", "MaNV", "TrangThaiLamViec", "0")) 
-            return;
+            if (HamChucNang.TiemKiem(dgvNVNghiViec_DanhSach, txtNVThoiViec_timKiem.Text, "NhanVien", "MaNV", "TrangThaiLamViec", "0"))
+                return;
             MessageBox.Show($"Không tìm thấy {txtNVXoa_timKiem.Text}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
@@ -804,8 +805,8 @@ namespace QL_KTX
 
         private void btnInBanLuong_Tim_Click(object sender, EventArgs e)
         {
-            if (HamChucNang.TiemKiem(dgvTinhLuong_DanhSach, txtTimKiemLuong.Text, "LuongNhanVien", "MaNV")) 
-            return;
+            if (HamChucNang.TiemKiem(dgvTinhLuong_DanhSach, txtTimKiemLuong.Text, "LuongNhanVien", "MaNV"))
+                return;
             MessageBox.Show($"Không tìm thấy {txtNVXoa_timKiem.Text}", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 

@@ -28,176 +28,176 @@
         /// </summary>
         private void InitializeComponent()
         {
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges273 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges274 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges281 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges282 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges275 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges276 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges277 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges278 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges279 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges280 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges319 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges320 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges283 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges284 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges285 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges286 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges287 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges288 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges289 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges290 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges291 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges292 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges293 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges294 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges295 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges296 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges297 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges298 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges299 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges300 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges301 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges302 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges303 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges304 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges305 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges306 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges307 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges308 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges309 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges310 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges311 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges312 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges313 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges314 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges315 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges316 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges317 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges318 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new global::System.Windows.Forms.DataGridViewCellStyle();
-            global::System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new global::System.Windows.Forms.DataGridViewCellStyle();
-            global::System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new global::System.Windows.Forms.DataGridViewCellStyle();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges161 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges162 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges163 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges164 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges165 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges166 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges167 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges168 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges169 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges170 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges179 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges180 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges171 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges172 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges173 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges174 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges175 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges176 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges177 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges178 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges187 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges188 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges181 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges182 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges183 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges184 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges185 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges186 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges217 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges218 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges189 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges190 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges191 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges192 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges193 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges194 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges195 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges196 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges197 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges198 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges199 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges200 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges201 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges202 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges203 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges204 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges205 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges206 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges207 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges208 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges209 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges210 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges211 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges212 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges213 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges214 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges215 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges216 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges229 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges230 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges219 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges220 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges221 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges222 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges223 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges224 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges225 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges226 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges227 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges228 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new global::System.Windows.Forms.DataGridViewCellStyle();
-            global::System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new global::System.Windows.Forms.DataGridViewCellStyle();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges237 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges238 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges231 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges232 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new global::System.Windows.Forms.DataGridViewCellStyle();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges233 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges234 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges235 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges236 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges271 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges272 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges239 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges240 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges241 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges242 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges243 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges244 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges245 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges246 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges247 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges248 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges249 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges250 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges251 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges252 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges253 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges254 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges255 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges256 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges257 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges258 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges259 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges260 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges261 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges262 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges263 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges264 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges265 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges266 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges267 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges268 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges269 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
-            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges270 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges47 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges48 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges17 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges18 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges19 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges20 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges21 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges22 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges23 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges24 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges25 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges26 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges27 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges28 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges29 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges30 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges31 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges32 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges33 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges34 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges35 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges36 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges37 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges38 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges39 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges40 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges41 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges42 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges43 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges44 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges45 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges46 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new global::System.Windows.Forms.DataGridViewCellStyle();
+            global::System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new global::System.Windows.Forms.DataGridViewCellStyle();
+            global::System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new global::System.Windows.Forms.DataGridViewCellStyle();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges49 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges50 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges51 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges52 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges53 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges54 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges55 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges56 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges57 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges58 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges67 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges68 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges59 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges60 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges61 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges62 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges63 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges64 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges65 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges66 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges75 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges76 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges69 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges70 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges71 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges72 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges73 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges74 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges105 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges106 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges77 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges78 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges79 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges80 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges81 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges82 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges83 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges84 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges85 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges86 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges87 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges88 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges89 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges90 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges91 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges92 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges93 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges94 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges95 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges96 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges97 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges98 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges99 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges100 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges101 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges102 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges103 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges104 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges117 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges118 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges107 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges108 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges109 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges110 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges111 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges112 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges113 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges114 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges115 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges116 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new global::System.Windows.Forms.DataGridViewCellStyle();
+            global::System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new global::System.Windows.Forms.DataGridViewCellStyle();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges125 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges126 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges119 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges120 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges121 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges122 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges123 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges124 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new global::System.Windows.Forms.DataGridViewCellStyle();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges159 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges160 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges127 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges128 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges129 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges130 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges131 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges132 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges133 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges134 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges135 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges136 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges137 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges138 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges139 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges140 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges141 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges142 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges143 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges144 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges145 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges146 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges147 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges148 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges149 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges150 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges151 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges152 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges153 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges154 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges155 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges156 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges157 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
+            global::Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges158 = new global::Guna.UI2.WinForms.Suite.CustomizableEdges();
             this.tabControlChucNangSinhVien = (new global::System.Windows.Forms.TabControl());
             this.tabThemSV = (new global::System.Windows.Forms.TabPage());
             this.btnSinhVien_Them = (new global::Guna.UI2.WinForms.Guna2Button());
-            this.guna2CustomGradientPanel2 = (new global::Guna.UI2.WinForms.Guna2CustomGradientPanel());
+            this.panelTTPhong = (new global::Guna.UI2.WinForms.Guna2CustomGradientPanel());
             this.cboSVThem_Phong = (new global::Guna.UI2.WinForms.Guna2ComboBox());
             this.label23 = (new global::System.Windows.Forms.Label());
             this.cboSVThem_LoaiPhong = (new global::Guna.UI2.WinForms.Guna2ComboBox());
@@ -262,7 +262,7 @@
             this.txtSVSua_Tinh = (new global::Guna.UI2.WinForms.Guna2TextBox());
             this.label46 = (new global::System.Windows.Forms.Label());
             this.label42 = (new global::System.Windows.Forms.Label());
-            this.guna2CustomGradientPanel4 = (new global::Guna.UI2.WinForms.Guna2CustomGradientPanel());
+            this.PanelSuaSV_TTP = (new global::Guna.UI2.WinForms.Guna2CustomGradientPanel());
             this.cboSVSua_LoaiPhong = (new global::Guna.UI2.WinForms.Guna2ComboBox());
             this.cboSVSua_Day = (new global::Guna.UI2.WinForms.Guna2ComboBox());
             this.cboSVSua_Phong = (new global::Guna.UI2.WinForms.Guna2ComboBox());
@@ -301,7 +301,7 @@
             this.label25 = (new global::System.Windows.Forms.Label());
             this.label24 = (new global::System.Windows.Forms.Label());
             this.tabXoaSV = (new global::System.Windows.Forms.TabPage());
-            this.guna2Panel1 = (new global::Guna.UI2.WinForms.Guna2Panel());
+            this.PanelXoaSV = (new global::Guna.UI2.WinForms.Guna2Panel());
             this.btnSVXoa_Huy = (new global::Guna.UI2.WinForms.Guna2Button());
             this.btnSVXoa_Luu = (new global::Guna.UI2.WinForms.Guna2Button());
             this.btnSVXoa_Xoa = (new global::Guna.UI2.WinForms.Guna2Button());
@@ -311,9 +311,9 @@
             this.tabDanhSachSV = (new global::System.Windows.Forms.TabPage());
             this.guna2Panel2 = (new global::Guna.UI2.WinForms.Guna2Panel());
             this.btnSVXemChiTiet = (new global::Guna.UI2.WinForms.Guna2Button());
-            this.dtgSV_XemDanhSach = (new global::System.Windows.Forms.DataGridView());
             this.btnSVDS_TimKiem = (new global::Guna.UI2.WinForms.Guna2Button());
             this.txtSVDS_TimKiem = (new global::Guna.UI2.WinForms.Guna2TextBox());
+            this.dtgSV_XemDanhSach = (new global::System.Windows.Forms.DataGridView());
             this.tabHoaDonTienPhong = (new global::System.Windows.Forms.TabPage());
             this.PanelHDTP = (new global::Guna.UI2.WinForms.Guna2Panel());
             this.txtMaHD = (new global::Guna.UI2.WinForms.Guna2TextBox());
@@ -342,17 +342,19 @@
             this.label49 = (new global::System.Windows.Forms.Label());
             this.label48 = (new global::System.Windows.Forms.Label());
             this.label47 = (new global::System.Windows.Forms.Label());
+            this.sqlCommandBuilder1 = (new global::Microsoft.Data.SqlClient.SqlCommandBuilder());
+            this.saveFileDialog1 = (new global::System.Windows.Forms.SaveFileDialog());
             this.tabControlChucNangSinhVien.SuspendLayout();
             this.tabThemSV.SuspendLayout();
-            this.guna2CustomGradientPanel2.SuspendLayout();
+            this.panelTTPhong.SuspendLayout();
             this.panelThongTinSV.SuspendLayout();
             this.tabSuaSV.SuspendLayout();
             ((global::System.ComponentModel.ISupportInitialize)(this.dtGWSuaSinhVien)).BeginInit();
             this.PanelSuaSV_DCHKTT.SuspendLayout();
-            this.guna2CustomGradientPanel4.SuspendLayout();
+            this.PanelSuaSV_TTP.SuspendLayout();
             this.PanelSuaSV_TTSV.SuspendLayout();
             this.tabXoaSV.SuspendLayout();
-            this.guna2Panel1.SuspendLayout();
+            this.PanelXoaSV.SuspendLayout();
             ((global::System.ComponentModel.ISupportInitialize)(this.dtGWXoaSV)).BeginInit();
             this.tabDanhSachSV.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
@@ -382,7 +384,7 @@
             // 
             this.tabThemSV.BackColor = (global::System.Drawing.Color.WhiteSmoke);
             this.tabThemSV.Controls.Add(this.btnSinhVien_Them);
-            this.tabThemSV.Controls.Add(this.guna2CustomGradientPanel2);
+            this.tabThemSV.Controls.Add(this.panelTTPhong);
             this.tabThemSV.Controls.Add(this.panelThongTinSV);
             this.tabThemSV.Font = (new global::System.Drawing.Font("Segoe UI", 24F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Pixel));
             this.tabThemSV.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(15)), (global::System.Int32)((global::System.Byte)(2)), (global::System.Int32)((global::System.Byte)(73))));
@@ -396,7 +398,7 @@
             // btnSinhVien_Them
             // 
             this.btnSinhVien_Them.BorderRadius = (20);
-            this.btnSinhVien_Them.CustomizableEdges = (customizableEdges273);
+            this.btnSinhVien_Them.CustomizableEdges = (customizableEdges1);
             this.btnSinhVien_Them.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSinhVien_Them.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSinhVien_Them.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -407,36 +409,36 @@
             this.btnSinhVien_Them.Image = (global::QL_KTX.Properties.Resources.add);
             this.btnSinhVien_Them.Location = (new global::System.Drawing.Point(813, 334));
             this.btnSinhVien_Them.Name = ("btnSinhVien_Them");
-            this.btnSinhVien_Them.ShadowDecoration.CustomizableEdges = (customizableEdges274);
+            this.btnSinhVien_Them.ShadowDecoration.CustomizableEdges = (customizableEdges2);
             this.btnSinhVien_Them.Size = (new global::System.Drawing.Size(315, 57));
             this.btnSinhVien_Them.TabIndex = (2);
             this.btnSinhVien_Them.Text = ("THÊM");
             this.btnSinhVien_Them.Click += (this.btnSinhVien_Them_Click);
             // 
-            // guna2CustomGradientPanel2
+            // panelTTPhong
             // 
-            this.guna2CustomGradientPanel2.BorderColor = (global::System.Drawing.Color.DimGray);
-            this.guna2CustomGradientPanel2.BorderRadius = (20);
-            this.guna2CustomGradientPanel2.BorderThickness = (1);
-            this.guna2CustomGradientPanel2.Controls.Add(this.cboSVThem_Phong);
-            this.guna2CustomGradientPanel2.Controls.Add(this.label23);
-            this.guna2CustomGradientPanel2.Controls.Add(this.cboSVThem_LoaiPhong);
-            this.guna2CustomGradientPanel2.Controls.Add(this.label22);
-            this.guna2CustomGradientPanel2.Controls.Add(this.cboThemSV_Day);
-            this.guna2CustomGradientPanel2.Controls.Add(this.label21);
-            this.guna2CustomGradientPanel2.Controls.Add(this.label20);
-            this.guna2CustomGradientPanel2.CustomizableEdges = (customizableEdges281);
-            this.guna2CustomGradientPanel2.Location = (new global::System.Drawing.Point(755, 36));
-            this.guna2CustomGradientPanel2.Name = ("guna2CustomGradientPanel2");
-            this.guna2CustomGradientPanel2.ShadowDecoration.CustomizableEdges = (customizableEdges282);
-            this.guna2CustomGradientPanel2.Size = (new global::System.Drawing.Size(434, 277));
-            this.guna2CustomGradientPanel2.TabIndex = (1);
+            this.panelTTPhong.BorderColor = (global::System.Drawing.Color.DimGray);
+            this.panelTTPhong.BorderRadius = (20);
+            this.panelTTPhong.BorderThickness = (1);
+            this.panelTTPhong.Controls.Add(this.cboSVThem_Phong);
+            this.panelTTPhong.Controls.Add(this.label23);
+            this.panelTTPhong.Controls.Add(this.cboSVThem_LoaiPhong);
+            this.panelTTPhong.Controls.Add(this.label22);
+            this.panelTTPhong.Controls.Add(this.cboThemSV_Day);
+            this.panelTTPhong.Controls.Add(this.label21);
+            this.panelTTPhong.Controls.Add(this.label20);
+            this.panelTTPhong.CustomizableEdges = (customizableEdges9);
+            this.panelTTPhong.Location = (new global::System.Drawing.Point(755, 36));
+            this.panelTTPhong.Name = ("panelTTPhong");
+            this.panelTTPhong.ShadowDecoration.CustomizableEdges = (customizableEdges10);
+            this.panelTTPhong.Size = (new global::System.Drawing.Size(434, 277));
+            this.panelTTPhong.TabIndex = (1);
             // 
             // cboSVThem_Phong
             // 
             this.cboSVThem_Phong.BackColor = (global::System.Drawing.Color.Transparent);
             this.cboSVThem_Phong.BorderRadius = (10);
-            this.cboSVThem_Phong.CustomizableEdges = (customizableEdges275);
+            this.cboSVThem_Phong.CustomizableEdges = (customizableEdges3);
             this.cboSVThem_Phong.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
             this.cboSVThem_Phong.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
             this.cboSVThem_Phong.Enabled = (false);
@@ -447,7 +449,7 @@
             this.cboSVThem_Phong.ItemHeight = (30);
             this.cboSVThem_Phong.Location = (new global::System.Drawing.Point(26, 176));
             this.cboSVThem_Phong.Name = ("cboSVThem_Phong");
-            this.cboSVThem_Phong.ShadowDecoration.CustomizableEdges = (customizableEdges276);
+            this.cboSVThem_Phong.ShadowDecoration.CustomizableEdges = (customizableEdges4);
             this.cboSVThem_Phong.Size = (new global::System.Drawing.Size(383, 36));
             this.cboSVThem_Phong.TabIndex = (44);
             // 
@@ -466,7 +468,7 @@
             // 
             this.cboSVThem_LoaiPhong.BackColor = (global::System.Drawing.Color.Transparent);
             this.cboSVThem_LoaiPhong.BorderRadius = (10);
-            this.cboSVThem_LoaiPhong.CustomizableEdges = (customizableEdges277);
+            this.cboSVThem_LoaiPhong.CustomizableEdges = (customizableEdges5);
             this.cboSVThem_LoaiPhong.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
             this.cboSVThem_LoaiPhong.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
             this.cboSVThem_LoaiPhong.Enabled = (false);
@@ -477,7 +479,7 @@
             this.cboSVThem_LoaiPhong.ItemHeight = (30);
             this.cboSVThem_LoaiPhong.Location = (new global::System.Drawing.Point(226, 106));
             this.cboSVThem_LoaiPhong.Name = ("cboSVThem_LoaiPhong");
-            this.cboSVThem_LoaiPhong.ShadowDecoration.CustomizableEdges = (customizableEdges278);
+            this.cboSVThem_LoaiPhong.ShadowDecoration.CustomizableEdges = (customizableEdges6);
             this.cboSVThem_LoaiPhong.Size = (new global::System.Drawing.Size(183, 36));
             this.cboSVThem_LoaiPhong.TabIndex = (42);
             this.cboSVThem_LoaiPhong.SelectedIndexChanged += (this.cboSVThem_LoaiPhong_SelectedIndexChanged);
@@ -497,7 +499,7 @@
             // 
             this.cboThemSV_Day.BackColor = (global::System.Drawing.Color.Transparent);
             this.cboThemSV_Day.BorderRadius = (10);
-            this.cboThemSV_Day.CustomizableEdges = (customizableEdges279);
+            this.cboThemSV_Day.CustomizableEdges = (customizableEdges7);
             this.cboThemSV_Day.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
             this.cboThemSV_Day.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
             this.cboThemSV_Day.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
@@ -507,7 +509,7 @@
             this.cboThemSV_Day.ItemHeight = (30);
             this.cboThemSV_Day.Location = (new global::System.Drawing.Point(26, 106));
             this.cboThemSV_Day.Name = ("cboThemSV_Day");
-            this.cboThemSV_Day.ShadowDecoration.CustomizableEdges = (customizableEdges280);
+            this.cboThemSV_Day.ShadowDecoration.CustomizableEdges = (customizableEdges8);
             this.cboThemSV_Day.Size = (new global::System.Drawing.Size(183, 36));
             this.cboThemSV_Day.TabIndex = (40);
             this.cboThemSV_Day.SelectedIndexChanged += (this.cboThemSV_Day_SelectedIndexChanged);
@@ -580,10 +582,10 @@
             this.panelThongTinSV.Controls.Add(this.txtSVThem_HoTenLot);
             this.panelThongTinSV.Controls.Add(this.label1);
             this.panelThongTinSV.Controls.Add(this.txtSVThem_Ten);
-            this.panelThongTinSV.CustomizableEdges = (customizableEdges319);
+            this.panelThongTinSV.CustomizableEdges = (customizableEdges47);
             this.panelThongTinSV.Location = (new global::System.Drawing.Point(48, 36));
             this.panelThongTinSV.Name = ("panelThongTinSV");
-            this.panelThongTinSV.ShadowDecoration.CustomizableEdges = (customizableEdges320);
+            this.panelThongTinSV.ShadowDecoration.CustomizableEdges = (customizableEdges48);
             this.panelThongTinSV.Size = (new global::System.Drawing.Size(670, 749));
             this.panelThongTinSV.TabIndex = (0);
             // 
@@ -594,7 +596,7 @@
             this.dtpSVThem_NgayCap.BorderThickness = (1);
             this.dtpSVThem_NgayCap.Checked = (true);
             this.dtpSVThem_NgayCap.CustomFormat = ("yyyy-MM-dd");
-            this.dtpSVThem_NgayCap.CustomizableEdges = (customizableEdges283);
+            this.dtpSVThem_NgayCap.CustomizableEdges = (customizableEdges11);
             this.dtpSVThem_NgayCap.FillColor = (global::System.Drawing.Color.White);
             this.dtpSVThem_NgayCap.FocusedColor = (global::System.Drawing.Color.White);
             this.dtpSVThem_NgayCap.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
@@ -603,7 +605,7 @@
             this.dtpSVThem_NgayCap.MaxDate = (new global::System.DateTime(9998, 12, 31, 0, 0, 0, 0));
             this.dtpSVThem_NgayCap.MinDate = (new global::System.DateTime(1753, 1, 1, 0, 0, 0, 0));
             this.dtpSVThem_NgayCap.Name = ("dtpSVThem_NgayCap");
-            this.dtpSVThem_NgayCap.ShadowDecoration.CustomizableEdges = (customizableEdges284);
+            this.dtpSVThem_NgayCap.ShadowDecoration.CustomizableEdges = (customizableEdges12);
             this.dtpSVThem_NgayCap.Size = (new global::System.Drawing.Size(285, 28));
             this.dtpSVThem_NgayCap.TabIndex = (46);
             this.dtpSVThem_NgayCap.Value = (new global::System.DateTime(2023, 11, 25, 10, 20, 9, 389));
@@ -612,7 +614,7 @@
             // 
             this.cboSVThem_Lop.BackColor = (global::System.Drawing.Color.Transparent);
             this.cboSVThem_Lop.BorderRadius = (10);
-            this.cboSVThem_Lop.CustomizableEdges = (customizableEdges285);
+            this.cboSVThem_Lop.CustomizableEdges = (customizableEdges13);
             this.cboSVThem_Lop.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
             this.cboSVThem_Lop.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
             this.cboSVThem_Lop.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
@@ -622,7 +624,7 @@
             this.cboSVThem_Lop.ItemHeight = (30);
             this.cboSVThem_Lop.Location = (new global::System.Drawing.Point(363, 452));
             this.cboSVThem_Lop.Name = ("cboSVThem_Lop");
-            this.cboSVThem_Lop.ShadowDecoration.CustomizableEdges = (customizableEdges286);
+            this.cboSVThem_Lop.ShadowDecoration.CustomizableEdges = (customizableEdges14);
             this.cboSVThem_Lop.Size = (new global::System.Drawing.Size(285, 36));
             this.cboSVThem_Lop.TabIndex = (45);
             // 
@@ -630,7 +632,7 @@
             // 
             this.cboSVThem_Nganh.BackColor = (global::System.Drawing.Color.Transparent);
             this.cboSVThem_Nganh.BorderRadius = (10);
-            this.cboSVThem_Nganh.CustomizableEdges = (customizableEdges287);
+            this.cboSVThem_Nganh.CustomizableEdges = (customizableEdges15);
             this.cboSVThem_Nganh.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
             this.cboSVThem_Nganh.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
             this.cboSVThem_Nganh.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
@@ -640,7 +642,7 @@
             this.cboSVThem_Nganh.ItemHeight = (30);
             this.cboSVThem_Nganh.Location = (new global::System.Drawing.Point(363, 395));
             this.cboSVThem_Nganh.Name = ("cboSVThem_Nganh");
-            this.cboSVThem_Nganh.ShadowDecoration.CustomizableEdges = (customizableEdges288);
+            this.cboSVThem_Nganh.ShadowDecoration.CustomizableEdges = (customizableEdges16);
             this.cboSVThem_Nganh.Size = (new global::System.Drawing.Size(285, 36));
             this.cboSVThem_Nganh.TabIndex = (44);
             this.cboSVThem_Nganh.SelectedIndexChanged += (this.cboSVThem_Nganh_SelectedIndexChanged);
@@ -649,7 +651,7 @@
             // 
             this.txtSVThem_MSSV.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSVThem_MSSV.BorderRadius = (10);
-            this.txtSVThem_MSSV.CustomizableEdges = (customizableEdges289);
+            this.txtSVThem_MSSV.CustomizableEdges = (customizableEdges17);
             this.txtSVThem_MSSV.DefaultText = ("");
             this.txtSVThem_MSSV.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVThem_MSSV.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -664,7 +666,7 @@
             this.txtSVThem_MSSV.PasswordChar = ('\0');
             this.txtSVThem_MSSV.PlaceholderText = ("");
             this.txtSVThem_MSSV.SelectedText = ("");
-            this.txtSVThem_MSSV.ShadowDecoration.CustomizableEdges = (customizableEdges290);
+            this.txtSVThem_MSSV.ShadowDecoration.CustomizableEdges = (customizableEdges18);
             this.txtSVThem_MSSV.Size = (new global::System.Drawing.Size(285, 28));
             this.txtSVThem_MSSV.TabIndex = (42);
             // 
@@ -692,7 +694,7 @@
             // 
             this.txtSVThem_HoKhau.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSVThem_HoKhau.BorderRadius = (10);
-            this.txtSVThem_HoKhau.CustomizableEdges = (customizableEdges291);
+            this.txtSVThem_HoKhau.CustomizableEdges = (customizableEdges19);
             this.txtSVThem_HoKhau.DefaultText = ("");
             this.txtSVThem_HoKhau.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVThem_HoKhau.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -707,7 +709,7 @@
             this.txtSVThem_HoKhau.PasswordChar = ('\0');
             this.txtSVThem_HoKhau.PlaceholderText = ("");
             this.txtSVThem_HoKhau.SelectedText = ("");
-            this.txtSVThem_HoKhau.ShadowDecoration.CustomizableEdges = (customizableEdges292);
+            this.txtSVThem_HoKhau.ShadowDecoration.CustomizableEdges = (customizableEdges20);
             this.txtSVThem_HoKhau.Size = (new global::System.Drawing.Size(586, 32));
             this.txtSVThem_HoKhau.TabIndex = (39);
             // 
@@ -735,7 +737,7 @@
             // 
             this.txtSVThem_Phuong.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSVThem_Phuong.BorderRadius = (10);
-            this.txtSVThem_Phuong.CustomizableEdges = (customizableEdges293);
+            this.txtSVThem_Phuong.CustomizableEdges = (customizableEdges21);
             this.txtSVThem_Phuong.DefaultText = ("");
             this.txtSVThem_Phuong.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVThem_Phuong.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -750,7 +752,7 @@
             this.txtSVThem_Phuong.PasswordChar = ('\0');
             this.txtSVThem_Phuong.PlaceholderText = ("");
             this.txtSVThem_Phuong.SelectedText = ("");
-            this.txtSVThem_Phuong.ShadowDecoration.CustomizableEdges = (customizableEdges294);
+            this.txtSVThem_Phuong.ShadowDecoration.CustomizableEdges = (customizableEdges22);
             this.txtSVThem_Phuong.Size = (new global::System.Drawing.Size(173, 28));
             this.txtSVThem_Phuong.TabIndex = (37);
             // 
@@ -768,7 +770,7 @@
             // 
             this.txtSVThem_Huyen.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSVThem_Huyen.BorderRadius = (10);
-            this.txtSVThem_Huyen.CustomizableEdges = (customizableEdges295);
+            this.txtSVThem_Huyen.CustomizableEdges = (customizableEdges23);
             this.txtSVThem_Huyen.DefaultText = ("");
             this.txtSVThem_Huyen.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVThem_Huyen.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -783,7 +785,7 @@
             this.txtSVThem_Huyen.PasswordChar = ('\0');
             this.txtSVThem_Huyen.PlaceholderText = ("");
             this.txtSVThem_Huyen.SelectedText = ("");
-            this.txtSVThem_Huyen.ShadowDecoration.CustomizableEdges = (customizableEdges296);
+            this.txtSVThem_Huyen.ShadowDecoration.CustomizableEdges = (customizableEdges24);
             this.txtSVThem_Huyen.Size = (new global::System.Drawing.Size(173, 28));
             this.txtSVThem_Huyen.TabIndex = (35);
             // 
@@ -801,7 +803,7 @@
             // 
             this.txtSVThem_Tinh.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSVThem_Tinh.BorderRadius = (10);
-            this.txtSVThem_Tinh.CustomizableEdges = (customizableEdges297);
+            this.txtSVThem_Tinh.CustomizableEdges = (customizableEdges25);
             this.txtSVThem_Tinh.DefaultText = ("");
             this.txtSVThem_Tinh.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVThem_Tinh.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -816,7 +818,7 @@
             this.txtSVThem_Tinh.PasswordChar = ('\0');
             this.txtSVThem_Tinh.PlaceholderText = ("");
             this.txtSVThem_Tinh.SelectedText = ("");
-            this.txtSVThem_Tinh.ShadowDecoration.CustomizableEdges = (customizableEdges298);
+            this.txtSVThem_Tinh.ShadowDecoration.CustomizableEdges = (customizableEdges26);
             this.txtSVThem_Tinh.Size = (new global::System.Drawing.Size(173, 28));
             this.txtSVThem_Tinh.TabIndex = (33);
             // 
@@ -852,7 +854,7 @@
             // 
             this.cboSVThem_Khoa.BackColor = (global::System.Drawing.Color.Transparent);
             this.cboSVThem_Khoa.BorderRadius = (10);
-            this.cboSVThem_Khoa.CustomizableEdges = (customizableEdges299);
+            this.cboSVThem_Khoa.CustomizableEdges = (customizableEdges27);
             this.cboSVThem_Khoa.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
             this.cboSVThem_Khoa.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
             this.cboSVThem_Khoa.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
@@ -862,7 +864,7 @@
             this.cboSVThem_Khoa.ItemHeight = (30);
             this.cboSVThem_Khoa.Location = (new global::System.Drawing.Point(363, 330));
             this.cboSVThem_Khoa.Name = ("cboSVThem_Khoa");
-            this.cboSVThem_Khoa.ShadowDecoration.CustomizableEdges = (customizableEdges300);
+            this.cboSVThem_Khoa.ShadowDecoration.CustomizableEdges = (customizableEdges28);
             this.cboSVThem_Khoa.Size = (new global::System.Drawing.Size(285, 36));
             this.cboSVThem_Khoa.TabIndex = (29);
             this.cboSVThem_Khoa.SelectedIndexChanged += (this.cboSVThem_Khoa_SelectedIndexChanged);
@@ -881,7 +883,7 @@
             // 
             this.txtSVThem_Email.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSVThem_Email.BorderRadius = (10);
-            this.txtSVThem_Email.CustomizableEdges = (customizableEdges301);
+            this.txtSVThem_Email.CustomizableEdges = (customizableEdges29);
             this.txtSVThem_Email.DefaultText = ("");
             this.txtSVThem_Email.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVThem_Email.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -896,7 +898,7 @@
             this.txtSVThem_Email.PasswordChar = ('\0');
             this.txtSVThem_Email.PlaceholderText = ("");
             this.txtSVThem_Email.SelectedText = ("");
-            this.txtSVThem_Email.ShadowDecoration.CustomizableEdges = (customizableEdges302);
+            this.txtSVThem_Email.ShadowDecoration.CustomizableEdges = (customizableEdges30);
             this.txtSVThem_Email.Size = (new global::System.Drawing.Size(285, 28));
             this.txtSVThem_Email.TabIndex = (22);
             // 
@@ -914,7 +916,7 @@
             // 
             this.txtSVThem_SDT.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSVThem_SDT.BorderRadius = (10);
-            this.txtSVThem_SDT.CustomizableEdges = (customizableEdges303);
+            this.txtSVThem_SDT.CustomizableEdges = (customizableEdges31);
             this.txtSVThem_SDT.DefaultText = ("");
             this.txtSVThem_SDT.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVThem_SDT.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -929,7 +931,7 @@
             this.txtSVThem_SDT.PasswordChar = ('\0');
             this.txtSVThem_SDT.PlaceholderText = ("");
             this.txtSVThem_SDT.SelectedText = ("");
-            this.txtSVThem_SDT.ShadowDecoration.CustomizableEdges = (customizableEdges304);
+            this.txtSVThem_SDT.ShadowDecoration.CustomizableEdges = (customizableEdges32);
             this.txtSVThem_SDT.Size = (new global::System.Drawing.Size(285, 28));
             this.txtSVThem_SDT.TabIndex = (20);
             // 
@@ -947,7 +949,7 @@
             // 
             this.txtSVThem_NoiSinh.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSVThem_NoiSinh.BorderRadius = (10);
-            this.txtSVThem_NoiSinh.CustomizableEdges = (customizableEdges305);
+            this.txtSVThem_NoiSinh.CustomizableEdges = (customizableEdges33);
             this.txtSVThem_NoiSinh.DefaultText = ("");
             this.txtSVThem_NoiSinh.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVThem_NoiSinh.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -962,7 +964,7 @@
             this.txtSVThem_NoiSinh.PasswordChar = ('\0');
             this.txtSVThem_NoiSinh.PlaceholderText = ("");
             this.txtSVThem_NoiSinh.SelectedText = ("");
-            this.txtSVThem_NoiSinh.ShadowDecoration.CustomizableEdges = (customizableEdges306);
+            this.txtSVThem_NoiSinh.ShadowDecoration.CustomizableEdges = (customizableEdges34);
             this.txtSVThem_NoiSinh.Size = (new global::System.Drawing.Size(285, 28));
             this.txtSVThem_NoiSinh.TabIndex = (18);
             // 
@@ -983,7 +985,7 @@
             this.dtpSVThem_NgaySinh.BorderThickness = (1);
             this.dtpSVThem_NgaySinh.Checked = (true);
             this.dtpSVThem_NgaySinh.CustomFormat = ("yyyy-MM-dd");
-            this.dtpSVThem_NgaySinh.CustomizableEdges = (customizableEdges307);
+            this.dtpSVThem_NgaySinh.CustomizableEdges = (customizableEdges35);
             this.dtpSVThem_NgaySinh.FillColor = (global::System.Drawing.Color.White);
             this.dtpSVThem_NgaySinh.FocusedColor = (global::System.Drawing.Color.White);
             this.dtpSVThem_NgaySinh.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
@@ -992,7 +994,7 @@
             this.dtpSVThem_NgaySinh.MaxDate = (new global::System.DateTime(9998, 12, 31, 0, 0, 0, 0));
             this.dtpSVThem_NgaySinh.MinDate = (new global::System.DateTime(1753, 1, 1, 0, 0, 0, 0));
             this.dtpSVThem_NgaySinh.Name = ("dtpSVThem_NgaySinh");
-            this.dtpSVThem_NgaySinh.ShadowDecoration.CustomizableEdges = (customizableEdges308);
+            this.dtpSVThem_NgaySinh.ShadowDecoration.CustomizableEdges = (customizableEdges36);
             this.dtpSVThem_NgaySinh.Size = (new global::System.Drawing.Size(285, 28));
             this.dtpSVThem_NgaySinh.TabIndex = (16);
             this.dtpSVThem_NgaySinh.Value = (new global::System.DateTime(2023, 11, 25, 10, 20, 9, 389));
@@ -1021,7 +1023,7 @@
             // 
             this.cboSVThem_GioiTinh.BackColor = (global::System.Drawing.Color.Transparent);
             this.cboSVThem_GioiTinh.BorderRadius = (10);
-            this.cboSVThem_GioiTinh.CustomizableEdges = (customizableEdges309);
+            this.cboSVThem_GioiTinh.CustomizableEdges = (customizableEdges37);
             this.cboSVThem_GioiTinh.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
             this.cboSVThem_GioiTinh.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
             this.cboSVThem_GioiTinh.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
@@ -1032,7 +1034,7 @@
             this.cboSVThem_GioiTinh.Items.AddRange(new global::System.Object[] { "Nam", "Nữ" });
             this.cboSVThem_GioiTinh.Location = (new global::System.Drawing.Point(22, 212));
             this.cboSVThem_GioiTinh.Name = ("cboSVThem_GioiTinh");
-            this.cboSVThem_GioiTinh.ShadowDecoration.CustomizableEdges = (customizableEdges310);
+            this.cboSVThem_GioiTinh.ShadowDecoration.CustomizableEdges = (customizableEdges38);
             this.cboSVThem_GioiTinh.Size = (new global::System.Drawing.Size(285, 36));
             this.cboSVThem_GioiTinh.TabIndex = (11);
             // 
@@ -1060,7 +1062,7 @@
             // 
             this.txtSVThem_NoiCap.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSVThem_NoiCap.BorderRadius = (10);
-            this.txtSVThem_NoiCap.CustomizableEdges = (customizableEdges311);
+            this.txtSVThem_NoiCap.CustomizableEdges = (customizableEdges39);
             this.txtSVThem_NoiCap.DefaultText = ("");
             this.txtSVThem_NoiCap.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVThem_NoiCap.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -1075,7 +1077,7 @@
             this.txtSVThem_NoiCap.PasswordChar = ('\0');
             this.txtSVThem_NoiCap.PlaceholderText = ("");
             this.txtSVThem_NoiCap.SelectedText = ("");
-            this.txtSVThem_NoiCap.ShadowDecoration.CustomizableEdges = (customizableEdges312);
+            this.txtSVThem_NoiCap.ShadowDecoration.CustomizableEdges = (customizableEdges40);
             this.txtSVThem_NoiCap.Size = (new global::System.Drawing.Size(285, 28));
             this.txtSVThem_NoiCap.TabIndex = (7);
             // 
@@ -1113,7 +1115,7 @@
             // 
             this.txtSinhVien_CCCD.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSinhVien_CCCD.BorderRadius = (10);
-            this.txtSinhVien_CCCD.CustomizableEdges = (customizableEdges313);
+            this.txtSinhVien_CCCD.CustomizableEdges = (customizableEdges41);
             this.txtSinhVien_CCCD.DefaultText = ("");
             this.txtSinhVien_CCCD.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSinhVien_CCCD.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -1128,7 +1130,7 @@
             this.txtSinhVien_CCCD.PasswordChar = ('\0');
             this.txtSinhVien_CCCD.PlaceholderText = ("");
             this.txtSinhVien_CCCD.SelectedText = ("");
-            this.txtSinhVien_CCCD.ShadowDecoration.CustomizableEdges = (customizableEdges314);
+            this.txtSinhVien_CCCD.ShadowDecoration.CustomizableEdges = (customizableEdges42);
             this.txtSinhVien_CCCD.Size = (new global::System.Drawing.Size(285, 28));
             this.txtSinhVien_CCCD.TabIndex = (2);
             // 
@@ -1136,7 +1138,7 @@
             // 
             this.txtSVThem_HoTenLot.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSVThem_HoTenLot.BorderRadius = (10);
-            this.txtSVThem_HoTenLot.CustomizableEdges = (customizableEdges315);
+            this.txtSVThem_HoTenLot.CustomizableEdges = (customizableEdges43);
             this.txtSVThem_HoTenLot.DefaultText = ("");
             this.txtSVThem_HoTenLot.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVThem_HoTenLot.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -1151,7 +1153,7 @@
             this.txtSVThem_HoTenLot.PasswordChar = ('\0');
             this.txtSVThem_HoTenLot.PlaceholderText = ("");
             this.txtSVThem_HoTenLot.SelectedText = ("");
-            this.txtSVThem_HoTenLot.ShadowDecoration.CustomizableEdges = (customizableEdges316);
+            this.txtSVThem_HoTenLot.ShadowDecoration.CustomizableEdges = (customizableEdges44);
             this.txtSVThem_HoTenLot.Size = (new global::System.Drawing.Size(285, 28));
             this.txtSVThem_HoTenLot.TabIndex = (1);
             // 
@@ -1170,7 +1172,7 @@
             // 
             this.txtSVThem_Ten.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSVThem_Ten.BorderRadius = (10);
-            this.txtSVThem_Ten.CustomizableEdges = (customizableEdges317);
+            this.txtSVThem_Ten.CustomizableEdges = (customizableEdges45);
             this.txtSVThem_Ten.DefaultText = ("");
             this.txtSVThem_Ten.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVThem_Ten.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -1185,7 +1187,7 @@
             this.txtSVThem_Ten.PasswordChar = ('\0');
             this.txtSVThem_Ten.PlaceholderText = ("");
             this.txtSVThem_Ten.SelectedText = ("");
-            this.txtSVThem_Ten.ShadowDecoration.CustomizableEdges = (customizableEdges318);
+            this.txtSVThem_Ten.ShadowDecoration.CustomizableEdges = (customizableEdges46);
             this.txtSVThem_Ten.Size = (new global::System.Drawing.Size(285, 28));
             this.txtSVThem_Ten.TabIndex = (5);
             // 
@@ -1199,7 +1201,7 @@
             this.tabSuaSV.Controls.Add(this.btnSVSua_TimKiem);
             this.tabSuaSV.Controls.Add(this.txtSVSua_TimKiem);
             this.tabSuaSV.Controls.Add(this.PanelSuaSV_DCHKTT);
-            this.tabSuaSV.Controls.Add(this.guna2CustomGradientPanel4);
+            this.tabSuaSV.Controls.Add(this.PanelSuaSV_TTP);
             this.tabSuaSV.Controls.Add(this.PanelSuaSV_TTSV);
             this.tabSuaSV.Font = (new global::System.Drawing.Font("Segoe UI", 24F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Pixel));
             this.tabSuaSV.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(15)), (global::System.Int32)((global::System.Byte)(2)), (global::System.Int32)((global::System.Byte)(73))));
@@ -1212,36 +1214,40 @@
             // 
             // dtGWSuaSinhVien
             // 
+            this.dtGWSuaSinhVien.AllowUserToAddRows = (false);
+            this.dtGWSuaSinhVien.AllowUserToDeleteRows = (false);
+            this.dtGWSuaSinhVien.AllowUserToResizeColumns = (false);
+            this.dtGWSuaSinhVien.AllowUserToResizeRows = (false);
             this.dtGWSuaSinhVien.BackgroundColor = (global::System.Drawing.Color.White);
-            dataGridViewCellStyle7.Alignment = (global::System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft);
-            dataGridViewCellStyle7.BackColor = (global::System.Drawing.SystemColors.Control);
-            dataGridViewCellStyle7.Font = (new global::System.Drawing.Font("Segoe UI", 8F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            dataGridViewCellStyle7.ForeColor = (global::System.Drawing.SystemColors.WindowText);
-            dataGridViewCellStyle7.SelectionBackColor = (global::System.Drawing.SystemColors.Highlight);
-            dataGridViewCellStyle7.SelectionForeColor = (global::System.Drawing.SystemColors.HighlightText);
-            dataGridViewCellStyle7.WrapMode = (global::System.Windows.Forms.DataGridViewTriState.True);
-            this.dtGWSuaSinhVien.ColumnHeadersDefaultCellStyle = (dataGridViewCellStyle7);
+            dataGridViewCellStyle1.Alignment = (global::System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft);
+            dataGridViewCellStyle1.BackColor = (global::System.Drawing.SystemColors.Control);
+            dataGridViewCellStyle1.Font = (new global::System.Drawing.Font("Segoe UI", 8F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            dataGridViewCellStyle1.ForeColor = (global::System.Drawing.SystemColors.WindowText);
+            dataGridViewCellStyle1.SelectionBackColor = (global::System.Drawing.SystemColors.Highlight);
+            dataGridViewCellStyle1.SelectionForeColor = (global::System.Drawing.SystemColors.HighlightText);
+            dataGridViewCellStyle1.WrapMode = (global::System.Windows.Forms.DataGridViewTriState.True);
+            this.dtGWSuaSinhVien.ColumnHeadersDefaultCellStyle = (dataGridViewCellStyle1);
             this.dtGWSuaSinhVien.ColumnHeadersHeightSizeMode = (global::System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize);
-            dataGridViewCellStyle8.Alignment = (global::System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft);
-            dataGridViewCellStyle8.BackColor = (global::System.Drawing.SystemColors.Window);
-            dataGridViewCellStyle8.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            dataGridViewCellStyle8.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(15)), (global::System.Int32)((global::System.Byte)(2)), (global::System.Int32)((global::System.Byte)(73))));
-            dataGridViewCellStyle8.SelectionBackColor = (global::System.Drawing.SystemColors.Highlight);
-            dataGridViewCellStyle8.SelectionForeColor = (global::System.Drawing.SystemColors.HighlightText);
-            dataGridViewCellStyle8.WrapMode = (global::System.Windows.Forms.DataGridViewTriState.False);
-            this.dtGWSuaSinhVien.DefaultCellStyle = (dataGridViewCellStyle8);
+            dataGridViewCellStyle2.Alignment = (global::System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft);
+            dataGridViewCellStyle2.BackColor = (global::System.Drawing.SystemColors.Window);
+            dataGridViewCellStyle2.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            dataGridViewCellStyle2.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(15)), (global::System.Int32)((global::System.Byte)(2)), (global::System.Int32)((global::System.Byte)(73))));
+            dataGridViewCellStyle2.SelectionBackColor = (global::System.Drawing.SystemColors.Highlight);
+            dataGridViewCellStyle2.SelectionForeColor = (global::System.Drawing.SystemColors.HighlightText);
+            dataGridViewCellStyle2.WrapMode = (global::System.Windows.Forms.DataGridViewTriState.False);
+            this.dtGWSuaSinhVien.DefaultCellStyle = (dataGridViewCellStyle2);
             this.dtGWSuaSinhVien.Location = (new global::System.Drawing.Point(33, 535));
             this.dtGWSuaSinhVien.MultiSelect = (false);
             this.dtGWSuaSinhVien.Name = ("dtGWSuaSinhVien");
             this.dtGWSuaSinhVien.ReadOnly = (true);
-            dataGridViewCellStyle9.Alignment = (global::System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft);
-            dataGridViewCellStyle9.BackColor = (global::System.Drawing.SystemColors.Control);
-            dataGridViewCellStyle9.Font = (new global::System.Drawing.Font("Segoe UI", 8F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
-            dataGridViewCellStyle9.ForeColor = (global::System.Drawing.SystemColors.WindowText);
-            dataGridViewCellStyle9.SelectionBackColor = (global::System.Drawing.SystemColors.Highlight);
-            dataGridViewCellStyle9.SelectionForeColor = (global::System.Drawing.SystemColors.HighlightText);
-            dataGridViewCellStyle9.WrapMode = (global::System.Windows.Forms.DataGridViewTriState.True);
-            this.dtGWSuaSinhVien.RowHeadersDefaultCellStyle = (dataGridViewCellStyle9);
+            dataGridViewCellStyle3.Alignment = (global::System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft);
+            dataGridViewCellStyle3.BackColor = (global::System.Drawing.SystemColors.Control);
+            dataGridViewCellStyle3.Font = (new global::System.Drawing.Font("Segoe UI", 8F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
+            dataGridViewCellStyle3.ForeColor = (global::System.Drawing.SystemColors.WindowText);
+            dataGridViewCellStyle3.SelectionBackColor = (global::System.Drawing.SystemColors.Highlight);
+            dataGridViewCellStyle3.SelectionForeColor = (global::System.Drawing.SystemColors.HighlightText);
+            dataGridViewCellStyle3.WrapMode = (global::System.Windows.Forms.DataGridViewTriState.True);
+            this.dtGWSuaSinhVien.RowHeadersDefaultCellStyle = (dataGridViewCellStyle3);
             this.dtGWSuaSinhVien.RowHeadersWidth = (51);
             this.dtGWSuaSinhVien.RowTemplate.Height = (29);
             this.dtGWSuaSinhVien.SelectionMode = (global::System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect);
@@ -1252,7 +1258,7 @@
             // btnSVSua_Luu
             // 
             this.btnSVSua_Luu.BorderRadius = (10);
-            this.btnSVSua_Luu.CustomizableEdges = (customizableEdges161);
+            this.btnSVSua_Luu.CustomizableEdges = (customizableEdges49);
             this.btnSVSua_Luu.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSVSua_Luu.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSVSua_Luu.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -1262,7 +1268,7 @@
             this.btnSVSua_Luu.ForeColor = (global::System.Drawing.Color.White);
             this.btnSVSua_Luu.Location = (new global::System.Drawing.Point(580, 761));
             this.btnSVSua_Luu.Name = ("btnSVSua_Luu");
-            this.btnSVSua_Luu.ShadowDecoration.CustomizableEdges = (customizableEdges162);
+            this.btnSVSua_Luu.ShadowDecoration.CustomizableEdges = (customizableEdges50);
             this.btnSVSua_Luu.Size = (new global::System.Drawing.Size(146, 53));
             this.btnSVSua_Luu.TabIndex = (5);
             this.btnSVSua_Luu.Text = ("Lưu");
@@ -1271,7 +1277,7 @@
             // btnSVSua_Huy
             // 
             this.btnSVSua_Huy.BorderRadius = (10);
-            this.btnSVSua_Huy.CustomizableEdges = (customizableEdges163);
+            this.btnSVSua_Huy.CustomizableEdges = (customizableEdges51);
             this.btnSVSua_Huy.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSVSua_Huy.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSVSua_Huy.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -1281,7 +1287,7 @@
             this.btnSVSua_Huy.ForeColor = (global::System.Drawing.Color.White);
             this.btnSVSua_Huy.Location = (new global::System.Drawing.Point(1014, 761));
             this.btnSVSua_Huy.Name = ("btnSVSua_Huy");
-            this.btnSVSua_Huy.ShadowDecoration.CustomizableEdges = (customizableEdges164);
+            this.btnSVSua_Huy.ShadowDecoration.CustomizableEdges = (customizableEdges52);
             this.btnSVSua_Huy.Size = (new global::System.Drawing.Size(146, 53));
             this.btnSVSua_Huy.TabIndex = (5);
             this.btnSVSua_Huy.Text = ("Hủy");
@@ -1290,7 +1296,7 @@
             // btnSVSua_Sua
             // 
             this.btnSVSua_Sua.BorderRadius = (10);
-            this.btnSVSua_Sua.CustomizableEdges = (customizableEdges165);
+            this.btnSVSua_Sua.CustomizableEdges = (customizableEdges53);
             this.btnSVSua_Sua.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSVSua_Sua.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSVSua_Sua.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -1300,7 +1306,7 @@
             this.btnSVSua_Sua.ForeColor = (global::System.Drawing.Color.White);
             this.btnSVSua_Sua.Location = (new global::System.Drawing.Point(79, 761));
             this.btnSVSua_Sua.Name = ("btnSVSua_Sua");
-            this.btnSVSua_Sua.ShadowDecoration.CustomizableEdges = (customizableEdges166);
+            this.btnSVSua_Sua.ShadowDecoration.CustomizableEdges = (customizableEdges54);
             this.btnSVSua_Sua.Size = (new global::System.Drawing.Size(146, 53));
             this.btnSVSua_Sua.TabIndex = (4);
             this.btnSVSua_Sua.Text = ("Sửa sinh viên");
@@ -1309,7 +1315,7 @@
             // btnSVSua_TimKiem
             // 
             this.btnSVSua_TimKiem.BorderRadius = (10);
-            this.btnSVSua_TimKiem.CustomizableEdges = (customizableEdges167);
+            this.btnSVSua_TimKiem.CustomizableEdges = (customizableEdges55);
             this.btnSVSua_TimKiem.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSVSua_TimKiem.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSVSua_TimKiem.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -1320,7 +1326,7 @@
             this.btnSVSua_TimKiem.Image = (global::QL_KTX.Properties.Resources.magnifying_glass);
             this.btnSVSua_TimKiem.Location = (new global::System.Drawing.Point(985, 487));
             this.btnSVSua_TimKiem.Name = ("btnSVSua_TimKiem");
-            this.btnSVSua_TimKiem.ShadowDecoration.CustomizableEdges = (customizableEdges168);
+            this.btnSVSua_TimKiem.ShadowDecoration.CustomizableEdges = (customizableEdges56);
             this.btnSVSua_TimKiem.Size = (new global::System.Drawing.Size(56, 46));
             this.btnSVSua_TimKiem.TabIndex = (0);
             this.btnSVSua_TimKiem.Click += (this.btnSVSua_TimKiem_Click);
@@ -1329,7 +1335,7 @@
             // 
             this.txtSVSua_TimKiem.BorderColor = (global::System.Drawing.Color.Black);
             this.txtSVSua_TimKiem.BorderRadius = (20);
-            this.txtSVSua_TimKiem.CustomizableEdges = (customizableEdges169);
+            this.txtSVSua_TimKiem.CustomizableEdges = (customizableEdges57);
             this.txtSVSua_TimKiem.DefaultText = ("");
             this.txtSVSua_TimKiem.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVSua_TimKiem.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -1344,7 +1350,7 @@
             this.txtSVSua_TimKiem.PasswordChar = ('\0');
             this.txtSVSua_TimKiem.PlaceholderText = ("Nhập MSSV để tìm");
             this.txtSVSua_TimKiem.SelectedText = ("");
-            this.txtSVSua_TimKiem.ShadowDecoration.CustomizableEdges = (customizableEdges170);
+            this.txtSVSua_TimKiem.ShadowDecoration.CustomizableEdges = (customizableEdges58);
             this.txtSVSua_TimKiem.Size = (new global::System.Drawing.Size(698, 37));
             this.txtSVSua_TimKiem.TabIndex = (3);
             this.txtSVSua_TimKiem.TextChanged += (this.txtSVSua_TimKiem_TextChanged);
@@ -1363,10 +1369,10 @@
             this.PanelSuaSV_DCHKTT.Controls.Add(this.txtSVSua_Tinh);
             this.PanelSuaSV_DCHKTT.Controls.Add(this.label46);
             this.PanelSuaSV_DCHKTT.Controls.Add(this.label42);
-            this.PanelSuaSV_DCHKTT.CustomizableEdges = (customizableEdges179);
+            this.PanelSuaSV_DCHKTT.CustomizableEdges = (customizableEdges67);
             this.PanelSuaSV_DCHKTT.Location = (new global::System.Drawing.Point(706, 246));
             this.PanelSuaSV_DCHKTT.Name = ("PanelSuaSV_DCHKTT");
-            this.PanelSuaSV_DCHKTT.ShadowDecoration.CustomizableEdges = (customizableEdges180);
+            this.PanelSuaSV_DCHKTT.ShadowDecoration.CustomizableEdges = (customizableEdges68);
             this.PanelSuaSV_DCHKTT.Size = (new global::System.Drawing.Size(508, 235));
             this.PanelSuaSV_DCHKTT.TabIndex = (2);
             // 
@@ -1374,7 +1380,7 @@
             // 
             this.txtSVSua_HoKhau.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSVSua_HoKhau.BorderRadius = (10);
-            this.txtSVSua_HoKhau.CustomizableEdges = (customizableEdges171);
+            this.txtSVSua_HoKhau.CustomizableEdges = (customizableEdges59);
             this.txtSVSua_HoKhau.DefaultText = ("");
             this.txtSVSua_HoKhau.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVSua_HoKhau.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -1389,7 +1395,7 @@
             this.txtSVSua_HoKhau.PasswordChar = ('\0');
             this.txtSVSua_HoKhau.PlaceholderText = ("");
             this.txtSVSua_HoKhau.SelectedText = ("");
-            this.txtSVSua_HoKhau.ShadowDecoration.CustomizableEdges = (customizableEdges172);
+            this.txtSVSua_HoKhau.ShadowDecoration.CustomizableEdges = (customizableEdges60);
             this.txtSVSua_HoKhau.Size = (new global::System.Drawing.Size(474, 32));
             this.txtSVSua_HoKhau.TabIndex = (47);
             // 
@@ -1407,7 +1413,7 @@
             // 
             this.txtSVSua_Phuong.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSVSua_Phuong.BorderRadius = (10);
-            this.txtSVSua_Phuong.CustomizableEdges = (customizableEdges173);
+            this.txtSVSua_Phuong.CustomizableEdges = (customizableEdges61);
             this.txtSVSua_Phuong.DefaultText = ("");
             this.txtSVSua_Phuong.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVSua_Phuong.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -1422,7 +1428,7 @@
             this.txtSVSua_Phuong.PasswordChar = ('\0');
             this.txtSVSua_Phuong.PlaceholderText = ("");
             this.txtSVSua_Phuong.SelectedText = ("");
-            this.txtSVSua_Phuong.ShadowDecoration.CustomizableEdges = (customizableEdges174);
+            this.txtSVSua_Phuong.ShadowDecoration.CustomizableEdges = (customizableEdges62);
             this.txtSVSua_Phuong.Size = (new global::System.Drawing.Size(154, 28));
             this.txtSVSua_Phuong.TabIndex = (45);
             // 
@@ -1440,7 +1446,7 @@
             // 
             this.txtSVSua_Huyen.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSVSua_Huyen.BorderRadius = (10);
-            this.txtSVSua_Huyen.CustomizableEdges = (customizableEdges175);
+            this.txtSVSua_Huyen.CustomizableEdges = (customizableEdges63);
             this.txtSVSua_Huyen.DefaultText = ("");
             this.txtSVSua_Huyen.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVSua_Huyen.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -1455,7 +1461,7 @@
             this.txtSVSua_Huyen.PasswordChar = ('\0');
             this.txtSVSua_Huyen.PlaceholderText = ("");
             this.txtSVSua_Huyen.SelectedText = ("");
-            this.txtSVSua_Huyen.ShadowDecoration.CustomizableEdges = (customizableEdges176);
+            this.txtSVSua_Huyen.ShadowDecoration.CustomizableEdges = (customizableEdges64);
             this.txtSVSua_Huyen.Size = (new global::System.Drawing.Size(154, 28));
             this.txtSVSua_Huyen.TabIndex = (43);
             // 
@@ -1473,7 +1479,7 @@
             // 
             this.txtSVSua_Tinh.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSVSua_Tinh.BorderRadius = (10);
-            this.txtSVSua_Tinh.CustomizableEdges = (customizableEdges177);
+            this.txtSVSua_Tinh.CustomizableEdges = (customizableEdges65);
             this.txtSVSua_Tinh.DefaultText = ("");
             this.txtSVSua_Tinh.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVSua_Tinh.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -1488,7 +1494,7 @@
             this.txtSVSua_Tinh.PasswordChar = ('\0');
             this.txtSVSua_Tinh.PlaceholderText = ("");
             this.txtSVSua_Tinh.SelectedText = ("");
-            this.txtSVSua_Tinh.ShadowDecoration.CustomizableEdges = (customizableEdges178);
+            this.txtSVSua_Tinh.ShadowDecoration.CustomizableEdges = (customizableEdges66);
             this.txtSVSua_Tinh.Size = (new global::System.Drawing.Size(154, 28));
             this.txtSVSua_Tinh.TabIndex = (41);
             // 
@@ -1512,30 +1518,30 @@
             this.label42.TabIndex = (38);
             this.label42.Text = ("ĐỊA CHỈ HỘ KHẨU THƯỜNG TRÚ");
             // 
-            // guna2CustomGradientPanel4
+            // PanelSuaSV_TTP
             // 
-            this.guna2CustomGradientPanel4.BorderColor = (global::System.Drawing.Color.DimGray);
-            this.guna2CustomGradientPanel4.BorderRadius = (20);
-            this.guna2CustomGradientPanel4.BorderThickness = (1);
-            this.guna2CustomGradientPanel4.Controls.Add(this.cboSVSua_LoaiPhong);
-            this.guna2CustomGradientPanel4.Controls.Add(this.cboSVSua_Day);
-            this.guna2CustomGradientPanel4.Controls.Add(this.cboSVSua_Phong);
-            this.guna2CustomGradientPanel4.Controls.Add(this.label41);
-            this.guna2CustomGradientPanel4.Controls.Add(this.label40);
-            this.guna2CustomGradientPanel4.Controls.Add(this.label39);
-            this.guna2CustomGradientPanel4.Controls.Add(this.label38);
-            this.guna2CustomGradientPanel4.CustomizableEdges = (customizableEdges187);
-            this.guna2CustomGradientPanel4.Location = (new global::System.Drawing.Point(706, 24));
-            this.guna2CustomGradientPanel4.Name = ("guna2CustomGradientPanel4");
-            this.guna2CustomGradientPanel4.ShadowDecoration.CustomizableEdges = (customizableEdges188);
-            this.guna2CustomGradientPanel4.Size = (new global::System.Drawing.Size(508, 211));
-            this.guna2CustomGradientPanel4.TabIndex = (1);
+            this.PanelSuaSV_TTP.BorderColor = (global::System.Drawing.Color.DimGray);
+            this.PanelSuaSV_TTP.BorderRadius = (20);
+            this.PanelSuaSV_TTP.BorderThickness = (1);
+            this.PanelSuaSV_TTP.Controls.Add(this.cboSVSua_LoaiPhong);
+            this.PanelSuaSV_TTP.Controls.Add(this.cboSVSua_Day);
+            this.PanelSuaSV_TTP.Controls.Add(this.cboSVSua_Phong);
+            this.PanelSuaSV_TTP.Controls.Add(this.label41);
+            this.PanelSuaSV_TTP.Controls.Add(this.label40);
+            this.PanelSuaSV_TTP.Controls.Add(this.label39);
+            this.PanelSuaSV_TTP.Controls.Add(this.label38);
+            this.PanelSuaSV_TTP.CustomizableEdges = (customizableEdges75);
+            this.PanelSuaSV_TTP.Location = (new global::System.Drawing.Point(706, 24));
+            this.PanelSuaSV_TTP.Name = ("PanelSuaSV_TTP");
+            this.PanelSuaSV_TTP.ShadowDecoration.CustomizableEdges = (customizableEdges76);
+            this.PanelSuaSV_TTP.Size = (new global::System.Drawing.Size(508, 211));
+            this.PanelSuaSV_TTP.TabIndex = (1);
             // 
             // cboSVSua_LoaiPhong
             // 
             this.cboSVSua_LoaiPhong.BackColor = (global::System.Drawing.Color.Transparent);
             this.cboSVSua_LoaiPhong.BorderRadius = (10);
-            this.cboSVSua_LoaiPhong.CustomizableEdges = (customizableEdges181);
+            this.cboSVSua_LoaiPhong.CustomizableEdges = (customizableEdges69);
             this.cboSVSua_LoaiPhong.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
             this.cboSVSua_LoaiPhong.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
             this.cboSVSua_LoaiPhong.Enabled = (false);
@@ -1546,7 +1552,7 @@
             this.cboSVSua_LoaiPhong.ItemHeight = (30);
             this.cboSVSua_LoaiPhong.Location = (new global::System.Drawing.Point(262, 83));
             this.cboSVSua_LoaiPhong.Name = ("cboSVSua_LoaiPhong");
-            this.cboSVSua_LoaiPhong.ShadowDecoration.CustomizableEdges = (customizableEdges182);
+            this.cboSVSua_LoaiPhong.ShadowDecoration.CustomizableEdges = (customizableEdges70);
             this.cboSVSua_LoaiPhong.Size = (new global::System.Drawing.Size(194, 36));
             this.cboSVSua_LoaiPhong.TabIndex = (38);
             this.cboSVSua_LoaiPhong.SelectedIndexChanged += (this.cboSVSua_LoaiPhong_SelectedIndexChanged);
@@ -1555,7 +1561,7 @@
             // 
             this.cboSVSua_Day.BackColor = (global::System.Drawing.Color.Transparent);
             this.cboSVSua_Day.BorderRadius = (10);
-            this.cboSVSua_Day.CustomizableEdges = (customizableEdges183);
+            this.cboSVSua_Day.CustomizableEdges = (customizableEdges71);
             this.cboSVSua_Day.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
             this.cboSVSua_Day.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
             this.cboSVSua_Day.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
@@ -1565,7 +1571,7 @@
             this.cboSVSua_Day.ItemHeight = (30);
             this.cboSVSua_Day.Location = (new global::System.Drawing.Point(41, 81));
             this.cboSVSua_Day.Name = ("cboSVSua_Day");
-            this.cboSVSua_Day.ShadowDecoration.CustomizableEdges = (customizableEdges184);
+            this.cboSVSua_Day.ShadowDecoration.CustomizableEdges = (customizableEdges72);
             this.cboSVSua_Day.Size = (new global::System.Drawing.Size(194, 36));
             this.cboSVSua_Day.TabIndex = (32);
             this.cboSVSua_Day.SelectedIndexChanged += (this.cboSVSua_Day_SelectedIndexChanged);
@@ -1574,7 +1580,7 @@
             // 
             this.cboSVSua_Phong.BackColor = (global::System.Drawing.Color.Transparent);
             this.cboSVSua_Phong.BorderRadius = (10);
-            this.cboSVSua_Phong.CustomizableEdges = (customizableEdges185);
+            this.cboSVSua_Phong.CustomizableEdges = (customizableEdges73);
             this.cboSVSua_Phong.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
             this.cboSVSua_Phong.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
             this.cboSVSua_Phong.Enabled = (false);
@@ -1585,7 +1591,7 @@
             this.cboSVSua_Phong.ItemHeight = (30);
             this.cboSVSua_Phong.Location = (new global::System.Drawing.Point(41, 153));
             this.cboSVSua_Phong.Name = ("cboSVSua_Phong");
-            this.cboSVSua_Phong.ShadowDecoration.CustomizableEdges = (customizableEdges186);
+            this.cboSVSua_Phong.ShadowDecoration.CustomizableEdges = (customizableEdges74);
             this.cboSVSua_Phong.Size = (new global::System.Drawing.Size(427, 36));
             this.cboSVSua_Phong.TabIndex = (37);
             // 
@@ -1663,10 +1669,10 @@
             this.PanelSuaSV_TTSV.Controls.Add(this.txtSVSua_HoTenLot);
             this.PanelSuaSV_TTSV.Controls.Add(this.label25);
             this.PanelSuaSV_TTSV.Controls.Add(this.label24);
-            this.PanelSuaSV_TTSV.CustomizableEdges = (customizableEdges217);
+            this.PanelSuaSV_TTSV.CustomizableEdges = (customizableEdges105);
             this.PanelSuaSV_TTSV.Location = (new global::System.Drawing.Point(33, 24));
             this.PanelSuaSV_TTSV.Name = ("PanelSuaSV_TTSV");
-            this.PanelSuaSV_TTSV.ShadowDecoration.CustomizableEdges = (customizableEdges218);
+            this.PanelSuaSV_TTSV.ShadowDecoration.CustomizableEdges = (customizableEdges106);
             this.PanelSuaSV_TTSV.Size = (new global::System.Drawing.Size(633, 457));
             this.PanelSuaSV_TTSV.TabIndex = (0);
             // 
@@ -1674,7 +1680,7 @@
             // 
             this.cboSVSua_Lop.BackColor = (global::System.Drawing.Color.Transparent);
             this.cboSVSua_Lop.BorderRadius = (10);
-            this.cboSVSua_Lop.CustomizableEdges = (customizableEdges189);
+            this.cboSVSua_Lop.CustomizableEdges = (customizableEdges77);
             this.cboSVSua_Lop.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
             this.cboSVSua_Lop.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
             this.cboSVSua_Lop.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
@@ -1684,7 +1690,7 @@
             this.cboSVSua_Lop.ItemHeight = (30);
             this.cboSVSua_Lop.Location = (new global::System.Drawing.Point(339, 403));
             this.cboSVSua_Lop.Name = ("cboSVSua_Lop");
-            this.cboSVSua_Lop.ShadowDecoration.CustomizableEdges = (customizableEdges190);
+            this.cboSVSua_Lop.ShadowDecoration.CustomizableEdges = (customizableEdges78);
             this.cboSVSua_Lop.Size = (new global::System.Drawing.Size(258, 36));
             this.cboSVSua_Lop.TabIndex = (49);
             // 
@@ -1692,7 +1698,7 @@
             // 
             this.txtSVSua_MSSV.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSVSua_MSSV.BorderRadius = (10);
-            this.txtSVSua_MSSV.CustomizableEdges = (customizableEdges191);
+            this.txtSVSua_MSSV.CustomizableEdges = (customizableEdges79);
             this.txtSVSua_MSSV.DefaultText = ("");
             this.txtSVSua_MSSV.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVSua_MSSV.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -1707,7 +1713,7 @@
             this.txtSVSua_MSSV.PasswordChar = ('\0');
             this.txtSVSua_MSSV.PlaceholderText = ("");
             this.txtSVSua_MSSV.SelectedText = ("");
-            this.txtSVSua_MSSV.ShadowDecoration.CustomizableEdges = (customizableEdges192);
+            this.txtSVSua_MSSV.ShadowDecoration.CustomizableEdges = (customizableEdges80);
             this.txtSVSua_MSSV.Size = (new global::System.Drawing.Size(258, 28));
             this.txtSVSua_MSSV.TabIndex = (29);
             // 
@@ -1715,7 +1721,7 @@
             // 
             this.cboSVSua_Nganh.BackColor = (global::System.Drawing.Color.Transparent);
             this.cboSVSua_Nganh.BorderRadius = (10);
-            this.cboSVSua_Nganh.CustomizableEdges = (customizableEdges193);
+            this.cboSVSua_Nganh.CustomizableEdges = (customizableEdges81);
             this.cboSVSua_Nganh.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
             this.cboSVSua_Nganh.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
             this.cboSVSua_Nganh.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
@@ -1725,7 +1731,7 @@
             this.cboSVSua_Nganh.ItemHeight = (30);
             this.cboSVSua_Nganh.Location = (new global::System.Drawing.Point(339, 341));
             this.cboSVSua_Nganh.Name = ("cboSVSua_Nganh");
-            this.cboSVSua_Nganh.ShadowDecoration.CustomizableEdges = (customizableEdges194);
+            this.cboSVSua_Nganh.ShadowDecoration.CustomizableEdges = (customizableEdges82);
             this.cboSVSua_Nganh.Size = (new global::System.Drawing.Size(258, 36));
             this.cboSVSua_Nganh.TabIndex = (48);
             this.cboSVSua_Nganh.SelectedIndexChanged += (this.cboSVSua_Nganh_SelectedIndexChanged);
@@ -1767,7 +1773,7 @@
             this.dtpSVSua_NgayCap.BorderThickness = (1);
             this.dtpSVSua_NgayCap.Checked = (true);
             this.dtpSVSua_NgayCap.CustomFormat = ("yyyy-MM-dd");
-            this.dtpSVSua_NgayCap.CustomizableEdges = (customizableEdges195);
+            this.dtpSVSua_NgayCap.CustomizableEdges = (customizableEdges83);
             this.dtpSVSua_NgayCap.FillColor = (global::System.Drawing.Color.White);
             this.dtpSVSua_NgayCap.FocusedColor = (global::System.Drawing.Color.White);
             this.dtpSVSua_NgayCap.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
@@ -1776,7 +1782,7 @@
             this.dtpSVSua_NgayCap.MaxDate = (new global::System.DateTime(9998, 12, 31, 0, 0, 0, 0));
             this.dtpSVSua_NgayCap.MinDate = (new global::System.DateTime(1753, 1, 1, 0, 0, 0, 0));
             this.dtpSVSua_NgayCap.Name = ("dtpSVSua_NgayCap");
-            this.dtpSVSua_NgayCap.ShadowDecoration.CustomizableEdges = (customizableEdges196);
+            this.dtpSVSua_NgayCap.ShadowDecoration.CustomizableEdges = (customizableEdges84);
             this.dtpSVSua_NgayCap.Size = (new global::System.Drawing.Size(258, 28));
             this.dtpSVSua_NgayCap.TabIndex = (27);
             this.dtpSVSua_NgayCap.Value = (new global::System.DateTime(2023, 11, 25, 10, 20, 9, 389));
@@ -1788,7 +1794,7 @@
             this.dtpSVSua_NgaySinh.BorderThickness = (1);
             this.dtpSVSua_NgaySinh.Checked = (true);
             this.dtpSVSua_NgaySinh.CustomFormat = ("yyyy-MM-dd");
-            this.dtpSVSua_NgaySinh.CustomizableEdges = (customizableEdges197);
+            this.dtpSVSua_NgaySinh.CustomizableEdges = (customizableEdges85);
             this.dtpSVSua_NgaySinh.FillColor = (global::System.Drawing.Color.White);
             this.dtpSVSua_NgaySinh.FocusedColor = (global::System.Drawing.Color.White);
             this.dtpSVSua_NgaySinh.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
@@ -1797,7 +1803,7 @@
             this.dtpSVSua_NgaySinh.MaxDate = (new global::System.DateTime(9998, 12, 31, 0, 0, 0, 0));
             this.dtpSVSua_NgaySinh.MinDate = (new global::System.DateTime(1753, 1, 1, 0, 0, 0, 0));
             this.dtpSVSua_NgaySinh.Name = ("dtpSVSua_NgaySinh");
-            this.dtpSVSua_NgaySinh.ShadowDecoration.CustomizableEdges = (customizableEdges198);
+            this.dtpSVSua_NgaySinh.ShadowDecoration.CustomizableEdges = (customizableEdges86);
             this.dtpSVSua_NgaySinh.Size = (new global::System.Drawing.Size(258, 28));
             this.dtpSVSua_NgaySinh.TabIndex = (26);
             this.dtpSVSua_NgaySinh.Value = (new global::System.DateTime(2023, 11, 25, 10, 20, 9, 389));
@@ -1806,7 +1812,7 @@
             // 
             this.txtSVSua_Email.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSVSua_Email.BorderRadius = (10);
-            this.txtSVSua_Email.CustomizableEdges = (customizableEdges199);
+            this.txtSVSua_Email.CustomizableEdges = (customizableEdges87);
             this.txtSVSua_Email.DefaultText = ("");
             this.txtSVSua_Email.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVSua_Email.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -1821,7 +1827,7 @@
             this.txtSVSua_Email.PasswordChar = ('\0');
             this.txtSVSua_Email.PlaceholderText = ("");
             this.txtSVSua_Email.SelectedText = ("");
-            this.txtSVSua_Email.ShadowDecoration.CustomizableEdges = (customizableEdges200);
+            this.txtSVSua_Email.ShadowDecoration.CustomizableEdges = (customizableEdges88);
             this.txtSVSua_Email.Size = (new global::System.Drawing.Size(258, 28));
             this.txtSVSua_Email.TabIndex = (25);
             // 
@@ -1839,7 +1845,7 @@
             // 
             this.cboSVSua_Khoa.BackColor = (global::System.Drawing.Color.Transparent);
             this.cboSVSua_Khoa.BorderRadius = (10);
-            this.cboSVSua_Khoa.CustomizableEdges = (customizableEdges201);
+            this.cboSVSua_Khoa.CustomizableEdges = (customizableEdges89);
             this.cboSVSua_Khoa.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
             this.cboSVSua_Khoa.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
             this.cboSVSua_Khoa.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
@@ -1849,7 +1855,7 @@
             this.cboSVSua_Khoa.ItemHeight = (30);
             this.cboSVSua_Khoa.Location = (new global::System.Drawing.Point(339, 279));
             this.cboSVSua_Khoa.Name = ("cboSVSua_Khoa");
-            this.cboSVSua_Khoa.ShadowDecoration.CustomizableEdges = (customizableEdges202);
+            this.cboSVSua_Khoa.ShadowDecoration.CustomizableEdges = (customizableEdges90);
             this.cboSVSua_Khoa.Size = (new global::System.Drawing.Size(258, 36));
             this.cboSVSua_Khoa.TabIndex = (23);
             this.cboSVSua_Khoa.SelectedIndexChanged += (this.cboSVSua_Khoa_SelectedIndexChanged);
@@ -1868,7 +1874,7 @@
             // 
             this.txtSVSua_NoiCap.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSVSua_NoiCap.BorderRadius = (10);
-            this.txtSVSua_NoiCap.CustomizableEdges = (customizableEdges203);
+            this.txtSVSua_NoiCap.CustomizableEdges = (customizableEdges91);
             this.txtSVSua_NoiCap.DefaultText = ("");
             this.txtSVSua_NoiCap.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVSua_NoiCap.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -1883,7 +1889,7 @@
             this.txtSVSua_NoiCap.PasswordChar = ('\0');
             this.txtSVSua_NoiCap.PlaceholderText = ("");
             this.txtSVSua_NoiCap.SelectedText = ("");
-            this.txtSVSua_NoiCap.ShadowDecoration.CustomizableEdges = (customizableEdges204);
+            this.txtSVSua_NoiCap.ShadowDecoration.CustomizableEdges = (customizableEdges92);
             this.txtSVSua_NoiCap.Size = (new global::System.Drawing.Size(258, 28));
             this.txtSVSua_NoiCap.TabIndex = (21);
             // 
@@ -1911,7 +1917,7 @@
             // 
             this.txtSVSua_CCCD.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSVSua_CCCD.BorderRadius = (10);
-            this.txtSVSua_CCCD.CustomizableEdges = (customizableEdges205);
+            this.txtSVSua_CCCD.CustomizableEdges = (customizableEdges93);
             this.txtSVSua_CCCD.DefaultText = ("");
             this.txtSVSua_CCCD.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVSua_CCCD.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -1926,7 +1932,7 @@
             this.txtSVSua_CCCD.PasswordChar = ('\0');
             this.txtSVSua_CCCD.PlaceholderText = ("");
             this.txtSVSua_CCCD.SelectedText = ("");
-            this.txtSVSua_CCCD.ShadowDecoration.CustomizableEdges = (customizableEdges206);
+            this.txtSVSua_CCCD.ShadowDecoration.CustomizableEdges = (customizableEdges94);
             this.txtSVSua_CCCD.Size = (new global::System.Drawing.Size(258, 28));
             this.txtSVSua_CCCD.TabIndex = (17);
             // 
@@ -1944,7 +1950,7 @@
             // 
             this.txtSVSua_SDT.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSVSua_SDT.BorderRadius = (10);
-            this.txtSVSua_SDT.CustomizableEdges = (customizableEdges207);
+            this.txtSVSua_SDT.CustomizableEdges = (customizableEdges95);
             this.txtSVSua_SDT.DefaultText = ("");
             this.txtSVSua_SDT.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVSua_SDT.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -1959,7 +1965,7 @@
             this.txtSVSua_SDT.PasswordChar = ('\0');
             this.txtSVSua_SDT.PlaceholderText = ("");
             this.txtSVSua_SDT.SelectedText = ("");
-            this.txtSVSua_SDT.ShadowDecoration.CustomizableEdges = (customizableEdges208);
+            this.txtSVSua_SDT.ShadowDecoration.CustomizableEdges = (customizableEdges96);
             this.txtSVSua_SDT.Size = (new global::System.Drawing.Size(258, 28));
             this.txtSVSua_SDT.TabIndex = (15);
             // 
@@ -1977,7 +1983,7 @@
             // 
             this.txtSVSua_NoiSinh.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSVSua_NoiSinh.BorderRadius = (10);
-            this.txtSVSua_NoiSinh.CustomizableEdges = (customizableEdges209);
+            this.txtSVSua_NoiSinh.CustomizableEdges = (customizableEdges97);
             this.txtSVSua_NoiSinh.DefaultText = ("");
             this.txtSVSua_NoiSinh.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVSua_NoiSinh.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -1992,7 +1998,7 @@
             this.txtSVSua_NoiSinh.PasswordChar = ('\0');
             this.txtSVSua_NoiSinh.PlaceholderText = ("");
             this.txtSVSua_NoiSinh.SelectedText = ("");
-            this.txtSVSua_NoiSinh.ShadowDecoration.CustomizableEdges = (customizableEdges210);
+            this.txtSVSua_NoiSinh.ShadowDecoration.CustomizableEdges = (customizableEdges98);
             this.txtSVSua_NoiSinh.Size = (new global::System.Drawing.Size(258, 28));
             this.txtSVSua_NoiSinh.TabIndex = (13);
             // 
@@ -2000,7 +2006,7 @@
             // 
             this.txtSVSua_Ten.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSVSua_Ten.BorderRadius = (10);
-            this.txtSVSua_Ten.CustomizableEdges = (customizableEdges211);
+            this.txtSVSua_Ten.CustomizableEdges = (customizableEdges99);
             this.txtSVSua_Ten.DefaultText = ("");
             this.txtSVSua_Ten.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVSua_Ten.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2015,7 +2021,7 @@
             this.txtSVSua_Ten.PasswordChar = ('\0');
             this.txtSVSua_Ten.PlaceholderText = ("");
             this.txtSVSua_Ten.SelectedText = ("");
-            this.txtSVSua_Ten.ShadowDecoration.CustomizableEdges = (customizableEdges212);
+            this.txtSVSua_Ten.ShadowDecoration.CustomizableEdges = (customizableEdges100);
             this.txtSVSua_Ten.Size = (new global::System.Drawing.Size(258, 28));
             this.txtSVSua_Ten.TabIndex = (11);
             // 
@@ -2053,7 +2059,7 @@
             // 
             this.cboSVSua_GioiTinh.BackColor = (global::System.Drawing.Color.Transparent);
             this.cboSVSua_GioiTinh.BorderRadius = (10);
-            this.cboSVSua_GioiTinh.CustomizableEdges = (customizableEdges213);
+            this.cboSVSua_GioiTinh.CustomizableEdges = (customizableEdges101);
             this.cboSVSua_GioiTinh.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
             this.cboSVSua_GioiTinh.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
             this.cboSVSua_GioiTinh.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
@@ -2064,7 +2070,7 @@
             this.cboSVSua_GioiTinh.Items.AddRange(new global::System.Object[] { "Nam", "Nữ" });
             this.cboSVSua_GioiTinh.Location = (new global::System.Drawing.Point(35, 176));
             this.cboSVSua_GioiTinh.Name = ("cboSVSua_GioiTinh");
-            this.cboSVSua_GioiTinh.ShadowDecoration.CustomizableEdges = (customizableEdges214);
+            this.cboSVSua_GioiTinh.ShadowDecoration.CustomizableEdges = (customizableEdges102);
             this.cboSVSua_GioiTinh.Size = (new global::System.Drawing.Size(258, 36));
             this.cboSVSua_GioiTinh.TabIndex = (5);
             // 
@@ -2082,7 +2088,7 @@
             // 
             this.txtSVSua_HoTenLot.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtSVSua_HoTenLot.BorderRadius = (10);
-            this.txtSVSua_HoTenLot.CustomizableEdges = (customizableEdges215);
+            this.txtSVSua_HoTenLot.CustomizableEdges = (customizableEdges103);
             this.txtSVSua_HoTenLot.DefaultText = ("");
             this.txtSVSua_HoTenLot.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVSua_HoTenLot.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2097,7 +2103,7 @@
             this.txtSVSua_HoTenLot.PasswordChar = ('\0');
             this.txtSVSua_HoTenLot.PlaceholderText = ("");
             this.txtSVSua_HoTenLot.SelectedText = ("");
-            this.txtSVSua_HoTenLot.ShadowDecoration.CustomizableEdges = (customizableEdges216);
+            this.txtSVSua_HoTenLot.ShadowDecoration.CustomizableEdges = (customizableEdges104);
             this.txtSVSua_HoTenLot.Size = (new global::System.Drawing.Size(258, 28));
             this.txtSVSua_HoTenLot.TabIndex = (2);
             // 
@@ -2124,7 +2130,7 @@
             // tabXoaSV
             // 
             this.tabXoaSV.BackColor = (global::System.Drawing.Color.WhiteSmoke);
-            this.tabXoaSV.Controls.Add(this.guna2Panel1);
+            this.tabXoaSV.Controls.Add(this.PanelXoaSV);
             this.tabXoaSV.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(15)), (global::System.Int32)((global::System.Byte)(2)), (global::System.Int32)((global::System.Byte)(73))));
             this.tabXoaSV.Location = (new global::System.Drawing.Point(4, 37));
             this.tabXoaSV.Name = ("tabXoaSV");
@@ -2133,29 +2139,29 @@
             this.tabXoaSV.TabIndex = (2);
             this.tabXoaSV.Text = ("Xóa Sinh Viên");
             // 
-            // guna2Panel1
+            // PanelXoaSV
             // 
-            this.guna2Panel1.BackColor = (global::System.Drawing.Color.White);
-            this.guna2Panel1.BorderColor = (global::System.Drawing.Color.Gray);
-            this.guna2Panel1.BorderRadius = (20);
-            this.guna2Panel1.BorderThickness = (1);
-            this.guna2Panel1.Controls.Add(this.btnSVXoa_Huy);
-            this.guna2Panel1.Controls.Add(this.btnSVXoa_Luu);
-            this.guna2Panel1.Controls.Add(this.btnSVXoa_Xoa);
-            this.guna2Panel1.Controls.Add(this.btnSVXoa_TimKiem);
-            this.guna2Panel1.Controls.Add(this.txtSVXoa_timKiem);
-            this.guna2Panel1.Controls.Add(this.dtGWXoaSV);
-            this.guna2Panel1.CustomizableEdges = (customizableEdges229);
-            this.guna2Panel1.Location = (new global::System.Drawing.Point(44, 35));
-            this.guna2Panel1.Name = ("guna2Panel1");
-            this.guna2Panel1.ShadowDecoration.CustomizableEdges = (customizableEdges230);
-            this.guna2Panel1.Size = (new global::System.Drawing.Size(1148, 743));
-            this.guna2Panel1.TabIndex = (0);
+            this.PanelXoaSV.BackColor = (global::System.Drawing.Color.White);
+            this.PanelXoaSV.BorderColor = (global::System.Drawing.Color.Gray);
+            this.PanelXoaSV.BorderRadius = (20);
+            this.PanelXoaSV.BorderThickness = (1);
+            this.PanelXoaSV.Controls.Add(this.btnSVXoa_Huy);
+            this.PanelXoaSV.Controls.Add(this.btnSVXoa_Luu);
+            this.PanelXoaSV.Controls.Add(this.btnSVXoa_Xoa);
+            this.PanelXoaSV.Controls.Add(this.btnSVXoa_TimKiem);
+            this.PanelXoaSV.Controls.Add(this.txtSVXoa_timKiem);
+            this.PanelXoaSV.Controls.Add(this.dtGWXoaSV);
+            this.PanelXoaSV.CustomizableEdges = (customizableEdges117);
+            this.PanelXoaSV.Location = (new global::System.Drawing.Point(44, 35));
+            this.PanelXoaSV.Name = ("PanelXoaSV");
+            this.PanelXoaSV.ShadowDecoration.CustomizableEdges = (customizableEdges118);
+            this.PanelXoaSV.Size = (new global::System.Drawing.Size(1148, 743));
+            this.PanelXoaSV.TabIndex = (0);
             // 
             // btnSVXoa_Huy
             // 
             this.btnSVXoa_Huy.BorderRadius = (15);
-            this.btnSVXoa_Huy.CustomizableEdges = (customizableEdges219);
+            this.btnSVXoa_Huy.CustomizableEdges = (customizableEdges107);
             this.btnSVXoa_Huy.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSVXoa_Huy.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSVXoa_Huy.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -2165,7 +2171,7 @@
             this.btnSVXoa_Huy.ForeColor = (global::System.Drawing.Color.White);
             this.btnSVXoa_Huy.Location = (new global::System.Drawing.Point(818, 671));
             this.btnSVXoa_Huy.Name = ("btnSVXoa_Huy");
-            this.btnSVXoa_Huy.ShadowDecoration.CustomizableEdges = (customizableEdges220);
+            this.btnSVXoa_Huy.ShadowDecoration.CustomizableEdges = (customizableEdges108);
             this.btnSVXoa_Huy.Size = (new global::System.Drawing.Size(225, 42));
             this.btnSVXoa_Huy.TabIndex = (9);
             this.btnSVXoa_Huy.Tag = ("");
@@ -2175,7 +2181,7 @@
             // btnSVXoa_Luu
             // 
             this.btnSVXoa_Luu.BorderRadius = (15);
-            this.btnSVXoa_Luu.CustomizableEdges = (customizableEdges221);
+            this.btnSVXoa_Luu.CustomizableEdges = (customizableEdges109);
             this.btnSVXoa_Luu.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSVXoa_Luu.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSVXoa_Luu.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -2185,7 +2191,7 @@
             this.btnSVXoa_Luu.ForeColor = (global::System.Drawing.Color.White);
             this.btnSVXoa_Luu.Location = (new global::System.Drawing.Point(462, 671));
             this.btnSVXoa_Luu.Name = ("btnSVXoa_Luu");
-            this.btnSVXoa_Luu.ShadowDecoration.CustomizableEdges = (customizableEdges222);
+            this.btnSVXoa_Luu.ShadowDecoration.CustomizableEdges = (customizableEdges110);
             this.btnSVXoa_Luu.Size = (new global::System.Drawing.Size(225, 42));
             this.btnSVXoa_Luu.TabIndex = (8);
             this.btnSVXoa_Luu.Tag = ("");
@@ -2195,7 +2201,7 @@
             // btnSVXoa_Xoa
             // 
             this.btnSVXoa_Xoa.BorderRadius = (15);
-            this.btnSVXoa_Xoa.CustomizableEdges = (customizableEdges223);
+            this.btnSVXoa_Xoa.CustomizableEdges = (customizableEdges111);
             this.btnSVXoa_Xoa.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSVXoa_Xoa.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSVXoa_Xoa.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -2205,7 +2211,7 @@
             this.btnSVXoa_Xoa.ForeColor = (global::System.Drawing.Color.White);
             this.btnSVXoa_Xoa.Location = (new global::System.Drawing.Point(106, 671));
             this.btnSVXoa_Xoa.Name = ("btnSVXoa_Xoa");
-            this.btnSVXoa_Xoa.ShadowDecoration.CustomizableEdges = (customizableEdges224);
+            this.btnSVXoa_Xoa.ShadowDecoration.CustomizableEdges = (customizableEdges112);
             this.btnSVXoa_Xoa.Size = (new global::System.Drawing.Size(225, 42));
             this.btnSVXoa_Xoa.TabIndex = (7);
             this.btnSVXoa_Xoa.Tag = ("");
@@ -2215,7 +2221,7 @@
             // btnSVXoa_TimKiem
             // 
             this.btnSVXoa_TimKiem.BorderRadius = (10);
-            this.btnSVXoa_TimKiem.CustomizableEdges = (customizableEdges225);
+            this.btnSVXoa_TimKiem.CustomizableEdges = (customizableEdges113);
             this.btnSVXoa_TimKiem.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSVXoa_TimKiem.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSVXoa_TimKiem.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -2226,7 +2232,7 @@
             this.btnSVXoa_TimKiem.Image = (global::QL_KTX.Properties.Resources.magnifying_glass);
             this.btnSVXoa_TimKiem.Location = (new global::System.Drawing.Point(904, 15));
             this.btnSVXoa_TimKiem.Name = ("btnSVXoa_TimKiem");
-            this.btnSVXoa_TimKiem.ShadowDecoration.CustomizableEdges = (customizableEdges226);
+            this.btnSVXoa_TimKiem.ShadowDecoration.CustomizableEdges = (customizableEdges114);
             this.btnSVXoa_TimKiem.Size = (new global::System.Drawing.Size(56, 46));
             this.btnSVXoa_TimKiem.TabIndex = (4);
             this.btnSVXoa_TimKiem.Click += (this.btnSVXoa_TimKiem_Click);
@@ -2235,7 +2241,7 @@
             // 
             this.txtSVXoa_timKiem.BorderColor = (global::System.Drawing.Color.Black);
             this.txtSVXoa_timKiem.BorderRadius = (20);
-            this.txtSVXoa_timKiem.CustomizableEdges = (customizableEdges227);
+            this.txtSVXoa_timKiem.CustomizableEdges = (customizableEdges115);
             this.txtSVXoa_timKiem.DefaultText = ("");
             this.txtSVXoa_timKiem.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVXoa_timKiem.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2250,31 +2256,35 @@
             this.txtSVXoa_timKiem.PasswordChar = ('\0');
             this.txtSVXoa_timKiem.PlaceholderText = ("Nhập MSSV để tìm");
             this.txtSVXoa_timKiem.SelectedText = ("");
-            this.txtSVXoa_timKiem.ShadowDecoration.CustomizableEdges = (customizableEdges228);
+            this.txtSVXoa_timKiem.ShadowDecoration.CustomizableEdges = (customizableEdges116);
             this.txtSVXoa_timKiem.Size = (new global::System.Drawing.Size(698, 37));
             this.txtSVXoa_timKiem.TabIndex = (5);
             this.txtSVXoa_timKiem.TextChanged += (this.txtSVXoa_timKiem_TextChanged);
             // 
             // dtGWXoaSV
             // 
+            this.dtGWXoaSV.AllowUserToAddRows = (false);
+            this.dtGWXoaSV.AllowUserToDeleteRows = (false);
+            this.dtGWXoaSV.AllowUserToResizeColumns = (false);
+            this.dtGWXoaSV.AllowUserToResizeRows = (false);
             this.dtGWXoaSV.BackgroundColor = (global::System.Drawing.Color.White);
-            dataGridViewCellStyle10.Alignment = (global::System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft);
-            dataGridViewCellStyle10.BackColor = (global::System.Drawing.SystemColors.Control);
-            dataGridViewCellStyle10.Font = (new global::System.Drawing.Font("Segoe UI", 8F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            dataGridViewCellStyle10.ForeColor = (global::System.Drawing.SystemColors.WindowText);
-            dataGridViewCellStyle10.SelectionBackColor = (global::System.Drawing.SystemColors.Highlight);
-            dataGridViewCellStyle10.SelectionForeColor = (global::System.Drawing.SystemColors.HighlightText);
-            dataGridViewCellStyle10.WrapMode = (global::System.Windows.Forms.DataGridViewTriState.True);
-            this.dtGWXoaSV.ColumnHeadersDefaultCellStyle = (dataGridViewCellStyle10);
+            dataGridViewCellStyle4.Alignment = (global::System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft);
+            dataGridViewCellStyle4.BackColor = (global::System.Drawing.SystemColors.Control);
+            dataGridViewCellStyle4.Font = (new global::System.Drawing.Font("Segoe UI", 8F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
+            dataGridViewCellStyle4.ForeColor = (global::System.Drawing.SystemColors.WindowText);
+            dataGridViewCellStyle4.SelectionBackColor = (global::System.Drawing.SystemColors.Highlight);
+            dataGridViewCellStyle4.SelectionForeColor = (global::System.Drawing.SystemColors.HighlightText);
+            dataGridViewCellStyle4.WrapMode = (global::System.Windows.Forms.DataGridViewTriState.True);
+            this.dtGWXoaSV.ColumnHeadersDefaultCellStyle = (dataGridViewCellStyle4);
             this.dtGWXoaSV.ColumnHeadersHeightSizeMode = (global::System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize);
-            dataGridViewCellStyle11.Alignment = (global::System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft);
-            dataGridViewCellStyle11.BackColor = (global::System.Drawing.SystemColors.Window);
-            dataGridViewCellStyle11.Font = (new global::System.Drawing.Font("Segoe UI", 8F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            dataGridViewCellStyle11.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(15)), (global::System.Int32)((global::System.Byte)(2)), (global::System.Int32)((global::System.Byte)(73))));
-            dataGridViewCellStyle11.SelectionBackColor = (global::System.Drawing.SystemColors.Highlight);
-            dataGridViewCellStyle11.SelectionForeColor = (global::System.Drawing.SystemColors.HighlightText);
-            dataGridViewCellStyle11.WrapMode = (global::System.Windows.Forms.DataGridViewTriState.False);
-            this.dtGWXoaSV.DefaultCellStyle = (dataGridViewCellStyle11);
+            dataGridViewCellStyle5.Alignment = (global::System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft);
+            dataGridViewCellStyle5.BackColor = (global::System.Drawing.SystemColors.Window);
+            dataGridViewCellStyle5.Font = (new global::System.Drawing.Font("Segoe UI", 8F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
+            dataGridViewCellStyle5.ForeColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(15)), (global::System.Int32)((global::System.Byte)(2)), (global::System.Int32)((global::System.Byte)(73))));
+            dataGridViewCellStyle5.SelectionBackColor = (global::System.Drawing.SystemColors.Highlight);
+            dataGridViewCellStyle5.SelectionForeColor = (global::System.Drawing.SystemColors.HighlightText);
+            dataGridViewCellStyle5.WrapMode = (global::System.Windows.Forms.DataGridViewTriState.False);
+            this.dtGWXoaSV.DefaultCellStyle = (dataGridViewCellStyle5);
             this.dtGWXoaSV.Location = (new global::System.Drawing.Point(36, 82));
             this.dtGWXoaSV.Name = ("dtGWXoaSV");
             this.dtGWXoaSV.RowHeadersWidth = (51);
@@ -2303,20 +2313,20 @@
             this.guna2Panel2.BorderRadius = (20);
             this.guna2Panel2.BorderThickness = (1);
             this.guna2Panel2.Controls.Add(this.btnSVXemChiTiet);
-            this.guna2Panel2.Controls.Add(this.dtgSV_XemDanhSach);
             this.guna2Panel2.Controls.Add(this.btnSVDS_TimKiem);
             this.guna2Panel2.Controls.Add(this.txtSVDS_TimKiem);
-            this.guna2Panel2.CustomizableEdges = (customizableEdges237);
+            this.guna2Panel2.Controls.Add(this.dtgSV_XemDanhSach);
+            this.guna2Panel2.CustomizableEdges = (customizableEdges125);
             this.guna2Panel2.Location = (new global::System.Drawing.Point(44, 35));
             this.guna2Panel2.Name = ("guna2Panel2");
-            this.guna2Panel2.ShadowDecoration.CustomizableEdges = (customizableEdges238);
+            this.guna2Panel2.ShadowDecoration.CustomizableEdges = (customizableEdges126);
             this.guna2Panel2.Size = (new global::System.Drawing.Size(1148, 743));
             this.guna2Panel2.TabIndex = (1);
             // 
             // btnSVXemChiTiet
             // 
             this.btnSVXemChiTiet.BorderRadius = (15);
-            this.btnSVXemChiTiet.CustomizableEdges = (customizableEdges231);
+            this.btnSVXemChiTiet.CustomizableEdges = (customizableEdges119);
             this.btnSVXemChiTiet.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSVXemChiTiet.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSVXemChiTiet.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -2326,38 +2336,17 @@
             this.btnSVXemChiTiet.ForeColor = (global::System.Drawing.Color.White);
             this.btnSVXemChiTiet.Location = (new global::System.Drawing.Point(462, 671));
             this.btnSVXemChiTiet.Name = ("btnSVXemChiTiet");
-            this.btnSVXemChiTiet.ShadowDecoration.CustomizableEdges = (customizableEdges232);
+            this.btnSVXemChiTiet.ShadowDecoration.CustomizableEdges = (customizableEdges120);
             this.btnSVXemChiTiet.Size = (new global::System.Drawing.Size(225, 42));
             this.btnSVXemChiTiet.TabIndex = (8);
             this.btnSVXemChiTiet.Tag = ("FF0111");
             this.btnSVXemChiTiet.Text = ("Xem chi tiết");
             this.btnSVXemChiTiet.Click += (this.btnSVXemChiTiet_Click);
             // 
-            // dtgSV_XemDanhSach
-            // 
-            this.dtgSV_XemDanhSach.BackgroundColor = (global::System.Drawing.Color.White);
-            dataGridViewCellStyle12.Alignment = (global::System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft);
-            dataGridViewCellStyle12.BackColor = (global::System.Drawing.SystemColors.Control);
-            dataGridViewCellStyle12.Font = (new global::System.Drawing.Font("Segoe UI", 8F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
-            dataGridViewCellStyle12.ForeColor = (global::System.Drawing.SystemColors.WindowText);
-            dataGridViewCellStyle12.SelectionBackColor = (global::System.Drawing.SystemColors.Highlight);
-            dataGridViewCellStyle12.SelectionForeColor = (global::System.Drawing.SystemColors.HighlightText);
-            dataGridViewCellStyle12.WrapMode = (global::System.Windows.Forms.DataGridViewTriState.True);
-            this.dtgSV_XemDanhSach.ColumnHeadersDefaultCellStyle = (dataGridViewCellStyle12);
-            this.dtgSV_XemDanhSach.ColumnHeadersHeightSizeMode = (global::System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize);
-            this.dtgSV_XemDanhSach.Location = (new global::System.Drawing.Point(36, 82));
-            this.dtgSV_XemDanhSach.Name = ("dtgSV_XemDanhSach");
-            this.dtgSV_XemDanhSach.RowHeadersWidth = (51);
-            this.dtgSV_XemDanhSach.RowTemplate.Height = (29);
-            this.dtgSV_XemDanhSach.SelectionMode = (global::System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect);
-            this.dtgSV_XemDanhSach.Size = (new global::System.Drawing.Size(1086, 557));
-            this.dtgSV_XemDanhSach.TabIndex = (6);
-            this.dtgSV_XemDanhSach.CellClick += (this.dtgSV_XemDanhSach_CellClick);
-            // 
             // btnSVDS_TimKiem
             // 
             this.btnSVDS_TimKiem.BorderRadius = (10);
-            this.btnSVDS_TimKiem.CustomizableEdges = (customizableEdges233);
+            this.btnSVDS_TimKiem.CustomizableEdges = (customizableEdges121);
             this.btnSVDS_TimKiem.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSVDS_TimKiem.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnSVDS_TimKiem.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -2368,7 +2357,7 @@
             this.btnSVDS_TimKiem.Image = (global::QL_KTX.Properties.Resources.magnifying_glass);
             this.btnSVDS_TimKiem.Location = (new global::System.Drawing.Point(904, 15));
             this.btnSVDS_TimKiem.Name = ("btnSVDS_TimKiem");
-            this.btnSVDS_TimKiem.ShadowDecoration.CustomizableEdges = (customizableEdges234);
+            this.btnSVDS_TimKiem.ShadowDecoration.CustomizableEdges = (customizableEdges122);
             this.btnSVDS_TimKiem.Size = (new global::System.Drawing.Size(56, 46));
             this.btnSVDS_TimKiem.TabIndex = (4);
             this.btnSVDS_TimKiem.Click += (this.btnSVDS_TimKiem_Click);
@@ -2377,7 +2366,7 @@
             // 
             this.txtSVDS_TimKiem.BorderColor = (global::System.Drawing.Color.Black);
             this.txtSVDS_TimKiem.BorderRadius = (20);
-            this.txtSVDS_TimKiem.CustomizableEdges = (customizableEdges235);
+            this.txtSVDS_TimKiem.CustomizableEdges = (customizableEdges123);
             this.txtSVDS_TimKiem.DefaultText = ("");
             this.txtSVDS_TimKiem.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtSVDS_TimKiem.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2392,10 +2381,35 @@
             this.txtSVDS_TimKiem.PasswordChar = ('\0');
             this.txtSVDS_TimKiem.PlaceholderText = ("Nhập MSSV để tìm ");
             this.txtSVDS_TimKiem.SelectedText = ("");
-            this.txtSVDS_TimKiem.ShadowDecoration.CustomizableEdges = (customizableEdges236);
+            this.txtSVDS_TimKiem.ShadowDecoration.CustomizableEdges = (customizableEdges124);
             this.txtSVDS_TimKiem.Size = (new global::System.Drawing.Size(698, 37));
             this.txtSVDS_TimKiem.TabIndex = (5);
             this.txtSVDS_TimKiem.TextChanged += (this.txtSVDS_TimKiem_TextChanged);
+            // 
+            // dtgSV_XemDanhSach
+            // 
+            this.dtgSV_XemDanhSach.AllowUserToAddRows = (false);
+            this.dtgSV_XemDanhSach.AllowUserToDeleteRows = (false);
+            this.dtgSV_XemDanhSach.AllowUserToResizeColumns = (false);
+            this.dtgSV_XemDanhSach.AllowUserToResizeRows = (false);
+            this.dtgSV_XemDanhSach.BackgroundColor = (global::System.Drawing.Color.White);
+            dataGridViewCellStyle6.Alignment = (global::System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft);
+            dataGridViewCellStyle6.BackColor = (global::System.Drawing.SystemColors.Control);
+            dataGridViewCellStyle6.Font = (new global::System.Drawing.Font("Segoe UI", 8F, global::System.Drawing.FontStyle.Bold, global::System.Drawing.GraphicsUnit.Point));
+            dataGridViewCellStyle6.ForeColor = (global::System.Drawing.SystemColors.WindowText);
+            dataGridViewCellStyle6.SelectionBackColor = (global::System.Drawing.SystemColors.Highlight);
+            dataGridViewCellStyle6.SelectionForeColor = (global::System.Drawing.SystemColors.HighlightText);
+            dataGridViewCellStyle6.WrapMode = (global::System.Windows.Forms.DataGridViewTriState.True);
+            this.dtgSV_XemDanhSach.ColumnHeadersDefaultCellStyle = (dataGridViewCellStyle6);
+            this.dtgSV_XemDanhSach.ColumnHeadersHeightSizeMode = (global::System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize);
+            this.dtgSV_XemDanhSach.Location = (new global::System.Drawing.Point(36, 82));
+            this.dtgSV_XemDanhSach.Name = ("dtgSV_XemDanhSach");
+            this.dtgSV_XemDanhSach.RowHeadersWidth = (51);
+            this.dtgSV_XemDanhSach.RowTemplate.Height = (29);
+            this.dtgSV_XemDanhSach.SelectionMode = (global::System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect);
+            this.dtgSV_XemDanhSach.Size = (new global::System.Drawing.Size(1086, 557));
+            this.dtgSV_XemDanhSach.TabIndex = (6);
+            this.dtgSV_XemDanhSach.CellClick += (this.dtgSV_XemDanhSach_CellClick);
             // 
             // tabHoaDonTienPhong
             // 
@@ -2440,10 +2454,10 @@
             this.PanelHDTP.Controls.Add(this.label49);
             this.PanelHDTP.Controls.Add(this.label48);
             this.PanelHDTP.Controls.Add(this.label47);
-            this.PanelHDTP.CustomizableEdges = (customizableEdges271);
+            this.PanelHDTP.CustomizableEdges = (customizableEdges159);
             this.PanelHDTP.Location = (new global::System.Drawing.Point(27, 17));
             this.PanelHDTP.Name = ("PanelHDTP");
-            this.PanelHDTP.ShadowDecoration.CustomizableEdges = (customizableEdges272);
+            this.PanelHDTP.ShadowDecoration.CustomizableEdges = (customizableEdges160);
             this.PanelHDTP.Size = (new global::System.Drawing.Size(1183, 768));
             this.PanelHDTP.TabIndex = (0);
             // 
@@ -2451,7 +2465,7 @@
             // 
             this.txtMaHD.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtMaHD.BorderRadius = (10);
-            this.txtMaHD.CustomizableEdges = (customizableEdges239);
+            this.txtMaHD.CustomizableEdges = (customizableEdges127);
             this.txtMaHD.DefaultText = ("");
             this.txtMaHD.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtMaHD.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2466,7 +2480,7 @@
             this.txtMaHD.PasswordChar = ('\0');
             this.txtMaHD.PlaceholderText = ("");
             this.txtMaHD.SelectedText = ("");
-            this.txtMaHD.ShadowDecoration.CustomizableEdges = (customizableEdges240);
+            this.txtMaHD.ShadowDecoration.CustomizableEdges = (customizableEdges128);
             this.txtMaHD.Size = (new global::System.Drawing.Size(330, 28));
             this.txtMaHD.TabIndex = (69);
             // 
@@ -2474,7 +2488,7 @@
             // 
             this.cboHD_MaSV.BackColor = (global::System.Drawing.Color.Transparent);
             this.cboHD_MaSV.BorderRadius = (20);
-            this.cboHD_MaSV.CustomizableEdges = (customizableEdges241);
+            this.cboHD_MaSV.CustomizableEdges = (customizableEdges129);
             this.cboHD_MaSV.DrawMode = (global::System.Windows.Forms.DrawMode.OwnerDrawFixed);
             this.cboHD_MaSV.DropDownStyle = (global::System.Windows.Forms.ComboBoxStyle.DropDownList);
             this.cboHD_MaSV.FocusedColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(94)), (global::System.Int32)((global::System.Byte)(148)), (global::System.Int32)((global::System.Byte)(255))));
@@ -2484,7 +2498,7 @@
             this.cboHD_MaSV.ItemHeight = (30);
             this.cboHD_MaSV.Location = (new global::System.Drawing.Point(218, 198));
             this.cboHD_MaSV.Name = ("cboHD_MaSV");
-            this.cboHD_MaSV.ShadowDecoration.CustomizableEdges = (customizableEdges242);
+            this.cboHD_MaSV.ShadowDecoration.CustomizableEdges = (customizableEdges130);
             this.cboHD_MaSV.Size = (new global::System.Drawing.Size(330, 36));
             this.cboHD_MaSV.TabIndex = (68);
             this.cboHD_MaSV.SelectedIndexChanged += (this.cboHD_MaSV_SelectedIndexChanged);
@@ -2492,7 +2506,7 @@
             // btnHuyHD
             // 
             this.btnHuyHD.BorderRadius = (15);
-            this.btnHuyHD.CustomizableEdges = (customizableEdges243);
+            this.btnHuyHD.CustomizableEdges = (customizableEdges131);
             this.btnHuyHD.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnHuyHD.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnHuyHD.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -2502,7 +2516,7 @@
             this.btnHuyHD.ForeColor = (global::System.Drawing.Color.White);
             this.btnHuyHD.Location = (new global::System.Drawing.Point(602, 697));
             this.btnHuyHD.Name = ("btnHuyHD");
-            this.btnHuyHD.ShadowDecoration.CustomizableEdges = (customizableEdges244);
+            this.btnHuyHD.ShadowDecoration.CustomizableEdges = (customizableEdges132);
             this.btnHuyHD.Size = (new global::System.Drawing.Size(165, 48));
             this.btnHuyHD.TabIndex = (67);
             this.btnHuyHD.Tag = ("");
@@ -2512,7 +2526,7 @@
             // btnLuuHD
             // 
             this.btnLuuHD.BorderRadius = (15);
-            this.btnLuuHD.CustomizableEdges = (customizableEdges245);
+            this.btnLuuHD.CustomizableEdges = (customizableEdges133);
             this.btnLuuHD.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnLuuHD.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnLuuHD.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -2522,7 +2536,7 @@
             this.btnLuuHD.ForeColor = (global::System.Drawing.Color.White);
             this.btnLuuHD.Location = (new global::System.Drawing.Point(789, 697));
             this.btnLuuHD.Name = ("btnLuuHD");
-            this.btnLuuHD.ShadowDecoration.CustomizableEdges = (customizableEdges246);
+            this.btnLuuHD.ShadowDecoration.CustomizableEdges = (customizableEdges134);
             this.btnLuuHD.Size = (new global::System.Drawing.Size(165, 48));
             this.btnLuuHD.TabIndex = (66);
             this.btnLuuHD.Tag = ("");
@@ -2532,7 +2546,7 @@
             // btn_SuaHD
             // 
             this.btn_SuaHD.BorderRadius = (15);
-            this.btn_SuaHD.CustomizableEdges = (customizableEdges247);
+            this.btn_SuaHD.CustomizableEdges = (customizableEdges135);
             this.btn_SuaHD.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.btn_SuaHD.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.btn_SuaHD.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -2542,7 +2556,7 @@
             this.btn_SuaHD.ForeColor = (global::System.Drawing.Color.White);
             this.btn_SuaHD.Location = (new global::System.Drawing.Point(228, 697));
             this.btn_SuaHD.Name = ("btn_SuaHD");
-            this.btn_SuaHD.ShadowDecoration.CustomizableEdges = (customizableEdges248);
+            this.btn_SuaHD.ShadowDecoration.CustomizableEdges = (customizableEdges136);
             this.btn_SuaHD.Size = (new global::System.Drawing.Size(165, 48));
             this.btn_SuaHD.TabIndex = (65);
             this.btn_SuaHD.Tag = ("");
@@ -2553,7 +2567,7 @@
             // 
             this.txt_SoThangToan.BorderColor = (global::System.Drawing.Color.Silver);
             this.txt_SoThangToan.BorderRadius = (10);
-            this.txt_SoThangToan.CustomizableEdges = (customizableEdges249);
+            this.txt_SoThangToan.CustomizableEdges = (customizableEdges137);
             this.txt_SoThangToan.DefaultText = ("");
             this.txt_SoThangToan.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txt_SoThangToan.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2568,7 +2582,7 @@
             this.txt_SoThangToan.PasswordChar = ('\0');
             this.txt_SoThangToan.PlaceholderText = ("");
             this.txt_SoThangToan.SelectedText = ("");
-            this.txt_SoThangToan.ShadowDecoration.CustomizableEdges = (customizableEdges250);
+            this.txt_SoThangToan.ShadowDecoration.CustomizableEdges = (customizableEdges138);
             this.txt_SoThangToan.Size = (new global::System.Drawing.Size(330, 28));
             this.txt_SoThangToan.TabIndex = (64);
             // 
@@ -2588,7 +2602,7 @@
             this.dtpNgayLapHD.BorderThickness = (1);
             this.dtpNgayLapHD.Checked = (true);
             this.dtpNgayLapHD.CustomFormat = ("yyyy-MM-dd");
-            this.dtpNgayLapHD.CustomizableEdges = (customizableEdges251);
+            this.dtpNgayLapHD.CustomizableEdges = (customizableEdges139);
             this.dtpNgayLapHD.FillColor = (global::System.Drawing.Color.White);
             this.dtpNgayLapHD.FocusedColor = (global::System.Drawing.Color.White);
             this.dtpNgayLapHD.Font = (new global::System.Drawing.Font("Segoe UI", 9F, global::System.Drawing.FontStyle.Regular, global::System.Drawing.GraphicsUnit.Point));
@@ -2597,7 +2611,7 @@
             this.dtpNgayLapHD.MaxDate = (new global::System.DateTime(9998, 12, 31, 0, 0, 0, 0));
             this.dtpNgayLapHD.MinDate = (new global::System.DateTime(1753, 1, 1, 0, 0, 0, 0));
             this.dtpNgayLapHD.Name = ("dtpNgayLapHD");
-            this.dtpNgayLapHD.ShadowDecoration.CustomizableEdges = (customizableEdges252);
+            this.dtpNgayLapHD.ShadowDecoration.CustomizableEdges = (customizableEdges140);
             this.dtpNgayLapHD.Size = (new global::System.Drawing.Size(330, 28));
             this.dtpNgayLapHD.TabIndex = (62);
             this.dtpNgayLapHD.Value = (new global::System.DateTime(2023, 11, 25, 10, 20, 9, 389));
@@ -2605,7 +2619,7 @@
             // btnInHD
             // 
             this.btnInHD.BorderRadius = (15);
-            this.btnInHD.CustomizableEdges = (customizableEdges253);
+            this.btnInHD.CustomizableEdges = (customizableEdges141);
             this.btnInHD.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnInHD.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnInHD.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -2615,16 +2629,17 @@
             this.btnInHD.ForeColor = (global::System.Drawing.Color.White);
             this.btnInHD.Location = (new global::System.Drawing.Point(976, 697));
             this.btnInHD.Name = ("btnInHD");
-            this.btnInHD.ShadowDecoration.CustomizableEdges = (customizableEdges254);
+            this.btnInHD.ShadowDecoration.CustomizableEdges = (customizableEdges142);
             this.btnInHD.Size = (new global::System.Drawing.Size(165, 48));
             this.btnInHD.TabIndex = (29);
             this.btnInHD.Tag = ("");
             this.btnInHD.Text = ("In");
+            this.btnInHD.Click += (this.btnInHD_Click);
             // 
             // btnXoa_HD
             // 
             this.btnXoa_HD.BorderRadius = (15);
-            this.btnXoa_HD.CustomizableEdges = (customizableEdges255);
+            this.btnXoa_HD.CustomizableEdges = (customizableEdges143);
             this.btnXoa_HD.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnXoa_HD.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnXoa_HD.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -2634,7 +2649,7 @@
             this.btnXoa_HD.ForeColor = (global::System.Drawing.Color.White);
             this.btnXoa_HD.Location = (new global::System.Drawing.Point(415, 697));
             this.btnXoa_HD.Name = ("btnXoa_HD");
-            this.btnXoa_HD.ShadowDecoration.CustomizableEdges = (customizableEdges256);
+            this.btnXoa_HD.ShadowDecoration.CustomizableEdges = (customizableEdges144);
             this.btnXoa_HD.Size = (new global::System.Drawing.Size(165, 48));
             this.btnXoa_HD.TabIndex = (28);
             this.btnXoa_HD.Tag = ("");
@@ -2644,7 +2659,7 @@
             // btnLapHD
             // 
             this.btnLapHD.BorderRadius = (15);
-            this.btnLapHD.CustomizableEdges = (customizableEdges257);
+            this.btnLapHD.CustomizableEdges = (customizableEdges145);
             this.btnLapHD.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnLapHD.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnLapHD.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -2654,7 +2669,7 @@
             this.btnLapHD.ForeColor = (global::System.Drawing.Color.White);
             this.btnLapHD.Location = (new global::System.Drawing.Point(41, 697));
             this.btnLapHD.Name = ("btnLapHD");
-            this.btnLapHD.ShadowDecoration.CustomizableEdges = (customizableEdges258);
+            this.btnLapHD.ShadowDecoration.CustomizableEdges = (customizableEdges146);
             this.btnLapHD.Size = (new global::System.Drawing.Size(165, 48));
             this.btnLapHD.TabIndex = (26);
             this.btnLapHD.Tag = ("");
@@ -2663,6 +2678,10 @@
             // 
             // dtGWHoaDonThuePhong
             // 
+            this.dtGWHoaDonThuePhong.AllowUserToAddRows = (false);
+            this.dtGWHoaDonThuePhong.AllowUserToDeleteRows = (false);
+            this.dtGWHoaDonThuePhong.AllowUserToResizeColumns = (false);
+            this.dtGWHoaDonThuePhong.AllowUserToResizeRows = (false);
             this.dtGWHoaDonThuePhong.BackgroundColor = (global::System.Drawing.Color.White);
             this.dtGWHoaDonThuePhong.ColumnHeadersHeightSizeMode = (global::System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize);
             this.dtGWHoaDonThuePhong.Location = (new global::System.Drawing.Point(33, 440));
@@ -2677,7 +2696,7 @@
             // btnTimKiem_HD
             // 
             this.btnTimKiem_HD.BorderRadius = (10);
-            this.btnTimKiem_HD.CustomizableEdges = (customizableEdges259);
+            this.btnTimKiem_HD.CustomizableEdges = (customizableEdges147);
             this.btnTimKiem_HD.DisabledState.BorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnTimKiem_HD.DisabledState.CustomBorderColor = (global::System.Drawing.Color.DarkGray);
             this.btnTimKiem_HD.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169)), (global::System.Int32)((global::System.Byte)(169))));
@@ -2688,7 +2707,7 @@
             this.btnTimKiem_HD.Image = (global::QL_KTX.Properties.Resources.magnifying_glass);
             this.btnTimKiem_HD.Location = (new global::System.Drawing.Point(921, 376));
             this.btnTimKiem_HD.Name = ("btnTimKiem_HD");
-            this.btnTimKiem_HD.ShadowDecoration.CustomizableEdges = (customizableEdges260);
+            this.btnTimKiem_HD.ShadowDecoration.CustomizableEdges = (customizableEdges148);
             this.btnTimKiem_HD.Size = (new global::System.Drawing.Size(56, 46));
             this.btnTimKiem_HD.TabIndex = (23);
             this.btnTimKiem_HD.Click += (this.btnTimKiem_HD_Click);
@@ -2697,7 +2716,7 @@
             // 
             this.txtTimKiem_HD.BorderColor = (global::System.Drawing.Color.Black);
             this.txtTimKiem_HD.BorderRadius = (20);
-            this.txtTimKiem_HD.CustomizableEdges = (customizableEdges261);
+            this.txtTimKiem_HD.CustomizableEdges = (customizableEdges149);
             this.txtTimKiem_HD.DefaultText = ("");
             this.txtTimKiem_HD.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtTimKiem_HD.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2712,7 +2731,7 @@
             this.txtTimKiem_HD.PasswordChar = ('\0');
             this.txtTimKiem_HD.PlaceholderText = ("Nhập mã hóa đơn hoặc MSSV để tìm");
             this.txtTimKiem_HD.SelectedText = ("");
-            this.txtTimKiem_HD.ShadowDecoration.CustomizableEdges = (customizableEdges262);
+            this.txtTimKiem_HD.ShadowDecoration.CustomizableEdges = (customizableEdges150);
             this.txtTimKiem_HD.Size = (new global::System.Drawing.Size(698, 37));
             this.txtTimKiem_HD.TabIndex = (24);
             this.txtTimKiem_HD.TextChanged += (this.txtTimKiem_HD_TextChanged);
@@ -2721,7 +2740,7 @@
             // 
             this.txtGiaPhong_HD.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtGiaPhong_HD.BorderRadius = (10);
-            this.txtGiaPhong_HD.CustomizableEdges = (customizableEdges263);
+            this.txtGiaPhong_HD.CustomizableEdges = (customizableEdges151);
             this.txtGiaPhong_HD.DefaultText = ("");
             this.txtGiaPhong_HD.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtGiaPhong_HD.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2737,7 +2756,7 @@
             this.txtGiaPhong_HD.PasswordChar = ('\0');
             this.txtGiaPhong_HD.PlaceholderText = ("");
             this.txtGiaPhong_HD.SelectedText = ("");
-            this.txtGiaPhong_HD.ShadowDecoration.CustomizableEdges = (customizableEdges264);
+            this.txtGiaPhong_HD.ShadowDecoration.CustomizableEdges = (customizableEdges152);
             this.txtGiaPhong_HD.Size = (new global::System.Drawing.Size(330, 28));
             this.txtGiaPhong_HD.TabIndex = (18);
             // 
@@ -2755,7 +2774,7 @@
             // 
             this.txtPhong_HD.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtPhong_HD.BorderRadius = (10);
-            this.txtPhong_HD.CustomizableEdges = (customizableEdges265);
+            this.txtPhong_HD.CustomizableEdges = (customizableEdges153);
             this.txtPhong_HD.DefaultText = ("");
             this.txtPhong_HD.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtPhong_HD.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2771,7 +2790,7 @@
             this.txtPhong_HD.PasswordChar = ('\0');
             this.txtPhong_HD.PlaceholderText = ("");
             this.txtPhong_HD.SelectedText = ("");
-            this.txtPhong_HD.ShadowDecoration.CustomizableEdges = (customizableEdges266);
+            this.txtPhong_HD.ShadowDecoration.CustomizableEdges = (customizableEdges154);
             this.txtPhong_HD.Size = (new global::System.Drawing.Size(330, 28));
             this.txtPhong_HD.TabIndex = (16);
             // 
@@ -2789,7 +2808,7 @@
             // 
             this.txtLop_HD.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtLop_HD.BorderRadius = (10);
-            this.txtLop_HD.CustomizableEdges = (customizableEdges267);
+            this.txtLop_HD.CustomizableEdges = (customizableEdges155);
             this.txtLop_HD.DefaultText = ("");
             this.txtLop_HD.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtLop_HD.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2805,7 +2824,7 @@
             this.txtLop_HD.PasswordChar = ('\0');
             this.txtLop_HD.PlaceholderText = ("");
             this.txtLop_HD.SelectedText = ("");
-            this.txtLop_HD.ShadowDecoration.CustomizableEdges = (customizableEdges268);
+            this.txtLop_HD.ShadowDecoration.CustomizableEdges = (customizableEdges156);
             this.txtLop_HD.Size = (new global::System.Drawing.Size(330, 28));
             this.txtLop_HD.TabIndex = (12);
             // 
@@ -2823,7 +2842,7 @@
             // 
             this.txtTenSV_HD.BorderColor = (global::System.Drawing.Color.Silver);
             this.txtTenSV_HD.BorderRadius = (10);
-            this.txtTenSV_HD.CustomizableEdges = (customizableEdges269);
+            this.txtTenSV_HD.CustomizableEdges = (customizableEdges157);
             this.txtTenSV_HD.DefaultText = ("");
             this.txtTenSV_HD.DisabledState.BorderColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208)), (global::System.Int32)((global::System.Byte)(208))));
             this.txtTenSV_HD.DisabledState.FillColor = (global::System.Drawing.Color.FromArgb((global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226)), (global::System.Int32)((global::System.Byte)(226))));
@@ -2839,7 +2858,7 @@
             this.txtTenSV_HD.PasswordChar = ('\0');
             this.txtTenSV_HD.PlaceholderText = ("");
             this.txtTenSV_HD.SelectedText = ("");
-            this.txtTenSV_HD.ShadowDecoration.CustomizableEdges = (customizableEdges270);
+            this.txtTenSV_HD.ShadowDecoration.CustomizableEdges = (customizableEdges158);
             this.txtTenSV_HD.Size = (new global::System.Drawing.Size(330, 28));
             this.txtTenSV_HD.TabIndex = (10);
             // 
@@ -2907,20 +2926,20 @@
             this.Load += (this.FormSinhVien_Load);
             this.tabControlChucNangSinhVien.ResumeLayout(false);
             this.tabThemSV.ResumeLayout(false);
-            this.guna2CustomGradientPanel2.ResumeLayout(false);
-            this.guna2CustomGradientPanel2.PerformLayout();
+            this.panelTTPhong.ResumeLayout(false);
+            this.panelTTPhong.PerformLayout();
             this.panelThongTinSV.ResumeLayout(false);
             this.panelThongTinSV.PerformLayout();
             this.tabSuaSV.ResumeLayout(false);
             ((global::System.ComponentModel.ISupportInitialize)(this.dtGWSuaSinhVien)).EndInit();
             this.PanelSuaSV_DCHKTT.ResumeLayout(false);
             this.PanelSuaSV_DCHKTT.PerformLayout();
-            this.guna2CustomGradientPanel4.ResumeLayout(false);
-            this.guna2CustomGradientPanel4.PerformLayout();
+            this.PanelSuaSV_TTP.ResumeLayout(false);
+            this.PanelSuaSV_TTP.PerformLayout();
             this.PanelSuaSV_TTSV.ResumeLayout(false);
             this.PanelSuaSV_TTSV.PerformLayout();
             this.tabXoaSV.ResumeLayout(false);
-            this.guna2Panel1.ResumeLayout(false);
+            this.PanelXoaSV.ResumeLayout(false);
             ((global::System.ComponentModel.ISupportInitialize)(this.dtGWXoaSV)).EndInit();
             this.tabDanhSachSV.ResumeLayout(false);
             this.guna2Panel2.ResumeLayout(false);
@@ -2974,7 +2993,7 @@
         private Label label17;
         private Guna.UI2.WinForms.Guna2TextBox txtSVThem_Tinh;
         private Label label16;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel2;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel panelTTPhong;
         private Label label21;
         private Label label20;
         private Guna.UI2.WinForms.Guna2ComboBox cboSVThem_Phong;
@@ -2986,7 +3005,7 @@
         private Guna.UI2.WinForms.Guna2CustomGradientPanel PanelSuaSV_TTSV;
         private Guna.UI2.WinForms.Guna2TextBox txtSVSua_TimKiem;
         private Guna.UI2.WinForms.Guna2CustomGradientPanel PanelSuaSV_DCHKTT;
-        private Guna.UI2.WinForms.Guna2CustomGradientPanel guna2CustomGradientPanel4;
+        private Guna.UI2.WinForms.Guna2CustomGradientPanel PanelSuaSV_TTP;
         private Guna.UI2.WinForms.Guna2Button btnSVSua_TimKiem;
         private Guna.UI2.WinForms.Guna2Button btnSVSua_Sua;
         private Guna.UI2.WinForms.Guna2Button btnSVSua_Luu;
@@ -3032,7 +3051,7 @@
         private Guna.UI2.WinForms.Guna2ComboBox cboSVSua_LoaiPhong;
         private Guna.UI2.WinForms.Guna2ComboBox cboSVSua_Day;
         private Guna.UI2.WinForms.Guna2ComboBox cboSVSua_Phong;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
+        private Guna.UI2.WinForms.Guna2Panel PanelXoaSV;
         private DataGridView dtGWXoaSV;
         private Guna.UI2.WinForms.Guna2Button btnSVXoa_TimKiem;
         private Guna.UI2.WinForms.Guna2TextBox txtSVXoa_timKiem;
@@ -3084,5 +3103,7 @@
         private global::Guna.UI2.WinForms.Guna2Button btn_SuaHD;
         private global::Guna.UI2.WinForms.Guna2ComboBox cboHD_MaSV;
         private global::Guna.UI2.WinForms.Guna2TextBox txtMaHD;
+        private global::Microsoft.Data.SqlClient.SqlCommandBuilder sqlCommandBuilder1;
+        private global::System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
 }

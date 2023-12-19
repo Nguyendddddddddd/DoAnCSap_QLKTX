@@ -53,11 +53,11 @@
             label6 = new Label();
             pictureBox2 = new PictureBox();
             guna2CustomGradientPanel4 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
+            label10 = new Label();
             pictureBox1 = new PictureBox();
             guna2CustomGradientPanel2 = new Guna.UI2.WinForms.Guna2CustomGradientPanel();
             label9 = new Label();
             label3 = new Label();
-            label10 = new Label();
             guna2CustomGradientPanel1.SuspendLayout();
             guna2CustomGradientPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -86,7 +86,6 @@
             // guna2CustomGradientPanel1
             // 
             guna2CustomGradientPanel1.BackColor = Color.Transparent;
-            guna2CustomGradientPanel1.BorderRadius = 15;
             guna2CustomGradientPanel1.Controls.Add(label7);
             guna2CustomGradientPanel1.Controls.Add(label1);
             guna2CustomGradientPanel1.CustomizableEdges = customizableEdges1;
@@ -129,7 +128,7 @@
             label2.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = Color.White;
             label2.ImageAlign = ContentAlignment.BottomCenter;
-            label2.Location = new Point(116, 346);
+            label2.Location = new Point(140, 346);
             label2.Name = "label2";
             label2.Size = new Size(70, 28);
             label2.TabIndex = 2;
@@ -138,7 +137,6 @@
             // guna2CustomGradientPanel3
             // 
             guna2CustomGradientPanel3.BackColor = Color.Transparent;
-            guna2CustomGradientPanel3.BorderRadius = 15;
             guna2CustomGradientPanel3.Controls.Add(label8);
             guna2CustomGradientPanel3.Controls.Add(label2);
             guna2CustomGradientPanel3.CustomizableEdges = customizableEdges3;
@@ -234,7 +232,6 @@
             // guna2CustomGradientPanel4
             // 
             guna2CustomGradientPanel4.BackColor = Color.Transparent;
-            guna2CustomGradientPanel4.BorderRadius = 15;
             guna2CustomGradientPanel4.Controls.Add(label10);
             guna2CustomGradientPanel4.Controls.Add(pictureBox2);
             guna2CustomGradientPanel4.Controls.Add(label6);
@@ -242,15 +239,24 @@
             guna2CustomGradientPanel4.Controls.Add(label5);
             guna2CustomGradientPanel4.CustomizableEdges = customizableEdges5;
             guna2CustomGradientPanel4.Dock = DockStyle.Top;
-            guna2CustomGradientPanel4.FillColor = Color.FromArgb(192, 255, 255);
-            guna2CustomGradientPanel4.FillColor2 = Color.GreenYellow;
-            guna2CustomGradientPanel4.FillColor3 = Color.FromArgb(135, 195, 255);
-            guna2CustomGradientPanel4.FillColor4 = Color.FromArgb(135, 195, 255);
+            guna2CustomGradientPanel4.FillColor = Color.FromArgb(128, 255, 255);
+            guna2CustomGradientPanel4.FillColor3 = Color.Blue;
             guna2CustomGradientPanel4.Location = new Point(0, 0);
             guna2CustomGradientPanel4.Name = "guna2CustomGradientPanel4";
             guna2CustomGradientPanel4.ShadowDecoration.CustomizableEdges = customizableEdges6;
             guna2CustomGradientPanel4.Size = new Size(1244, 53);
             guna2CustomGradientPanel4.TabIndex = 19;
+            // 
+            // label10
+            // 
+            label10.AutoSize = true;
+            label10.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label10.ForeColor = Color.White;
+            label10.Location = new Point(884, 12);
+            label10.Name = "label10";
+            label10.Size = new Size(219, 28);
+            label10.TabIndex = 21;
+            label10.Text = "Long Xuyên/An Giang";
             // 
             // pictureBox1
             // 
@@ -266,7 +272,6 @@
             // guna2CustomGradientPanel2
             // 
             guna2CustomGradientPanel2.BackColor = Color.Transparent;
-            guna2CustomGradientPanel2.BorderRadius = 15;
             guna2CustomGradientPanel2.Controls.Add(label9);
             guna2CustomGradientPanel2.Controls.Add(label3);
             guna2CustomGradientPanel2.CustomizableEdges = customizableEdges7;
@@ -299,22 +304,11 @@
             label3.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label3.ForeColor = Color.White;
             label3.ImageAlign = ContentAlignment.BottomCenter;
-            label3.Location = new Point(118, 346);
+            label3.Location = new Point(140, 346);
             label3.Name = "label3";
             label3.Size = new Size(70, 28);
             label3.TabIndex = 3;
             label3.Text = "label3";
-            // 
-            // label10
-            // 
-            label10.AutoSize = true;
-            label10.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            label10.ForeColor = Color.White;
-            label10.Location = new Point(884, 12);
-            label10.Name = "label10";
-            label10.Size = new Size(219, 28);
-            label10.TabIndex = 21;
-            label10.Text = "Long Xuyên/An Giang";
             // 
             // FormTrangChu
             // 
@@ -332,6 +326,7 @@
             Name = "FormTrangChu";
             Text = "FormTrangChu";
             Load += FormTrangChu_Load_1;
+            Paint += FormTrangChu_Paint;
             guna2CustomGradientPanel1.ResumeLayout(false);
             guna2CustomGradientPanel1.PerformLayout();
             guna2CustomGradientPanel3.ResumeLayout(false);

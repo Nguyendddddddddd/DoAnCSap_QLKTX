@@ -99,6 +99,9 @@
             }
             sttThoiGianDN.Text = "TG: " + DateTime.Now.ToString();
             lblUserName.Text = tenTK.ToUpper();
+            openChillForm(formTrangChu);
+
+
 
         }
 
